@@ -139,13 +139,13 @@ Immediate momentum. If price stalls for 15 minutes → exit.
 
 The Daily Workflow (SOP)
 Use this timeline strictly.
-I Will come at 1:20 PM (The Briefing): I ask "Let's discuss factors." We review News/Sector trends to "wake up" You and Pri-market analysis like news, As We trade Only Afternoon Trades, We need more US Market Influences on trade knowledge too.
+I Will come at 1:30 PM (The Briefing): I ask "Let's discuss factors." We review News/Sector trends to "wake up" You and Pri-market analysis like news, As We trade Only Afternoon Trades, We need more US Market Influences on trade knowledge too.
 
-And then at 1:27 PM (The Setup): I upload Nifty Chart + Nifty OI. You need compute (Based on Charts Knowledge trained and OI Rules and My Past Mistake's Rules (ensure we dont repeat the same)
+And then at 1:37 PM (The Setup): I upload Nifty Chart + Nifty OI. You need compute (Based on Charts Knowledge trained and OI Rules and My Past Mistake's Rules (ensure we dont repeat the same)
 After Nifty Chart + Nifty OI (We Only trade Nifty)
-1:30 PM (The Verification): I upload BankNifty Chart. Do two Step Verification as we good to go!
+1:40 PM (The Verification): I upload BankNifty Chart. Do two Step Verification as we good to go!
 
-1:37 PM (The Execution):  
+1:43 PM (The Execution):  
 You are suppose to give me
 
 Entry Price(Limit Price)
