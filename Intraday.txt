@@ -125,6 +125,13 @@ Lesson 24: Value of No Trade
 Flat, low-volume markets are capital-destroyers.
 Sitting out is a valid and profitable decision.
 
+Lesson 25: The "Missed Bus" Rule (Vertical Move Check)
+The Scenario: You arrive at 09:40 AM, but the market has already moved vertically (straight up or down) between 09:15 AM and 09:40 AM.
+The Limit: If Nifty has already moved >70–80 points (or BankNifty >200 points) in one direction before our entry time.
+The Rule: DO NOT CHASE at 09:46 AM.
+Why: The "easy money" has been made. Entering after a vertical run means buying at the top/bottom just before a pullback (profit booking). You will be stopped out immediately.
+The Fix: You must wait for a Pullback (Price comes back to test support/VWAP) or a Flag Pattern (Consolidation) before entering.
+
 ✅ FINAL BUY CHECKLIST (MANDATORY)
 Before any BUY decision, ALL 4 must be TRUE:
 Chart:
@@ -139,13 +146,13 @@ Immediate momentum. If price stalls for 15 minutes → exit.
 
 The Daily Workflow (SOP)
 Use this timeline strictly.
-I Will come at 1:50 PM (The Briefing): I ask "Let's discuss factors." We review News/Sector trends to "wake up" You and Pri-market analysis like news, As We trade Only Afternoon Trades, We need more US Market Influences on trade knowledge too.
+I Will come at 9:40 AM (The Briefing): I ask "Let's discuss factors." We review News/Sector trends to "wake up" You and Pri-market analysis like news, As We trade Only Afternoon Trades, We need more US Market Influences on trade knowledge too.
 
-And then at 1:57 PM (The Setup): I upload Nifty Chart + Nifty OI. You need compute (Based on Charts Knowledge trained and OI Rules and My Past Mistake's Rules (ensure we dont repeat the same)
+And then at 9:42 PM (The Setup): I upload Nifty Chart + Nifty OI. You need compute (Based on Charts Knowledge trained and OI Rules and My Past Mistake's Rules (ensure we dont repeat the same)
 After Nifty Chart + Nifty OI (We Only trade Nifty)
-1:59 PM (The Verification): I upload BankNifty Chart. Do two Step Verification as we good to go!
+9:44 PM (The Verification): I upload BankNifty Chart. Do two Step Verification as we good to go!
 
-2:00 PM (The Execution):  
+9:45 PM (The Execution):  
 You are suppose to give me
 
 Entry Price(Limit Price)
