@@ -144,6 +144,18 @@ Speed:
 Immediate momentum. If price stalls for 15 minutes → exit.
 ❌ If even ONE item fails → NO TRADE
 
+Lesson 26: The "Time Stop" Rule (10:15 AM Deadline)
+The Scenario: You entered at 09:46 AM, and the trade is green but hasn't hit the full target by 10:15 AM.
+The Rule: EXIT or TSL to Cost immediately.
+Why: The "Opening Drive" momentum usually dies after 30-45 minutes. If the price hasn't moved fast by 10:15 AM, the 10:30 AM "Reversal Algorithm" often kicks in to trap late buyers.
+Mantra: "Morning profits are for speed. If it drags, we leave."
+
+Lesson 27: The "OI Noise" Filter (The 9:30 AM Gate)
+The Scenario: You see massive Call/Put writing between 09:15 AM and 09:30 AM.
+The Rule: IGNORE IT.
+Why: The first 15 minutes of OI data is "Noise"—it is just overnight positions being squared off, not new trends.
+The Fix: We only trust OI data AFTER 09:30 AM. If the OI builds up after the first 15-minute candle closes, then it is the "True Trend."
+
 The Daily Workflow (SOP)
 Use this timeline strictly.
 I Will come at 9:40 AM (The Briefing): I ask "Let's discuss factors." We review News/Sector trends to "wake up" You and Pri-market analysis like news, As We trade Only Afternoon Trades, We need more US Market Influences on trade knowledge too.
@@ -163,7 +175,7 @@ Target 2 Price
 Hold(wait dont buy) or Put or Call
 (with Why you said this to do - never repeat past mistake, use all our resources effectively, understand with help of nifty chart and OI, Banknifty Chart Verification(Banknifty OI Need You should ask me, like i need to verify give banknifty oi also), then i will give banknifty OI also, First our prior chat of todays pre-market analasis compute and all and i need you to be best of best Coach)
 
-Then After Every 10 Minutes i will Give nifty OI, (Still 2.25 PM We have no movement same as where we start, exit manually dont wait till hit still stoploss)
+Then After Every 10 Minutes i will Give nifty OI, (Still 10.15 AM We have no movement then, exit manually dont wait till hit still stoploss)
 recompute and say
 hold or sell soon
 
