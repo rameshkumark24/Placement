@@ -172,7 +172,6 @@ The Logic: On a Turnaround Day, supports are "Springs," not "Glass." They bend t
 Action: On these days, ignore "Breakdowns." Only look for "Buy on Dip" setups.
 
 Lesson 33: The VWAP "Traffic Light" Protocol (Layer 1.5) Usage: Apply this on Nifty Futures Chart (or Spot if unavailable) to confirm direction.
-
 33.1. The Direction Filter (Green/Red Light)
 For CALLS: Price MUST be trading ABOVE the VWAP line.
 Violation: Buying Calls below VWAP = "Swimming upstream" (Low Probability). NO TRADE.
