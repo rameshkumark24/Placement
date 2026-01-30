@@ -153,23 +153,43 @@ The Discipline: Because the lot size is big, our Stop Loss must be TIGHT (Max 13
 
 Lesson 29: The "Hit & Run" Rule. (NEW) For Morning Trades: EXIT 100% Quantity at Target 1 (15-20 Points). Do not split quantity. Do not wait for Target 2. Book the profit and close the terminal.
 
-RULE 30: The "Half-Hearted" Rule (Focus Check)
+Lesson 30: The "Half-Hearted" Rule (Focus Check)
 The Scenario: You are busy with placement work, have only 5 minutes, or are distracted. You see a moving chart and want to "just take a quick trade."
 The Law: NO FOCUS = NO TRADE.
 The Logic: Trading is a Ferrari race. If you cannot drive with both hands on the wheel (checking OI, Spot, BankNifty simultaneously), you will crash.
 Action: If you are multitasking, the Terminal stays CLOSED.
 
-🆕 RULE 31: The "Green Spark" Trigger (Sniper Entry)
+Lesson 31: The "Green Spark" Trigger (Sniper Entry)
 The Scenario: The Macro Trend is Bullish. A Resistance has broken, and price dips (Retest). You see a sudden, sharp Green Spike (lasting 2-3 mins) rejecting the support.
 The Law: EXECUTE IMMEDIATELY. Do not wait for the 15-min candle close.
 The Logic: The "Spark" is the footprint of Smart Money limit orders getting filled. Waiting for the close often means buying at the top and missing the move.
 Constraint: ONLY applies if the Background Trend is Green.
 
-🆕 RULE 32: The "First Green Day" Protocol (The Turnaround)
+Lesson 32: The "First Green Day" Protocol (The Turnaround)
 The Scenario: FIIs turn Net Buyers after a long streak (10+ days) of selling. The next morning, the market gaps down or breaks a support level.
 The Law: DISABLE THE SELL BUTTON (9:15 - 12:30).
 The Logic: On a Turnaround Day, supports are "Springs," not "Glass." They bend to trap bears, then snap back up. A breakdown on Day 1 of a Bull Run is almost always a Liquidity Grab Trap.
 Action: On these days, ignore "Breakdowns." Only look for "Buy on Dip" setups.
+
+Lesson 33: The VWAP "Traffic Light" Protocol (Layer 1.5) Usage: Apply this on Nifty Futures Chart (or Spot if unavailable) to confirm direction.
+
+33.1. The Direction Filter (Green/Red Light)
+For CALLS: Price MUST be trading ABOVE the VWAP line.
+Violation: Buying Calls below VWAP = "Swimming upstream" (Low Probability). NO TRADE.
+For PUTS: Price MUST be trading BELOW the VWAP line.
+Violation: Buying Puts above VWAP = "Shorting a bull" (Suicide). NO TRADE.
+
+33.2. The "Ferrari" Check (Slope Analysis)
+Angled Up/Down: The VWAP line must be pointing up (for calls) or down (for puts).
+Flat (Horizontal): If VWAP is flat, the market is sideways/accumulating. NO TRADE (See Rule 24). Wait for the angle to steepen.
+
+33.3. The "Rubber Band" Check (Distance Rule)
+The Trap: Do not enter a fresh trade if the price is already >50 points away from the VWAP (Overextended).
+The Fix: Wait for a "Pullback" where price touches (or comes close to) the VWAP and rejects it. That is the safest "Sniper" entry.
+
+33.4. The "Magnet" Function
+In Trends: VWAP is your ultimate dynamic support/resistance.
+In Reversals (lesson 32): If catching a falling knife (Mean Reversion), VWAP is the mandatory Target 1.
 
 ✅ FINAL BUY CHECKLIST (MANDATORY)
 Before any BUY decision, ALL 4 must be TRUE:
