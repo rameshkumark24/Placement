@@ -390,3 +390,11 @@ Inline > ID > Class > Element
 * Confetti / Fireworks effects
 
 ---
+
+Special Effects
+-> Hover force
+-> stack scroll
+-> paper image
+-> liquid glass
+-> form hero section
+-> particle sphere
