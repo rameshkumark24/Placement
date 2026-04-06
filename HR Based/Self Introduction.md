@@ -1,12 +1,17 @@
 Good morning Sir/Madam.
-My name is Rameshkumar K, and I am a third-year Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning, with an Honours in Computational Analytics, from KPR Institute of Engineering and Technology, where I maintain a CGPA of 8.1.
 
-I am strongly interested in building practical, data-driven solutions using AI and machine learning. I have worked on projects such as an AI-driven sales forecasting system, a fashion recommendation system, and a food delivery time prediction model, where I handled tasks like data preparation, feature engineering, model building, and result analysis.
+My name is Rameshkumar K, and I am a third-year Computer Science Engineering student specializing in AI & ML at KPR Institute of Engineering and Technology, with a CGPA of 8.1.
 
-I am comfortable working with Python and SQL, and I regularly use tools like Power BI for visualization and machine learning libraries such as Scikit-learn and TensorFlow. I have also deployed applications using basic cloud and web platforms, which helped me understand end-to-end project flow.
+My core strength lies in backend development using Java and Spring Boot, where I focus on building secure and scalable applications.
 
-Along with this, I have freelance web development experience, which exposed me to client requirements, timelines, and user-focused design. I also completed a summer internship at Lennox India Technology Center, where I gained exposure to corporate workflows, automation concepts, and professional collaboration in a product-based MNC environment.
+I have developed projects such as a Placement Management System and a Library Management System, where I implemented REST APIs, JWT-based authentication, and role-based access control to manage real-world user workflows efficiently.
 
-Overall, I consider myself a curious learner and a responsible team player, and I’m looking for an opportunity where I can apply my skills, learn from real-world projects, and grow as an engineer.
+In addition to backend development, I also have experience in machine learning, where I built an AI-driven sales forecasting system that improved prediction accuracy by around 27%, helping generate actionable business insights.
+
+I have also worked as a freelance developer, where I handled end-to-end application development, understood client requirements, and used AI-assisted tools to improve development speed and deliver user-focused solutions.
+
+During my internship at Lennox India Technology Center, I gained exposure to enterprise workflows, automation systems, and agile practices, which helped me understand how different teams collaborate to deliver business solutions.
+
+Overall, I am someone who enjoys solving problems, building practical systems, and continuously learning, and I am looking for an opportunity where I can contribute and grow as an engineer.
 
 Thank you.
