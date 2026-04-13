@@ -1,0 +1,19 @@
+-> How mySql and mongodb where will be used?
+-> There’s an API call from the front end and the user has 3 or more hits then how would u handle this condition and what probably could occur
+-> deployment made in cloud
+-> structure of the project and workflow mentioned in the resume
+-> questions from the project like why this stack and explanations
+-> About JWT
+-> How agents will work in multi agent system
+-> Basic concepts of programming language
+-> Can you explain the system design of your project, including components, data flow, scalability, and architecture?
+-> What is MySQL and how do you design databases using it?
+-> Can you write optimized SQL queries? Explain joins, indexing, and query optimization.
+-> How will you handle 100,000 (1 lakh) concurrent requests in your system?
+-> In an e-commerce system, if multiple users try to purchase the same product at the same time, how will you prevent duplicate orders or overselling?
+-> What is a load balancer? How does it help in scaling applications?
+-> What are the different types of load balancing techniques?
+-> What is rate limiting? How would you implement it in your system?
+-> What is CORS? Why is it needed, and how does middleware handle it?
+-> How do you deploy your application? Explain the deployment process and tools you have used.
+-> What is the difference between multiprocessing and multithreading? When would you use each?
