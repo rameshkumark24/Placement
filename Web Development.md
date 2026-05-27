@@ -50,6 +50,12 @@
 - **Best For:** Hero sections, landing page components
 - **Components:** Headers, CTAs, feature blocks
 
+### **Motion Hero Section**
+- **URL:** https://motionsites.ai/
+
+### **Vibe Code Components**
+- **URL:** https://vibecodecomponents.com/
+- **URL:** https://blog.vibecoder.me/
 ---
 
 # #️⃣ 3. **COMPONENT LIBRARIES**
