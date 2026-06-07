@@ -49,6 +49,7 @@
 - **URL:** https://www.heroui.com/docs/guide/introduction
 - **Best For:** Hero sections, landing page components
 - **Components:** Headers, CTAs, feature blocks
+- **URL:** https://designspells.com/
 
 ### **Motion Hero Section**
 - **URL:** https://motionsites.ai/
@@ -56,6 +57,10 @@
 ### **Vibe Code Components**
 - **URL:** https://vibecodecomponents.com/
 - **URL:** https://blog.vibecoder.me/
+
+## **Find the font any page**
+-- **URL:** https://www.myfonts.com/pages/whatthefont
+
 ---
 
 # #️⃣ 3. **COMPONENT LIBRARIES**
