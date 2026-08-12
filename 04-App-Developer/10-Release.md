@@ -2,6 +2,10 @@
 
 Apple and Google reject apps for reasons unrelated to whether the code works.
 
+> This phase assumes store distribution. If you haven't settled that, read
+> [Distribution Options](Reference/Distribution-Options.md) first — a PWA or a direct Android
+> download skips this phase entirely, and for some apps that's the better answer.
+
 **Gate to pass this phase:** store assets complete, OTA update path verified working, staged
 rollout planned, rollback rehearsed.
 

@@ -12,6 +12,9 @@ behaviour decided per screen.
 - [ ] Target user identified, plus one real person you can hand the phone to
 - [ ] Why this needs to be an app rather than a website — if there's no good answer, build the
       website. Apple rejects "minimum functionality" apps that are websites in a shell (guideline 4.2).
+- [ ] **Distribution channel decided** — App Store / Play Store, direct APK, private enterprise,
+      or a PWA with no store at all. This changes your architecture and your update speed:
+      [Distribution Options](Reference/Distribution-Options.md)
 - [ ] Success metrics defined (installs, D7 retention, core action completion — pick 1–2)
 - [ ] **Decided: iOS, Android, or both at launch.** Both doubles your testing surface.
 - [ ] Minimum OS versions chosen

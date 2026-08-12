@@ -24,7 +24,12 @@ nothing here depends on another folder.
 | [10](10-Release.md) | **Release** | Store assets ready, OTA path verified, staged rollout planned |
 | [11](11-Post-Launch.md) | **Post-Launch** | Crash-free > 99.5%, reviews monitored |
 
-**Reference:** [Component Libraries](Reference/Component-Libraries.md)
+**Reference:** [Component Libraries](Reference/Component-Libraries.md) ·
+[**Distribution Options**](Reference/Distribution-Options.md) — with and without the stores
+
+> **Do you actually need the stores?** For public iOS distribution, yes — there is no legitimate
+> way around Apple review. Android has real alternatives, and a PWA skips both entirely.
+> Decide in [Phase 01](01-Scope-and-Planning.md): [Distribution Options](Reference/Distribution-Options.md)
 
 ---
 
