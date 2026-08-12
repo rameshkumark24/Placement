@@ -1,31 +1,56 @@
 # 02 — Java Developer
 
+## 📅 The roadmap — start here
+
+| | |
+|---|---|
+| **[Roadmap →](Roadmap/README.md)** | Day-by-day path, 341 days to Complete SDE |
+| **[Written lessons →](Days/README.md)** | Full lesson per day — Days 001–004 written |
+| **[Gap audit →](Roadmap/Gap-Audit.md)** | What was missing from the original roadmap and what I added |
+| **[DSA parallel track →](Roadmap/DSA-Parallel-Track.md)** | Patterns, signals, the journal method |
+
+**Today, if you're starting:** [Day 001](Days/Day-001.md)
+
+> **The one rule:** no AI-generated code during lessons or practice. AI for explanation — always.
+> AI writing your code — never.
+
+---
+
+## Path at a glance
+
+| Days | Stage | Milestone |
+|---|---|---|
+| 1–22 | Ground Zero | Can explain servers, HTML, WebSockets |
+| 23–77 | Java Mastery | Interview-grade Java |
+| 78–101 | Professional Engineering | Git, Linux, clean code, testing |
+| 102–129C | Backend Concepts | Can design an API with no framework |
+| 130–185B | Spring Boot | Backend interview-ready |
+| 186–213 | Databases | Can fix a slow query live |
+| 248–297 | Projects | Two defensible projects |
+| 298–321 | Architecture + LLD | LLD rounds cleared |
+| 322–359 | System Design | ✅ **Complete SDE** |
+| 360–413 | DevOps · AWS · Distributed | Ships own work, senior-track conversations |
+| 462–488 | Interview Conversion | Offers |
+
+---
+
+## Reference material
+
 | File | Contents |
 |---|---|
-| [Java-Vibe-Coding-Cheatsheet.md](Java-Vibe-Coding-Cheatsheet.md) | **Build guide.** Stack, layering, Spring/JPA traps, API safety, security, testing, delivery |
-| [Core/](Core/) | Interview prep — see below |
+| [Java-Vibe-Coding-Cheatsheet.md](Java-Vibe-Coding-Cheatsheet.md) | Building with an AI agent — stack, Spring/JPA traps, API safety, security |
+| [Core/Basics.md](Core/Basics.md) · [Core/OOPs.md](Core/OOPs.md) · [Core/HashMap-Internals.md](Core/HashMap-Internals.md) · [Core/Interview-Questions.md](Core/Interview-Questions.md) | Existing interview notes |
 | [Spring-Boot/Annotations-Reference.md](Spring-Boot/Annotations-Reference.md) | Saved reference |
-
-## Interview material
-
-- [Basics](Core/Basics.md)
-- [OOPs](Core/OOPs.md)
-- [HashMap Internals](Core/HashMap-Internals.md)
-- [Interview Questions](Core/Interview-Questions.md) — fresher-level Java backend
-- [Why Spring Boot](../06-Common/HR-Interview/Why-Spring-Boot.md) — the HR-round answer
+| [Why Spring Boot](../06-Common/HR-Interview/Why-Spring-Boot.md) | The HR-round answer |
 
 > Universal build/security/API rules live in [`03-Web-Developer`](../03-Web-Developer/) phases 04–08.
-> SQL notes: [`06-Common/SQL`](../06-Common/SQL/).
 
-## Default stack
+---
 
-Java 21 · Spring Boot 3 · Gradle (Kotlin DSL) · Spring Data JPA · Flyway · Postgres ·
-Spring Security + JWT · Testcontainers · Actuator + Micrometer
+## The three Java mistakes that cause the most damage
 
-## The three that cause the most damage
+1. **N+1 queries** from lazy loading in a loop → use `JOIN FETCH` *(Day 160)*
+2. **Returning a JPA entity from a controller** → leaks fields, lazy-init exceptions, JSON recursion *(Day 147)*
+3. **No timeouts on `RestClient`/`WebClient`** → one slow dependency exhausts the thread pool *(Day 154)*
 
-1. **N+1 queries** from lazy loading in a loop → use `JOIN FETCH`.
-2. **Returning a JPA entity from a controller** → leaks fields, lazy-init exceptions, JSON recursion.
-3. **No timeouts on `RestClient`/`WebClient`** → one slow dependency exhausts the thread pool.
-
-All three: [Java-specific traps](Java-Vibe-Coding-Cheatsheet.md#3-java-specific-traps-in-ai-generated-code)
+Detail: [Java-Vibe-Coding-Cheatsheet.md](Java-Vibe-Coding-Cheatsheet.md#3-java-specific-traps-in-ai-generated-code)
