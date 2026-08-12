@@ -2,9 +2,9 @@
 
 Shipping ML and LLM features as production systems, built with an AI agent.
 
-> Read [`00-Vibe-Coding-Core`](../00-Vibe-Coding-Core/) first — especially
-> [API-Safety-and-Cost-Control.md](../00-Vibe-Coding-Core/API-Safety-and-Cost-Control.md), because
-> LLM features are where runaway loops become expensive fastest.
+> The universal rules live in [`03-Web-Developer`](../03-Web-Developer/) phases 04–08 — especially
+> [05-API-Safety.md](../03-Web-Developer/05-API-Safety.md), because LLM features are where runaway
+> loops become expensive fastest.
 >
 > Interview material: [`Fundamentals/`](Fundamentals/) · [`Deep-Learning/`](Deep-Learning/) ·
 > [`GenAI/`](GenAI/) · [`MLOps/`](MLOps/) · [`Data-Science/`](Data-Science/)

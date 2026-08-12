@@ -4,7 +4,8 @@
 |---|---|
 | [Python-Vibe-Coding-Cheatsheet.md](Python-Vibe-Coding-Cheatsheet.md) | **Main guide.** Stack, project layout, Python-specific AI-code traps, API safety, security, testing, delivery |
 
-> Universal rules live in [`00-Vibe-Coding-Core`](../00-Vibe-Coding-Core/) and are not repeated here.
+> Universal build/security/API rules live in [`03-Web-Developer`](../03-Web-Developer/) phases
+> 04–08 — they apply to any backend and are not repeated here.
 > For ML/GenAI work in Python see [`05-ML-Engineer`](../05-ML-Engineer/).
 > SQL notes: [`06-Common/SQL`](../06-Common/SQL/).
 

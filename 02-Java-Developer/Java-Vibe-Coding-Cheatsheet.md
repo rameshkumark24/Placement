@@ -2,7 +2,9 @@
 
 Spring Boot services built with an AI agent.
 
-> Read [`00-Vibe-Coding-Core`](../00-Vibe-Coding-Core/) first. This file covers Java/Spring specifics.
+> The universal rules (agent discipline, API loops, security, review gates) live in
+> [`03-Web-Developer`](../03-Web-Developer/) phases 04–08 — they apply to any backend.
+> This file covers Java/Spring specifics.
 > Interview material lives in [`Core/`](Core/).
 
 ---
@@ -106,7 +108,7 @@ Page<Item> page = itemRepository.findAll(PageRequest.of(p, Math.min(size, 100)))
 
 ## 4. API safety
 
-> Full rules: [API-Safety-and-Cost-Control.md](../00-Vibe-Coding-Core/API-Safety-and-Cost-Control.md)
+> Full rules: [03-Web-Developer/05-API-Safety.md](../03-Web-Developer/05-API-Safety.md)
 
 ```java
 // Bounded retry with backoff + jitter (Resilience4j)
@@ -153,7 +155,7 @@ Checklist:
 
 ## 5. Security
 
-> Full list: [Security-Checklist.md](../00-Vibe-Coding-Core/Security-Checklist.md)
+> Full list: [03-Web-Developer/06-Security.md](../03-Web-Developer/06-Security.md)
 
 - [ ] `@PreAuthorize` on service methods, not just controllers
 - [ ] **Ownership checked in the query**, not after loading:

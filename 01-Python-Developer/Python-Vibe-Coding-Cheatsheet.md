@@ -2,7 +2,9 @@
 
 Backend services and APIs in Python, built with an AI agent.
 
-> Read [`00-Vibe-Coding-Core`](../00-Vibe-Coding-Core/) first. This file covers Python specifics only.
+> The universal rules (agent discipline, API loops, security, review gates) live in
+> [`03-Web-Developer`](../03-Web-Developer/) phases 04–08 — they apply to any backend.
+> This file covers Python specifics only.
 > For ML/GenAI work see [`05-ML-Engineer`](../05-ML-Engineer/).
 
 ---
@@ -132,7 +134,7 @@ async def list_items(limit: int = Query(50, le=100), cursor: str | None = None):
 
 ## 4. API safety
 
-> Full rules: [API-Safety-and-Cost-Control.md](../00-Vibe-Coding-Core/API-Safety-and-Cost-Control.md)
+> Full rules: [03-Web-Developer/05-API-Safety.md](../03-Web-Developer/05-API-Safety.md)
 
 ```python
 # Bounded retry with exponential backoff + jitter
@@ -170,7 +172,7 @@ Checklist:
 
 ## 5. Security
 
-> Full list: [Security-Checklist.md](../00-Vibe-Coding-Core/Security-Checklist.md)
+> Full list: [03-Web-Developer/06-Security.md](../03-Web-Developer/06-Security.md)
 
 Python-specific:
 

@@ -25,7 +25,7 @@
 [Excel](Data-Science/Excel.md) · [Power BI](Data-Science/PowerBI.md) · [Tableau](Data-Science/Tableau.md) ·
 [Capgemini Data Analytics](Data-Science/Capgemini-Data-Analytics-Questions.md)
 
-> Universal build rules live in [`00-Vibe-Coding-Core`](../00-Vibe-Coding-Core/).
+> Universal build/security/API rules live in [`03-Web-Developer`](../03-Web-Developer/) phases 04–08.
 > Serving stack overlaps with [`01-Python-Developer`](../01-Python-Developer/).
 > Docker/MLOps notes: [`06-Common/Cloud-DevOps/Docker`](../06-Common/Cloud-DevOps/Docker/).
 

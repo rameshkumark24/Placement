@@ -14,7 +14,7 @@
 - [Interview Questions](Core/Interview-Questions.md) — fresher-level Java backend
 - [Why Spring Boot](../06-Common/HR-Interview/Why-Spring-Boot.md) — the HR-round answer
 
-> Universal build rules live in [`00-Vibe-Coding-Core`](../00-Vibe-Coding-Core/).
+> Universal build/security/API rules live in [`03-Web-Developer`](../03-Web-Developer/) phases 04–08.
 > SQL notes: [`06-Common/SQL`](../06-Common/SQL/).
 
 ## Default stack
