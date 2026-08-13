@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–012 written.** |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–020 written.** |
 
 ---
 
@@ -85,14 +85,14 @@ You can never skip a lesson — but you can pass through it fast.
 | [010](../Days/Day-010.md) | HTTP anatomy — request line, methods, headers, body, status families | C-07 · UDP — what you gain and lose |
 | [011](../Days/Day-011.md) | HTTP evolution — 1.0 → 1.1 → 2 → 3 (QUIC) | |
 | [012](../Days/Day-012.md) | **What HTML actually is** — a document, a tree, the DOM | C-08 · DNS internals — recursive vs iterative, records, TTL |
-| 013 | What CSS actually is — box model, cascade, specificity, layout | C-09 · HTTP/1.1 vs 2 vs 3 |
-| 014 | What JavaScript is in a browser — engine, call stack, event loop | |
-| 015 | Browser rendering pipeline — parse → DOM → CSSOM → layout → paint → composite | C-10 · TLS — symmetric vs asymmetric, chain of trust |
-| 016 | REST — what Fielding actually said · vs RPC vs GraphQL | C-11 · Sockets — the API under every server |
-| 017 | WebSockets — why polling fails, upgrade handshake, frames, full-duplex | |
-| 018 | WebSockets vs SSE vs long-polling — the decision table | C-12 · Proxies, reverse proxies, load balancers (L4/L7), CDN |
-| 019 | Where state lives — cookies, sessions, localStorage, tokens | C-13 · Network debugging — ping, traceroute, dig, curl -v, tcpdump |
-| 020 | Same-origin policy and CORS — why the browser blocks you, preflight | |
+| [013](../Days/Day-013.md) | What CSS actually is — box model, cascade, specificity, layout | C-09 · HTTP on the wire — framing, HPACK, QPACK |
+| [014](../Days/Day-014.md) | What JavaScript is in a browser — engine, call stack, event loop | |
+| [015](../Days/Day-015.md) | Browser rendering pipeline — parse → DOM → CSSOM → layout → paint → composite | C-10 · Crypto primitives — hashing vs encryption vs signing |
+| [016](../Days/Day-016.md) | REST — what Fielding actually said · vs RPC vs GraphQL | C-11 · Sockets — the API under every server |
+| [017](../Days/Day-017.md) | **WebSockets** — why polling fails, upgrade handshake, frames, full-duplex | |
+| [018](../Days/Day-018.md) | WebSockets vs SSE vs long-polling — the decision table | C-12 · Proxies, reverse proxies, load balancers (L4/L7), CDN |
+| [019](../Days/Day-019.md) | Where state lives — cookies, sessions, localStorage, tokens | C-13 · Network debugging — ping, traceroute, dig, curl -v, tcpdump |
+| [020](../Days/Day-020.md) | Same-origin policy and CORS — why the browser blocks you, preflight | |
 | 021 | What deployment actually does — build, artifacts, static hosting, CDN, edge | C-14 · Networks interview drill — 40 rapid-fire |
 | 022 | Putting it together — trace one full request end-to-end | |
 

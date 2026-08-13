@@ -24,10 +24,27 @@ articulation drill.
 | [010](Day-010.md) | HTTP anatomy — methods, idempotency, status families, headers · C-07 UDP | 0 |
 | [011](Day-011.md) | HTTP 1.0 → 1.1 → 2 → 3 · head-of-line blocking · QUIC | 0 |
 | [012](Day-012.md) | ⭐ **What HTML actually is** · HTML vs the DOM · C-08 DNS internals | 0 |
+| [013](Day-013.md) | CSS — box model, cascade, specificity, layout · C-09 HTTP on the wire | 0 |
+| [014](Day-014.md) | JavaScript — engine, call stack, event loop, micro vs macrotasks | 0 |
+| [015](Day-015.md) | Rendering pipeline · layout vs paint vs composite · C-10 crypto primitives | 0 |
+| [016](Day-016.md) | REST — the six constraints, Richardson levels · vs RPC/GraphQL · C-11 sockets | 0 |
+| [017](Day-017.md) | ⭐ **WebSockets** — write one by hand *(exit-gate item)* | 0 |
+| [018](Day-018.md) | WebSocket vs SSE vs polling — the decision table · C-12 proxies, LB, CDN | 0 |
+| [019](Day-019.md) | Where state lives — cookies, sessions, JWTs · C-13 network debugging | 0 |
+| [020](Day-020.md) | Same-origin policy and CORS — the security boundary, not the annoyance | 0 |
 
-**Stage 0: 12 of 22 written.**
-**Next batch:** Days 013–020 (CSS, JavaScript in the browser, the rendering pipeline, REST,
-WebSockets, SSE vs polling, where state lives, CORS)
+**Stage 0: 20 of 22 written.**
+**Next batch:** Days 021–022 (deployment + C-14 networks drill, then the full end-to-end trace) and
+the start of Stage 1 — Java Mastery, from Day 023.
+
+---
+
+## Stage 0 exit gate — trackable now
+
+- [ ] Raw TCP server speaking HTTP by hand → [Day 004](Day-004.md)
+- [ ] WebSocket chat across two tabs, server hand-written → [Day 017](Day-017.md)
+- [ ] 10-min oral: *"what happens when you type google.com and press Enter?"* → assembled on Day 022
+- [ ] Explain HTML vs a server to a non-technical person → [Day 012](Day-012.md), [Day 004](Day-004.md)
 
 ---
 
