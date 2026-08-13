@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–034A written** (Stage 0 complete, Stage 1 in progress). |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–042B written** (Stage 0 complete, Stage 1 in progress). |
 
 ---
 
@@ -127,20 +127,20 @@ explain HTML vs server to a non-technical person
 | [033](../Days/Day-033.md) | `static` — fields, methods, blocks, nested classes, init order | B-04 · Context switching — what is saved, why it costs |
 | [034](../Days/Day-034.md) | `final` — variables, methods, classes · immutability by design | |
 | **[034A](../Days/Day-034A.md)** | ➕ **Immutability & defensive copying** — `final` isn't deep · `List.copyOf` vs `unmodifiableList` | |
-| 035 | Classes, objects, constructors, `this`, constructor chaining | |
-| 036 | Encapsulation, access modifiers, packages, JPMS overview | B-05 · CPU scheduling — FCFS, SJF, RR, MLFQ, Linux CFS |
+| [035](../Days/Day-035.md) | Classes, objects, constructors, `this`, constructor chaining | |
+| [036](../Days/Day-036.md) | Encapsulation, access modifiers, packages, JPMS overview | B-05 · CPU scheduling — FCFS, SJF, RR, MLFQ, Linux CFS |
 
 ### OOP
 | Day | Lesson | Parallel |
 |---|---|---|
-| 037 | Inheritance, `super`, overriding vs hiding, `@Override` | |
-| 038 | Polymorphism — static vs dynamic dispatch, the vtable intuition | |
-| 039 | Abstract classes vs interfaces · default and static methods | |
-| 040 | **`equals()` / `hashCode()` contract** — and exactly what breaks | B-06 · Concurrency — races, critical section, atomicity |
-| 041 | `toString`, `Comparable` vs `Comparator`, `Cloneable` and why it's broken | |
-| 042 | Records, sealed classes, pattern matching for switch | |
-| **042A** | ➕ **`java.time`** — `LocalDate`/`Instant`/`ZonedDateTime`, `Duration` vs `Period`, DST, why `Date` is broken | |
-| **042B** | ➕ **`BigDecimal` & floating point** — why `double` is fatal for money, `equals` vs `compareTo`, rounding modes | |
+| [037](../Days/Day-037.md) | Inheritance, `super`, overriding vs hiding, `@Override` | |
+| [038](../Days/Day-038.md) | Polymorphism — static vs dynamic dispatch, the vtable intuition | |
+| [039](../Days/Day-039.md) | Abstract classes vs interfaces · default and static methods | |
+| [040](../Days/Day-040.md) | ⭐ **`equals()` / `hashCode()` contract** — and exactly what breaks | B-06 · Concurrency — races, critical section, atomicity |
+| [041](../Days/Day-041.md) | `toString`, `Comparable` vs `Comparator`, `Cloneable` and why it's broken | |
+| [042](../Days/Day-042.md) | Records, sealed classes, pattern matching for switch | |
+| **[042A](../Days/Day-042A.md)** | ➕ **`java.time`** — `LocalDate`/`Instant`/`ZonedDateTime`, `Duration` vs `Period`, DST, why `Date` is broken | |
+| **[042B](../Days/Day-042B.md)** | ➕ **`BigDecimal` & floating point** — why `double` is fatal for money, `equals` vs `compareTo`, rounding modes | |
 | 043 | Enums — with fields, methods, as singleton/state machine | B-07 · Synchronization — mutex, semaphore, monitor, condvars |
 | 044 | Inner classes, static nested, anonymous, local | |
 

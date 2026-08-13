@@ -47,11 +47,20 @@ articulation drill.
 | [033](Day-033.md) | `static`, the 6-step initialisation order, hiding vs overriding · B-04 context switching | 1 |
 | [034](Day-034.md) | `final` — and why it is **not** immutability | 1 |
 | [034A](Day-034A.md) | ➕ **Immutability & defensive copying** — the two attacks on a naive class | 1 |
+| [035](Day-035.md) | Classes, constructors, chaining, the `this` escape, static factories | 1 |
+| [036](Day-036.md) | Encapsulation (properly), access modifiers, package layout · B-05 CPU scheduling | 1 |
+| [037](Day-037.md) | Inheritance, overriding vs hiding, **the fragile base class problem** | 1 |
+| [038](Day-038.md) | Polymorphism — vtables, and how the JIT deletes the virtual call | 1 |
+| [039](Day-039.md) | Abstract vs interface, default methods, the diamond | 1 |
+| [040](Day-040.md) | ⭐ **`equals`/`hashCode` contract** — and mechanically what breaks · B-06 races | 1 |
+| [041](Day-041.md) | `toString`, `Comparable` vs `Comparator`, why `Cloneable` is broken | 1 |
+| [042](Day-042.md) | Records, sealed classes, pattern matching — algebraic data types in Java | 1 |
+| [042A](Day-042A.md) | ➕ **`java.time`** — the API the roadmap was missing entirely | 1 |
+| [042B](Day-042B.md) | ➕ **`BigDecimal`** — why `double` is fatal for money | 1 |
 
-**✅ Stage 0 complete (22/22).** **Stage 1: 13 of 64 written** — JVM/memory and language-core blocks done.
-**Next batch:** Days 035–042B — classes and constructors, encapsulation, inheritance, polymorphism,
-abstract vs interface, `equals`/`hashCode`, `Comparable`, records and sealed classes, plus the two
-added days `java.time` (042A) and `BigDecimal` (042B).
+**✅ Stage 0 complete (22/22).** **Stage 1: 23 of 64 written** — JVM/memory, language-core and OOP blocks done.
+**Next batch:** Days 043–053 — enums, inner classes, and the whole collections block including
+⭐ `HashMap` internals (048) and `ConcurrentHashMap` (053).
 
 ---
 

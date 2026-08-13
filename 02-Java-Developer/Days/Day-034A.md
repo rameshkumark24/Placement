@@ -232,8 +232,8 @@ date.plusDays(1);          // returns a NEW LocalDate; `date` is unchanged
 **With `java.time`, defensive copying of dates is unnecessary.** No copying, no TOCTOU window, safe
 to share across threads.
 
-That's Day 042A (an [added day](../Roadmap/Gap-Audit.md#1-javatime--date--time-api--day-042a)) — and
-it's the single best reason to never use `Date` or `Calendar` in new code.
+That's [Day 042A](Day-042A.md) — and it's the single best reason to never use `Date` or `Calendar`
+in new code.
 
 ## When immutability is the wrong choice
 
