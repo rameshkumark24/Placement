@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–020 written.** |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–027 written** (Stage 0 complete). |
 
 ---
 
@@ -93,8 +93,8 @@ You can never skip a lesson — but you can pass through it fast.
 | [018](../Days/Day-018.md) | WebSockets vs SSE vs long-polling — the decision table | C-12 · Proxies, reverse proxies, load balancers (L4/L7), CDN |
 | [019](../Days/Day-019.md) | Where state lives — cookies, sessions, localStorage, tokens | C-13 · Network debugging — ping, traceroute, dig, curl -v, tcpdump |
 | [020](../Days/Day-020.md) | Same-origin policy and CORS — why the browser blocks you, preflight | |
-| 021 | What deployment actually does — build, artifacts, static hosting, CDN, edge | C-14 · Networks interview drill — 40 rapid-fire |
-| 022 | Putting it together — trace one full request end-to-end | |
+| [021](../Days/Day-021.md) | What deployment actually does — build, artifacts, static hosting, CDN, edge | C-14 · Networks interview drill — 40 rapid-fire |
+| [022](../Days/Day-022.md) | 🚪 **Capstone** — trace one full request end-to-end through every layer | |
 
 **🚪 Exit gate** — raw TCP server in Python (`socket` only), speaking HTTP by hand · WebSocket chat
 across two tabs, server hand-written · 10-min oral on *"what happens when you type google.com"* ·
@@ -110,11 +110,11 @@ explain HTML vs server to a non-technical person
 ### JVM & memory
 | Day | Lesson | Parallel |
 |---|---|---|
-| 023 | JVM architecture — class loader, runtime data areas, execution engine, JIT | B-01 · What an OS is · kernel vs user mode · syscalls |
-| 024 | `javac` → bytecode → JVM · reading bytecode with `javap` | |
-| 025 | Memory model — stack vs heap, method area, string pool location | |
-| 026 | Garbage collection — generational hypothesis, minor/major GC, G1 vs ZGC | B-02 · Process — address space, PCB, states, fork/exec/wait |
-| 027 | GC tuning, memory leaks, `OutOfMemoryError` diagnosis | |
+| [023](../Days/Day-023.md) | JVM architecture — class loader, runtime data areas, execution engine, JIT | B-01 · What an OS is · kernel vs user mode · syscalls |
+| [024](../Days/Day-024.md) | `javac` → bytecode → JVM · reading bytecode with `javap` | |
+| [025](../Days/Day-025.md) | Memory model — stack vs heap, method area, string pool location | |
+| [026](../Days/Day-026.md) | Garbage collection — generational hypothesis, minor/major GC, G1 vs ZGC | B-02 · Process — address space, PCB, states, fork/exec/wait |
+| [027](../Days/Day-027.md) | GC tuning, memory leaks, `OutOfMemoryError` diagnosis | |
 
 ### Language core
 | Day | Lesson | Parallel |

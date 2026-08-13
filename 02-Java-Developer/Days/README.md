@@ -32,18 +32,27 @@ articulation drill.
 | [018](Day-018.md) | WebSocket vs SSE vs polling — the decision table · C-12 proxies, LB, CDN | 0 |
 | [019](Day-019.md) | Where state lives — cookies, sessions, JWTs · C-13 network debugging | 0 |
 | [020](Day-020.md) | Same-origin policy and CORS — the security boundary, not the annoyance | 0 |
+| [021](Day-021.md) | Deployment — build artifacts, content hashing, rollout strategies · C-14 networks drill (40 Qs) | 0 |
+| [022](Day-022.md) | 🚪 **Capstone** — the full 12-phase request trace · Stage 0 exit gate | 0 |
+| [023](Day-023.md) | JVM architecture — class loader, data areas, JIT · B-01 kernel mode, syscalls | 1 |
+| [024](Day-024.md) | Reading bytecode with `javap` — the stack machine, five `invoke*`, what lambdas compile to | 1 |
+| [025](Day-025.md) | Stack vs heap · where statics and the string pool live · why locals are thread-safe | 1 |
+| [026](Day-026.md) | Garbage collection — reachability, generational hypothesis, G1 vs ZGC · B-02 processes | 1 |
+| [027](Day-027.md) | GC tuning, the 7 leak patterns, diagnosing `OutOfMemoryError` | 1 |
 
-**Stage 0: 20 of 22 written.**
-**Next batch:** Days 021–022 (deployment + C-14 networks drill, then the full end-to-end trace) and
-the start of Stage 1 — Java Mastery, from Day 023.
+**✅ Stage 0 complete (22/22).** **Stage 1: 5 of 64 written** — JVM & memory block done.
+**Next batch:** Days 028–034 — primitives and the `Integer` cache, Strings and immutability,
+operators and switch expressions, arrays, methods and pass-by-value, `static`, `final`.
 
 ---
 
-## Stage 0 exit gate — trackable now
+## 🚪 Stage 0 exit gate
 
-- [ ] Raw TCP server speaking HTTP by hand → [Day 004](Day-004.md)
+Full detail on [Day 022](Day-022.md).
+
+- [ ] Raw TCP server speaking HTTP by hand → [Day 004](Day-004.md) (Java) + [Day 022](Day-022.md) (Python)
 - [ ] WebSocket chat across two tabs, server hand-written → [Day 017](Day-017.md)
-- [ ] 10-min oral: *"what happens when you type google.com and press Enter?"* → assembled on Day 022
+- [ ] 10-min oral: *"what happens when you type google.com and press Enter?"* → [Day 022](Day-022.md)
 - [ ] Explain HTML vs a server to a non-technical person → [Day 012](Day-012.md), [Day 004](Day-004.md)
 
 ---
