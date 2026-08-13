@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–012 written.** |
 
 ---
 
@@ -77,14 +77,14 @@ You can never skip a lesson — but you can pass through it fast.
 | [002](../Days/Day-002.md) | Source code to execution — compiler vs interpreter, machine code, the loader | C-02 · Physical & data link · MAC · switches · ARP |
 | [003](../Days/Day-003.md) | What a process is · what a port is · how two programs stay separate | |
 | [004](../Days/Day-004.md) | **What a server actually is** — a program in a loop, bound to a port, calling `accept()` | C-03 · Network layer — IP, subnetting, CIDR, routing, NAT |
-| 005 | What a client is · request/response as a model · why the web is client-server | C-04 · TCP I — handshake, teardown, seq/ack |
-| 006 | The Internet — packets, routers, ISPs, how data physically moves | |
-| 007 | DNS — full resolution from browser cache to root server | C-05 · TCP II — retransmission, sliding window, flow control |
-| 008 | TCP — the three-way handshake, why it exists, what "connection" means | C-06 · TCP III — congestion control (slow start, AIMD, Reno, BBR) |
-| 009 | TLS / HTTPS — what encryption protects, certificates, the handshake | |
-| 010 | HTTP anatomy — request line, methods, headers, body, status families | C-07 · UDP — what you gain and lose |
-| 011 | HTTP evolution — 1.0 → 1.1 → 2 → 3 (QUIC) | |
-| 012 | What HTML actually is — a document, a tree, the DOM | C-08 · DNS internals — recursive vs iterative, records, TTL |
+| [005](../Days/Day-005.md) | What a client is · request/response as a model · why the web is client-server | C-04 · TCP I — handshake, teardown, seq/ack |
+| [006](../Days/Day-006.md) | The Internet — packets, routers, ISPs, how data physically moves | |
+| [007](../Days/Day-007.md) | DNS — full resolution from browser cache to root server | C-05 · TCP II — retransmission, sliding window, flow control |
+| [008](../Days/Day-008.md) | **What a TCP connection actually is** · TIME_WAIT, CLOSE_WAIT | C-06 · TCP III — congestion control (slow start, AIMD, Reno, BBR) |
+| [009](../Days/Day-009.md) | TLS / HTTPS — what encryption protects, certificates, the handshake | |
+| [010](../Days/Day-010.md) | HTTP anatomy — request line, methods, headers, body, status families | C-07 · UDP — what you gain and lose |
+| [011](../Days/Day-011.md) | HTTP evolution — 1.0 → 1.1 → 2 → 3 (QUIC) | |
+| [012](../Days/Day-012.md) | **What HTML actually is** — a document, a tree, the DOM | C-08 · DNS internals — recursive vs iterative, records, TTL |
 | 013 | What CSS actually is — box model, cascade, specificity, layout | C-09 · HTTP/1.1 vs 2 vs 3 |
 | 014 | What JavaScript is in a browser — engine, call stack, event loop | |
 | 015 | Browser rendering pipeline — parse → DOM → CSSOM → layout → paint → composite | C-10 · TLS — symmetric vs asymmetric, chain of trust |

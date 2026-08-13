@@ -16,8 +16,18 @@ articulation drill.
 | [002](Day-002.md) | Source → bytecode → JIT → machine code · C-02 MAC, switches, ARP | 0 |
 | [003](Day-003.md) | Processes, threads, ports · the TCP 4-tuple | 0 |
 | [004](Day-004.md) | ⭐ **What a server actually is** — write one by hand · C-03 IP, CIDR, routing, NAT | 0 |
+| [005](Day-005.md) | The client side · request/response as a model · C-04 TCP handshake, seq/ack | 0 |
+| [006](Day-006.md) | The Internet — packets, routers, BGP, submarine cables · the speed-of-light budget | 0 |
+| [007](Day-007.md) | DNS resolution end to end · C-05 retransmission, sliding window, flow control | 0 |
+| [008](Day-008.md) | ⭐ **What a TCP connection actually is** · TIME_WAIT, CLOSE_WAIT · C-06 congestion control | 0 |
+| [009](Day-009.md) | TLS/HTTPS — what it protects and what it doesn't · certificates · forward secrecy | 0 |
+| [010](Day-010.md) | HTTP anatomy — methods, idempotency, status families, headers · C-07 UDP | 0 |
+| [011](Day-011.md) | HTTP 1.0 → 1.1 → 2 → 3 · head-of-line blocking · QUIC | 0 |
+| [012](Day-012.md) | ⭐ **What HTML actually is** · HTML vs the DOM · C-08 DNS internals | 0 |
 
-**Next batch:** Days 005–012 (client model, the Internet, DNS, TCP, TLS, HTTP anatomy and evolution)
+**Stage 0: 12 of 22 written.**
+**Next batch:** Days 013–020 (CSS, JavaScript in the browser, the rendering pipeline, REST,
+WebSockets, SSE vs polling, where state lives, CORS)
 
 ---
 
