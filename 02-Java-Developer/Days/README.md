@@ -68,11 +68,20 @@ articulation drill.
 | [051](Day-051.md) | `ArrayDeque`, `PriorityQueue` (binary heap), why never `Stack` | 1 |
 | [052](Day-052.md) | Iterators, `modCount`, why fail-fast is only best-effort | 1 |
 | [053](Day-053.md) | `ConcurrentHashMap` internals, `CopyOnWriteArrayList` · B-10 paging and the TLB | 1 |
+| [054](Day-054.md) | Generics — bounded types, recursive bounds, why they're invariant | 1 |
+| [055](Day-055.md) | Type erasure — bridge methods, heap pollution, what survives | 1 |
+| [056](Day-056.md) | Wildcards and **PECS**, derived rather than recited | 1 |
+| [056A](Day-056A.md) | ➕ **Reflection & custom annotations** — why `@Transactional` fails on self-invocation | 1 |
+| [057](Day-057.md) | Lambdas, the four functional shapes, composition · B-11 page replacement | 1 |
+| [058](Day-058.md) | Method references · **where `Optional` does not belong** | 1 |
+| [059](Day-059.md) | Streams I — laziness, short-circuiting, infinite sources | 1 |
+| [060](Day-060.md) | Streams II — collectors, grouping, the real cost of parallel · B-12 inodes | 1 |
 
-**✅ Stage 0 complete (22/22).** **Stage 1: 34 of 64 written** — JVM/memory, language-core, OOP and
-collections blocks done.
-**Next batch:** Days 054–060 — generics, type erasure, wildcards and PECS, the added reflection day
-(056A), lambdas and functional interfaces, and streams.
+**✅ Stage 0 complete (22/22).** **Stage 1: 43 of 64 written** — JVM/memory, language-core, OOP,
+collections, generics, functional and streams blocks done.
+**Next batch:** Days 061–072 — exceptions and I/O, then the concurrency block: threads, ⭐ the Java
+Memory Model (065), `volatile`, the added `ThreadLocal` day (066A), locks, CAS, executors, and
+virtual threads.
 
 ---
 

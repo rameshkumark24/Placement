@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–053 written** (Stage 0 complete, Stage 1 in progress). |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-060 written** (Stage 0 complete, Stage 1 in progress). |
 
 ---
 
@@ -160,14 +160,14 @@ explain HTML vs server to a non-technical person
 ### Generics & functional
 | Day | Lesson | Parallel |
 |---|---|---|
-| 054 | Generics — type parameters, bounded types, generic methods | |
-| 055 | Type erasure — what it costs, bridge methods, heap pollution | |
-| 056 | Wildcards — `? extends` vs `? super`, the PECS rule | |
-| **056A** | ➕ **Reflection & custom annotations** — `Class`, `setAccessible`, `@Retention`/`@Target` · **prerequisite for understanding Spring** | |
-| 057 | Lambdas & functional interfaces — Function, Predicate, Supplier, Consumer | B-11 · Demand paging, page faults, thrashing, replacement |
-| 058 | Method references, `Optional` used correctly (not as a field) | |
-| 059 | Streams I — sources, intermediate vs terminal, laziness | |
-| 060 | Streams II — `collect`, Collectors, grouping, parallel streams' real cost | B-12 · File systems — inodes, directories, journaling, VFS |
+| [054](../Days/Day-054.md) | Generics — type parameters, bounded types, generic methods | |
+| [055](../Days/Day-055.md) | Type erasure — what it costs, bridge methods, heap pollution | |
+| [056](../Days/Day-056.md) | Wildcards — `? extends` vs `? super`, the PECS rule | |
+| **[056A](../Days/Day-056A.md)** | ➕ **Reflection & custom annotations** — `Class`, `setAccessible`, `@Retention`/`@Target` · **prerequisite for understanding Spring** | |
+| [057](../Days/Day-057.md) | Lambdas & functional interfaces — Function, Predicate, Supplier, Consumer | B-11 · Demand paging, page faults, thrashing, replacement |
+| [058](../Days/Day-058.md) | Method references, `Optional` used correctly (not as a field) | |
+| [059](../Days/Day-059.md) | Streams I — sources, intermediate vs terminal, laziness | |
+| [060](../Days/Day-060.md) | Streams II — `collect`, Collectors, grouping, parallel streams' real cost | B-12 · File systems — inodes, directories, journaling, VFS |
 
 ### Exceptions, I/O
 | Day | Lesson | Parallel |
