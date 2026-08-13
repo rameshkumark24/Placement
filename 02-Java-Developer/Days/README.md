@@ -57,10 +57,33 @@ articulation drill.
 | [042](Day-042.md) | Records, sealed classes, pattern matching — algebraic data types in Java | 1 |
 | [042A](Day-042A.md) | ➕ **`java.time`** — the API the roadmap was missing entirely | 1 |
 | [042B](Day-042B.md) | ➕ **`BigDecimal`** — why `double` is fatal for money | 1 |
+| [043](Day-043.md) | Enums with state, as state machines, the correct singleton · B-07 mutex/semaphore/monitor | 1 |
+| [044](Day-044.md) | Inner classes — `this$0` and the leak it causes | 1 |
+| [045](Day-045.md) | The collections hierarchy · the decision table · complexity | 1 |
+| [046](Day-046.md) | `ArrayList` internals — 1.5× growth, amortised O(1) | 1 |
+| [047](Day-047.md) | `LinkedList` — and why it almost never wins · B-08 deadlock | 1 |
+| [048](Day-048.md) | ⭐⭐ **`HashMap` internals** — spread, masking, treeify at 8, resize bit-split | 1 |
+| [049](Day-049.md) | `LinkedHashMap` + **LRU cache** · `TreeMap` and red-black trees | 1 |
+| [050](Day-050.md) | The `Set` family — every set is a map · `EnumSet` as a bit vector · B-09 fragmentation | 1 |
+| [051](Day-051.md) | `ArrayDeque`, `PriorityQueue` (binary heap), why never `Stack` | 1 |
+| [052](Day-052.md) | Iterators, `modCount`, why fail-fast is only best-effort | 1 |
+| [053](Day-053.md) | `ConcurrentHashMap` internals, `CopyOnWriteArrayList` · B-10 paging and the TLB | 1 |
 
-**✅ Stage 0 complete (22/22).** **Stage 1: 23 of 64 written** — JVM/memory, language-core and OOP blocks done.
-**Next batch:** Days 043–053 — enums, inner classes, and the whole collections block including
-⭐ `HashMap` internals (048) and `ConcurrentHashMap` (053).
+**✅ Stage 0 complete (22/22).** **Stage 1: 34 of 64 written** — JVM/memory, language-core, OOP and
+collections blocks done.
+**Next batch:** Days 054–060 — generics, type erasure, wildcards and PECS, the added reflection day
+(056A), lambdas and functional interfaces, and streams.
+
+---
+
+## 🚪 Stage 1 exit gate — trackable now
+
+- [ ] In-memory key-value store with TTL, concurrent and thread-safe → [053](Day-053.md)
+- [ ] Custom `ArrayList` written from scratch → [046](Day-046.md)
+- [ ] Custom `HashMap` written from scratch → [048](Day-048.md)
+- [ ] **Whiteboard `HashMap` internals** — collisions, treeification, resize → [048](Day-048.md)
+- [ ] Explain the JMM and why `volatile` doesn't make `i++` safe → Days 065–066
+- [ ] Live-code a thread-safe bounded blocking queue → [043](Day-043.md)
 
 ---
 

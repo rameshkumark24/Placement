@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–042B written** (Stage 0 complete, Stage 1 in progress). |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–053 written** (Stage 0 complete, Stage 1 in progress). |
 
 ---
 
@@ -141,21 +141,21 @@ explain HTML vs server to a non-technical person
 | [042](../Days/Day-042.md) | Records, sealed classes, pattern matching for switch | |
 | **[042A](../Days/Day-042A.md)** | ➕ **`java.time`** — `LocalDate`/`Instant`/`ZonedDateTime`, `Duration` vs `Period`, DST, why `Date` is broken | |
 | **[042B](../Days/Day-042B.md)** | ➕ **`BigDecimal` & floating point** — why `double` is fatal for money, `equals` vs `compareTo`, rounding modes | |
-| 043 | Enums — with fields, methods, as singleton/state machine | B-07 · Synchronization — mutex, semaphore, monitor, condvars |
-| 044 | Inner classes, static nested, anonymous, local | |
+| [043](../Days/Day-043.md) | Enums — with fields, methods, as singleton/state machine | B-07 · Synchronization — mutex, semaphore, monitor, condvars |
+| [044](../Days/Day-044.md) | Inner classes, static nested, anonymous, local | |
 
 ### Collections
 | Day | Lesson | Parallel |
 |---|---|---|
-| 045 | The hierarchy — Collection, List, Set, Queue, Map | |
-| 046 | `ArrayList` internals — growth factor, `System.arraycopy`, cost per op | |
-| 047 | `LinkedList` internals · when it actually beats `ArrayList` (rarely) | B-08 · Deadlock — 4 conditions, prevention, banker's, detection |
-| 048 | ⭐ **`HashMap` internals** — buckets, hash spreading, treeification at 8, resize | |
-| 049 | `LinkedHashMap` (LRU via `removeEldestEntry`), `TreeMap` and red-black trees | |
-| 050 | `HashSet`, `LinkedHashSet`, `TreeSet`, `EnumMap`, `EnumSet` | B-09 · Memory — contiguous allocation, fragmentation, segmentation |
-| 051 | `ArrayDeque`, `PriorityQueue`, `Stack` vs `Deque` | |
-| 052 | Iterators, `ConcurrentModificationException`, fail-fast vs fail-safe | |
-| 053 | Concurrent collections — `ConcurrentHashMap` internals, `CopyOnWriteArrayList` | B-10 · Virtual memory — paging, page tables, MMU, TLB |
+| [045](../Days/Day-045.md) | The hierarchy — Collection, List, Set, Queue, Map | |
+| [046](../Days/Day-046.md) | `ArrayList` internals — growth factor, `System.arraycopy`, cost per op | |
+| [047](../Days/Day-047.md) | `LinkedList` internals · when it actually beats `ArrayList` (rarely) | B-08 · Deadlock — 4 conditions, prevention, banker's, detection |
+| [048](../Days/Day-048.md) | ⭐ **`HashMap` internals** — buckets, hash spreading, treeification at 8, resize | |
+| [049](../Days/Day-049.md) | `LinkedHashMap` (LRU via `removeEldestEntry`), `TreeMap` and red-black trees | |
+| [050](../Days/Day-050.md) | `HashSet`, `LinkedHashSet`, `TreeSet`, `EnumMap`, `EnumSet` | B-09 · Memory — contiguous allocation, fragmentation, segmentation |
+| [051](../Days/Day-051.md) | `ArrayDeque`, `PriorityQueue`, `Stack` vs `Deque` | |
+| [052](../Days/Day-052.md) | Iterators, `ConcurrentModificationException`, fail-fast vs fail-safe | |
+| [053](../Days/Day-053.md) | Concurrent collections — `ConcurrentHashMap` internals, `CopyOnWriteArrayList` | B-10 · Virtual memory — paging, page tables, MMU, TLB |
 
 ### Generics & functional
 | Day | Lesson | Parallel |
