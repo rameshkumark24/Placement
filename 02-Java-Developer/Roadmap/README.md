@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–027 written** (Stage 0 complete). |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–034A written** (Stage 0 complete, Stage 1 in progress). |
 
 ---
 
@@ -119,14 +119,14 @@ explain HTML vs server to a non-technical person
 ### Language core
 | Day | Lesson | Parallel |
 |---|---|---|
-| 028 | Primitives vs objects, wrappers, autoboxing, the Integer cache trap | |
-| 029 | Strings — immutability, pool, `StringBuilder`, why `+=` in a loop is fatal | B-03 · Threads vs processes · user vs kernel threads |
-| 030 | Operators, control flow, switch expressions, `var`, text blocks | |
-| 031 | Arrays, 2D arrays, `Arrays` utility, `System.arraycopy` | |
-| 032 | Methods, overloading, varargs, pass-by-value (Java has no pass-by-reference) | |
-| 033 | `static` — fields, methods, blocks, nested classes, init order | B-04 · Context switching — what is saved, why it costs |
-| 034 | `final` — variables, methods, classes · immutability by design | |
-| **034A** | ➕ **Immutability & defensive copying** — `final` isn't deep · `List.copyOf` vs `unmodifiableList` | |
+| [028](../Days/Day-028.md) | Primitives vs objects, wrappers, autoboxing, the Integer cache trap | |
+| [029](../Days/Day-029.md) | Strings — immutability, pool, `StringBuilder`, why `+=` in a loop is fatal | B-03 · Threads vs processes · user vs kernel threads |
+| [030](../Days/Day-030.md) | Operators, control flow, switch expressions, `var`, text blocks | |
+| [031](../Days/Day-031.md) | Arrays, 2D arrays, `Arrays` utility, `System.arraycopy` | |
+| [032](../Days/Day-032.md) | **Methods, overloading, varargs, pass-by-value** (Java has no pass-by-reference) | |
+| [033](../Days/Day-033.md) | `static` — fields, methods, blocks, nested classes, init order | B-04 · Context switching — what is saved, why it costs |
+| [034](../Days/Day-034.md) | `final` — variables, methods, classes · immutability by design | |
+| **[034A](../Days/Day-034A.md)** | ➕ **Immutability & defensive copying** — `final` isn't deep · `List.copyOf` vs `unmodifiableList` | |
 | 035 | Classes, objects, constructors, `this`, constructor chaining | |
 | 036 | Encapsulation, access modifiers, packages, JPMS overview | B-05 · CPU scheduling — FCFS, SJF, RR, MLFQ, Linux CFS |
 

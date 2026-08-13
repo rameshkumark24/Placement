@@ -39,10 +39,19 @@ articulation drill.
 | [025](Day-025.md) | Stack vs heap · where statics and the string pool live · why locals are thread-safe | 1 |
 | [026](Day-026.md) | Garbage collection — reachability, generational hypothesis, G1 vs ZGC · B-02 processes | 1 |
 | [027](Day-027.md) | GC tuning, the 7 leak patterns, diagnosing `OutOfMemoryError` | 1 |
+| [028](Day-028.md) | Primitives vs wrappers, autoboxing, **the `Integer` cache trap** | 1 |
+| [029](Day-029.md) | Strings — 5 reasons for immutability, why `+=` in a loop is O(n²) · B-03 threads vs processes | 1 |
+| [030](Day-030.md) | Operators, `switch` expressions and exhaustiveness, `var`, text blocks · **RECALL candidate** | 1 |
+| [031](Day-031.md) | Arrays — O(1) indexing, 2D layout, `System.arraycopy`, covariance | 1 |
+| [032](Day-032.md) | ⭐ **Java is always pass-by-value** — proved · overload resolution · varargs | 1 |
+| [033](Day-033.md) | `static`, the 6-step initialisation order, hiding vs overriding · B-04 context switching | 1 |
+| [034](Day-034.md) | `final` — and why it is **not** immutability | 1 |
+| [034A](Day-034A.md) | ➕ **Immutability & defensive copying** — the two attacks on a naive class | 1 |
 
-**✅ Stage 0 complete (22/22).** **Stage 1: 5 of 64 written** — JVM & memory block done.
-**Next batch:** Days 028–034 — primitives and the `Integer` cache, Strings and immutability,
-operators and switch expressions, arrays, methods and pass-by-value, `static`, `final`.
+**✅ Stage 0 complete (22/22).** **Stage 1: 13 of 64 written** — JVM/memory and language-core blocks done.
+**Next batch:** Days 035–042B — classes and constructors, encapsulation, inheritance, polymorphism,
+abstract vs interface, `equals`/`hashCode`, `Comparable`, records and sealed classes, plus the two
+added days `java.time` (042A) and `BigDecimal` (042B).
 
 ---
 
