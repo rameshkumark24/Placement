@@ -275,8 +275,8 @@ the answer, because that is what actually decides the project.
 
 ---
 
-**Previous:** [Day 185A](Day-185A.md) · **Next:** Day 186 — Stage 5 opens *(not yet written — see
-[Days index](README.md))*
+**Previous:** [Day 185A](Day-185A.md) · **Next:** [Day 186](Day-186.md) — Stage 5 opens: PostgreSQL
+architecture
 
 > **🚪 STAGE 4 COMPLETE — Days 130–185B, 57 days.**
 >

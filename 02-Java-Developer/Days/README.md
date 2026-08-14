@@ -215,12 +215,32 @@ articulation drill.
 | [185](Day-185.md) | **Production readiness** — the 50-item checklist | 4 |
 | [185A](Day-185A.md) | Spring **Kafka & RabbitMQ** — losing nothing, duplicating safely | 4 |
 | [185B](Day-185B.md) | ➕🚪 **Boot 3 specifics** · **STAGE 4 EXIT GATE** | 4 |
+| [186](Day-186.md) | **PostgreSQL architecture** — processes, buffers, **WAL**, checkpoints | 5 |
+| [187](Day-187.md) | Data types & **constraints** — the last line of defence | 5 |
+| [188](Day-188.md) | Schema design in practice — where normalization stops | 5 |
+| [189](Day-189.md) | ⭐ **Indexes I** — the B-tree, and **8 reasons yours is ignored** | 5 |
+| [190](Day-190.md) | **Indexes II** — composite order, partial, GIN/GiST/BRIN/trigram | 5 |
+| [191](Day-191.md) | ⭐ **`EXPLAIN ANALYZE`** — reading a plan like a diagnosis | 5 |
+| [192](Day-192.md) | **Join algorithms** — and why the planner picks wrong | 5 |
+| [193](Day-193.md) | 🔧 **Query optimization workshop** — ten queries, against the clock | 5 |
+| [194](Day-194.md) | **MVCC, vacuum, bloat** — and ⭐ **transaction ID wraparound** | 5 |
+| [195](Day-195.md) | 🔬 **Isolation levels** — reproduce every anomaly, incl. **write skew** | 5 |
+| [196](Day-196.md) | **Locks & deadlocks** — ⭐ the FIFO queue outage | 5 |
+| [197](Day-197.md) | Connection pooling & **PgBouncer** — what transaction mode breaks | 5 |
+| [198](Day-198.md) | **JSONB** — and the discipline that stops it becoming EAV | 5 |
+| [199](Day-199.md) | **Full-text search** — and when PostgreSQL is not enough | 5 |
+| [200](Day-200.md) | **Partitioning** — and what it is not | 5 |
+| [201](Day-201.md) | **Replication, failover, PITR** — ⭐ RPO and RTO | 5 |
+| [202](Day-202.md) | 🚪 **`pg_stat_statements`** · **Postgres block gate** | 5 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**✅ Stage 4 (57/57)** — core container, Boot, Web, Data, Security and Advanced all complete.
-**216 days written**, including all **thirteen added gap days**.
+**✅ Stage 4 (57/57).** **Stage 5: 17 of 28** — the **PostgreSQL block** is complete.
+**233 days written**, including all **thirteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 186 onward — **Stage 5** opens.
+**Next batch:** Days 203–213 — **Redis** (the single-threaded event loop, data structures, RDB vs
+AOF, eviction, ⭐ **distributed locks and the Redlock debate**, rate limiting with sorted sets,
+Streams) and **MongoDB** (the document model, embedding vs referencing, aggregation, sharding) ·
+🚪 **Stage 5 exit gate**.
 
 ---
 

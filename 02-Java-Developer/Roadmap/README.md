@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-185B written** — ✅ **Stages 0-4 complete** — 216 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-202 written** — ✅ **Stages 0-4 complete**, Stage 5 Postgres block complete — 233 days. |
 
 ---
 
@@ -384,13 +384,24 @@ fails on self-invocation · diagnose and fix an N+1 live · empty directory → 
 <details>
 <summary><b>Days 186–213 — expand</b></summary>
 
-**Postgres (186–202)** — architecture (postmaster, shared buffers, WAL, checkpoints) · data types
-and constraints · schema design in practice · **Indexes I** (B-tree, when it's used and when
-ignored) · Indexes II (composite column order, partial, covering, GIN/GiST/BRIN) ·
-**`EXPLAIN ANALYZE`** · join algorithms · query optimization workshop · transactions, **MVCC**,
-vacuum, bloat · isolation levels — reproduce every anomaly yourself · locks and deadlock debugging ·
-connection pooling and PgBouncer · JSONB · full-text search · partitioning · replication, failover,
-PITR · tuning with `pg_stat_statements`
+**Postgres (186–202)** — ✅ **written** —
+[186](../Days/Day-186.md) architecture (postmaster, shared buffers, **WAL**, checkpoints) ·
+[187](../Days/Day-187.md) data types and constraints ·
+[188](../Days/Day-188.md) schema design in practice ·
+[189](../Days/Day-189.md) ⭐ **Indexes I** (B-tree, when it's used and when ignored) ·
+[190](../Days/Day-190.md) Indexes II (composite column order, partial, covering, GIN/GiST/BRIN) ·
+[191](../Days/Day-191.md) ⭐ **`EXPLAIN ANALYZE`** ·
+[192](../Days/Day-192.md) join algorithms ·
+[193](../Days/Day-193.md) 🔧 query optimization workshop ·
+[194](../Days/Day-194.md) transactions, **MVCC**, vacuum, bloat ·
+[195](../Days/Day-195.md) 🔬 isolation levels — reproduce every anomaly yourself ·
+[196](../Days/Day-196.md) locks and deadlock debugging ·
+[197](../Days/Day-197.md) connection pooling and PgBouncer ·
+[198](../Days/Day-198.md) JSONB ·
+[199](../Days/Day-199.md) full-text search ·
+[200](../Days/Day-200.md) partitioning ·
+[201](../Days/Day-201.md) replication, failover, PITR ·
+[202](../Days/Day-202.md) 🚪 tuning with `pg_stat_statements`
 
 **Redis (203–209)** — single-threaded event loop · data structures (incl. sorted sets, bitmaps,
 HyperLogLog) · RDB vs AOF · caching patterns, key design, eviction · **distributed locks and why
