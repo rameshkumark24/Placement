@@ -134,15 +134,27 @@ articulation drill.
 | [110](Day-110.md) | OpenAPI, contract-first · ⭐ **D-11 indexes** — B+ trees, covering | 3 |
 | [111](Day-111.md) | **AuthN vs AuthZ** — the distinction people fail on | 3 |
 | [112](Day-112.md) | ⭐ **Password storage** — argon2, salt, pepper, work factors | 3 |
+| [113](Day-113.md) | Sessions, cookie flags, fixation · D-12 query processing | 3 |
+| [114](Day-114.md) | ⭐ **JWT internals** — `alg:none`, algorithm confusion, revocation | 3 |
+| [115](Day-115.md) | Access & refresh tokens — **rotation and reuse detection** | 3 |
+| [115b](Day-115b.md) | ➕ **API keys**, HMAC signing, mTLS, workload identity | 3 |
+| [116](Day-116.md) | OAuth 2.0 — the grants, **PKCE**, why implicit died | 3 |
+| [117](Day-117.md) | OpenID Connect — ID tokens · **D-13 ACID**, precisely | 3 |
+| [118](Day-118.md) | RBAC/ABAC/ReBAC · **multi-tenancy and row-level security** | 3 |
+| [119](Day-119.md) | **OWASP API Top 10** — IDOR, SSRF, CSRF, the checklist | 3 |
+| [119b](Day-119b.md) | ➕ **SQL injection in depth** — and the general principle | 3 |
+| [120](Day-120.md) | Caching patterns · **D-14 isolation levels**, write skew | 3 |
+| [121](Day-121.md) | Invalidation, **stampede**, stale-while-revalidate | 3 |
+| [122](Day-122.md) | ⭐ **Rate limiting** — four algorithms, distributed | 3 |
+| [123](Day-123.md) | **Idempotency & retries** · D-15 MVCC, 2PL, optimistic | 3 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (64/64).** **✅ Stage 2 complete (25/25).**
-**Stage 3: 11 of 33 written** — the API-design block is done and the security block has begun.
-**135 days written**, including all **eleven added gap days**.
+**Stage 3: 24 of 33 written** — API design, security, caching and reliability blocks all done.
+**148 days written**, including all **eleven added gap days**.
 Parallel tracks: **C-01–C-14** (networks) ✅, **B-01–B-16** (operating systems) ✅,
-**D-01–D-11** (databases) in progress.
-**Next batch:** Days 113–123 — the rest of the security block: sessions, ⭐ JWT internals, token
-rotation, API keys, OAuth 2.0, OIDC, authorization models, the OWASP API Top 10, SQL injection in
-depth, then caching and rate limiting.
+**D-01–D-15** (databases) in progress.
+**Next batch:** Days 124–129C — background jobs, task queues and brokers, file uploads,
+observability, webhooks, and the Docker primer that closes Stage 3.
 
 ---
 

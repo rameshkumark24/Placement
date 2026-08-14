@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-112 written** — ✅ **Stages 0, 1 and 2 complete**, Stage 3 in progress - 135 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-123 written** — ✅ **Stages 0, 1 and 2 complete**, Stage 3 in progress - 148 days. |
 
 ---
 
@@ -262,19 +262,19 @@ write three ADRs, present the diff as a code review
 | [110](../Days/Day-110.md) | OpenAPI / Swagger — contract-first vs code-first | D-11 · **Indexes** — B+ tree, hash, clustered vs non-clustered, covering |
 | [111](../Days/Day-111.md) | Authentication vs authorization — the distinction people fail on | |
 | [112](../Days/Day-112.md) | **Password storage** — hashing vs encryption, salt, pepper, bcrypt/argon2, work factors | |
-| 113 | Session-based auth — server-side sessions, stores, cookie flags | D-12 · Query processing — parsing, planning, cost estimation, EXPLAIN |
-| 114 | **JWT internals** — header/payload/signature, HS256 vs RS256, the `alg:none` attack | |
-| 115 | Access vs refresh tokens, rotation, revocation, browser storage | |
-| 115b | **API keys** — issuing, hashed storage, scoping, rotation · HMAC signing · mTLS overview | |
-| 116 | OAuth 2.0 — the four grants, auth code + PKCE, why implicit died | |
-| 117 | OpenID Connect — ID tokens, "Login with Google" | D-13 · **Transactions & ACID** — the four properties, precisely |
-| 118 | Authorization models — RBAC, ABAC, ACLs, multi-tenancy | |
-| 119 | **API security** — OWASP API Top 10, IDOR, mass assignment, SSRF, CSRF | |
-| 119b | **SQL injection in depth** — why concatenation is fatal, prepared statements as the fix | |
-| 120 | Caching theory — cache-aside, read-through, write-through, write-behind | D-14 · **Isolation levels & anomalies** — dirty, non-repeatable, phantom, write skew |
-| 121 | Cache invalidation, TTL strategy, stampede, stale-while-revalidate | |
-| 122 | **Rate limiting** — fixed window, sliding window, token bucket, leaky bucket | |
-| 123 | Idempotency keys, retries, exponential backoff with jitter, at-least-once | D-15 · Concurrency control — 2PL, MVCC, optimistic vs pessimistic |
+| [113](../Days/Day-113.md) | Session-based auth — server-side sessions, stores, cookie flags | D-12 · Query processing — parsing, planning, cost estimation, EXPLAIN |
+| [114](../Days/Day-114.md) | **JWT internals** — header/payload/signature, HS256 vs RS256, the `alg:none` attack | |
+| [115](../Days/Day-115.md) | Access vs refresh tokens, rotation, revocation, browser storage | |
+| [115b](../Days/Day-115b.md) | **API keys** — issuing, hashed storage, scoping, rotation · HMAC signing · mTLS overview | |
+| [116](../Days/Day-116.md) | OAuth 2.0 — the four grants, auth code + PKCE, why implicit died | |
+| [117](../Days/Day-117.md) | OpenID Connect — ID tokens, "Login with Google" | D-13 · **Transactions & ACID** — the four properties, precisely |
+| [118](../Days/Day-118.md) | Authorization models — RBAC, ABAC, ACLs, multi-tenancy | |
+| [119](../Days/Day-119.md) | **API security** — OWASP API Top 10, IDOR, mass assignment, SSRF, CSRF | |
+| [119b](../Days/Day-119b.md) | **SQL injection in depth** — why concatenation is fatal, prepared statements as the fix | |
+| [120](../Days/Day-120.md) | Caching theory — cache-aside, read-through, write-through, write-behind | D-14 · **Isolation levels & anomalies** — dirty, non-repeatable, phantom, write skew |
+| [121](../Days/Day-121.md) | Cache invalidation, TTL strategy, stampede, stale-while-revalidate | |
+| [122](../Days/Day-122.md) | **Rate limiting** — fixed window, sliding window, token bucket, leaky bucket | |
+| [123](../Days/Day-123.md) | Idempotency keys, retries, exponential backoff with jitter, at-least-once | D-15 · Concurrency control — 2PL, MVCC, optimistic vs pessimistic |
 | 124 | Background jobs — why you don't do work in the request cycle | |
 | 125 | Task queues & brokers — producer/consumer, ack, DLQ, visibility timeout | |
 | 126 | File uploads — multipart, streaming, presigned URLs, object storage | D-16 · NoSQL landscape · CAP intro · polyglot persistence |
