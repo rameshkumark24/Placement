@@ -109,14 +109,27 @@ articulation drill.
 | [086](Day-086.md) | Branching, fast-forward, three-way merge, **merge vs rebase** | 2 |
 | [087](Day-087.md) | Conflicts, **reflog**, reset/revert/restore, **bisect** · D-04 FDs & closure | 2 |
 | [088](Day-088.md) | Remotes, trunk-based vs git-flow, **PR discipline** | 2 |
+| [089](Day-089.md) | Clean code — naming, function size, side effects, comments | 2 |
+| [090](Day-090.md) | SOLID I — SRP by **actor**, Open/Closed | 2 |
+| [091](Day-091.md) | SOLID II — **Liskov**, ISP, DIP · D-05 normalization to BCNF | 2 |
+| [092](Day-092.md) | DRY, YAGNI, KISS, **composition over inheritance**, Demeter | 2 |
+| [093](Day-093.md) | Creational — factory, builder, **why Singleton is usually wrong** | 2 |
+| [094](Day-094.md) | Structural — the four wrappers distinguished · D-06 relational algebra | 2 |
+| [095](Day-095.md) | Behavioural — strategy, observer, command, template, state | 2 |
+| [096](Day-096.md) | **Refactoring** — smells catalogue, safe steps, the strangler | 2 |
+| [097](Day-097.md) | Testing philosophy — the pyramid, FIRST · D-07 SQL I, NULLs | 2 |
+| [098](Day-098.md) | **TDD** — red/green/refactor on a real rate limiter | 2 |
+| [099](Day-099.md) | Debugging as a **methodology** — hypotheses, bisection, traces | 2 |
+| [100](Day-100.md) | Code review, both sides · D-08 every join type, join order | 2 |
+| [100A](Day-100A.md) | ➕ **Supply chain** — CVEs, SBOMs, licences, **slopsquatting** | 2 |
+| [101](Day-101.md) | 🚪 Documentation & **ADRs** · Stage 2 exit gate | 2 |
 
-**✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (64/64).** **Stage 2: 11 of 25 written** —
-the Linux and Git blocks are done. **110 days written.**
-The networks (**C-01–C-14**) and OS (**B-01–B-16**) tracks are finished; the **D-series**
-(databases) now runs alongside — D-01…D-04 done.
-**Next batch:** Days 089–101 — the craft block: clean code, SOLID, design patterns, refactoring,
-testing philosophy, TDD, debugging as a methodology, code review, the added supply-chain day
-(100A), and documentation — closing Stage 2.
+**✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (64/64).** **✅ Stage 2 complete (25/25).**
+**124 days written** — Stages 0, 1 and 2 finished, including **eleven added gap days**.
+Parallel tracks: **C-01–C-14** (networks) ✅, **B-01–B-16** (operating systems) ✅,
+**D-01–D-08** (databases) in progress.
+**Next batch:** Days 102+ — Stage 3, Backend Engineering framework-free: HTTP servers, routing,
+serialization, auth, caching and API design built by hand before Spring is allowed to do any of it.
 
 ---
 

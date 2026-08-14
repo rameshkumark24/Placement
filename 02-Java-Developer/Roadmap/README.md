@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-088 written** — ✅ **Stages 0 and 1 complete**, Stage 2 in progress - 110 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-101 written** — ✅ **Stages 0, 1 and 2 complete**  - 124 days. |
 
 ---
 
@@ -224,20 +224,20 @@ make `i++` safe · live-code a thread-safe bounded blocking queue, no reference
 | [086](../Days/Day-086.md) | Branching, merge vs rebase, fast-forward, three-way merge | |
 | [087](../Days/Day-087.md) | Conflicts, reflog, reset vs revert vs restore, cherry-pick, bisect | D-04 · Functional dependencies · closure · minimal cover |
 | [088](../Days/Day-088.md) | Remotes, workflows (trunk-based, git-flow), PR discipline | |
-| 089 | Clean code — naming, function size, side effects, when comments are a failure | |
-| 090 | SOLID I — Single Responsibility, Open/Closed | |
-| 091 | SOLID II — Liskov, Interface Segregation, Dependency Inversion | D-05 · Normalization — 1NF→BCNF · deliberate denormalization |
-| 092 | DRY, YAGNI, KISS, composition over inheritance, Law of Demeter | |
-| 093 | Creational patterns — factory, builder, singleton (and why it's usually wrong) | |
-| 094 | Structural patterns — adapter, decorator, facade, proxy, composite | D-06 · Relational algebra — the mental model behind SQL |
-| 095 | Behavioural patterns — strategy, observer, command, template method, state | |
-| 096 | Refactoring — code smells catalogue, extract method/class, safe refactoring | |
-| 097 | Testing philosophy — unit vs integration vs e2e, the pyramid, test doubles | D-07 · SQL I — SELECT, WHERE, ORDER BY, NULL semantics |
-| 098 | TDD in practice — red/green/refactor on a real feature | |
-| 099 | **Debugging as a methodology** — hypothesis-driven, bisection, stack traces | |
-| 100 | Code review — how to give it, how to receive it, what reviewers look for | D-08 · SQL II — all join types, self joins, anti-joins, join order |
-| **100A** | ➕ **Dependency & supply chain hygiene** — CVE scanning, lockfiles, transitive deps, licences, slopsquatting | |
-| 101 | Documentation — READMEs, ADRs, diagrams that stay true | |
+| [089](../Days/Day-089.md) | Clean code — naming, function size, side effects, when comments are a failure | |
+| [090](../Days/Day-090.md) | SOLID I — Single Responsibility, Open/Closed | |
+| [091](../Days/Day-091.md) | SOLID II — Liskov, Interface Segregation, Dependency Inversion | D-05 · Normalization — 1NF→BCNF · deliberate denormalization |
+| [092](../Days/Day-092.md) | DRY, YAGNI, KISS, composition over inheritance, Law of Demeter | |
+| [093](../Days/Day-093.md) | Creational patterns — factory, builder, singleton (and why it's usually wrong) | |
+| [094](../Days/Day-094.md) | Structural patterns — adapter, decorator, facade, proxy, composite | D-06 · Relational algebra — the mental model behind SQL |
+| [095](../Days/Day-095.md) | Behavioural patterns — strategy, observer, command, template method, state | |
+| [096](../Days/Day-096.md) | Refactoring — code smells catalogue, extract method/class, safe refactoring | |
+| [097](../Days/Day-097.md) | Testing philosophy — unit vs integration vs e2e, the pyramid, test doubles | D-07 · SQL I — SELECT, WHERE, ORDER BY, NULL semantics |
+| [098](../Days/Day-098.md) | TDD in practice — red/green/refactor on a real feature | |
+| [099](../Days/Day-099.md) | **Debugging as a methodology** — hypothesis-driven, bisection, stack traces | |
+| [100](../Days/Day-100.md) | Code review — how to give it, how to receive it, what reviewers look for | D-08 · SQL II — all join types, self joins, anti-joins, join order |
+| **[100A](../Days/Day-100A.md)** | ➕ **Dependency & supply chain hygiene** — CVE scanning, lockfiles, transitive deps, licences, slopsquatting | |
+| [101](../Days/Day-101.md) | Documentation — READMEs, ADRs, diagrams that stay true | |
 
 **🚪 Exit gate** — take one AI-generated project, refactor by hand to SOLID, add a real test suite,
 write three ADRs, present the diff as a code review
