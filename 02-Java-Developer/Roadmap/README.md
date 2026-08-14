@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-140 written** — ✅ **Stages 0-3 complete**, Stage 4 in progress — 168 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-155 written** — ✅ **Stages 0-3 complete**, Stage 4 core/Boot/Web complete — 183 days. |
 
 ---
 
@@ -308,14 +308,26 @@ permission model, error format, pagination, rate limits, idempotency. Defend eve
 `@Transactional`) ·
 [138](../Days/Day-138.md) SpEL and property resolution
 
-**Boot (139–144)** — [139](../Days/Day-139.md) ✅ starters and opinionated defaults ·
-[140](../Days/Day-140.md) ✅ **auto-configuration internals** (`@Conditional`, how to debug it) ·
-141 project structure · 142 configuration and profiles · 143 Actuator · 144 DevTools and fat JARs
+**Boot (139–144)** — ✅ **written** —
+[139](../Days/Day-139.md) starters and opinionated defaults ·
+[140](../Days/Day-140.md) **auto-configuration internals** (`@Conditional`, how to debug it) ·
+[141](../Days/Day-141.md) project structure (package by feature) ·
+[142](../Days/Day-142.md) configuration, profiles and secrets ·
+[143](../Days/Day-143.md) **Actuator** (probes, metrics, the endpoints that leak) ·
+[144](../Days/Day-144.md) DevTools, **fat jars and layered images**
 
-**Web (145–155)** — **Spring MVC architecture** (DispatcherServlet lifecycle end to end) ·
-`@RestController` and mappings · **DTOs vs entities** (never expose your entity) · Bean Validation ·
-**global exception handling** · response entities and Jackson control · filters vs interceptors vs
-AOP · pagination with `Pageable` · versioning and springdoc · `RestTemplate` vs `WebClient` · CORS
+**Web (145–155)** — ✅ **written** —
+[145](../Days/Day-145.md) ⭐ **Spring MVC architecture** (DispatcherServlet lifecycle end to end) ·
+[146](../Days/Day-146.md) `@RestController` and mappings ·
+[147](../Days/Day-147.md) ⭐ **DTOs vs entities** (never expose your entity) ·
+[148](../Days/Day-148.md) Bean Validation ·
+[149](../Days/Day-149.md) **global exception handling** (RFC 7807) ·
+[150](../Days/Day-150.md) response entities and Jackson control ·
+[151](../Days/Day-151.md) filters vs interceptors vs AOP ·
+[152](../Days/Day-152.md) pagination with `Pageable` ·
+[153](../Days/Day-153.md) versioning and springdoc ·
+[154](../Days/Day-154.md) ⭐ **HTTP clients** (`RestClient`/`WebClient`, timeouts, breakers) ·
+[155](../Days/Day-155.md) 🚪 CORS and reverse proxies
 
 **Data (156–168)** — JDBC and HikariCP · **JPA vs Hibernate vs Spring Data** · entity mapping ·
 relationships and owning side · **lazy vs eager, the N+1 problem, `LazyInitializationException`** ·

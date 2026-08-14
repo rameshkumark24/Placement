@@ -167,14 +167,30 @@ articulation drill.
 | [138](Day-138.md) | SpEL & property resolution · **SpEL as an RCE surface** | 4 |
 | [139](Day-139.md) | Boot starters · **the defaults you must change** | 4 |
 | [140](Day-140.md) | **Auto-configuration internals** — conditions, ordering, debugging | 4 |
+| [141](Day-141.md) | Boot project structure — **package by feature**, the main-class rule | 4 |
+| [142](Day-142.md) | Configuration & profiles — `@ConfigurationProperties`, secrets | 4 |
+| [143](Day-143.md) | **Actuator** — probes, metrics, and the endpoints that leak | 4 |
+| [144](Day-144.md) | DevTools, **fat jars**, layered images, container JVM flags | 4 |
+| [145](Day-145.md) | ⭐ **Spring MVC architecture** — the DispatcherServlet lifecycle | 4 |
+| [146](Day-146.md) | `@RestController` & mappings — Day 103's design, wired | 4 |
+| [147](Day-147.md) | ⭐ **DTOs vs entities** — four reasons, each fatal alone | 4 |
+| [148](Day-148.md) | **Bean Validation** — and where validation stops, business rules start | 4 |
+| [149](Day-149.md) | **Global exception handling** — RFC 7807 and the three gaps | 4 |
+| [150](Day-150.md) | `ResponseEntity` & **Jackson** — closing Day 106's four hazards | 4 |
+| [151](Day-151.md) | **Filters vs interceptors vs AOP** — choosing the right hook | 4 |
+| [152](Day-152.md) | **Pagination** with `Pageable` — and where Spring's default is wrong | 4 |
+| [153](Day-153.md) | Versioning & **springdoc** — the code-first tension | 4 |
+| [154](Day-154.md) | ⭐ **HTTP clients** — the timeout that isn't set, retries, breakers | 4 |
+| [155](Day-155.md) | 🚪 **CORS**, reverse proxies · **Web block exit gate** | 4 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**Stage 4: 11 of 57 written** — the core container and auto-configuration are done.
-**168 days written**, including all **eleven added gap days**.
+**Stage 4: 26 of 57 written** — core container, Boot and the **Web block** are all complete.
+**183 days written**, including all **eleven added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 141–155 — the rest of the Boot block (project structure, configuration,
-Actuator) and the **Web block**: DispatcherServlet, DTOs vs entities, validation, global exception
-handling, filters vs interceptors, pagination, and HTTP clients.
+**Next batch:** Days 156–168 — the **Data block**: JDBC and HikariCP, JPA vs Hibernate vs Spring
+Data, entity mapping and the owning side, ⭐ **lazy vs eager and the N+1 problem**, fetch strategies,
+the persistence context, Spring Data repositories, ⭐ **`@Transactional`** in full, auditing and
+locking, Flyway, and caching.
 
 ---
 
