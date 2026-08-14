@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-168 written** — ✅ **Stages 0-3 complete**, Stage 4 core/Boot/Web/Data complete — 197 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-185B written** — ✅ **Stages 0-4 complete** — 216 days. |
 
 ---
 
@@ -345,16 +345,29 @@ permission model, error format, pagination, rate limits, idempotency. Defend eve
 [167](../Days/Day-167.md) second-level cache ·
 [168](../Days/Day-168.md) 🚪 Spring Data Redis and `@Cacheable`
 
-**Security (169–176)** — **the filter chain** · `AuthenticationManager` and `UserDetailsService` ·
-password encoding · stateless APIs, sessions, CSRF · **JWT authentication** (custom filter, refresh
-rotation) · `@PreAuthorize` and RBAC · OAuth2 client and resource server · multi-tenancy and common
-misconfigurations
+**Security (169–176)** — ✅ **written** —
+[169](../Days/Day-169.md) ⭐ **the filter chain** ·
+[170](../Days/Day-170.md) `AuthenticationManager` and `UserDetailsService` ·
+[171](../Days/Day-171.md) password encoding and hash migration ·
+[172](../Days/Day-172.md) stateless APIs, sessions, **CSRF** ·
+[173](../Days/Day-173.md) ⭐ **JWT authentication** (custom filter, refresh rotation) ·
+[174](../Days/Day-174.md) `@PreAuthorize` and method security ·
+[175](../Days/Day-175.md) OAuth2 client and resource server ·
+[176](../Days/Day-176.md) 🚪 multi-tenancy, RLS, and the misconfiguration checklist
 
-**Advanced (177–185B)** — `@Async` · `@Scheduled` and the distributed scheduling problem (ShedLock) ·
-application events · WebSockets and STOMP · Resilience4j · structured logging and MDC ·
-testing with slices and MockMvc · **Testcontainers** · production (profiles, secrets, graceful
-shutdown, JVM flags, Docker) · 185A: Spring Kafka and RabbitMQ ·
-**185B ➕ Spring Boot 3 specifics — the Jakarta namespace migration, Micrometer, GraalVM native**
+**Advanced (177–185B)** — ✅ **written** —
+[177](../Days/Day-177.md) `@Async` ·
+[178](../Days/Day-178.md) `@Scheduled` and the distributed scheduling problem (**ShedLock**) ·
+[179](../Days/Day-179.md) application events ·
+[180](../Days/Day-180.md) WebSockets and STOMP ·
+[181](../Days/Day-181.md) **Resilience4j** ·
+[182](../Days/Day-182.md) structured logging, MDC and tracing ·
+[183](../Days/Day-183.md) testing with slices and MockMvc ·
+[184](../Days/Day-184.md) ⭐ **Testcontainers** ·
+[185](../Days/Day-185.md) production readiness (the 50-item checklist) ·
+[185A](../Days/Day-185A.md) Spring Kafka and RabbitMQ ·
+[185B](../Days/Day-185B.md) ➕🚪 **Spring Boot 3 specifics** — Jakarta migration, Micrometer, GraalVM
+native · **Stage 4 exit gate**
 
 </details>
 

@@ -196,15 +196,31 @@ articulation drill.
 | [166](Day-166.md) | **Flyway** — and ⭐ **expand/contract** zero-downtime migration | 4 |
 | [167](Day-167.md) | The second-level cache — and why you probably shouldn't | 4 |
 | [168](Day-168.md) | 🚪 Redis & `@Cacheable` · **Data block exit gate** | 4 |
+| [169](Day-169.md) | ⭐ **The Spring Security filter chain** | 4 |
+| [170](Day-170.md) | `AuthenticationManager`, `UserDetailsService`, authorities | 4 |
+| [171](Day-171.md) | **Password encoding** — and migrating 200k users | 4 |
+| [172](Day-172.md) | Stateless APIs, sessions, **CSRF** — when disabling is right | 4 |
+| [173](Day-173.md) | ⭐ **JWT authentication** — the filter, rotation, revocation | 4 |
+| [174](Day-174.md) | `@PreAuthorize` & method security — **closing IDOR** | 4 |
+| [175](Day-175.md) | **OAuth2** — resource server, client, and what not to build | 4 |
+| [176](Day-176.md) | 🚪 **Multi-tenancy & RLS** · **Security block exit gate** | 4 |
+| [177](Day-177.md) | `@Async` — executors, context propagation, lost exceptions | 4 |
+| [178](Day-178.md) | `@Scheduled` & **the distributed scheduling problem** | 4 |
+| [179](Day-179.md) | **Application events** — and where they stop being right | 4 |
+| [180](Day-180.md) | WebSockets & STOMP — **the three things that break at scale** | 4 |
+| [181](Day-181.md) | **Resilience4j** — and ⭐ **the composition order** | 4 |
+| [182](Day-182.md) | Structured logging, **MDC and tracing** | 4 |
+| [183](Day-183.md) | Testing — slices, MockMvc, **the context cache** | 4 |
+| [184](Day-184.md) | ⭐ **Testcontainers** — testing against the real thing | 4 |
+| [185](Day-185.md) | **Production readiness** — the 50-item checklist | 4 |
+| [185A](Day-185A.md) | Spring **Kafka & RabbitMQ** — losing nothing, duplicating safely | 4 |
+| [185B](Day-185B.md) | ➕🚪 **Boot 3 specifics** · **STAGE 4 EXIT GATE** | 4 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**Stage 4: 40 of 57 written** — core container, Boot, **Web** and **Data** are all complete.
-**197 days written**, including all **twelve added gap days**.
+**✅ Stage 4 (57/57)** — core container, Boot, Web, Data, Security and Advanced all complete.
+**216 days written**, including all **thirteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 169–185B — the **Security block** (the filter chain, `UserDetailsService`,
-stateless APIs and CSRF, **JWT authentication**, `@PreAuthorize`, OAuth2 resource server,
-multi-tenancy) and the **Advanced block** (`@Async`, `@Scheduled` and **ShedLock**, application
-events, WebSockets, **Resilience4j**, testing slices and **Testcontainers**, production hardening).
+**Next batch:** Days 186 onward — **Stage 5** opens.
 
 ---
 
