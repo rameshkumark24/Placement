@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-101 written** — ✅ **Stages 0, 1 and 2 complete**  - 124 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-112 written** — ✅ **Stages 0, 1 and 2 complete**, Stage 3 in progress - 135 days. |
 
 ---
 
@@ -251,17 +251,17 @@ write three ADRs, present the diff as a code review
 
 | Day | Lesson | Parallel |
 |---|---|---|
-| 102 | HTTP for backend engineers — idempotency, safety, caching headers, conditional requests | |
-| 103 | REST API design — resource modelling, URI design, nesting, HATEOAS reality check | |
-| 104 | Status codes & error contracts — RFC 7807, consistent error shapes | D-09 · SQL III — GROUP BY, HAVING, aggregates, window functions |
-| 105 | Request validation & the trust boundary — never trust the client | |
-| 106 | Serialization, content negotiation, JSON pitfalls (dates, floats, big ints) | |
-| 107 | Pagination — offset vs cursor vs keyset · why offset breaks at scale | D-10 · SQL IV — subqueries, correlated, CTEs, recursive CTEs |
-| 108 | Filtering, sorting, searching, sparse fieldsets | |
-| 109 | API versioning — URI, header, media type · deprecation policy | |
-| 110 | OpenAPI / Swagger — contract-first vs code-first | D-11 · **Indexes** — B+ tree, hash, clustered vs non-clustered, covering |
-| 111 | Authentication vs authorization — the distinction people fail on | |
-| 112 | **Password storage** — hashing vs encryption, salt, pepper, bcrypt/argon2, work factors | |
+| [102](../Days/Day-102.md) | HTTP for backend engineers — idempotency, safety, caching headers, conditional requests | |
+| [103](../Days/Day-103.md) | REST API design — resource modelling, URI design, nesting, HATEOAS reality check | |
+| [104](../Days/Day-104.md) | Status codes & error contracts — RFC 7807, consistent error shapes | D-09 · SQL III — GROUP BY, HAVING, aggregates, window functions |
+| [105](../Days/Day-105.md) | Request validation & the trust boundary — never trust the client | |
+| [106](../Days/Day-106.md) | Serialization, content negotiation, JSON pitfalls (dates, floats, big ints) | |
+| [107](../Days/Day-107.md) | Pagination — offset vs cursor vs keyset · why offset breaks at scale | D-10 · SQL IV — subqueries, correlated, CTEs, recursive CTEs |
+| [108](../Days/Day-108.md) | Filtering, sorting, searching, sparse fieldsets | |
+| [109](../Days/Day-109.md) | API versioning — URI, header, media type · deprecation policy | |
+| [110](../Days/Day-110.md) | OpenAPI / Swagger — contract-first vs code-first | D-11 · **Indexes** — B+ tree, hash, clustered vs non-clustered, covering |
+| [111](../Days/Day-111.md) | Authentication vs authorization — the distinction people fail on | |
+| [112](../Days/Day-112.md) | **Password storage** — hashing vs encryption, salt, pepper, bcrypt/argon2, work factors | |
 | 113 | Session-based auth — server-side sessions, stores, cookie flags | D-12 · Query processing — parsing, planning, cost estimation, EXPLAIN |
 | 114 | **JWT internals** — header/payload/signature, HS256 vs RS256, the `alg:none` attack | |
 | 115 | Access vs refresh tokens, rotation, revocation, browser storage | |

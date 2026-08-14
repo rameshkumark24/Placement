@@ -123,13 +123,26 @@ articulation drill.
 | [100](Day-100.md) | Code review, both sides · D-08 every join type, join order | 2 |
 | [100A](Day-100A.md) | ➕ **Supply chain** — CVEs, SBOMs, licences, **slopsquatting** | 2 |
 | [101](Day-101.md) | 🚪 Documentation & **ADRs** · Stage 2 exit gate | 2 |
+| [102](Day-102.md) | HTTP for backends — idempotency, caching, `ETag`/`If-Match` | 3 |
+| [103](Day-103.md) | REST design — resources, URIs, nesting, HATEOAS reality check | 3 |
+| [104](Day-104.md) | Status codes & **RFC 7807** error contracts · D-09 window functions | 3 |
+| [105](Day-105.md) | Validation & the **trust boundary** — mass assignment, IDOR | 3 |
+| [106](Day-106.md) | Serialization — the four JSON types that corrupt silently | 3 |
+| [107](Day-107.md) | **Pagination** — why offset breaks · D-10 CTEs, recursive CTEs | 3 |
+| [108](Day-108.md) | Filtering, sorting, search — allow-lists all the way down | 3 |
+| [109](Day-109.md) | **Versioning** — what breaks, and how to deprecate | 3 |
+| [110](Day-110.md) | OpenAPI, contract-first · ⭐ **D-11 indexes** — B+ trees, covering | 3 |
+| [111](Day-111.md) | **AuthN vs AuthZ** — the distinction people fail on | 3 |
+| [112](Day-112.md) | ⭐ **Password storage** — argon2, salt, pepper, work factors | 3 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (64/64).** **✅ Stage 2 complete (25/25).**
-**124 days written** — Stages 0, 1 and 2 finished, including **eleven added gap days**.
+**Stage 3: 11 of 33 written** — the API-design block is done and the security block has begun.
+**135 days written**, including all **eleven added gap days**.
 Parallel tracks: **C-01–C-14** (networks) ✅, **B-01–B-16** (operating systems) ✅,
-**D-01–D-08** (databases) in progress.
-**Next batch:** Days 102+ — Stage 3, Backend Engineering framework-free: HTTP servers, routing,
-serialization, auth, caching and API design built by hand before Spring is allowed to do any of it.
+**D-01–D-11** (databases) in progress.
+**Next batch:** Days 113–123 — the rest of the security block: sessions, ⭐ JWT internals, token
+rotation, API keys, OAuth 2.0, OIDC, authorization models, the OWASP API Top 10, SQL injection in
+depth, then caching and rate limiting.
 
 ---
 
