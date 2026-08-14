@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-155 written** — ✅ **Stages 0-3 complete**, Stage 4 core/Boot/Web complete — 183 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-168 written** — ✅ **Stages 0-3 complete**, Stage 4 core/Boot/Web/Data complete — 197 days. |
 
 ---
 
@@ -329,12 +329,21 @@ permission model, error format, pagination, rate limits, idempotency. Defend eve
 [154](../Days/Day-154.md) ⭐ **HTTP clients** (`RestClient`/`WebClient`, timeouts, breakers) ·
 [155](../Days/Day-155.md) 🚪 CORS and reverse proxies
 
-**Data (156–168)** — JDBC and HikariCP · **JPA vs Hibernate vs Spring Data** · entity mapping ·
-relationships and owning side · **lazy vs eager, the N+1 problem, `LazyInitializationException`** ·
-fetch strategies (join fetch, entity graphs, projections) · persistence context and dirty checking ·
-Spring Data repositories · 163b: injection safety in JPA · **`@Transactional`** (propagation,
-isolation, rollback rules, common bugs) · auditing and locking · Flyway · second-level cache ·
-Spring Data Redis and `@Cacheable`
+**Data (156–168)** — ✅ **written** —
+[156](../Days/Day-156.md) JDBC and **HikariCP** ·
+[157](../Days/Day-157.md) **JPA vs Hibernate vs Spring Data** ·
+[158](../Days/Day-158.md) entity mapping (ids, enums, `equals`) ·
+[159](../Days/Day-159.md) relationships and the **owning side** ·
+[160](../Days/Day-160.md) ⭐ **lazy vs eager, the N+1 problem, `LazyInitializationException`** ·
+[161](../Days/Day-161.md) fetch strategies (join fetch, entity graphs, projections) ·
+[162](../Days/Day-162.md) **persistence context** and dirty checking ·
+[163](../Days/Day-163.md) Spring Data repositories ·
+[163b](../Days/Day-163b.md) ➕ **injection safety in JPA** ·
+[164](../Days/Day-164.md) ⭐ **`@Transactional`** (propagation, isolation, rollback rules, the bugs) ·
+[165](../Days/Day-165.md) auditing and locking ·
+[166](../Days/Day-166.md) **Flyway** and expand/contract migration ·
+[167](../Days/Day-167.md) second-level cache ·
+[168](../Days/Day-168.md) 🚪 Spring Data Redis and `@Cacheable`
 
 **Security (169–176)** — **the filter chain** · `AuthenticationManager` and `UserDetailsService` ·
 password encoding · stateless APIs, sessions, CSRF · **JWT authentication** (custom filter, refresh

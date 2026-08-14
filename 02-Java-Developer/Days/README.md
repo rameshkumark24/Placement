@@ -182,15 +182,29 @@ articulation drill.
 | [153](Day-153.md) | Versioning & **springdoc** — the code-first tension | 4 |
 | [154](Day-154.md) | ⭐ **HTTP clients** — the timeout that isn't set, retries, breakers | 4 |
 | [155](Day-155.md) | 🚪 **CORS**, reverse proxies · **Web block exit gate** | 4 |
+| [156](Day-156.md) | JDBC & **HikariCP** — the pool is the bottleneck | 4 |
+| [157](Day-157.md) | JPA vs Hibernate vs Spring Data — three layers | 4 |
+| [158](Day-158.md) | Entity mapping — ids, enums, **`equals` for entities** | 4 |
+| [159](Day-159.md) | Relationships & **the owning side** | 4 |
+| [160](Day-160.md) | ⭐ **Lazy vs eager, N+1, `LazyInitializationException`** | 4 |
+| [161](Day-161.md) | Fetch strategies — join fetch, graphs, **projections** | 4 |
+| [162](Day-162.md) | **The persistence context** — dirty checking, flush order | 4 |
+| [163](Day-163.md) | Spring Data repositories — and where they stop helping | 4 |
+| [163b](Day-163b.md) | ➕ **Injection safety in JPA** — where the ORM does not protect you | 4 |
+| [164](Day-164.md) | ⭐ **`@Transactional`** — propagation, rollback, the bugs | 4 |
+| [165](Day-165.md) | **Auditing & locking** — optimistic, pessimistic, Envers | 4 |
+| [166](Day-166.md) | **Flyway** — and ⭐ **expand/contract** zero-downtime migration | 4 |
+| [167](Day-167.md) | The second-level cache — and why you probably shouldn't | 4 |
+| [168](Day-168.md) | 🚪 Redis & `@Cacheable` · **Data block exit gate** | 4 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**Stage 4: 26 of 57 written** — core container, Boot and the **Web block** are all complete.
-**183 days written**, including all **eleven added gap days**.
+**Stage 4: 40 of 57 written** — core container, Boot, **Web** and **Data** are all complete.
+**197 days written**, including all **twelve added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 156–168 — the **Data block**: JDBC and HikariCP, JPA vs Hibernate vs Spring
-Data, entity mapping and the owning side, ⭐ **lazy vs eager and the N+1 problem**, fetch strategies,
-the persistence context, Spring Data repositories, ⭐ **`@Transactional`** in full, auditing and
-locking, Flyway, and caching.
+**Next batch:** Days 169–185B — the **Security block** (the filter chain, `UserDetailsService`,
+stateless APIs and CSRF, **JWT authentication**, `@PreAuthorize`, OAuth2 resource server,
+multi-tenancy) and the **Advanced block** (`@Async`, `@Scheduled` and **ShedLock**, application
+events, WebSockets, **Resilience4j**, testing slices and **Testcontainers**, production hardening).
 
 ---
 
