@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-262 written** — ✅ **Stages 0-5 complete**, Stage 7 design + backend complete — 259 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-287 written** — ✅ **Stages 0-5 complete**, ✅ **the Stage 7 flagship is complete** — 274 days. |
 
 ---
 
@@ -434,9 +434,9 @@ live · defend a Postgres-vs-Mongo choice for a system described to you
 |---|---|
 | 248–252 | ✅ **written** — Flagship: [248](../Days/Day-248.md) choosing it · [249](../Days/Day-249.md) requirements and the state machine · [250](../Days/Day-250.md) domain modelling and the ER diagram · [251](../Days/Day-251.md) the API contract **before any code** · [252](../Days/Day-252.md) 🚪 the design review gate |
 | 253–262 | ✅ **written** — Flagship backend: [253](../Days/Day-253.md) skeleton and deploy · [254](../Days/Day-254.md) the domain layer · [255](../Days/Day-255.md) persistence · [256](../Days/Day-256.md) services · [257](../Days/Day-257.md) the web layer · [258](../Days/Day-258.md) ⭐ **JWT + refresh rotation** · [259](../Days/Day-259.md) authorization and tenancy · [260](../Days/Day-260.md) the API surface · [261](../Days/Day-261.md) testing · [262](../Days/Day-262.md) 🚪 the backend review gate |
-| 263–270 | Flagship: data & async — N+1 solved *and verified*, Redis, jobs, WebSockets, uploads |
+| 263–270 | ✅ **written** — Flagship data & async: [263](../Days/Day-263.md) ⭐ **the outbox** · [264](../Days/Day-264.md) jobs · [265](../Days/Day-265.md) `@Async` · [266](../Days/Day-266.md) caching, measured · [267](../Days/Day-267.md) uploads · [268](../Days/Day-268.md) real-time · [269](../Days/Day-269.md) search and reporting · [270](../Days/Day-270.md) 🚪 the data & async gate |
 | 271–280 | Flagship: frontend ([Stage 6 →](../../03-Web-Developer/)) |
-| 281–287 | Flagship: production — 80%+ coverage with Testcontainers, Docker, CI, deployed, monitored |
+| 281–287 | ✅ **written** — Flagship production: [281](../Days/Day-281.md) coverage and quality gates · [282](../Days/Day-282.md) the container image · [283](../Days/Day-283.md) the pipeline · [284](../Days/Day-284.md) infrastructure · [285](../Days/Day-285.md) observability · [286](../Days/Day-286.md) ⭐ **load testing and chaos** · [287](../Days/Day-287.md) 🚪 the production readiness gate |
 | 288–297 | NexOps rebuild by hand — re-derive the data model, rebuild the risk engine and RAG pipeline, write the ADR you never wrote |
 
 **🚪 Exit gate** — 45-minute project deep-dive where every architectural decision is attacked

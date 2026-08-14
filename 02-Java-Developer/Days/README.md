@@ -264,14 +264,35 @@ articulation drill.
 | [260](Day-260.md) | 🏗️ Pagination, filtering, caching, rate limiting, metrics | 7 |
 | [261](Day-261.md) | 🏗️ **Testing** — the eight categories, and a **load test** | 7 |
 | [262](Day-262.md) | 🚪🏗️ **The backend review gate** — a 42-row audit | 7 |
+| [263](Day-263.md) | 🏗️ **The outbox in anger** — the dual write, actually solved | 7 |
+| [264](Day-264.md) | 🏗️ **Background jobs** — idempotent claim beats locking | 7 |
+| [265](Day-265.md) | 🏗️ `@Async` — bounded queues, context, ⭐ **what may be lost** | 7 |
+| [266](Day-266.md) | 🏗️ **Caching — measured**, and at least one deleted | 7 |
+| [267](Day-267.md) | 🏗️ **File uploads** — presigned URLs, ⭐ eight attacks | 7 |
+| [268](Day-268.md) | 🏗️ **Real-time** — SSE vs WebSockets, honestly | 7 |
+| [269](Day-269.md) | 🏗️ Search & reporting — the read path with different rules | 7 |
+| [270](Day-270.md) | 🚪🏗️ **Data & async gate** — ⭐ the failure drill | 7 |
+
+> **Days 271–280 are the flagship frontend**, in
+> [`03-Web-Developer`](../../03-Web-Developer/). The Java track resumes at Day 281.
+
+| Day | Focus | Stage |
+|---|---|---|
+| [281](Day-281.md) | 🏗️ **Coverage & quality gates** — ⭐ mutation testing | 7 |
+| [282](Day-282.md) | 🏗️ **The container image** — layered, non-root, sized | 7 |
+| [283](Day-283.md) | 🏗️ **The pipeline** — migrations, deploy, ⭐ **tested rollback** | 7 |
+| [284](Day-284.md) | 🏗️ **Infrastructure** — ⭐ the failure matrix, a timed restore | 7 |
+| [285](Day-285.md) | 🏗️ **Observability** — ⭐ every alert fired, ⭐ a postmortem | 7 |
+| [286](Day-286.md) | 🏗️ **Load testing** & ⭐ **breaking it on purpose** | 7 |
+| [287](Day-287.md) | 🚪🏗️ **Production readiness gate** — ⭐ **the flagship is complete** | 7 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **Stage 7: 15 of 50** — design and backend complete.
-**259 days written**, including all **thirteen added gap days**.
+**✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **Stage 7: 30 of 50** — ✅ **the flagship is complete**
+(design, backend, data/async and production). **274 days written**, including all **thirteen added
+gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 263–270 — **data and async in anger** (the outbox, jobs, WebSockets, uploads),
-then 281–287 production and 288–297 the **NexOps rebuild**.
-Days 271–280 are the flagship frontend, in [`03-Web-Developer`](../../03-Web-Developer/).
+**Next batch:** Days 288–297 — the **NexOps rebuild by hand**: re-deriving the data model,
+rebuilding the risk engine and the RAG pipeline, and writing the ADR that was never written.
 
 ---
 
