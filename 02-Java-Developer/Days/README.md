@@ -98,14 +98,25 @@ articulation drill.
 | [076](Day-076.md) | Debugging — thread dumps, heap dumps, **JFR**, the triage order | 1 |
 | [076A](Day-076A.md) | ➕ **Classpath & class loading** — the five errors, jar hell | 1 |
 | [077](Day-077.md) | 🚪 **Java traps drill** (40 Qs) · Stage 1 exit gate | 1 |
+| [078](Day-078.md) | Filesystem, permissions, users, links · D-01 why databases exist | 2 |
+| [079](Day-079.md) | Shell — pipes, redirection, exit codes, expansion, quoting | 2 |
+| [080](Day-080.md) | `grep` `sed` `awk` `find` `xargs` — a log file into an answer | 2 |
+| [081](Day-081.md) | Processes, **signals**, graceful shutdown, systemd · D-02 relational model | 2 |
+| [082](Day-082.md) | `ssh`, tunnels, `curl` timing, `journalctl` | 2 |
+| [083](Day-083.md) | Bash — `set -euo pipefail`, `trap`, shellcheck | 2 |
+| [084](Day-084.md) | ⭐ **The Git object model** — build a commit by hand · D-03 ER modelling | 2 |
+| [085](Day-085.md) | Staging, `add -p`, `.gitignore`, commit messages, leaked secrets | 2 |
+| [086](Day-086.md) | Branching, fast-forward, three-way merge, **merge vs rebase** | 2 |
+| [087](Day-087.md) | Conflicts, **reflog**, reset/revert/restore, **bisect** · D-04 FDs & closure | 2 |
+| [088](Day-088.md) | Remotes, trunk-based vs git-flow, **PR discipline** | 2 |
 
-**✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (64/64)** — JVM/memory, language core, OOP,
-collections, generics, functional/streams, reliability, the full concurrency block and tooling.
-**99 days written.** Both parallel tracks that ran alongside are finished: **C-01–C-14** (networks,
-Stage 0) and **B-01–B-16** (operating systems, Stage 1).
-**Next batch:** Days 078+ — Stage 2, Professional Engineering: Linux, the Git object model, clean
-code, SOLID, design patterns and testing philosophy, with the **D-series** (databases) as the new
-parallel track.
+**✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (64/64).** **Stage 2: 11 of 25 written** —
+the Linux and Git blocks are done. **110 days written.**
+The networks (**C-01–C-14**) and OS (**B-01–B-16**) tracks are finished; the **D-series**
+(databases) now runs alongside — D-01…D-04 done.
+**Next batch:** Days 089–101 — the craft block: clean code, SOLID, design patterns, refactoring,
+testing philosophy, TDD, debugging as a methodology, code review, the added supply-chain day
+(100A), and documentation — closing Stage 2.
 
 ---
 

@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-077 written** — ✅ **Stages 0 and 1 complete**, 99 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-088 written** — ✅ **Stages 0 and 1 complete**, Stage 2 in progress - 110 days. |
 
 ---
 
@@ -213,17 +213,17 @@ make `i++` safe · live-code a thread-safe bounded blocking queue, no reference
 
 | Day | Lesson | Parallel |
 |---|---|---|
-| 078 | Filesystem hierarchy, paths, permissions, users, chmod/chown | D-01 · Why databases exist · DBMS architecture |
-| 079 | Shell fundamentals — pipes, redirection, exit codes, env vars | |
-| 080 | Text processing — grep, sed, awk, find, xargs, sort, uniq | |
-| 081 | Processes & services — ps, top, kill, signals, systemd | D-02 · Relational model — relations, tuples, domains, keys |
-| 082 | Networking & files on Linux — ssh, scp, curl, journalctl | |
-| 083 | Bash scripting — variables, loops, functions, `set -euo pipefail` | |
-| 084 | **Git object model** — blob, tree, commit, ref · content-addressing | D-03 · ER modelling — entities, cardinality, ER → relational |
-| 085 | Staging area, commits, `.gitignore`, commit messages that survive review | |
-| 086 | Branching, merge vs rebase, fast-forward, three-way merge | |
-| 087 | Conflicts, reflog, reset vs revert vs restore, cherry-pick, bisect | D-04 · Functional dependencies · closure · minimal cover |
-| 088 | Remotes, workflows (trunk-based, git-flow), PR discipline | |
+| [078](../Days/Day-078.md) | Filesystem hierarchy, paths, permissions, users, chmod/chown | D-01 · Why databases exist · DBMS architecture |
+| [079](../Days/Day-079.md) | Shell fundamentals — pipes, redirection, exit codes, env vars | |
+| [080](../Days/Day-080.md) | Text processing — grep, sed, awk, find, xargs, sort, uniq | |
+| [081](../Days/Day-081.md) | Processes & services — ps, top, kill, signals, systemd | D-02 · Relational model — relations, tuples, domains, keys |
+| [082](../Days/Day-082.md) | Networking & files on Linux — ssh, scp, curl, journalctl | |
+| [083](../Days/Day-083.md) | Bash scripting — variables, loops, functions, `set -euo pipefail` | |
+| [084](../Days/Day-084.md) | **Git object model** — blob, tree, commit, ref · content-addressing | D-03 · ER modelling — entities, cardinality, ER → relational |
+| [085](../Days/Day-085.md) | Staging area, commits, `.gitignore`, commit messages that survive review | |
+| [086](../Days/Day-086.md) | Branching, merge vs rebase, fast-forward, three-way merge | |
+| [087](../Days/Day-087.md) | Conflicts, reflog, reset vs revert vs restore, cherry-pick, bisect | D-04 · Functional dependencies · closure · minimal cover |
+| [088](../Days/Day-088.md) | Remotes, workflows (trunk-based, git-flow), PR discipline | |
 | 089 | Clean code — naming, function size, side effects, when comments are a failure | |
 | 090 | SOLID I — Single Responsibility, Open/Closed | |
 | 091 | SOLID II — Liskov, Interface Segregation, Dependency Inversion | D-05 · Normalization — 1NF→BCNF · deliberate denormalization |
