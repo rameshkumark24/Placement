@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-202 written** — ✅ **Stages 0-4 complete**, Stage 5 Postgres block complete — 233 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-213 written** — ✅ **Stages 0-5 complete** — 244 days. |
 
 ---
 
@@ -403,13 +403,21 @@ fails on self-invocation · diagnose and fix an N+1 live · empty directory → 
 [201](../Days/Day-201.md) replication, failover, PITR ·
 [202](../Days/Day-202.md) 🚪 tuning with `pg_stat_statements`
 
-**Redis (203–209)** — single-threaded event loop · data structures (incl. sorted sets, bitmaps,
-HyperLogLog) · RDB vs AOF · caching patterns, key design, eviction · **distributed locks and why
-naive SETNX is wrong**, the Redlock debate · rate limiting with sorted sets · Pub/Sub and Streams
+**Redis (203–209)** — ✅ **written** —
+[203](../Days/Day-203.md) single-threaded event loop ·
+[204](../Days/Day-204.md) data structures (sorted sets, bitmaps, **HyperLogLog**) ·
+[205](../Days/Day-205.md) RDB vs AOF ·
+[206](../Days/Day-206.md) caching patterns, key design, eviction ·
+[207](../Days/Day-207.md) ⭐ **distributed locks and why naive SETNX is wrong**, the Redlock debate ·
+[208](../Days/Day-208.md) rate limiting with sorted sets ·
+[209](../Days/Day-209.md) 🚪 Pub/Sub and Streams
 
-**MongoDB (210–213)** — document model, when it fits and when it's a mistake · embedding vs
-referencing · indexes and aggregation pipeline · transactions, replica sets, sharding ·
-**decision framework: Postgres vs Mongo**
+**MongoDB (210–213)** — ✅ **written** —
+[210](../Days/Day-210.md) document model, when it fits and when it's a mistake ·
+[211](../Days/Day-211.md) ⭐ **embedding vs referencing** ·
+[212](../Days/Day-212.md) indexes (ESR) and the aggregation pipeline ·
+[213](../Days/Day-213.md) 🚪🚪 transactions, replica sets, sharding ·
+**decision framework: Postgres vs Mongo** · **Stage 5 exit gate**
 
 </details>
 

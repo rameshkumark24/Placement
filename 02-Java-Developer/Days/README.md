@@ -232,15 +232,24 @@ articulation drill.
 | [200](Day-200.md) | **Partitioning** — and what it is not | 5 |
 | [201](Day-201.md) | **Replication, failover, PITR** — ⭐ RPO and RTO | 5 |
 | [202](Day-202.md) | 🚪 **`pg_stat_statements`** · **Postgres block gate** | 5 |
+| [203](Day-203.md) | **Redis architecture** — the single-threaded event loop | 5 |
+| [204](Day-204.md) | **Data structures** — sorted sets, bitmaps, **HyperLogLog** | 5 |
+| [205](Day-205.md) | Persistence — **RDB vs AOF**, and what "durable" means here | 5 |
+| [206](Day-206.md) | Caching patterns, **key design**, eviction | 5 |
+| [207](Day-207.md) | ⭐ **Distributed locks** — why `SETNX` is wrong · **Redlock** | 5 |
+| [208](Day-208.md) | **Rate limiting** — the four algorithms in Lua | 5 |
+| [209](Day-209.md) | 🚪 **Pub/Sub & Streams** · **Redis block gate** | 5 |
+| [210](Day-210.md) | **MongoDB** — the document model, and when it's a mistake | 5 |
+| [211](Day-211.md) | ⭐ **Embedding vs referencing** — the only decision that matters | 5 |
+| [212](Day-212.md) | Indexes (**ESR**) & the **aggregation pipeline** | 5 |
+| [213](Day-213.md) | 🚪🚪 Transactions, sharding · **STAGE 5 EXIT GATE** | 5 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**✅ Stage 4 (57/57).** **Stage 5: 17 of 28** — the **PostgreSQL block** is complete.
-**233 days written**, including all **thirteen added gap days**.
+**✅ Stage 4 (57/57).** **✅ Stage 5 (28/28)** — Postgres, Redis and MongoDB all complete.
+**244 days written**, including all **thirteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 203–213 — **Redis** (the single-threaded event loop, data structures, RDB vs
-AOF, eviction, ⭐ **distributed locks and the Redlock debate**, rate limiting with sorted sets,
-Streams) and **MongoDB** (the document model, embedding vs referencing, aggregation, sharding) ·
-🚪 **Stage 5 exit gate**.
+**Next batch:** Day 214 onward — **Stage 7** (full-stack integration and the two flagship projects).
+Stage 6 is the frontend track in [`03-Web-Developer`](../../03-Web-Developer/).
 
 ---
 
