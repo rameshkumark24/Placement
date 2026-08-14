@@ -156,13 +156,25 @@ articulation drill.
 | [129A](Day-129A.md) | 🐳 Docker I — containers, images, the commands | 3 |
 | [129B](Day-129B.md) | 🐳 Docker II — layers, cache, **the JVM in a container** | 3 |
 | [129C](Day-129C.md) | 🐳 Docker III — compose stack · 🚪 **Stage 3 exit gate** | 3 |
+| [130](Day-130.md) | **Why Spring exists** — build the problem first | 4 |
+| [131](Day-131.md) | DI — constructor vs setter vs **field (never)** | 4 |
+| [132](Day-132.md) | The IoC container — bean definitions, **the two-phase startup** | 4 |
+| [133](Day-133.md) | The bean lifecycle · **graceful shutdown** | 4 |
+| [134](Day-134.md) | Scopes · ⭐ **the singleton-with-state bug** | 4 |
+| [135](Day-135.md) | Component scanning · **package-by-feature** | 4 |
+| [136](Day-136.md) | `@Qualifier`, `@Primary`, `@Profile` | 4 |
+| [137](Day-137.md) | ⭐ **AOP & proxies** — why `@Transactional` fails on self-invocation | 4 |
+| [138](Day-138.md) | SpEL & property resolution · **SpEL as an RCE surface** | 4 |
+| [139](Day-139.md) | Boot starters · **the defaults you must change** | 4 |
+| [140](Day-140.md) | **Auto-configuration internals** — conditions, ordering, debugging | 4 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**157 days written** — four stages complete, including all **eleven added gap days**.
-Parallel tracks: **C-01–C-14** (networks) ✅, **B-01–B-16** (operating systems) ✅,
-**D-01–D-16** (databases) ✅ — all three foundation tracks finished.
-**Next batch:** Days 130+ — Stage 4, Spring & Spring Boot, which now reads as a set of decisions
-you can evaluate rather than annotations to memorise.
+**Stage 4: 11 of 57 written** — the core container and auto-configuration are done.
+**168 days written**, including all **eleven added gap days**.
+Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
+**Next batch:** Days 141–155 — the rest of the Boot block (project structure, configuration,
+Actuator) and the **Web block**: DispatcherServlet, DTOs vs entities, validation, global exception
+handling, filters vs interceptors, pagination, and HTTP clients.
 
 ---
 

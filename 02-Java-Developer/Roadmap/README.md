@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-129C written** — ✅ **Stages 0-3 complete**  - 157 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-140 written** — ✅ **Stages 0-3 complete**, Stage 4 in progress — 168 days. |
 
 ---
 
@@ -296,14 +296,21 @@ permission model, error format, pagination, rate limits, idempotency. Defend eve
 <details>
 <summary><b>Days 130–185B — expand</b></summary>
 
-**Core container (130–138)** — why Spring exists · **DI** (constructor vs setter vs field) · IoC
-container · bean lifecycle · bean scopes and the singleton-with-state bug · component scanning ·
-`@Qualifier`/`@Primary`/`@Profile` · **AOP** (JDK vs CGLIB proxies, why self-invocation breaks
-`@Transactional`) · SpEL and property resolution
+**Core container (130–138)** — ✅ **written** —
+[130](../Days/Day-130.md) why Spring exists ·
+[131](../Days/Day-131.md) **DI** (constructor vs setter vs field) ·
+[132](../Days/Day-132.md) IoC container ·
+[133](../Days/Day-133.md) bean lifecycle ·
+[134](../Days/Day-134.md) bean scopes and the singleton-with-state bug ·
+[135](../Days/Day-135.md) component scanning ·
+[136](../Days/Day-136.md) `@Qualifier`/`@Primary`/`@Profile` ·
+[137](../Days/Day-137.md) ⭐ **AOP** (JDK vs CGLIB proxies, why self-invocation breaks
+`@Transactional`) ·
+[138](../Days/Day-138.md) SpEL and property resolution
 
-**Boot (139–144)** — starters and opinionated defaults · **auto-configuration internals**
-(`@Conditional`, how to debug it) · project structure · configuration and profiles · Actuator ·
-DevTools and fat JARs
+**Boot (139–144)** — [139](../Days/Day-139.md) ✅ starters and opinionated defaults ·
+[140](../Days/Day-140.md) ✅ **auto-configuration internals** (`@Conditional`, how to debug it) ·
+141 project structure · 142 configuration and profiles · 143 Actuator · 144 DevTools and fat JARs
 
 **Web (145–155)** — **Spring MVC architecture** (DispatcherServlet lifecycle end to end) ·
 `@RestController` and mappings · **DTOs vs entities** (never expose your entity) · Bean Validation ·
