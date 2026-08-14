@@ -76,12 +76,27 @@ articulation drill.
 | [058](Day-058.md) | Method references · **where `Optional` does not belong** | 1 |
 | [059](Day-059.md) | Streams I — laziness, short-circuiting, infinite sources | 1 |
 | [060](Day-060.md) | Streams II — collectors, grouping, the real cost of parallel · B-12 inodes | 1 |
+| [061](Day-061.md) | Exceptions — the hierarchy, checked vs unchecked, try-with-resources | 1 |
+| [062](Day-062.md) | Exception **design** — where the boundary goes, never swallow | 1 |
+| [063](Day-063.md) | I/O and NIO — decorators, charsets, buffering, `Path`, `ByteBuffer` | 1 |
+| [063A](Day-063A.md) | ➕ **Java serialization** — and why it is an RCE hazard | 1 |
+| [063B](Day-063B.md) | ➕ **Regex** — greedy/lazy/possessive · **catastrophic backtracking (ReDoS)** | 1 |
+| [064](Day-064.md) | Threads — lifecycle, interruption, daemons · B-13 I/O models, `epoll` | 1 |
+| [065](Day-065.md) | ⭐ **The Java Memory Model** — happens-before *(exit-gate item)* | 1 |
+| [066](Day-066.md) | `synchronized`, intrinsic locks, lock scope · what `volatile` does **not** do | 1 |
+| [066A](Day-066A.md) | ➕ **`ThreadLocal`** — how Spring knows the current user · the pool leak | 1 |
+| [067](Day-067.md) | `ReentrantLock`, `ReadWriteLock`, `Condition`, `wait`/`notify` · B-14 `epoll` | 1 |
+| [068](Day-068.md) | Atomics, **CAS**, `LongAdder`, the **ABA** problem | 1 |
+| [069](Day-069.md) | Executors — the submission algorithm, pool sizing, `CompletableFuture` | 1 |
+| [070](Day-070.md) | Latch, semaphore, barrier · **producer-consumer and backpressure** | 1 |
+| [071](Day-071.md) | Deadlock, livelock, starvation — reproduce each · B-15 Linux in practice | 1 |
+| [072](Day-072.md) | Virtual threads — what changes and **what doesn't** | 1 |
 
-**✅ Stage 0 complete (22/22).** **Stage 1: 43 of 64 written** — JVM/memory, language-core, OOP,
-collections, generics, functional and streams blocks done.
-**Next batch:** Days 061–072 — exceptions and I/O, then the concurrency block: threads, ⭐ the Java
-Memory Model (065), `volatile`, the added `ThreadLocal` day (066A), locks, CAS, executors, and
-virtual threads.
+**✅ Stage 0 complete (22/22).** **Stage 1: 57 of 64 written** — JVM/memory, language-core, OOP,
+collections, generics, functional/streams, reliability and the **full concurrency block** done.
+**Next batch:** Days 073–077 — Maven & Gradle, the added logging day (073A), JUnit 5, Mockito,
+debugging (thread dumps, heap dumps, JFR), the added classpath day (076A), and the 40-question
+interview-traps drill that closes Stage 1.
 
 ---
 
@@ -91,8 +106,8 @@ virtual threads.
 - [ ] Custom `ArrayList` written from scratch → [046](Day-046.md)
 - [ ] Custom `HashMap` written from scratch → [048](Day-048.md)
 - [ ] **Whiteboard `HashMap` internals** — collisions, treeification, resize → [048](Day-048.md)
-- [ ] Explain the JMM and why `volatile` doesn't make `i++` safe → Days 065–066
-- [ ] Live-code a thread-safe bounded blocking queue → [043](Day-043.md)
+- [ ] Explain the JMM and why `volatile` doesn't make `i++` safe → ⭐ [065](Day-065.md), [066](Day-066.md)
+- [ ] Live-code a thread-safe bounded blocking queue → [067](Day-067.md), [070](Day-070.md)
 
 ---
 

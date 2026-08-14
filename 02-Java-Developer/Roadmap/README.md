@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-060 written** (Stage 0 complete, Stage 1 in progress). |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-072 written** (Stage 0 complete, Stage 1 in progress). |
 
 ---
 
@@ -172,25 +172,25 @@ explain HTML vs server to a non-technical person
 ### Exceptions, I/O
 | Day | Lesson | Parallel |
 |---|---|---|
-| 061 | Exceptions — hierarchy, checked vs unchecked, custom, try-with-resources | |
-| 062 | Exception design — when to wrap, when to propagate, never swallow | |
-| 063 | I/O and NIO — streams, readers, `Files`, `Path`, buffering | |
-| **063A** | ➕ **Java serialization** — `Serializable`, `serialVersionUID`, `transient` · **why it's an RCE hazard**, and why you use JSON | |
-| **063B** | ➕ **Regex in Java** — `Pattern`/`Matcher`, groups, greedy vs lazy · **catastrophic backtracking (ReDoS)** | |
+| [061](../Days/Day-061.md) | Exceptions — hierarchy, checked vs unchecked, custom, try-with-resources | |
+| [062](../Days/Day-062.md) | Exception design — when to wrap, when to propagate, never swallow | |
+| [063](../Days/Day-063.md) | I/O and NIO — streams, readers, `Files`, `Path`, buffering | |
+| **[063A](../Days/Day-063A.md)** | ➕ **Java serialization** — `Serializable`, `serialVersionUID`, `transient` · **why it's an RCE hazard**, and why you use JSON | |
+| **[063B](../Days/Day-063B.md)** | ➕ **Regex in Java** — `Pattern`/`Matcher`, groups, greedy vs lazy · **catastrophic backtracking (ReDoS)** | |
 
 ### Concurrency
 | Day | Lesson | Parallel |
 |---|---|---|
-| 064 | Threads — creation, lifecycle, `Runnable` vs `Callable`, daemon threads | B-13 · I/O models — blocking, non-blocking, multiplexed (epoll) |
-| 065 | ⭐ **The Java Memory Model** — visibility, happens-before, reordering | |
-| 066 | `synchronized`, intrinsic locks, `volatile` — and what `volatile` does *not* do | |
-| **066A** | ➕ **`ThreadLocal`** — how Spring knows "the current user" · **the thread-pool memory leak** | |
-| 067 | `java.util.concurrent` — `ReentrantLock`, `ReadWriteLock`, `Condition` · `wait`/`notify`/`notifyAll` | B-14 · Why epoll matters — the foundation under every async runtime |
-| 068 | Atomics, CAS, `AtomicInteger`, the ABA problem | |
-| 069 | `ExecutorService`, thread pools, sizing them, `Future`, `CompletableFuture` | |
-| 070 | `CountDownLatch`, `Semaphore`, `CyclicBarrier`, producer-consumer | |
-| 071 | Deadlock, livelock, starvation — reproduce each one yourself | B-15 · Linux in practice — /proc, ps, top, strace, lsof |
-| 072 | Virtual threads (Project Loom) — what changes and what doesn't | |
+| [064](../Days/Day-064.md) | Threads — creation, lifecycle, `Runnable` vs `Callable`, daemon threads | B-13 · I/O models — blocking, non-blocking, multiplexed (epoll) |
+| [065](../Days/Day-065.md) | ⭐ **The Java Memory Model** — visibility, happens-before, reordering | |
+| [066](../Days/Day-066.md) | `synchronized`, intrinsic locks, `volatile` — and what `volatile` does *not* do | |
+| **[066A](../Days/Day-066A.md)** | ➕ **`ThreadLocal`** — how Spring knows "the current user" · **the thread-pool memory leak** | |
+| [067](../Days/Day-067.md) | `java.util.concurrent` — `ReentrantLock`, `ReadWriteLock`, `Condition` · `wait`/`notify`/`notifyAll` | B-14 · Why epoll matters — the foundation under every async runtime |
+| [068](../Days/Day-068.md) | Atomics, CAS, `AtomicInteger`, the ABA problem | |
+| [069](../Days/Day-069.md) | `ExecutorService`, thread pools, sizing them, `Future`, `CompletableFuture` | |
+| [070](../Days/Day-070.md) | `CountDownLatch`, `Semaphore`, `CyclicBarrier`, producer-consumer | |
+| [071](../Days/Day-071.md) | Deadlock, livelock, starvation — reproduce each one yourself | B-15 · Linux in practice — /proc, ps, top, strace, lsof |
+| [072](../Days/Day-072.md) | Virtual threads (Project Loom) — what changes and what doesn't | |
 
 ### Tooling
 | Day | Lesson | Parallel |
