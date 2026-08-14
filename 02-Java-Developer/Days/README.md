@@ -147,14 +147,22 @@ articulation drill.
 | [121](Day-121.md) | Invalidation, **stampede**, stale-while-revalidate | 3 |
 | [122](Day-122.md) | ⭐ **Rate limiting** — four algorithms, distributed | 3 |
 | [123](Day-123.md) | **Idempotency & retries** · D-15 MVCC, 2PL, optimistic | 3 |
+| [124](Day-124.md) | Background jobs · **the dual-write problem and the outbox** | 3 |
+| [125](Day-125.md) | Queues & brokers — ack, DLQ, visibility timeout, Kafka | 3 |
+| [126](Day-126.md) | File uploads — **presigned URLs** · D-16 NoSQL, **CAP** | 3 |
+| [127](Day-127.md) | Structured logging & **correlation IDs** | 3 |
+| [128](Day-128.md) | Metrics, RED/USE · ⭐ **liveness vs readiness** | 3 |
+| [129](Day-129.md) | Webhooks — signatures, replay, SSRF when sending | 3 |
+| [129A](Day-129A.md) | 🐳 Docker I — containers, images, the commands | 3 |
+| [129B](Day-129B.md) | 🐳 Docker II — layers, cache, **the JVM in a container** | 3 |
+| [129C](Day-129C.md) | 🐳 Docker III — compose stack · 🚪 **Stage 3 exit gate** | 3 |
 
-**✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (64/64).** **✅ Stage 2 complete (25/25).**
-**Stage 3: 24 of 33 written** — API design, security, caching and reliability blocks all done.
-**148 days written**, including all **eleven added gap days**.
+**✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
+**157 days written** — four stages complete, including all **eleven added gap days**.
 Parallel tracks: **C-01–C-14** (networks) ✅, **B-01–B-16** (operating systems) ✅,
-**D-01–D-15** (databases) in progress.
-**Next batch:** Days 124–129C — background jobs, task queues and brokers, file uploads,
-observability, webhooks, and the Docker primer that closes Stage 3.
+**D-01–D-16** (databases) ✅ — all three foundation tracks finished.
+**Next batch:** Days 130+ — Stage 4, Spring & Spring Boot, which now reads as a set of decisions
+you can evaluate rather than annotations to memorise.
 
 ---
 

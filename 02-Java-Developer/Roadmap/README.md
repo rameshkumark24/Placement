@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-123 written** — ✅ **Stages 0, 1 and 2 complete**, Stage 3 in progress - 148 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-129C written** — ✅ **Stages 0-3 complete**  - 157 days. |
 
 ---
 
@@ -275,16 +275,16 @@ write three ADRs, present the diff as a code review
 | [121](../Days/Day-121.md) | Cache invalidation, TTL strategy, stampede, stale-while-revalidate | |
 | [122](../Days/Day-122.md) | **Rate limiting** — fixed window, sliding window, token bucket, leaky bucket | |
 | [123](../Days/Day-123.md) | Idempotency keys, retries, exponential backoff with jitter, at-least-once | D-15 · Concurrency control — 2PL, MVCC, optimistic vs pessimistic |
-| 124 | Background jobs — why you don't do work in the request cycle | |
-| 125 | Task queues & brokers — producer/consumer, ack, DLQ, visibility timeout | |
-| 126 | File uploads — multipart, streaming, presigned URLs, object storage | D-16 · NoSQL landscape · CAP intro · polyglot persistence |
-| 127 | Structured logging, correlation IDs, log levels, what never to log | |
-| 128 | Metrics & health checks — RED/USE method, liveness vs readiness | |
-| 129 | Webhooks — delivery guarantees, signature verification, replay protection | |
+| [124](../Days/Day-124.md) | Background jobs — why you don't do work in the request cycle | |
+| [125](../Days/Day-125.md) | Task queues & brokers — producer/consumer, ack, DLQ, visibility timeout | |
+| [126](../Days/Day-126.md) | File uploads — multipart, streaming, presigned URLs, object storage | D-16 · NoSQL landscape · CAP intro · polyglot persistence |
+| [127](../Days/Day-127.md) | Structured logging, correlation IDs, log levels, what never to log | |
+| [128](../Days/Day-128.md) | Metrics & health checks — RED/USE method, liveness vs readiness | |
+| [129](../Days/Day-129.md) | Webhooks — delivery guarantees, signature verification, replay protection | |
 
-**🐳 Docker primer** — 129A: why containers, images vs containers, run/ps/logs/exec ·
-129B: Dockerfile, layers, build cache, volumes, port mapping ·
-129C: docker-compose, Postgres + Redis stack (your dev environment for Stages 4–7)
+**🐳 Docker primer** — [129A](../Days/Day-129A.md): why containers, images vs containers, run/ps/logs/exec ·
+[129B](../Days/Day-129B.md): Dockerfile, layers, build cache, volumes, port mapping ·
+[129C](../Days/Day-129C.md): docker-compose, Postgres + Redis stack (your dev environment for Stages 4–7)
 
 **🚪 Exit gate** — on paper, no framework: full API contract for a multi-tenant SaaS. Auth flow,
 permission model, error format, pagination, rate limits, idempotency. Defend every choice.
