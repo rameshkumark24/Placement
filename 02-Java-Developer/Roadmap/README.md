@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-072 written** (Stage 0 complete, Stage 1 in progress). |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-077 written** — ✅ **Stages 0 and 1 complete**, 99 days. |
 
 ---
 
@@ -195,13 +195,13 @@ explain HTML vs server to a non-technical person
 ### Tooling
 | Day | Lesson | Parallel |
 |---|---|---|
-| 073 | Maven & Gradle — dependency management, lifecycle, multi-module | |
-| **073A** | ➕ **Logging with SLF4J/Logback** — the facade pattern, levels, appenders, MDC, what never to log | |
-| 074 | JUnit 5 — assertions, lifecycle, parameterized tests | B-16 · OS interview drill — 40 rapid-fire |
-| 075 | Mockito — mocks, stubs, spies, captors, when mocking is a smell | |
-| 076 | Debugging Java — debugger, thread dumps, heap dumps, JFR | |
-| **076A** | ➕ **Classpath & class loading in practice** — `ClassNotFoundException` vs `NoClassDefFoundError`, jar hell, `mvn dependency:tree` | |
-| 077 | Java interview traps drill — 40 gotcha questions | |
+| [073](../Days/Day-073.md) | Maven & Gradle — dependency management, lifecycle, multi-module | |
+| **[073A](../Days/Day-073A.md)** | ➕ **Logging with SLF4J/Logback** — the facade pattern, levels, appenders, MDC, what never to log | |
+| [074](../Days/Day-074.md) | JUnit 5 — assertions, lifecycle, parameterized tests | B-16 · OS interview drill — 40 rapid-fire |
+| [075](../Days/Day-075.md) | Mockito — mocks, stubs, spies, captors, when mocking is a smell | |
+| [076](../Days/Day-076.md) | Debugging Java — debugger, thread dumps, heap dumps, JFR | |
+| **[076A](../Days/Day-076A.md)** | ➕ **Classpath & class loading in practice** — `ClassNotFoundException` vs `NoClassDefFoundError`, jar hell, `mvn dependency:tree` | |
+| [077](../Days/Day-077.md) | Java interview traps drill — 40 gotcha questions | |
 
 **🚪 Exit gate** — in-memory KV store with TTL, concurrent and thread-safe · custom `ArrayList` and
 `HashMap` from scratch · whiteboard `HashMap` internals · explain the JMM and why `volatile` doesn't

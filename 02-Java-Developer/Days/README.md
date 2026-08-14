@@ -91,16 +91,27 @@ articulation drill.
 | [070](Day-070.md) | Latch, semaphore, barrier · **producer-consumer and backpressure** | 1 |
 | [071](Day-071.md) | Deadlock, livelock, starvation — reproduce each · B-15 Linux in practice | 1 |
 | [072](Day-072.md) | Virtual threads — what changes and **what doesn't** | 1 |
+| [073](Day-073.md) | Maven & Gradle — scopes, transitive resolution, BOMs, multi-module | 1 |
+| [073A](Day-073A.md) | ➕ **Logging** — SLF4J facade, MDC, and what never to log | 1 |
+| [074](Day-074.md) | JUnit 5 — lifecycle, `assertAll`, parameterized · B-16 OS drill (40 Qs) | 1 |
+| [075](Day-075.md) | Mockito — the five doubles, captors, **when mocking is a smell** | 1 |
+| [076](Day-076.md) | Debugging — thread dumps, heap dumps, **JFR**, the triage order | 1 |
+| [076A](Day-076A.md) | ➕ **Classpath & class loading** — the five errors, jar hell | 1 |
+| [077](Day-077.md) | 🚪 **Java traps drill** (40 Qs) · Stage 1 exit gate | 1 |
 
-**✅ Stage 0 complete (22/22).** **Stage 1: 57 of 64 written** — JVM/memory, language-core, OOP,
-collections, generics, functional/streams, reliability and the **full concurrency block** done.
-**Next batch:** Days 073–077 — Maven & Gradle, the added logging day (073A), JUnit 5, Mockito,
-debugging (thread dumps, heap dumps, JFR), the added classpath day (076A), and the 40-question
-interview-traps drill that closes Stage 1.
+**✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (64/64)** — JVM/memory, language core, OOP,
+collections, generics, functional/streams, reliability, the full concurrency block and tooling.
+**99 days written.** Both parallel tracks that ran alongside are finished: **C-01–C-14** (networks,
+Stage 0) and **B-01–B-16** (operating systems, Stage 1).
+**Next batch:** Days 078+ — Stage 2, Professional Engineering: Linux, the Git object model, clean
+code, SOLID, design patterns and testing philosophy, with the **D-series** (databases) as the new
+parallel track.
 
 ---
 
-## 🚪 Stage 1 exit gate — trackable now
+## 🚪 Stage 1 exit gate
+
+Full checklist, including the on-a-real-JVM items, is on **[Day 077](Day-077.md)**.
 
 - [ ] In-memory key-value store with TTL, concurrent and thread-safe → [053](Day-053.md)
 - [ ] Custom `ArrayList` written from scratch → [046](Day-046.md)
@@ -108,6 +119,8 @@ interview-traps drill that closes Stage 1.
 - [ ] **Whiteboard `HashMap` internals** — collisions, treeification, resize → [048](Day-048.md)
 - [ ] Explain the JMM and why `volatile` doesn't make `i++` safe → ⭐ [065](Day-065.md), [066](Day-066.md)
 - [ ] Live-code a thread-safe bounded blocking queue → [067](Day-067.md), [070](Day-070.md)
+- [ ] Diagnose a hung JVM and find a leak in a heap dump → [071](Day-071.md), [076](Day-076.md)
+- [ ] Score 35+/40 on the traps drill, cold → [077](Day-077.md)
 
 ---
 
