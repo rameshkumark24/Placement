@@ -244,12 +244,34 @@ articulation drill.
 | [212](Day-212.md) | Indexes (**ESR**) & the **aggregation pipeline** | 5 |
 | [213](Day-213.md) | 🚪🚪 Transactions, sharding · **STAGE 5 EXIT GATE** | 5 |
 
+> **Days 214–247 are Stage 6 — Frontend**, which lives in
+> [`03-Web-Developer`](../../03-Web-Developer/). The Java track resumes at Day 248.
+
+| Day | Focus | Stage |
+|---|---|---|
+| [248](Day-248.md) | 🏗️ **Choosing the flagship** — what makes a project defensible | 7 |
+| [249](Day-249.md) | 🏗️ Requirements, the state machine, ⭐ **the hard problem** | 7 |
+| [250](Day-250.md) | 🏗️ Domain modelling, the ER diagram, the first migration | 7 |
+| [251](Day-251.md) | 🏗️ **The API contract** — OpenAPI before any controller | 7 |
+| [252](Day-252.md) | 🚪🏗️ **The design review gate** — five ADRs, defence rehearsed | 7 |
+| [253](Day-253.md) | 🏗️ The skeleton — structure, Flyway, CI, ⭐ **deployed** | 7 |
+| [254](Day-254.md) | 🏗️ **The domain layer** — invariants, no framework | 7 |
+| [255](Day-255.md) | 🏗️ Persistence — projections, ⭐ **query counts asserted** | 7 |
+| [256](Day-256.md) | 🏗️ The service layer — transaction boundaries, side effects | 7 |
+| [257](Day-257.md) | 🏗️ The web layer — DTOs, validation, the error contract | 7 |
+| [258](Day-258.md) | ⭐🏗️ **Authentication** — JWT, rotation, **reuse detection** | 7 |
+| [259](Day-259.md) | 🏗️ **Authorization** — ownership, RBAC, **tenant isolation** | 7 |
+| [260](Day-260.md) | 🏗️ Pagination, filtering, caching, rate limiting, metrics | 7 |
+| [261](Day-261.md) | 🏗️ **Testing** — the eight categories, and a **load test** | 7 |
+| [262](Day-262.md) | 🚪🏗️ **The backend review gate** — a 42-row audit | 7 |
+
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**✅ Stage 4 (57/57).** **✅ Stage 5 (28/28)** — Postgres, Redis and MongoDB all complete.
-**244 days written**, including all **thirteen added gap days**.
+**✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **Stage 7: 15 of 50** — design and backend complete.
+**259 days written**, including all **thirteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Day 214 onward — **Stage 7** (full-stack integration and the two flagship projects).
-Stage 6 is the frontend track in [`03-Web-Developer`](../../03-Web-Developer/).
+**Next batch:** Days 263–270 — **data and async in anger** (the outbox, jobs, WebSockets, uploads),
+then 281–287 production and 288–297 the **NexOps rebuild**.
+Days 271–280 are the flagship frontend, in [`03-Web-Developer`](../../03-Web-Developer/).
 
 ---
 

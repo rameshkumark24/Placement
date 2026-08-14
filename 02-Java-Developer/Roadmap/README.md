@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-213 written** — ✅ **Stages 0-5 complete** — 244 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-262 written** — ✅ **Stages 0-5 complete**, Stage 7 design + backend complete — 259 days. |
 
 ---
 
@@ -432,8 +432,8 @@ live · defend a Postgres-vs-Mongo choice for a system described to you
 
 | Days | Focus |
 |---|---|
-| 248–252 | Flagship: requirements, domain modelling, ER diagram, API contract **before any code** |
-| 253–262 | Flagship: Spring Boot backend — JWT + refresh rotation, RBAC, domain layer, error contract |
+| 248–252 | ✅ **written** — Flagship: [248](../Days/Day-248.md) choosing it · [249](../Days/Day-249.md) requirements and the state machine · [250](../Days/Day-250.md) domain modelling and the ER diagram · [251](../Days/Day-251.md) the API contract **before any code** · [252](../Days/Day-252.md) 🚪 the design review gate |
+| 253–262 | ✅ **written** — Flagship backend: [253](../Days/Day-253.md) skeleton and deploy · [254](../Days/Day-254.md) the domain layer · [255](../Days/Day-255.md) persistence · [256](../Days/Day-256.md) services · [257](../Days/Day-257.md) the web layer · [258](../Days/Day-258.md) ⭐ **JWT + refresh rotation** · [259](../Days/Day-259.md) authorization and tenancy · [260](../Days/Day-260.md) the API surface · [261](../Days/Day-261.md) testing · [262](../Days/Day-262.md) 🚪 the backend review gate |
 | 263–270 | Flagship: data & async — N+1 solved *and verified*, Redis, jobs, WebSockets, uploads |
 | 271–280 | Flagship: frontend ([Stage 6 →](../../03-Web-Developer/)) |
 | 281–287 | Flagship: production — 80%+ coverage with Testcontainers, Docker, CI, deployed, monitored |
