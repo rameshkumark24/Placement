@@ -369,6 +369,16 @@ articulation drill.
 | [367](Day-367.md) | **Nginx** — ⭐ **the slow client**, TLS, forwarded headers | 10 |
 | [368](Day-368.md) | **CI/CD concepts** — ⭐ **build once, promote many**; flaky tests | 10 |
 | [369](Day-369.md) | **GitHub Actions** — caching, ⭐ **OIDC**, supply-chain traps | 10 |
+| [370](Day-370.md) | 🏗️ **A real pipeline** — lint → test → build → scan → deploy | 10 |
+| [371](Day-371.md) | **Deployment strategies** — ⭐ **both versions coexist**, canary | 10 |
+| [372](Day-372.md) | **Config & secrets** — 12-factor, ⭐ **workload identity**, rotation | 10 |
+| [373](Day-373.md) | **Prometheus & PromQL** — ⭐ **the `rate()` window**, cardinality | 10 |
+| [374](Day-374.md) | **Grafana & SLO alerting** — ⭐⭐ **burn rate**, alert fatigue | 10 |
+| [375](Day-375.md) | **Centralised logging** — ⭐ **the most expensive signal** | 10 |
+| [376](Day-376.md) | **OpenTelemetry** — ⭐ **tail sampling**, propagation, exemplars | 10 |
+| [377](Day-377.md) | **Kubernetes I** — the loop, probes, ⭐ **requests vs limits** | 10 |
+| [378](Day-378.md) | **Kubernetes II** — ⭐⭐ **the preStop sleep**, PDBs, ⭐ when it's overkill | 10 |
+| [379](Day-379.md) | 🚪 **Terraform** · **STAGE 10 EXIT GATE** — ✅ **ships own work** | 10 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
@@ -376,12 +386,12 @@ complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
 **✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
 **✅ Stage 9 (39/39)** — ✅✅ **COMPLETE SDE — Stages 0–9 finished.**
-**🔄 Stage 10 (10/20)** — the **container and pipeline block**.
-**359 days written**, including all **fifteen added gap days**.
+**✅ Stage 10 (20/20)** — containers, pipelines, deployment, observability, Kubernetes and IaC.
+**369 days written**, including all **fifteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 370–379 — a real pipeline end to end, deployment strategies (blue-green, canary,
-feature flags), 12-factor config and secrets, **Prometheus & PromQL**, Grafana and SLO alerting,
-centralised logging, **OpenTelemetry**, **Kubernetes I & II**, and Terraform.
+**Next batch:** Days 380–397 — **Stage 11, AWS**: IAM, VPC, EC2/ECS/Fargate, S3, RDS, ElastiCache,
+Lambda, SQS/SNS, ELB and autoscaling, CloudFront, CloudWatch, KMS, and ⭐ **cost as an engineering
+constraint**.
 
 ---
 

@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-369 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, 🔄 **Stage 10 (10/20)** — **359 days**. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-379 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, ✅ **Stage 10 complete** — **369 days**. |
 
 ---
 
@@ -551,7 +551,7 @@ consistent senior-level *structure*, not perfect answers.
 <details>
 <summary><b>Days 360–379 — expand</b></summary>
 
-🔄 **ten written** —
+✅ **all 20 written** —
 [360](../Days/Day-360.md) why containers (⭐ **the immutable artefact**, not the isolation) ·
 [361](../Days/Day-361.md) ⭐ **container internals** — namespaces, cgroups, ⭐ **the JVM OOMKill** ·
 [362](../Days/Day-362.md) images and layers — the cache, ⭐ **the secret you cannot delete** ·
@@ -562,10 +562,16 @@ consistent senior-level *structure*, not perfect answers.
 [367](../Days/Day-367.md) Nginx reverse proxy and TLS — ⭐ **the slow client** ·
 [368](../Days/Day-368.md) CI/CD concepts — ⭐ **build once, promote many**; flaky tests ·
 [369](../Days/Day-369.md) GitHub Actions — caching, ⭐ **OIDC**, supply-chain traps ·
-**to write:** a real pipeline: lint → test → build → scan → deploy · deployment strategies (rolling,
-blue-green, canary, feature flags) · config and secrets, 12-factor · Prometheus and PromQL ·
-Grafana, SLO-based alerting, alert fatigue · centralized logging · distributed tracing with
-OpenTelemetry · Kubernetes I and II (and when K8s is overkill) · Terraform basics
+[370](../Days/Day-370.md) 🏗️ a real pipeline: lint → test → build → scan → deploy ·
+[371](../Days/Day-371.md) deployment strategies — ⭐ **both versions coexist**, canary, flags ·
+[372](../Days/Day-372.md) config and secrets, 12-factor — ⭐ **workload identity**, rotation ·
+[373](../Days/Day-373.md) Prometheus and PromQL — ⭐ **the rate() window**, cardinality ·
+[374](../Days/Day-374.md) Grafana, ⭐⭐ **SLO burn-rate alerting**, alert fatigue ·
+[375](../Days/Day-375.md) centralized logging — ⭐ **the most expensive signal** ·
+[376](../Days/Day-376.md) distributed tracing with OpenTelemetry — ⭐ **tail sampling**, exemplars ·
+[377](../Days/Day-377.md) Kubernetes I — the reconciliation loop, probes, requests vs limits ·
+[378](../Days/Day-378.md) Kubernetes II — ⭐⭐ **the preStop sleep**, PDBs, ⭐ **when K8s is overkill** ·
+[379](../Days/Day-379.md) 🚪 Terraform basics · **Stage 10 exit gate**
 
 </details>
 
