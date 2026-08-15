@@ -88,13 +88,13 @@ You can never skip a lesson — but you can pass through it fast.
 | [006](../Days/Day-006.md) | The Internet — packets, routers, ISPs, how data physically moves | |
 | [007](../Days/Day-007.md) | DNS — full resolution from browser cache to root server | C-05 · TCP II — retransmission, sliding window, flow control |
 | [008](../Days/Day-008.md) | **What a TCP connection actually is** · TIME_WAIT, CLOSE_WAIT | C-06 · TCP III — congestion control (slow start, AIMD, BBR) |
-| 009 | TLS / HTTPS — what encryption protects, certificates, the handshake | |
-| 010 | HTTP anatomy — request line, methods, headers, body, status families | C-07 · UDP — what you gain and lose |
-| 011 | HTTP evolution — 1.0 → 1.1 → 2 → 3 (QUIC) | |
-| 012 | **What HTML actually is** — a document, a tree, the DOM | C-08 · DNS internals — recursive vs iterative, records, TTL |
-| 013 | What CSS actually is — box model, cascade, specificity, layout | C-09 · HTTP on the wire — framing, HPACK, QPACK |
-| 014 | What JavaScript is in a browser — engine, call stack, **event loop** (you meet this again in asyncio) | |
-| 015 | Browser rendering pipeline — parse → DOM → CSSOM → layout → paint → composite | C-10 · Crypto primitives — hashing vs encryption vs signing |
+| [009](../Days/Day-009.md) | TLS / HTTPS — what encryption protects, certificates, the handshake | |
+| [010](../Days/Day-010.md) | HTTP anatomy — request line, methods, headers, body, status families | C-07 · UDP — what you gain and lose |
+| [011](../Days/Day-011.md) | HTTP evolution — 1.0 → 1.1 → 2 → 3 (QUIC) | |
+| [012](../Days/Day-012.md) | **What HTML actually is** — a document, a tree, the DOM | C-08 · DNS internals — recursive vs iterative, records, TTL |
+| [013](../Days/Day-013.md) | What CSS actually is — box model, cascade, specificity, layout | C-09 · HTTP on the wire — framing, HPACK, QPACK |
+| [014](../Days/Day-014.md) | What JavaScript is in a browser — engine, call stack, **event loop** (you meet this again in asyncio) | |
+| [015](../Days/Day-015.md) | Browser rendering pipeline — parse → DOM → CSSOM → layout → paint → composite | C-10 · Crypto primitives — hashing vs encryption vs signing |
 | 016 | REST — what Fielding actually said · vs RPC vs GraphQL | C-11 · Sockets — the API under every server |
 | 017 | **WebSockets** — why polling fails, upgrade handshake, frames, full-duplex | |
 | 018 | WebSockets vs SSE vs long-polling — the decision table | C-12 · Proxies, reverse proxies, load balancers (L4/L7), CDN |

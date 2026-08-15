@@ -16,9 +16,16 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [006](Day-006.md) | The Internet — packets, routers, ISPs | 0 |
 | [007](Day-007.md) | DNS — full resolution, and ⭐ **the resolver in your own process** · **C-05** TCP II | 0 |
 | [008](Day-008.md) | ⭐⭐ **What a TCP connection is** — TIME_WAIT, CLOSE_WAIT · **C-06** congestion control | 0 |
+| [009](Day-009.md) | ⭐⭐ **TLS / HTTPS** — certificates, the handshake, and what `verify=False` really does | 0 |
+| [010](Day-010.md) | ⭐⭐ **HTTP anatomy** — methods, idempotence, status families · **C-07** UDP | 0 |
+| [011](Day-011.md) | HTTP evolution — 1.0 → 1.1 → 2 → 3, and why HTTP/2 can be *slower* | 0 |
+| [012](Day-012.md) | ⭐⭐ **What HTML is** — a tree, the DOM, and why your scraper sees an empty div · **C-08** DNS internals | 0 |
+| [013](Day-013.md) | What CSS is — box model, cascade, specificity · ⭐ selectors as a query language · **C-09** HTTP on the wire | 0 |
+| [014](Day-014.md) | ⭐⭐ **The event loop** — the browser's, and therefore `asyncio`'s | 0 |
+| [015](Day-015.md) | The rendering pipeline · **C-10** ⭐⭐ hashing vs encryption vs signing, and how to store a password | 0 |
 
-**🔵 Stage 0 in progress (8/22).** Next: Days 009–022 — TLS, HTTP anatomy and evolution, HTML/CSS/JS,
-the browser pipeline, REST, WebSockets, state, CORS, deployment, and the capstone.
+**🔵 Stage 0 in progress (15/22).** Next: Days 016–022 — REST, WebSockets, SSE vs long-polling,
+where state lives, CORS, deployment, and the capstone.
 
 ---
 
