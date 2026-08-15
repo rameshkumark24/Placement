@@ -359,17 +359,29 @@ articulation drill.
 | [358](Day-358.md) | 🏗️ **Design 14 — autocomplete** · ⭐ **precompute, then look up** | 9 |
 | [358A](Day-358A.md) | ➕🏗️ **Design 15 — job scheduler & metrics** · ⭐ claims, compression | 9 |
 | [359](Day-359.md) | 🚪🚪 **STAGE 9 EXIT GATE** — ✅✅ **COMPLETE SDE** | 9 |
+| [360](Day-360.md) | **Why containers** — and what they are not | 10 |
+| [361](Day-361.md) | ⭐ **Container internals** — namespaces, cgroups, ⭐ **the JVM OOMKill** | 10 |
+| [362](Day-362.md) | **Images and layers** — the cache, ⭐ **the secret you can't delete** | 10 |
+| [363](Day-363.md) | **Multi-stage, size, scanning** — ⭐ **layered jars** | 10 |
+| [364](Day-364.md) | **Volumes, networks, config** — ⭐ **secrets are files** | 10 |
+| [365](Day-365.md) | **Compose** — ⭐ **`depends_on` is not readiness** | 10 |
+| [366](Day-366.md) | 🏗️ **Containerising the flagship** — ⭐ **measured, eight tests** | 10 |
+| [367](Day-367.md) | **Nginx** — ⭐ **the slow client**, TLS, forwarded headers | 10 |
+| [368](Day-368.md) | **CI/CD concepts** — ⭐ **build once, promote many**; flaky tests | 10 |
+| [369](Day-369.md) | **GitHub Actions** — caching, ⭐ **OIDC**, supply-chain traps | 10 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
 complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
 **✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
-**✅ Stage 9 (39/39)** — 22 fundamentals, the framework, **fifteen designs** and the gate.
-**✅✅ COMPLETE SDE — Stages 0–9 finished.** **349 days written**, including all **fifteen added gap
-days**. Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 360–379 — **Stage 10, DevOps**: Linux and shell at depth, Docker, CI/CD
-pipelines, Kubernetes, infrastructure as code, secrets, and production operations.
+**✅ Stage 9 (39/39)** — ✅✅ **COMPLETE SDE — Stages 0–9 finished.**
+**🔄 Stage 10 (10/20)** — the **container and pipeline block**.
+**359 days written**, including all **fifteen added gap days**.
+Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
+**Next batch:** Days 370–379 — a real pipeline end to end, deployment strategies (blue-green, canary,
+feature flags), 12-factor config and secrets, **Prometheus & PromQL**, Grafana and SLO alerting,
+centralised logging, **OpenTelemetry**, **Kubernetes I & II**, and Terraform.
 
 ---
 

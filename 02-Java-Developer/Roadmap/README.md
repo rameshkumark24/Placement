@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-359 written** — ✅✅ **COMPLETE SDE: Stages 0–9 all complete** (0-5, 7, 8, 9) — **349 days**. Next: Stage 10 (DevOps). |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-369 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, 🔄 **Stage 10 (10/20)** — **359 days**. |
 
 ---
 
@@ -551,11 +551,18 @@ consistent senior-level *structure*, not perfect answers.
 <details>
 <summary><b>Days 360–379 — expand</b></summary>
 
-Why containers · **container internals** (namespaces, cgroups, union filesystems — Docker is not
-magic) · images and layers · multi-stage builds, image size, security scanning · volumes, networks,
-env injection · Compose · containerizing your Spring Boot + Postgres + Redis stack properly · Nginx
-as reverse proxy and TLS termination · CI/CD concepts · GitHub Actions (matrix builds, caching,
-secrets) · a real pipeline: lint → test → build → scan → deploy · deployment strategies (rolling,
+🔄 **ten written** —
+[360](../Days/Day-360.md) why containers (⭐ **the immutable artefact**, not the isolation) ·
+[361](../Days/Day-361.md) ⭐ **container internals** — namespaces, cgroups, ⭐ **the JVM OOMKill** ·
+[362](../Days/Day-362.md) images and layers — the cache, ⭐ **the secret you cannot delete** ·
+[363](../Days/Day-363.md) multi-stage builds, image size, scanning — ⭐ **layered jars** ·
+[364](../Days/Day-364.md) volumes, networks, env injection — ⭐ **secrets are files** ·
+[365](../Days/Day-365.md) Compose — ⭐ **`depends_on` is not readiness**, dev/prod divergence ·
+[366](../Days/Day-366.md) 🏗️ containerizing the flagship properly — ⭐ **measured** ·
+[367](../Days/Day-367.md) Nginx reverse proxy and TLS — ⭐ **the slow client** ·
+[368](../Days/Day-368.md) CI/CD concepts — ⭐ **build once, promote many**; flaky tests ·
+[369](../Days/Day-369.md) GitHub Actions — caching, ⭐ **OIDC**, supply-chain traps ·
+**to write:** a real pipeline: lint → test → build → scan → deploy · deployment strategies (rolling,
 blue-green, canary, feature flags) · config and secrets, 12-factor · Prometheus and PromQL ·
 Grafana, SLO-based alerting, alert fatigue · centralized logging · distributed tracing with
 OpenTelemetry · Kubernetes I and II (and when K8s is overkill) · Terraform basics
