@@ -344,18 +344,26 @@ articulation drill.
 | [343](Day-343.md) | ⭐ **Consensus** — Raft, quorums, ⭐ **why not to build one** | 9 |
 | [344](Day-344.md) | ⭐⭐ **The system design interview framework** — the 45-min clock | 9 |
 | [345](Day-345.md) | 🏗️ **Design 1 — URL shortener** · ⭐ key generation, 301 vs 302 | 9 |
+| [346](Day-346.md) | 🏗️ **Design 2 — Pastebin** · ⭐ where large content lives | 9 |
+| [347](Day-347.md) | 🏗️ **Design 3 — rate limiter** · ⭐ local decisions, global truth | 9 |
+| [348](Day-348.md) | 🏗️ **Design 4 — distributed KV store** · ⭐ vector clocks, ⭐ **LSM trees** | 9 |
+| [349](Day-349.md) | 🏗️ **Design 5 — web crawler** · ⭐ **the frontier**, politeness by structure | 9 |
+| [350](Day-350.md) | 🏗️ **Design 6 — notifications** · ⭐ **the broadcast**, provider limits | 9 |
+| [351](Day-351.md) | ⭐🏗️ **Design 7 — news feed** · ⭐⭐ **fan-out on write vs read** | 9 |
+| [352](Day-352.md) | ⭐🏗️ **Design 8 — chat** · ⭐⭐ **routing to a connection**, ordering | 9 |
+| [353](Day-353.md) | 🏗️ **Design 9 — video streaming** · ⭐ **adaptive bitrate**, egress | 9 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
 complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
 **✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
-**🔄 Stage 9 (24/38)** — ✅ **all 22 fundamentals**, ✅ **the interview framework**, and the **first of
-fifteen designs**. **333 days written**, including all **fourteen added gap days**.
+**🔄 Stage 9 (32/38)** — ✅ **all 22 fundamentals**, ✅ **the framework**, **9 of 15 designs**.
+**341 days written**, including all **fourteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 346–353 — Pastebin, a distributed rate limiter, a distributed KV store, a web
-crawler, a notification system, ⭐ **the news feed** (fan-out on write vs read) and ⭐ **the chat
-system** (ordering, presence, WebSockets at scale).
+**Next batch:** Days 354–359 — file storage & sync, ride hailing, ticket booking, ⭐ **the payment
+system** (idempotency, ledger, reconciliation), autocomplete, a job scheduler & metrics system, and
+🚪🚪 **the Stage 9 exit gate — ✅ COMPLETE SDE**.
 
 ---
 

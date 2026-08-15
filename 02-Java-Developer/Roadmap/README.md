@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-345 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete**, ✅ **Stage 8 complete**, 🔄 **Stage 9: all 22 fundamentals + the framework + design 1** — 333 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-353 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete**, ✅ **Stage 8 complete**, 🔄 **Stage 9: all fundamentals + the framework + 9 of 15 designs** — 341 days. |
 
 ---
 
@@ -519,10 +519,17 @@ orchestration** ·
 **[344](../Days/Day-344.md) — ✅ ⭐⭐ the interview framework**: clarify → estimate → API → data model
 → HLD → **deep dive** → bottlenecks, on a 45-minute clock
 
-**Designs (345–359)** — 🔄 **one written** — [345](../Days/Day-345.md) ⭐ **URL shortener** (key
-generation, 301 vs 302) · **to write:** Pastebin · distributed rate limiter · distributed KV store ·
-web crawler · notification system · **news feed** (fan-out on write vs read) · **chat system**
-(presence, receipts, WebSockets at scale) · video streaming · file storage & sync · ride hailing
+**Designs (345–359)** — 🔄 **nine written** —
+[345](../Days/Day-345.md) ⭐ **URL shortener** (key generation, 301 vs 302) ·
+[346](../Days/Day-346.md) **Pastebin** (⭐ where large content lives, dedup, CDN + auth) ·
+[347](../Days/Day-347.md) **distributed rate limiter** (⭐ local decisions, global truth) ·
+[348](../Days/Day-348.md) **distributed KV store** (⭐ vector clocks, ⭐ **LSM trees**) ·
+[349](../Days/Day-349.md) **web crawler** (⭐ **the frontier**, politeness by structure) ·
+[350](../Days/Day-350.md) **notification system** (⭐ **the broadcast**, provider limits) ·
+[351](../Days/Day-351.md) ⭐ **news feed** (⭐⭐ **fan-out on write vs read**) ·
+[352](../Days/Day-352.md) ⭐ **chat system** (⭐⭐ **routing to a connection**, ordering, presence) ·
+[353](../Days/Day-353.md) **video streaming** (⭐ **adaptive bitrate**, egress as the bill) ·
+**to write:** file storage & sync · ride hailing
 (geospatial indexing) · ticket booking (seat locking, payment) · **payment system** (idempotency,
 ledger, reconciliation) · autocomplete · distributed job scheduler + metrics system
 
