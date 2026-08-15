@@ -313,16 +313,23 @@ articulation drill.
 | [313](Day-313.md) | **LRU cache** — and ⭐ **why real caches aren't exact** | 8 |
 | [314](Day-314.md) | **Rate limiter** — ⭐ **the boundary burst**, token bucket | 8 |
 | [315](Day-315.md) | **Splitwise** — ⭐ **the penny problem**, settlement | 8 |
+| [316](Day-316.md) | ⭐ **BookMyShow** — ⭐ **holding a seat across a payment** | 8 |
+| [317](Day-317.md) | **Vending machine & ATM** — state pattern, ⭐ **the journal** | 8 |
+| [318](Day-318.md) | **Logging & notifications** — ⭐ **when the queue is full** | 8 |
+| [319](Day-319.md) | **Chess & Snake and Ladder** — ⭐ **legality must be simulated** | 8 |
+| [320](Day-320.md) | **Food delivery & cabs** — ⭐ **matching is an offer** | 8 |
+| [320A](Day-320A.md) | ➕ **Library & Amazon orders** — ⭐ **the two unifying rules** | 8 |
+| [321](Day-321.md) | 🚪🚪 **STAGE 8 EXIT GATE** — two live 45-minute LLD rounds | 8 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
 complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
-**🔄 Stage 8 (18/24)** — **principles** ✅ and **method** ✅ complete; **five of eleven problems**
-worked. **302 days written**, including all **thirteen added gap days**.
+**✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
+**309 days written**, including all **fourteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 316–321 — the remaining LLD problems (**BookMyShow** under contention, vending
-machine & ATM, a logging framework, board games, marketplaces) and the **Stage 8 exit gate**.
+**Next batch:** Days 322–345 — **Stage 9, system design**: scalability and estimation, caching and
+consistent hashing, sharding, CAP/PACELC, queues and Kafka, and **the interview framework**.
 
 ---
 

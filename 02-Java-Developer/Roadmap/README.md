@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-315 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete (both projects)**, 🔄 **Stage 8 through the first five LLD problems** — 302 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-321 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete (both projects)**, ✅ **Stage 8 complete (11 LLD problems + gate)** — 309 days. |
 
 ---
 
@@ -472,9 +472,13 @@ classes → code, **on a 45-minute clock** ·
 [313](../Days/Day-313.md) LRU Cache (**why real caches are approximate**) ·
 [314](../Days/Day-314.md) Rate Limiter (⭐ **the boundary burst**, token bucket) ·
 [315](../Days/Day-315.md) Splitwise (⭐ **the penny problem**, greedy settlement) ·
-**to write:** BookMyShow (with concurrency) · Vending Machine & ATM (state pattern) · Logging
-framework & notification service · Chess / Snake & Ladder · Food delivery / cab booking · Library
-management, Amazon-style orders
+[316](../Days/Day-316.md) ⭐ **BookMyShow** — ⭐ **holding a seat across a payment** ·
+[317](../Days/Day-317.md) Vending Machine & ATM (**state pattern**, ⭐ **the journal**) ·
+[318](../Days/Day-318.md) logging framework & notification service (**designing for extension**) ·
+[319](../Days/Day-319.md) Chess / Snake & Ladder (⭐ **legality must be simulated**) ·
+[320](../Days/Day-320.md) food delivery / cab booking (⭐ **matching is an offer**) ·
+[320A](../Days/Day-320A.md) ➕ library management & Amazon-style orders — ⭐ **the two unifying
+rules** · [321](../Days/Day-321.md) 🚪🚪 **Stage 8 exit gate**
 
 </details>
 
