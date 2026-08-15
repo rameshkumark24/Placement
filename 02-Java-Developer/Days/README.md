@@ -413,6 +413,21 @@ articulation drill.
 | [411](Day-411.md) | **Distributed locking** — ⭐⭐ **the fencing token**, efficiency vs correctness | 12 |
 | [412](Day-412.md) | **Failure detection & split brain** — ⭐⭐ **R+W>N is not linearizable**, CRDTs | 12 |
 | [413](Day-413.md) | 🚪 **Chaos & load shedding** · **STAGE 12 EXIT GATE** — ✅ **senior conversations** | 12 |
+| [462](Day-462.md) | **The resume I** — ⭐⭐ **every line is a question you invited** | 15 |
+| [463](Day-463.md) | **The resume II** — numbers, honesty, ⭐ **the line-by-line defence** | 15 |
+| [464](Day-464.md) | **Behavioural I** — STAR proportions, ⭐ **the ten-story bank** | 15 |
+| [465](Day-465.md) | **Behavioural II** — ⭐⭐ **the failure story and the conflict story** | 15 |
+| [466](Day-466.md) | ⭐⭐ **Communication under evaluation** — "I don't know", recovery | 15 |
+| [467](Day-467.md) | **Project defence I** — three lengths, ⭐ **the hook**, the diagram | 15 |
+| [468](Day-468.md) | **Project defence II** — ⭐⭐ **the decision log** (force/rejected/cost) | 15 |
+| [469](Day-469.md) | **Project defence III** — ⭐⭐ **the failure interrogation**, the 10× sequence | 15 |
+| [470](Day-470.md) | **Project defence IV** — ⭐ **the code walk**, the README that wins | 15 |
+| [471](Day-471.md) | 🎯 **Project defence V** — the full 45-min deep dive + rubric | 15 |
+| [472](Day-472.md) | 🎯 **DSA mock 1** — arrays, hashing, two pointers · ⭐ the protocol | 15 |
+| [473](Day-473.md) | 🎯 **DSA mock 2** — trees, graphs, ⭐ **the three-colour cycle** | 15 |
+| [474](Day-474.md) | 🎯 **DSA mock 3** — DP, ⭐⭐ **the four-step method** | 15 |
+| [475](Day-475.md) | 🎯 **DSA mock 4** — heaps, intervals, ⭐ the window template | 15 |
+| [476](Day-476.md) | 🎯 **DSA mock 5** — mixed + ⭐⭐ **the five-mock debrief** | 15 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
@@ -423,11 +438,12 @@ complete**. The 10 frontend days (271–280) live in
 **✅ Stage 10 (20/20)** — containers, pipelines, deployment, observability, Kubernetes and IaC.
 **✅ Stage 11 (18/18)** — identity, network, data, compute, edge, queues, observability and ⭐ **cost**.
 **✅ Stage 12 (16/16)** — ✅✅ **senior-track distributed systems finished.**
-**403 days written**, including all **fifteen added gap days**.
+**🔵 Stage 15 (15/27)** — resume, behavioural, ✅ **five project defence drills**, ✅ **five DSA mocks**.
+**418 days written**, including all **fifteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 462–488 — **Stage 15, Interview Conversion**: resume, behavioural and STAR,
-project defence drills, five timed DSA mocks, four LLD rounds, five system design rounds, and
-⭐ **levelling and negotiation**. Days 414–461 are Stage 13 (Python) and Stage 14 (AI) and live in
+**Next batch:** Days 477–488 — **Stage 15 finishes**: four full **LLD rounds** in Java, five full
+**system design rounds** scored on structure, company-specific prep, **levelling** and ⭐ **salary
+negotiation**. Days 414–461 are Stage 13 (Python) and Stage 14 (AI) and live in
 [`01-Python-Developer`](../../01-Python-Developer/) and [`05-ML-Engineer`](../../05-ML-Engineer/).
 
 ---

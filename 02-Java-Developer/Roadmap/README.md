@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-413 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, ✅ **Stages 10, 11 and 12 complete** — **403 days**. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-413 and 462-476 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, ✅ **Stages 10, 11, 12 complete**, 🔵 **Stage 15 in progress** — **418 days**. |
 
 ---
 
@@ -665,10 +665,10 @@ EXIT GATE**
 
 | Days | Focus |
 |---|---|
-| 462–463 | Resume — claim only what you can defend line by line |
-| 464–466 | Behavioural — STAR per project, a real failure story, a conflict story |
-| 467–471 | Project defence drills — flagship and NexOps, until nothing is unanswerable |
-| 472–476 | Five timed 45-min DSA mocks, narrated aloud, scored |
+| 462–463 | ✅ **written** — Resume: [462](../Days/Day-462.md) ⭐ **every line is a question you invited**, the bullet formula, ATS mechanics · [463](../Days/Day-463.md) where the numbers come from, ⭐ **the honesty line**, the line-by-line defence drill |
+| 464–466 | ✅ **written** — Behavioural: [464](../Days/Day-464.md) ⭐ **STAR proportions** and the ten-story bank · [465](../Days/Day-465.md) ⭐⭐ **the failure story and the conflict story**, disagree-and-commit · [466](../Days/Day-466.md) ⭐⭐ **communication under evaluation** — thinking aloud, "I don't know", recovery, the clock |
+| 467–471 | ✅ **written** — Project defence: [467](../Days/Day-467.md) three lengths and ⭐ **the hook** · [468](../Days/Day-468.md) ⭐⭐ **the decision log** — force / rejected / cost · [469](../Days/Day-469.md) ⭐⭐ **the failure interrogation** and the 10× sequence · [470](../Days/Day-470.md) ⭐ **the code walk** and the README that wins · [471](../Days/Day-471.md) 🎯 the full 45-minute deep dive + 15-row rubric |
+| 472–476 | ✅ **written** — DSA mocks: [472](../Days/Day-472.md) 🎯 arrays/hashing/two pointers + ⭐ **the mock protocol** · [473](../Days/Day-473.md) 🎯 trees and graphs, ⭐ **the three-colour cycle** · [474](../Days/Day-474.md) 🎯 DP, ⭐⭐ **the four-step method** · [475](../Days/Day-475.md) 🎯 heaps, intervals, ⭐ the window template · [476](../Days/Day-476.md) 🎯 mixed + ⭐⭐ **the five-mock debrief and diagnosis table** |
 | 477–480 | Four full LLD rounds in Java |
 | 481–485 | Five full system design rounds, scored on structure |
 | 486–488 | Company-specific prep, levelling, salary negotiation |
