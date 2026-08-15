@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-331 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete**, ✅ **Stage 8 complete (11 LLD problems + gate)**, 🔄 **Stage 9 fundamentals** — 319 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-339 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete**, ✅ **Stage 8 complete (11 LLD problems + gate)**, 🔄 **Stage 9 fundamentals (18/22)** — 327 days. |
 
 ---
 
@@ -491,7 +491,7 @@ rules** · [321](../Days/Day-321.md) 🚪🚪 **Stage 8 exit gate**
 <details>
 <summary><b>Days 322–359 — expand</b></summary>
 
-**Fundamentals (322–343)** — 🔄 **ten written** —
+**Fundamentals (322–343)** — 🔄 **eighteen written** —
 [322](../Days/Day-322.md) scalability, latency vs throughput, ⭐ **Little's Law**, SLA/SLO/SLI ·
 [323](../Days/Day-323.md) ⭐ **back-of-the-envelope estimation** ·
 [324](../Days/Day-324.md) vertical vs horizontal scaling, ⭐ **what "stateless" means** ·
@@ -502,10 +502,16 @@ rules** · [321](../Days/Day-321.md) 🚪🚪 **Stage 8 exit gate**
 [329](../Days/Day-329.md) ⭐ **sharding** (shard keys, hotspots, ⭐ **pre-splitting**) ·
 [330](../Days/Day-330.md) ⭐ **CAP done correctly** and ⭐ **PACELC** ·
 [331](../Days/Day-331.md) consistency models — ⭐ **the four session guarantees** ·
-**to write:** SQL vs NoSQL framework · message queues and event-driven architecture · Kafka
-fundamentals ·
-delivery semantics · distributed rate limiting and backpressure · search and inverted indexes ·
-observability at scale · resilience patterns · microservices vs monolith (Conway's law) · API
+[332](../Days/Day-332.md) SQL vs NoSQL framework — ⭐ **when you must commit to your queries** ·
+[333](../Days/Day-333.md) message queues and event-driven architecture — ⭐ **choreography vs
+orchestration** ·
+[334](../Days/Day-334.md) Kafka fundamentals — ⭐ **where ordering actually lives** ·
+[335](../Days/Day-335.md) ⭐ **delivery semantics** — why exactly-once is a lie ·
+[336](../Days/Day-336.md) distributed rate limiting and ⭐ **backpressure** ·
+[337](../Days/Day-337.md) search and inverted indexes — ⭐ **the derived-index rule** ·
+[338](../Days/Day-338.md) observability at scale — ⭐ **cardinality and burn-rate alerting** ·
+[339](../Days/Day-339.md) resilience — ⭐ **the anatomy of a cascade**, static stability ·
+**to write:** microservices vs monolith (Conway's law) · API
 gateway, discovery, service mesh · **distributed transactions — 2PC, Saga, outbox** · consensus
 (Raft intuition, quorum, split brain)
 

@@ -330,19 +330,26 @@ articulation drill.
 | [329](Day-329.md) | ⭐ **Sharding** — the key, hotspots, ⭐ **pre-splitting** | 9 |
 | [330](Day-330.md) | ⭐ **CAP done correctly** — and ⭐ **PACELC**, which matters more | 9 |
 | [331](Day-331.md) | **Consistency models** — ⭐ **the four session guarantees** | 9 |
+| [332](Day-332.md) | **SQL vs NoSQL** — ⭐ **when you must commit to your queries** | 9 |
+| [333](Day-333.md) | **Queues & event-driven** — ⭐ **choreography vs orchestration** | 9 |
+| [334](Day-334.md) | **Kafka** — the log, partitions, ⭐ **where ordering lives** | 9 |
+| [335](Day-335.md) | **Delivery semantics** — ⭐ **why exactly-once is a lie** | 9 |
+| [336](Day-336.md) | **Distributed limits & ⭐ backpressure** — ⭐ **deadline propagation** | 9 |
+| [337](Day-337.md) | **Search & inverted indexes** — ⭐ **keeping a derived index honest** | 9 |
+| [338](Day-338.md) | **Observability at scale** — ⭐ **cardinality, burn rate** | 9 |
+| [339](Day-339.md) | **Resilience** — ⭐ **the anatomy of a cascade**, static stability | 9 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
 complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
 **✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
-**🔄 Stage 9 (10/38)** — the **physics and the data layer**.
-**319 days written**, including all **fourteen added gap days**.
+**🔄 Stage 9 (18/38)** — the physics, the data layer, and the **messaging and reliability block**.
+**327 days written**, including all **fourteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 332–343 — SQL vs NoSQL at scale, queues and event-driven architecture, **Kafka**
-and delivery semantics, distributed rate limiting and backpressure, search, observability,
-resilience, microservices and Conway's law, gateways and service mesh, **2PC/Saga/outbox**, and
-**consensus**.
+**Next batch:** Days 340–345 — microservices and **Conway's law**, API gateway/discovery/service
+mesh, **2PC, Saga and the outbox**, **consensus** (Raft, quorum, split brain), ⭐ **the system-design
+interview framework**, and the first design: the URL shortener.
 
 ---
 
