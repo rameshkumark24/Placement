@@ -305,16 +305,24 @@ articulation drill.
 | [305](Day-305.md) | ⭐ **DDD II** — ⭐ **aggregates as the contention boundary**, events | 8 |
 | [306](Day-306.md) | ⭐ **The modular monolith** — the default, and when to extract | 8 |
 | [307](Day-307.md) | **Refactoring the flagship** — seven steps, measured | 8 |
+| [308](Day-308.md) | ⭐ **The LLD method** — 45 minutes, six steps, ⭐ **the clock** | 8 |
+| [309](Day-309.md) | **UML that earns its keep** — and ⭐ **the missing arrow** | 8 |
+| [310](Day-310.md) | ⭐ **Concurrency in LLD** — the question that ends most rounds | 8 |
+| [311](Day-311.md) | ⭐ **Parking Lot** — the method applied end to end | 8 |
+| [312](Day-312.md) | **Elevator** — state machine, LOOK, ⭐ **the cost function** | 8 |
+| [313](Day-313.md) | **LRU cache** — and ⭐ **why real caches aren't exact** | 8 |
+| [314](Day-314.md) | **Rate limiter** — ⭐ **the boundary burst**, token bucket | 8 |
+| [315](Day-315.md) | **Splitwise** — ⭐ **the penny problem**, settlement | 8 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
 complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
-**🔄 Stage 8 (10/24)** — the **principles block is complete**.
-**294 days written**, including all **thirteen added gap days**.
+**🔄 Stage 8 (18/24)** — **principles** ✅ and **method** ✅ complete; **five of eleven problems**
+worked. **302 days written**, including all **thirteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 308–321 — **the LLD method** (requirements → classes → code), UML, concurrency
-in LLD, and the **eleven design problems** under interview conditions.
+**Next batch:** Days 316–321 — the remaining LLD problems (**BookMyShow** under contention, vending
+machine & ATM, a logging framework, board games, marketplaces) and the **Stage 8 exit gate**.
 
 ---
 

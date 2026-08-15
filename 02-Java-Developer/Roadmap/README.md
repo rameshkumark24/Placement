@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-307 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete (both projects)**, 🔄 **Stage 8 principles block** — 294 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-315 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete (both projects)**, 🔄 **Stage 8 through the first five LLD problems** — 302 days. |
 
 ---
 
@@ -460,13 +460,21 @@ live · defend a Postgres-vs-Mongo choice for a system described to you
 [306](../Days/Day-306.md) ⭐ **the modular monolith** — the default, and when to extract ·
 [307](../Days/Day-307.md) refactoring the flagship — **seven steps, measured**
 
-**Method (308–310)** — **the LLD method**: requirements → actors → entities → relationships →
-classes → code · UML class and sequence diagrams · concurrency in LLD
+**Method (308–310)** — ✅ **written** —
+[308](../Days/Day-308.md) ⭐ **the LLD method**: requirements → actors → entities → relationships →
+classes → code, **on a 45-minute clock** ·
+[309](../Days/Day-309.md) UML that earns its keep — class, sequence, and **the state diagram** ·
+[310](../Days/Day-310.md) ⭐ **concurrency in LLD** — the race, the guard, the distributed equivalent
 
-**Problems (311–321)** — Parking Lot · Elevator · LRU Cache · Rate Limiter · Splitwise · BookMyShow
-(with concurrency) · Vending Machine & ATM (state pattern) · Logging framework & notification
-service · Chess / Snake & Ladder · Food delivery / cab booking · Library management, Amazon-style
-orders
+**Problems (311–321)** — 🔄 **five written** —
+[311](../Days/Day-311.md) ⭐ **Parking Lot** (the method end to end) ·
+[312](../Days/Day-312.md) Elevator (**LOOK**, the dispatch **cost function**) ·
+[313](../Days/Day-313.md) LRU Cache (**why real caches are approximate**) ·
+[314](../Days/Day-314.md) Rate Limiter (⭐ **the boundary burst**, token bucket) ·
+[315](../Days/Day-315.md) Splitwise (⭐ **the penny problem**, greedy settlement) ·
+**to write:** BookMyShow (with concurrency) · Vending Machine & ATM (state pattern) · Logging
+framework & notification service · Chess / Snake & Ladder · Food delivery / cab booking · Library
+management, Amazon-style orders
 
 </details>
 
