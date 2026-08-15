@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-287 written** — ✅ **Stages 0-5 complete**, ✅ **the Stage 7 flagship is complete** — 274 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-297 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete (both projects)** — 284 days. |
 
 ---
 
@@ -437,7 +437,7 @@ live · defend a Postgres-vs-Mongo choice for a system described to you
 | 263–270 | ✅ **written** — Flagship data & async: [263](../Days/Day-263.md) ⭐ **the outbox** · [264](../Days/Day-264.md) jobs · [265](../Days/Day-265.md) `@Async` · [266](../Days/Day-266.md) caching, measured · [267](../Days/Day-267.md) uploads · [268](../Days/Day-268.md) real-time · [269](../Days/Day-269.md) search and reporting · [270](../Days/Day-270.md) 🚪 the data & async gate |
 | 271–280 | Flagship: frontend ([Stage 6 →](../../03-Web-Developer/)) |
 | 281–287 | ✅ **written** — Flagship production: [281](../Days/Day-281.md) coverage and quality gates · [282](../Days/Day-282.md) the container image · [283](../Days/Day-283.md) the pipeline · [284](../Days/Day-284.md) infrastructure · [285](../Days/Day-285.md) observability · [286](../Days/Day-286.md) ⭐ **load testing and chaos** · [287](../Days/Day-287.md) 🚪 the production readiness gate |
-| 288–297 | NexOps rebuild by hand — re-derive the data model, rebuild the risk engine and RAG pipeline, write the ADR you never wrote |
+| 288–297 | ✅ **written** — NexOps rebuild: [288](../Days/Day-288.md) the audit · [289](../Days/Day-289.md) re-deriving the data model · [290](../Days/Day-290.md) ⭐ **the risk engine** (determinism, rules as data) · [291](../Days/Day-291.md) backtesting and explainability · [292](../Days/Day-292.md) RAG ingestion and chunking · [293](../Days/Day-293.md) ⭐ **hybrid search** and evaluation · [294](../Days/Day-294.md) ⭐ **prompt injection**, hallucination, cost · [295](../Days/Day-295.md) the ADR you never wrote · [296](../Days/Day-296.md) finishing · [297](../Days/Day-297.md) 🚪🚪 **Stage 7 exit gate** |
 
 **🚪 Exit gate** — 45-minute project deep-dive where every architectural decision is attacked
 

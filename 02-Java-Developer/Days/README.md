@@ -285,14 +285,25 @@ articulation drill.
 | [285](Day-285.md) | 🏗️ **Observability** — ⭐ every alert fired, ⭐ a postmortem | 7 |
 | [286](Day-286.md) | 🏗️ **Load testing** & ⭐ **breaking it on purpose** | 7 |
 | [287](Day-287.md) | 🚪🏗️ **Production readiness gate** — ⭐ **the flagship is complete** | 7 |
+| [288](Day-288.md) | 🏗️ **The rebuild** — archaeology, the audit, characterisation tests | 7 |
+| [289](Day-289.md) | 🏗️ **Re-deriving the data model** — derive blind, then diff | 7 |
+| [290](Day-290.md) | ⭐🏗️ **The risk engine I** — determinism, rules as data | 7 |
+| [291](Day-291.md) | 🏗️ **The risk engine II** — backtesting, shadow mode, explainability | 7 |
+| [292](Day-292.md) | ⭐🏗️ **RAG I** — chunking, embeddings, ingestion | 7 |
+| [293](Day-293.md) | 🏗️ **RAG II** — ⭐ **hybrid search**, reranking, evaluation | 7 |
+| [294](Day-294.md) | ⭐🏗️ **RAG III** — ⭐ **prompt injection**, hallucination, cost | 7 |
+| [295](Day-295.md) | 🏗️ **The ADR you never wrote** — and the honest critique | 7 |
+| [296](Day-296.md) | 🏗️ Finishing — audit fixes, ⭐ **the injection test** | 7 |
+| [297](Day-297.md) | 🚪🚪🏗️ **STAGE 7 EXIT GATE** — two defensible projects | 7 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **Stage 7: 30 of 50** — ✅ **the flagship is complete**
-(design, backend, data/async and production). **274 days written**, including all **thirteen added
-gap days**.
+**✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
+complete**. The 10 frontend days (271–280) live in
+[`03-Web-Developer`](../../03-Web-Developer/).
+**284 days written**, including all **thirteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 288–297 — the **NexOps rebuild by hand**: re-deriving the data model,
-rebuilding the risk engine and the RAG pipeline, and writing the ADR that was never written.
+**Next batch:** Days 298–321 — **Stage 8, low-level design**: OOP design problems, design patterns
+applied under time pressure, and the LLD interview format.
 
 ---
 
