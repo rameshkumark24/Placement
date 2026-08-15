@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-297 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete (both projects)** — 284 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-307 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete (both projects)**, 🔄 **Stage 8 principles block** — 294 days. |
 
 ---
 
@@ -448,12 +448,17 @@ live · defend a Postgres-vs-Mongo choice for a system described to you
 <details>
 <summary><b>Days 298–321 — expand</b></summary>
 
-**Principles (298–307)** — why architecture exists (coupling, cohesion, change cost) · layered
-architecture and how it rots · **clean/hexagonal architecture**, ports & adapters, the dependency
-rule · repository pattern done properly · service layer, application vs domain logic · DI by hand vs
-Spring's container · DDD I (ubiquitous language, entities, value objects) · DDD II (aggregates,
-domain events, bounded contexts) · **modular monolith — the architecture you should default to** ·
-refactor your flagship into clean architecture
+**Principles (298–307)** — ✅ **written** —
+[298](../Days/Day-298.md) why architecture exists (**coupling, cohesion, change cost**, connascence) ·
+[299](../Days/Day-299.md) layered architecture and **the four ways it rots** ·
+[300](../Days/Day-300.md) ⭐ **clean/hexagonal** — ports, adapters, the dependency rule ·
+[301](../Days/Day-301.md) the repository pattern done properly ·
+[302](../Days/Day-302.md) service layer — **application vs domain logic** ·
+[303](../Days/Day-303.md) DI by hand — **build the container** ·
+[304](../Days/Day-304.md) DDD I — value objects, ⭐ **illegal states unrepresentable** ·
+[305](../Days/Day-305.md) ⭐ **DDD II** — aggregates as the **contention boundary**, events, contexts ·
+[306](../Days/Day-306.md) ⭐ **the modular monolith** — the default, and when to extract ·
+[307](../Days/Day-307.md) refactoring the flagship — **seven steps, measured**
 
 **Method (308–310)** — **the LLD method**: requirements → actors → entities → relationships →
 classes → code · UML class and sequence diagrams · concurrency in LLD

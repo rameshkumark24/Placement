@@ -295,15 +295,26 @@ articulation drill.
 | [295](Day-295.md) | 🏗️ **The ADR you never wrote** — and the honest critique | 7 |
 | [296](Day-296.md) | 🏗️ Finishing — audit fixes, ⭐ **the injection test** | 7 |
 | [297](Day-297.md) | 🚪🚪🏗️ **STAGE 7 EXIT GATE** — two defensible projects | 7 |
+| [298](Day-298.md) | **Why architecture exists** — coupling, cohesion, **change cost** | 8 |
+| [299](Day-299.md) | **Layered architecture** — and ⭐ **the four ways it rots** | 8 |
+| [300](Day-300.md) | ⭐ **Clean & hexagonal** — ports, adapters, the dependency rule | 8 |
+| [301](Day-301.md) | **The repository pattern** — where `JpaRepository` isn't one | 8 |
+| [302](Day-302.md) | **The service layer** — application vs domain logic | 8 |
+| [303](Day-303.md) | **DI by hand** — then ⭐ **build the container** | 8 |
+| [304](Day-304.md) | **DDD I** — value objects, ⭐ **illegal states unrepresentable** | 8 |
+| [305](Day-305.md) | ⭐ **DDD II** — ⭐ **aggregates as the contention boundary**, events | 8 |
+| [306](Day-306.md) | ⭐ **The modular monolith** — the default, and when to extract | 8 |
+| [307](Day-307.md) | **Refactoring the flagship** — seven steps, measured | 8 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
 complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
-**284 days written**, including all **thirteen added gap days**.
+**🔄 Stage 8 (10/24)** — the **principles block is complete**.
+**294 days written**, including all **thirteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 298–321 — **Stage 8, low-level design**: OOP design problems, design patterns
-applied under time pressure, and the LLD interview format.
+**Next batch:** Days 308–321 — **the LLD method** (requirements → classes → code), UML, concurrency
+in LLD, and the **eleven design problems** under interview conditions.
 
 ---
 
