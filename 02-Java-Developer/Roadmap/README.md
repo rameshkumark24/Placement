@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-339 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete**, ✅ **Stage 8 complete (11 LLD problems + gate)**, 🔄 **Stage 9 fundamentals (18/22)** — 327 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-345 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete**, ✅ **Stage 8 complete**, 🔄 **Stage 9: all 22 fundamentals + the framework + design 1** — 333 days. |
 
 ---
 
@@ -491,7 +491,7 @@ rules** · [321](../Days/Day-321.md) 🚪🚪 **Stage 8 exit gate**
 <details>
 <summary><b>Days 322–359 — expand</b></summary>
 
-**Fundamentals (322–343)** — 🔄 **eighteen written** —
+**Fundamentals (322–343)** — ✅ **all 22 written** —
 [322](../Days/Day-322.md) scalability, latency vs throughput, ⭐ **Little's Law**, SLA/SLO/SLI ·
 [323](../Days/Day-323.md) ⭐ **back-of-the-envelope estimation** ·
 [324](../Days/Day-324.md) vertical vs horizontal scaling, ⭐ **what "stateless" means** ·
@@ -511,13 +511,16 @@ orchestration** ·
 [337](../Days/Day-337.md) search and inverted indexes — ⭐ **the derived-index rule** ·
 [338](../Days/Day-338.md) observability at scale — ⭐ **cardinality and burn-rate alerting** ·
 [339](../Days/Day-339.md) resilience — ⭐ **the anatomy of a cascade**, static stability ·
-**to write:** microservices vs monolith (Conway's law) · API
-gateway, discovery, service mesh · **distributed transactions — 2PC, Saga, outbox** · consensus
-(Raft intuition, quorum, split brain)
+[340](../Days/Day-340.md) microservices vs monolith — ⭐ **Conway's law**, the distributed monolith ·
+[341](../Days/Day-341.md) API gateway, discovery, service mesh — **and when you need none** ·
+[342](../Days/Day-342.md) ⭐ **distributed transactions** — 2PC, ⭐ **sagas**, compensations, outbox ·
+[343](../Days/Day-343.md) ⭐ **consensus** — Raft intuition, quorum, split brain
 
-**344 — the interview framework**: clarify → estimate → API → data model → HLD → deep dive → bottlenecks
+**[344](../Days/Day-344.md) — ✅ ⭐⭐ the interview framework**: clarify → estimate → API → data model
+→ HLD → **deep dive** → bottlenecks, on a 45-minute clock
 
-**Designs (345–359)** — URL shortener · Pastebin · distributed rate limiter · distributed KV store ·
+**Designs (345–359)** — 🔄 **one written** — [345](../Days/Day-345.md) ⭐ **URL shortener** (key
+generation, 301 vs 302) · **to write:** Pastebin · distributed rate limiter · distributed KV store ·
 web crawler · notification system · **news feed** (fan-out on write vs read) · **chat system**
 (presence, receipts, WebSockets at scale) · video streaming · file storage & sync · ride hailing
 (geospatial indexing) · ticket booking (seat locking, payment) · **payment system** (idempotency,

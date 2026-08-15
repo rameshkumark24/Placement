@@ -338,18 +338,24 @@ articulation drill.
 | [337](Day-337.md) | **Search & inverted indexes** — ⭐ **keeping a derived index honest** | 9 |
 | [338](Day-338.md) | **Observability at scale** — ⭐ **cardinality, burn rate** | 9 |
 | [339](Day-339.md) | **Resilience** — ⭐ **the anatomy of a cascade**, static stability | 9 |
+| [340](Day-340.md) | **Microservices vs monolith** — ⭐ **Conway's law**, the distributed monolith | 9 |
+| [341](Day-341.md) | **Gateway, discovery, service mesh** — and when you need none | 9 |
+| [342](Day-342.md) | ⭐ **Distributed transactions** — 2PC, ⭐ **sagas & compensations** | 9 |
+| [343](Day-343.md) | ⭐ **Consensus** — Raft, quorums, ⭐ **why not to build one** | 9 |
+| [344](Day-344.md) | ⭐⭐ **The system design interview framework** — the 45-min clock | 9 |
+| [345](Day-345.md) | 🏗️ **Design 1 — URL shortener** · ⭐ key generation, 301 vs 302 | 9 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
 complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
 **✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
-**🔄 Stage 9 (18/38)** — the physics, the data layer, and the **messaging and reliability block**.
-**327 days written**, including all **fourteen added gap days**.
+**🔄 Stage 9 (24/38)** — ✅ **all 22 fundamentals**, ✅ **the interview framework**, and the **first of
+fifteen designs**. **333 days written**, including all **fourteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 340–345 — microservices and **Conway's law**, API gateway/discovery/service
-mesh, **2PC, Saga and the outbox**, **consensus** (Raft, quorum, split brain), ⭐ **the system-design
-interview framework**, and the first design: the URL shortener.
+**Next batch:** Days 346–353 — Pastebin, a distributed rate limiter, a distributed KV store, a web
+crawler, a notification system, ⭐ **the news feed** (fan-out on write vs read) and ⭐ **the chat
+system** (ordering, presence, WebSockets at scale).
 
 ---
 
