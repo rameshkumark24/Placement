@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-321 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete (both projects)**, ✅ **Stage 8 complete (11 LLD problems + gate)** — 309 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-331 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete**, ✅ **Stage 8 complete (11 LLD problems + gate)**, 🔄 **Stage 9 fundamentals** — 319 days. |
 
 ---
 
@@ -491,11 +491,19 @@ rules** · [321](../Days/Day-321.md) 🚪🚪 **Stage 8 exit gate**
 <details>
 <summary><b>Days 322–359 — expand</b></summary>
 
-**Fundamentals (322–343)** — scalability, latency vs throughput, SLA/SLO/SLI ·
-**back-of-the-envelope estimation** · vertical vs horizontal scaling · load balancing (L4 vs L7) ·
-caching at scale and **consistent hashing** · CDN and object storage · replication · **sharding**
-(shard keys, hotspots, resharding pain) · **CAP done correctly** and PACELC · consistency models ·
-SQL vs NoSQL framework · message queues and event-driven architecture · Kafka fundamentals ·
+**Fundamentals (322–343)** — 🔄 **ten written** —
+[322](../Days/Day-322.md) scalability, latency vs throughput, ⭐ **Little's Law**, SLA/SLO/SLI ·
+[323](../Days/Day-323.md) ⭐ **back-of-the-envelope estimation** ·
+[324](../Days/Day-324.md) vertical vs horizontal scaling, ⭐ **what "stateless" means** ·
+[325](../Days/Day-325.md) load balancing (L4 vs L7), ⭐ **the health-check death spiral** ·
+[326](../Days/Day-326.md) ⭐ **caching at scale and consistent hashing** ·
+[327](../Days/Day-327.md) CDN and object storage — ⭐ **presigned URLs** ·
+[328](../Days/Day-328.md) replication — topologies, ⭐ **the three lag anomalies**, failover ·
+[329](../Days/Day-329.md) ⭐ **sharding** (shard keys, hotspots, ⭐ **pre-splitting**) ·
+[330](../Days/Day-330.md) ⭐ **CAP done correctly** and ⭐ **PACELC** ·
+[331](../Days/Day-331.md) consistency models — ⭐ **the four session guarantees** ·
+**to write:** SQL vs NoSQL framework · message queues and event-driven architecture · Kafka
+fundamentals ·
 delivery semantics · distributed rate limiting and backpressure · search and inverted indexes ·
 observability at scale · resilience patterns · microservices vs monolith (Conway's law) · API
 gateway, discovery, service mesh · **distributed transactions — 2PC, Saga, outbox** · consensus

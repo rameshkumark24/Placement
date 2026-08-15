@@ -320,16 +320,29 @@ articulation drill.
 | [320](Day-320.md) | **Food delivery & cabs** — ⭐ **matching is an offer** | 8 |
 | [320A](Day-320A.md) | ➕ **Library & Amazon orders** — ⭐ **the two unifying rules** | 8 |
 | [321](Day-321.md) | 🚪🚪 **STAGE 8 EXIT GATE** — two live 45-minute LLD rounds | 8 |
+| [322](Day-322.md) | **Scalability** — ⭐ **Little's Law**, the utilisation curve, SLO/SLI | 9 |
+| [323](Day-323.md) | ⭐ **Back-of-the-envelope estimation** — the numbers that decide | 9 |
+| [324](Day-324.md) | **Vertical vs horizontal** — ⭐ **what "stateless" really means** | 9 |
+| [325](Day-325.md) | **Load balancing** — L4 vs L7, ⭐ **the death spiral** | 9 |
+| [326](Day-326.md) | ⭐ **Caching at scale** — ⭐ **consistent hashing**, four failure modes | 9 |
+| [327](Day-327.md) | **CDN & object storage** — ⭐ **presigned URLs** | 9 |
+| [328](Day-328.md) | **Replication** — three topologies, ⭐ **three lag anomalies** | 9 |
+| [329](Day-329.md) | ⭐ **Sharding** — the key, hotspots, ⭐ **pre-splitting** | 9 |
+| [330](Day-330.md) | ⭐ **CAP done correctly** — and ⭐ **PACELC**, which matters more | 9 |
+| [331](Day-331.md) | **Consistency models** — ⭐ **the four session guarantees** | 9 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
 complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
 **✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
-**309 days written**, including all **fourteen added gap days**.
+**🔄 Stage 9 (10/38)** — the **physics and the data layer**.
+**319 days written**, including all **fourteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 322–345 — **Stage 9, system design**: scalability and estimation, caching and
-consistent hashing, sharding, CAP/PACELC, queues and Kafka, and **the interview framework**.
+**Next batch:** Days 332–343 — SQL vs NoSQL at scale, queues and event-driven architecture, **Kafka**
+and delivery semantics, distributed rate limiting and backpressure, search, observability,
+resilience, microservices and Conway's law, gateways and service mesh, **2PC/Saga/outbox**, and
+**consensus**.
 
 ---
 
