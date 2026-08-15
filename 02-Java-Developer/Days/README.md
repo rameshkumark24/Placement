@@ -397,6 +397,22 @@ articulation drill.
 | [395](Day-395.md) | **KMS & Secrets Manager** — envelope encryption, ⭐⭐ **alternating users** | 11 |
 | [396](Day-396.md) | ⭐⭐ **COST AS AN ENGINEERING CONSTRAINT** — the data transfer table | 11 |
 | [397](Day-397.md) | 🚪 **Flagship on AWS** · **STAGE 11 EXIT GATE** — ✅ **runs in the cloud** | 11 |
+| [398](Day-398.md) | **The eight fallacies** — ⭐⭐ **and the ninth**, partial failure | 12 |
+| [399](Day-399.md) | **Decomposition** — by domain not layer, ⭐ **the deploy-alone test** | 12 |
+| [400](Day-400.md) | **gRPC & protobuf** — ⭐⭐ **the field number is the contract**, the L4 trap | 12 |
+| [401](Day-401.md) | **Kafka I** — the log, ⭐⭐ **`acks=all` that guarantees nothing** | 12 |
+| [402](Day-402.md) | **Kafka II** — ⭐⭐ **auto-commit loses data**, the rebalance loop | 12 |
+| [403](Day-403.md) | **Kafka III** — ISR, ⭐ **compaction as a table**, ⭐⭐ where exactly-once stops | 12 |
+| [404](Day-404.md) | **RabbitMQ** — ⭐⭐ **ack deletes vs ack moves**, prefetch, quorum queues | 12 |
+| [405](Day-405.md) | **Event sourcing** — the power, and ⭐⭐ **the cost stated honestly** | 12 |
+| [406](Day-406.md) | **CQRS** — ⭐ **four levels**, projection lag, ⭐ rebuild as replay | 12 |
+| [407](Day-407.md) | ⭐⭐ **THE OUTBOX, CDC & DEBEZIUM** — ⭐⭐ the replication slot | 12 |
+| [408](Day-408.md) | **Sagas** — ⭐⭐ **compensation is not rollback**, orchestrate vs choreograph | 12 |
+| [409](Day-409.md) | **Time & ordering** — ⭐⭐ **LWW loses data silently**, vector clocks | 12 |
+| [410](Day-410.md) | ⭐⭐ **RAFT IN DETAIL** — the four-line safety argument | 12 |
+| [411](Day-411.md) | **Distributed locking** — ⭐⭐ **the fencing token**, efficiency vs correctness | 12 |
+| [412](Day-412.md) | **Failure detection & split brain** — ⭐⭐ **R+W>N is not linearizable**, CRDTs | 12 |
+| [413](Day-413.md) | 🚪 **Chaos & load shedding** · **STAGE 12 EXIT GATE** — ✅ **senior conversations** | 12 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
@@ -406,11 +422,13 @@ complete**. The 10 frontend days (271–280) live in
 **✅ Stage 9 (39/39)** — ✅✅ **COMPLETE SDE — Stages 0–9 finished.**
 **✅ Stage 10 (20/20)** — containers, pipelines, deployment, observability, Kubernetes and IaC.
 **✅ Stage 11 (18/18)** — identity, network, data, compute, edge, queues, observability and ⭐ **cost**.
-**387 days written**, including all **fifteen added gap days**.
+**✅ Stage 12 (16/16)** — ✅✅ **senior-track distributed systems finished.**
+**403 days written**, including all **fifteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 398–413 — **Stage 12, Distributed Systems**: the eight fallacies, gRPC, ⭐ **Kafka
-deep**, event sourcing & CQRS, the ⭐ **outbox pattern** and CDC, sagas, time & ordering, ⭐ **Raft in
-detail**, distributed locking, failure detection and split brain, chaos testing.
+**Next batch:** Days 462–488 — **Stage 15, Interview Conversion**: resume, behavioural and STAR,
+project defence drills, five timed DSA mocks, four LLD rounds, five system design rounds, and
+⭐ **levelling and negotiation**. Days 414–461 are Stage 13 (Python) and Stage 14 (AI) and live in
+[`01-Python-Developer`](../../01-Python-Developer/) and [`05-ML-Engineer`](../../05-ML-Engineer/).
 
 ---
 

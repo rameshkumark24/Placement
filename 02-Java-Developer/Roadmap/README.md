@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-397 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, ✅ **Stages 10 and 11 complete** — **387 days**. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-413 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, ✅ **Stages 10, 11 and 12 complete** — **403 days**. |
 
 ---
 
@@ -623,13 +623,39 @@ fixes, cost per request, and when *not* to optimise ·
 <details>
 <summary><b>Days 398–413 — expand</b></summary>
 
-The eight fallacies · microservice decomposition by domain not layer · sync vs async communication ·
-gRPC and protobuf · **Kafka deep** (partitions, ISR, retention, compaction, exactly-once) ·
-RabbitMQ and when it beats Kafka · event sourcing & CQRS — power and cost · **outbox pattern**, CDC,
-Debezium · Saga orchestration vs choreography · time & ordering (Lamport, vector clocks) ·
-**consensus — Raft in detail** · distributed locking (ZooKeeper/etcd) · replication and partitioning
-at production depth · failure detection, gossip, split brain · chaos testing, load shedding ·
-interview drill
+**Days 398–413** — ✅ **all 16 written** —
+[398](../Days/Day-398.md) the eight fallacies, ⭐⭐ **the ninth (failure is not detectable)**, partial
+failure, the availability multiplication ·
+[399](../Days/Day-399.md) decomposition by domain not layer, ⭐ **the deploy-alone test**, the
+distributed monolith, sync vs async ·
+[400](../Days/Day-400.md) **gRPC and protobuf** — ⭐ **the field number is the contract**, deadline
+propagation, ⭐ **the L4 load-balancing trap** ·
+[401](../Days/Day-401.md) **Kafka I** — the log, where ordering lives, ⭐⭐ **`acks=all` with
+`min.insync.replicas=1` guarantees nothing**, the idempotent producer ·
+[402](../Days/Day-402.md) **Kafka II** — ⭐⭐ **auto-commit loses data**, rebalancing, the infinite
+`max.poll.interval` loop, retry topics ·
+[403](../Days/Day-403.md) **Kafka III** — ISR and the high watermark, ⭐ **compaction as a table**,
+transactions and ⭐⭐ **where exactly-once stops** ·
+[404](../Days/Day-404.md) **RabbitMQ** — ⭐ **ack deletes vs ack moves**, exchanges, the prefetch trap,
+quorum queues, and the two-question choice ·
+[405](../Days/Day-405.md) **event sourcing** — state as a fold, ⭐⭐ **the cost stated honestly**,
+upcasting, ⭐ crypto-shredding for GDPR ·
+[406](../Days/Day-406.md) **CQRS** — ⭐ **four levels priced separately**, projection lag and
+read-your-writes, ⭐ rebuild as replay ·
+[407](../Days/Day-407.md) ⭐⭐ **THE OUTBOX, CDC AND DEBEZIUM** — the dual-write problem, the inbox, and
+⭐⭐ **the replication slot that fills your disk** ·
+[408](../Days/Day-408.md) **sagas** — ⭐⭐ **compensation is not rollback**, orchestration vs
+choreography, semantic locks, manual intervention ·
+[409](../Days/Day-409.md) **time and ordering** — ⭐⭐ **LWW loses data silently**, happened-before,
+Lamport and vector clocks, HLC and TrueTime ·
+[410](../Days/Day-410.md) ⭐⭐ **CONSENSUS — RAFT IN DETAIL**: quorum intersection, randomised timeouts,
+the four-line safety argument, and what it costs per write ·
+[411](../Days/Day-411.md) **distributed locking** — ⭐⭐ **the fencing token**, efficiency vs
+correctness, and the conditional write that replaces the lock ·
+[412](../Days/Day-412.md) **failure detection, gossip, split brain** — phi-accrual, SWIM, ⭐⭐ **R+W>N is
+not linearizability**, hinted handoff, CRDTs ·
+[413](../Days/Day-413.md) 🚪 **chaos engineering and load shedding** + interview drill + **STAGE 12
+EXIT GATE**
 
 </details>
 
