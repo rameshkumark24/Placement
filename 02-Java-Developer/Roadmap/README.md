@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-353 written** — ✅ **Stages 0-5 complete**, ✅ **Stage 7 complete**, ✅ **Stage 8 complete**, 🔄 **Stage 9: all fundamentals + the framework + 9 of 15 designs** — 341 days. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-359 written** — ✅✅ **COMPLETE SDE: Stages 0–9 all complete** (0-5, 7, 8, 9) — **349 days**. Next: Stage 10 (DevOps). |
 
 ---
 
@@ -519,7 +519,7 @@ orchestration** ·
 **[344](../Days/Day-344.md) — ✅ ⭐⭐ the interview framework**: clarify → estimate → API → data model
 → HLD → **deep dive** → bottlenecks, on a 45-minute clock
 
-**Designs (345–359)** — 🔄 **nine written** —
+**Designs (345–359)** — ✅ **all fifteen written** —
 [345](../Days/Day-345.md) ⭐ **URL shortener** (key generation, 301 vs 302) ·
 [346](../Days/Day-346.md) **Pastebin** (⭐ where large content lives, dedup, CDN + auth) ·
 [347](../Days/Day-347.md) **distributed rate limiter** (⭐ local decisions, global truth) ·
@@ -529,9 +529,15 @@ orchestration** ·
 [351](../Days/Day-351.md) ⭐ **news feed** (⭐⭐ **fan-out on write vs read**) ·
 [352](../Days/Day-352.md) ⭐ **chat system** (⭐⭐ **routing to a connection**, ordering, presence) ·
 [353](../Days/Day-353.md) **video streaming** (⭐ **adaptive bitrate**, egress as the bill) ·
-**to write:** file storage & sync · ride hailing
-(geospatial indexing) · ticket booking (seat locking, payment) · **payment system** (idempotency,
-ledger, reconciliation) · autocomplete · distributed job scheduler + metrics system
+[354](../Days/Day-354.md) **file storage & sync** (⭐ **chunking**, delta sync, conflicts) ·
+[355](../Days/Day-355.md) **ride hailing** (⭐ **250k location writes/s**, geo sharding) ·
+[356](../Days/Day-356.md) **ticket booking** (⭐⭐ **the virtual waiting room**, bucketed inventory) ·
+[357](../Days/Day-357.md) ⭐ **payment system** (⭐⭐ **double-entry ledger**, idempotency,
+reconciliation) ·
+[358](../Days/Day-358.md) **autocomplete** (⭐ **precompute top-K**, the hot layer) ·
+[358A](../Days/Day-358A.md) ➕ **job scheduler & metrics system** (⭐ conditional claims, ⭐ **Gorilla
+compression**) ·
+[359](../Days/Day-359.md) 🚪🚪 **Stage 9 exit gate — ✅✅ COMPLETE SDE**
 
 </details>
 

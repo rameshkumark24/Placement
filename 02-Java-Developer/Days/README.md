@@ -352,18 +352,24 @@ articulation drill.
 | [351](Day-351.md) | ⭐🏗️ **Design 7 — news feed** · ⭐⭐ **fan-out on write vs read** | 9 |
 | [352](Day-352.md) | ⭐🏗️ **Design 8 — chat** · ⭐⭐ **routing to a connection**, ordering | 9 |
 | [353](Day-353.md) | 🏗️ **Design 9 — video streaming** · ⭐ **adaptive bitrate**, egress | 9 |
+| [354](Day-354.md) | 🏗️ **Design 10 — file sync** · ⭐ **chunking**, conflicts | 9 |
+| [355](Day-355.md) | 🏗️ **Design 11 — ride hailing** · ⭐ **location at 250k/s** | 9 |
+| [356](Day-356.md) | 🏗️ **Design 12 — ticket booking** · ⭐⭐ **the waiting room** | 9 |
+| [357](Day-357.md) | ⭐🏗️ **Design 13 — payments** · ⭐⭐ **the double-entry ledger** | 9 |
+| [358](Day-358.md) | 🏗️ **Design 14 — autocomplete** · ⭐ **precompute, then look up** | 9 |
+| [358A](Day-358A.md) | ➕🏗️ **Design 15 — job scheduler & metrics** · ⭐ claims, compression | 9 |
+| [359](Day-359.md) | 🚪🚪 **STAGE 9 EXIT GATE** — ✅✅ **COMPLETE SDE** | 9 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
 complete**. The 10 frontend days (271–280) live in
 [`03-Web-Developer`](../../03-Web-Developer/).
 **✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
-**🔄 Stage 9 (32/38)** — ✅ **all 22 fundamentals**, ✅ **the framework**, **9 of 15 designs**.
-**341 days written**, including all **fourteen added gap days**.
-Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 354–359 — file storage & sync, ride hailing, ticket booking, ⭐ **the payment
-system** (idempotency, ledger, reconciliation), autocomplete, a job scheduler & metrics system, and
-🚪🚪 **the Stage 9 exit gate — ✅ COMPLETE SDE**.
+**✅ Stage 9 (39/39)** — 22 fundamentals, the framework, **fifteen designs** and the gate.
+**✅✅ COMPLETE SDE — Stages 0–9 finished.** **349 days written**, including all **fifteen added gap
+days**. Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
+**Next batch:** Days 360–379 — **Stage 10, DevOps**: Linux and shell at depth, Docker, CI/CD
+pipelines, Kubernetes, infrastructure as code, secrets, and production operations.
 
 ---
 
