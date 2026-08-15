@@ -428,6 +428,18 @@ articulation drill.
 | [474](Day-474.md) | 🎯 **DSA mock 3** — DP, ⭐⭐ **the four-step method** | 15 |
 | [475](Day-475.md) | 🎯 **DSA mock 4** — heaps, intervals, ⭐ the window template | 15 |
 | [476](Day-476.md) | 🎯 **DSA mock 5** — mixed + ⭐⭐ **the five-mock debrief** | 15 |
+| [477](Day-477.md) | 🎯 **LLD round 1** — parking lot + ⭐ **the LLD clock** | 15 |
+| [478](Day-478.md) | 🎯 **LLD round 2** — a notification service | 15 |
+| [479](Day-479.md) | 🎯 **LLD round 3** — ⭐⭐ **a thread-safe cache**, the stampede | 15 |
+| [480](Day-480.md) | 🎯 **LLD round 4** — a wallet, ⭐⭐ **the ledger + the deadlock** | 15 |
+| [481](Day-481.md) | 🎯 **SD round 1** — URL shortener + ⭐ **the SD rubric** | 15 |
+| [482](Day-482.md) | 🎯 **SD round 2** — news feed, ⭐⭐ **the celebrity multiplication** | 15 |
+| [483](Day-483.md) | 🎯 **SD round 3** — chat, ⭐⭐ **the routing problem** | 15 |
+| [484](Day-484.md) | 🎯 **SD round 4** — payments, ⭐⭐ **correctness inverts everything** | 15 |
+| [485](Day-485.md) | 🎯 **SD round 5** — scheduler + ⭐ **the five-round debrief** | 15 |
+| [486](Day-486.md) | **Company prep** — loop archetypes, ⭐ the after-action record | 15 |
+| [487](Day-487.md) | **Levelling** — ⭐⭐ **scope, not difficulty**; down-levelling | 15 |
+| [488](Day-488.md) | 🚪🚪 **Negotiation, the offer, and THE CLOSE** — ✅✅ **488 days** | 15 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
@@ -438,13 +450,13 @@ complete**. The 10 frontend days (271–280) live in
 **✅ Stage 10 (20/20)** — containers, pipelines, deployment, observability, Kubernetes and IaC.
 **✅ Stage 11 (18/18)** — identity, network, data, compute, edge, queues, observability and ⭐ **cost**.
 **✅ Stage 12 (16/16)** — ✅✅ **senior-track distributed systems finished.**
-**🔵 Stage 15 (15/27)** — resume, behavioural, ✅ **five project defence drills**, ✅ **five DSA mocks**.
-**418 days written**, including all **fifteen added gap days**.
+**✅ Stage 15 (27/27)** — resume, behavioural, project defence, 5 DSA mocks, 4 LLD rounds,
+5 system design rounds, levelling and negotiation.
+**✅✅ 430 days written — THE JAVA SDE ROADMAP IS COMPLETE.**
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 477–488 — **Stage 15 finishes**: four full **LLD rounds** in Java, five full
-**system design rounds** scored on structure, company-specific prep, **levelling** and ⭐ **salary
-negotiation**. Days 414–461 are Stage 13 (Python) and Stage 14 (AI) and live in
-[`01-Python-Developer`](../../01-Python-Developer/) and [`05-ML-Engineer`](../../05-ML-Engineer/).
+Days 414–461 are Stage 13 (Python) and Stage 14 (AI) and live in
+[`01-Python-Developer`](../../01-Python-Developer/) and [`05-ML-Engineer`](../../05-ML-Engineer/);
+Stage 6 (frontend, Days 214–247 and 271–280) lives in [`03-Web-Developer`](../../03-Web-Developer/).
 
 ---
 

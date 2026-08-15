@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-413 and 462-476 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, ✅ **Stages 10, 11, 12 complete**, 🔵 **Stage 15 in progress** — **418 days**. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-413 and 462-488 written** — ✅✅ **THE JAVA SDE ROADMAP IS COMPLETE**: Stages 0–12 and 15, **430 days**. |
 
 ---
 
@@ -669,6 +669,6 @@ EXIT GATE**
 | 464–466 | ✅ **written** — Behavioural: [464](../Days/Day-464.md) ⭐ **STAR proportions** and the ten-story bank · [465](../Days/Day-465.md) ⭐⭐ **the failure story and the conflict story**, disagree-and-commit · [466](../Days/Day-466.md) ⭐⭐ **communication under evaluation** — thinking aloud, "I don't know", recovery, the clock |
 | 467–471 | ✅ **written** — Project defence: [467](../Days/Day-467.md) three lengths and ⭐ **the hook** · [468](../Days/Day-468.md) ⭐⭐ **the decision log** — force / rejected / cost · [469](../Days/Day-469.md) ⭐⭐ **the failure interrogation** and the 10× sequence · [470](../Days/Day-470.md) ⭐ **the code walk** and the README that wins · [471](../Days/Day-471.md) 🎯 the full 45-minute deep dive + 15-row rubric |
 | 472–476 | ✅ **written** — DSA mocks: [472](../Days/Day-472.md) 🎯 arrays/hashing/two pointers + ⭐ **the mock protocol** · [473](../Days/Day-473.md) 🎯 trees and graphs, ⭐ **the three-colour cycle** · [474](../Days/Day-474.md) 🎯 DP, ⭐⭐ **the four-step method** · [475](../Days/Day-475.md) 🎯 heaps, intervals, ⭐ the window template · [476](../Days/Day-476.md) 🎯 mixed + ⭐⭐ **the five-mock debrief and diagnosis table** |
-| 477–480 | Four full LLD rounds in Java |
-| 481–485 | Five full system design rounds, scored on structure |
-| 486–488 | Company-specific prep, levelling, salary negotiation |
+| 477–480 | ✅ **written** — LLD rounds: [477](../Days/Day-477.md) 🎯 parking lot + ⭐ **the LLD clock** and the requirements script · [478](../Days/Day-478.md) 🎯 a notification service — channels, templates as data, ⭐ delivery guarantees · [479](../Days/Day-479.md) 🎯 ⭐⭐ **a thread-safe cache** — check-then-act, single-flight, the stampede · [480](../Days/Day-480.md) 🎯 a wallet — ⭐⭐ **the double-entry ledger and the ordered-lock deadlock** + the four-round debrief |
+| 481–485 | ✅ **written** — System design rounds: [481](../Days/Day-481.md) 🎯 URL shortener + ⭐ **the 12-row SD rubric** · [482](../Days/Day-482.md) 🎯 news feed — ⭐⭐ **the celebrity multiplication** · [483](../Days/Day-483.md) 🎯 chat — ⭐⭐ **the connection registry and routing** · [484](../Days/Day-484.md) 🎯 payments — ⭐⭐ **correctness inverts every availability instinct**, reconciliation · [485](../Days/Day-485.md) 🎯 a distributed scheduler — ⭐ claim-with-lease + the five-round debrief |
+| 486–488 | ✅ **written** — [486](../Days/Day-486.md) company prep — loop archetypes, who scores what, ⭐ **the after-action record** · [487](../Days/Day-487.md) ⭐⭐ **levelling — scope, not difficulty**, down-levelling, task-scope vs problem-scope stories · [488](../Days/Day-488.md) 🚪🚪 **negotiation, the offer decision, the first 90 days — and THE CLOSE of 488 days** |
