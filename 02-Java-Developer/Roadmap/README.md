@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-379 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, ✅ **Stage 10 complete** — **369 days**. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-397 written** — ✅✅ **COMPLETE SDE (Stages 0–9)**, ✅ **Stages 10 and 11 complete** — **387 days**. |
 
 ---
 
@@ -580,12 +580,41 @@ consistent senior-level *structure*, not perfect answers.
 <details>
 <summary><b>Days 380–397 — expand</b></summary>
 
-Service models, regions, AZs, shared responsibility · **IAM** (roles, policies, least privilege,
-assume-role) · EC2 · **VPC** (subnets, route tables, NAT, NACLs) · S3 (storage classes, lifecycle,
-presigned URLs) · RDS · ElastiCache · Lambda and cold starts · API Gateway · SQS & SNS · ECS &
-Fargate · ELB and auto scaling · Route 53 & CloudFront · CloudWatch · Secrets Manager, KMS · **cost
-management as an engineering constraint** · Well-Architected Framework · **deploy your flagship to
-AWS end to end with IaC**
+**Days 380–397** — ✅ **all 18 written** —
+[380](../Days/Day-380.md) regions, AZs, shared responsibility, ⭐ **control plane vs data plane and
+static stability** ·
+[381](../Days/Day-381.md) **IAM I** — the evaluation order, ceilings vs grants, ⭐ **`iam:PassRole`
+escalation** ·
+[382](../Days/Day-382.md) **IAM II** — roles, STS, the SDK credential chain, ⭐ **IMDSv2**, the ECS
+two-role diagnostic ·
+[383](../Days/Day-383.md) **VPC I** — CIDR planning, ⭐ **what actually makes a subnet public**, NAT
+gateway pricing ·
+[384](../Days/Day-384.md) **VPC II** — ⭐ **SG-references-SG**, the NACL ephemeral-port bug, VPC
+endpoints, the debugging checklist ·
+[385](../Days/Day-385.md) **EC2 & EBS** — instance families, ⭐ **burst credits**, gp2→gp3, Graviton ·
+[386](../Days/Day-386.md) **S3** — the object model, storage-class maths, presigned uploads, ⭐ **four
+cost traps** ·
+[387](../Days/Day-387.md) **RDS & Aurora** — Multi-AZ vs replicas, ⭐⭐ **the JVM DNS cache**, what
+"restore" means, connection budgets ·
+[388](../Days/Day-388.md) **ElastiCache** — cluster mode and hash tags, ⭐ **`noeviction`**, the
+cold-cache herd ·
+[389](../Days/Day-389.md) **ELB & Auto Scaling** — health checks, ⭐⭐ **the idle-timeout 502**,
+draining, the scale-out latency chain ·
+[390](../Days/Day-390.md) **ECS & Fargate** — task definitions, `stopTimeout`, ⭐ **ECS vs EKS argued
+honestly** ·
+[391](../Days/Day-391.md) **Lambda** — the execution model, ⭐ **SnapStart and the frozen seed**,
+idempotency, ⭐ **the cost crossover** ·
+[392](../Days/Day-392.md) **Route 53, CloudFront, API Gateway** — the cache key, ⭐⭐ **why CloudFront
+is cheaper**, ALB vs API Gateway ·
+[393](../Days/Day-393.md) **SQS, SNS, EventBridge** — ⭐⭐ **the visibility timeout is a lease**, FIFO's
+real cost, scaling on message age ·
+[394](../Days/Day-394.md) **CloudWatch, X-Ray, CloudTrail** — ⭐ **cardinality with an invoice**, the
+green alarm during an outage, log retention ·
+[395](../Days/Day-395.md) **KMS & Secrets Manager** — envelope encryption, key policies, ⭐⭐
+**alternating-user rotation** ·
+[396](../Days/Day-396.md) ⭐⭐ **COST AS AN ENGINEERING CONSTRAINT** — the data transfer table, the ten
+fixes, cost per request, and when *not* to optimise ·
+[397](../Days/Day-397.md) 🚪 **the flagship on AWS** + Well-Architected + **STAGE 11 EXIT GATE**
 
 </details>
 

@@ -379,6 +379,24 @@ articulation drill.
 | [377](Day-377.md) | **Kubernetes I** — the loop, probes, ⭐ **requests vs limits** | 10 |
 | [378](Day-378.md) | **Kubernetes II** — ⭐⭐ **the preStop sleep**, PDBs, ⭐ when it's overkill | 10 |
 | [379](Day-379.md) | 🚪 **Terraform** · **STAGE 10 EXIT GATE** — ✅ **ships own work** | 10 |
+| [380](Day-380.md) | **The cloud model** — AZs, ⭐⭐ **control plane vs data plane**, static stability | 11 |
+| [381](Day-381.md) | **IAM I** — evaluation order, ⭐⭐ **`iam:PassRole` escalation** | 11 |
+| [382](Day-382.md) | **IAM II** — roles, STS, the credential chain, ⭐ **IMDSv2** | 11 |
+| [383](Day-383.md) | **VPC I** — ⭐⭐ **what actually makes a subnet public**, NAT pricing | 11 |
+| [384](Day-384.md) | **VPC II** — ⭐⭐ **SG references SG**, NACL ephemeral ports, endpoints | 11 |
+| [385](Day-385.md) | **EC2 & EBS** — ⭐ **burst credits**, gp3, ⭐ Graviton | 11 |
+| [386](Day-386.md) | **S3** — presigned uploads, ⭐⭐ **four cost traps** | 11 |
+| [387](Day-387.md) | **RDS & Aurora** — Multi-AZ vs replicas, ⭐⭐ **the JVM DNS cache** | 11 |
+| [388](Day-388.md) | **ElastiCache** — ⭐ **`noeviction`**, cluster mode, ⭐⭐ the cold-cache herd | 11 |
+| [389](Day-389.md) | **ELB & Auto Scaling** — ⭐⭐ **the idle-timeout 502**, draining | 11 |
+| [390](Day-390.md) | **ECS & Fargate** — the two roles, ⭐ **ECS vs EKS argued** | 11 |
+| [391](Day-391.md) | **Lambda** — ⭐ **SnapStart & the frozen seed**, ⭐⭐ the cost crossover | 11 |
+| [392](Day-392.md) | **The edge** — Route 53, ⭐⭐ **CloudFront is cheaper**, API Gateway | 11 |
+| [393](Day-393.md) | **SQS/SNS/EventBridge** — ⭐⭐ **the visibility timeout is a lease** | 11 |
+| [394](Day-394.md) | **CloudWatch, X-Ray, CloudTrail** — ⭐⭐ **cardinality with an invoice** | 11 |
+| [395](Day-395.md) | **KMS & Secrets Manager** — envelope encryption, ⭐⭐ **alternating users** | 11 |
+| [396](Day-396.md) | ⭐⭐ **COST AS AN ENGINEERING CONSTRAINT** — the data transfer table | 11 |
+| [397](Day-397.md) | 🚪 **Flagship on AWS** · **STAGE 11 EXIT GATE** — ✅ **runs in the cloud** | 11 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
 **✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
@@ -387,11 +405,12 @@ complete**. The 10 frontend days (271–280) live in
 **✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
 **✅ Stage 9 (39/39)** — ✅✅ **COMPLETE SDE — Stages 0–9 finished.**
 **✅ Stage 10 (20/20)** — containers, pipelines, deployment, observability, Kubernetes and IaC.
-**369 days written**, including all **fifteen added gap days**.
+**✅ Stage 11 (18/18)** — identity, network, data, compute, edge, queues, observability and ⭐ **cost**.
+**387 days written**, including all **fifteen added gap days**.
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-**Next batch:** Days 380–397 — **Stage 11, AWS**: IAM, VPC, EC2/ECS/Fargate, S3, RDS, ElastiCache,
-Lambda, SQS/SNS, ELB and autoscaling, CloudFront, CloudWatch, KMS, and ⭐ **cost as an engineering
-constraint**.
+**Next batch:** Days 398–413 — **Stage 12, Distributed Systems**: the eight fallacies, gRPC, ⭐ **Kafka
+deep**, event sourcing & CQRS, the ⭐ **outbox pattern** and CDC, sagas, time & ordering, ⭐ **Raft in
+detail**, distributed locking, failure detection and split brain, chaos testing.
 
 ---
 
