@@ -30,10 +30,20 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [020](Day-020.md) | ⭐⭐ **CORS** — and why it is not API security | 0 |
 | [021](Day-021.md) | Deployment — artefacts, WSGI vs ASGI, workers, config · **C-14** 40-question drill | 0 |
 | [022](Day-022.md) | 🚪 **Stage 0 capstone** — one request, end to end, in ten minutes | 0 |
+| [023](Day-023.md) | 🐍 **Everything is an object** — `PyObject`, classes as objects, EAFP | 1 |
+| [024](Day-024.md) | ⭐⭐ **There are no variables** — names, bindings, and call by sharing | 1 |
+| [025](Day-025.md) | ⭐⭐ **Mutability** — the mutable default, aliasing, `copy` vs `deepcopy` | 1 |
+| [026](Day-026.md) | ⭐⭐ **Reference counting** — why `__del__` is not cleanup, and half of why the GIL exists | 1 |
+| [027](Day-027.md) | The cyclic GC — generations, thresholds, and `gc.freeze()` before fork | 1 |
+| [028](Day-028.md) | Memory — object overhead, `__slots__`, interning, the small-int cache | 1 |
+| [029](Day-029.md) | ⭐ `is` vs `==`, truthiness, and the ⭐⭐ `__eq__`/`__hash__` contract | 1 |
+| [030](Day-030.md) | Scope, LEGB, closures, and ⭐⭐ **the loop-variable trap** | 1 |
+| [031](Day-031.md) | ⭐⭐ **The data model** — syntax as dispatch to dunders | 1 |
+| [032](Day-032.md) | `__getattr__` vs `__getattribute__`, ⭐ **descriptors**, and what `property` is | 1 |
 
-**✅ Stage 0 complete (22/22).** Next: Days 023–077 — 🐍 **Stage 1, Python Mastery**: the object
-model, built-in type internals, functions and generators, OOP and typing, ⭐⭐ **the GIL and
-asyncio**, and the runtime.
+**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (10/55)** — the object-model block
+(023–032) is done. Next: Days 033–041 — `list`, `tuple`, ⭐⭐ **`dict` internals**, `set`, strings,
+`bytes`, and `collections`.
 
 ---
 

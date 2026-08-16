@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–022 written** — ✅ **Stage 0 complete**; 🔵 Stage 1 next. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–032 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (10/55)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -119,16 +119,16 @@ happens when you type google.com"* · explain HTML vs server to a non-technical 
 
 | Day | Lesson |
 |---|---|
-| 023 | **Everything is an object** — `PyObject`, type vs class, `id()`, `type()`, `isinstance` |
-| 024 | ⭐ **Names, bindings and references** — assignment binds a name; there are no variables |
-| 025 | ⭐⭐ **Mutability** — the mutable default argument, aliasing, `copy` vs `deepcopy` |
-| 026 | Reference counting, `sys.getrefcount`, and why CPython frees immediately |
-| 027 | ⭐ The **cyclic garbage collector** — generations, `gc` module, when it actually runs |
-| 028 | Memory: object overhead, `__slots__`, interning, small-int cache |
-| 029 | ⭐ **Truthiness, identity vs equality** — `is` vs `==`, `__eq__`/`__hash__` contract |
-| 030 | Scope and the LEGB rule · `global`, `nonlocal` · closures over loop variables |
-| 031 | ⭐⭐ **The data model** — dunder methods as the whole language's interface |
-| 032 | `__getattr__` vs `__getattribute__`, descriptors, `property` |
+| [023](../Days/Day-023.md) | **Everything is an object** — `PyObject`, type vs class, `id()`, `type()`, `isinstance` |
+| [024](../Days/Day-024.md) | ⭐ **Names, bindings and references** — assignment binds a name; there are no variables |
+| [025](../Days/Day-025.md) | ⭐⭐ **Mutability** — the mutable default argument, aliasing, `copy` vs `deepcopy` |
+| [026](../Days/Day-026.md) | Reference counting, `sys.getrefcount`, and why CPython frees immediately |
+| [027](../Days/Day-027.md) | ⭐ The **cyclic garbage collector** — generations, `gc` module, when it actually runs |
+| [028](../Days/Day-028.md) | Memory: object overhead, `__slots__`, interning, small-int cache |
+| [029](../Days/Day-029.md) | ⭐ **Truthiness, identity vs equality** — `is` vs `==`, `__eq__`/`__hash__` contract |
+| [030](../Days/Day-030.md) | Scope and the LEGB rule · `global`, `nonlocal` · closures over loop variables |
+| [031](../Days/Day-031.md) | ⭐⭐ **The data model** — dunder methods as the whole language's interface |
+| [032](../Days/Day-032.md) | `__getattr__` vs `__getattribute__`, descriptors, `property` |
 
 ### Built-in types, done properly (033–041)
 
