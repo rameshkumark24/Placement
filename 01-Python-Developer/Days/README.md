@@ -40,10 +40,19 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [030](Day-030.md) | Scope, LEGB, closures, and ⭐⭐ **the loop-variable trap** | 1 |
 | [031](Day-031.md) | ⭐⭐ **The data model** — syntax as dispatch to dunders | 1 |
 | [032](Day-032.md) | `__getattr__` vs `__getattribute__`, ⭐ **descriptors**, and what `property` is | 1 |
+| [033](Day-033.md) | ⭐ `list` internals — over-allocation, and why `pop(0)` is O(n) | 1 |
+| [034](Day-034.md) | `tuple` and `NamedTuple` — a record, not an immutable list | 1 |
+| [035](Day-035.md) | ⭐⭐ **`dict` internals** — open addressing, compact layout, insertion order | 1 |
+| [036](Day-036.md) | `set` and `frozenset` — ⭐ set algebra as an algorithm | 1 |
+| [037](Day-037.md) | ⭐ **Strings** — `str` vs `bytes`, encoding, and the silent corruption | 1 |
+| [038](Day-038.md) | `collections` — `deque`, `defaultdict`, `Counter`, ⭐ the `OrderedDict` LRU | 1 |
+| [039](Day-039.md) | `heapq`, `bisect`, `array` — ⭐ top-k, lower bound, and contiguous numbers | 1 |
+| [040](Day-040.md) | Slicing, unpacking, star-args, and the walrus operator | 1 |
+| [041](Day-041.md) | Numbers — float traps, ⭐⭐ **why money is never a float** | 1 |
 
-**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (10/55)** — the object-model block
-(023–032) is done. Next: Days 033–041 — `list`, `tuple`, ⭐⭐ **`dict` internals**, `set`, strings,
-`bytes`, and `collections`.
+**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (19/55)** — the object-model block
+(023–032) and the built-in types block (033–041) are done. Next: Days 042–052 — functions,
+closures, ⭐⭐ **decorators**, iterators, ⭐⭐ **generators**, `itertools`, and context managers.
 
 ---
 

@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–032 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (10/55)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–041 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (19/55)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -134,15 +134,15 @@ happens when you type google.com"* · explain HTML vs server to a non-technical 
 
 | Day | Lesson |
 |---|---|
-| 033 | ⭐ `list` internals — over-allocation, amortised append, why `insert(0, x)` is O(n) |
-| 034 | `tuple`, `namedtuple`, and when immutability buys you something |
-| 035 | ⭐⭐ **`dict` internals** — open addressing, compact dicts, insertion order, resize |
-| 036 | ⭐ `set` and `frozenset` — hashing, set algebra as an algorithm |
-| 037 | ⭐ **Strings** — immutability, interning, encoding, `str` vs `bytes`, why `+=` in a loop is O(n²) |
-| 038 | `collections` — `deque`, `defaultdict`, `Counter`, `ChainMap` |
-| 039 | `heapq`, `bisect`, `array` — the stdlib that replaces hand-written data structures |
-| 040 | ⭐ Slicing, unpacking, star-args, and the walrus operator |
-| 041 | Numbers — int arbitrary precision, float traps, `decimal`, `fractions` |
+| [033](../Days/Day-033.md) | ⭐ `list` internals — over-allocation, amortised append, why `insert(0, x)` is O(n) |
+| [034](../Days/Day-034.md) | `tuple`, `namedtuple`, and when immutability buys you something |
+| [035](../Days/Day-035.md) | ⭐⭐ **`dict` internals** — open addressing, compact dicts, insertion order, resize |
+| [036](../Days/Day-036.md) | ⭐ `set` and `frozenset` — hashing, set algebra as an algorithm |
+| [037](../Days/Day-037.md) | ⭐ **Strings** — immutability, interning, encoding, `str` vs `bytes`, why `+=` in a loop is O(n²) |
+| [038](../Days/Day-038.md) | `collections` — `deque`, `defaultdict`, `Counter`, `ChainMap` |
+| [039](../Days/Day-039.md) | `heapq`, `bisect`, `array` — the stdlib that replaces hand-written data structures |
+| [040](../Days/Day-040.md) | ⭐ Slicing, unpacking, star-args, and the walrus operator |
+| [041](../Days/Day-041.md) | Numbers — int arbitrary precision, float traps, `decimal`, `fractions` |
 
 ### Functions, iteration and functional Python (042–052)
 
