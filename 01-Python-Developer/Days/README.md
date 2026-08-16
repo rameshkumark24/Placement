@@ -23,9 +23,17 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [013](Day-013.md) | What CSS is — box model, cascade, specificity · ⭐ selectors as a query language · **C-09** HTTP on the wire | 0 |
 | [014](Day-014.md) | ⭐⭐ **The event loop** — the browser's, and therefore `asyncio`'s | 0 |
 | [015](Day-015.md) | The rendering pipeline · **C-10** ⭐⭐ hashing vs encryption vs signing, and how to store a password | 0 |
+| [016](Day-016.md) | REST vs RPC vs GraphQL · **C-11** ⭐⭐ sockets, `epoll`, and what `asyncio` really is | 0 |
+| [017](Day-017.md) | ⭐⭐ **WebSockets** — the upgrade handshake and frames, parsed by hand | 0 |
+| [018](Day-018.md) | WebSockets vs ⭐ **SSE** vs long-polling · **C-12** proxies, L4/L7, CDN | 0 |
+| [019](Day-019.md) | ⭐⭐ **Where state lives** — cookies, sessions, JWT, CSRF · **C-13** the debugging toolkit | 0 |
+| [020](Day-020.md) | ⭐⭐ **CORS** — and why it is not API security | 0 |
+| [021](Day-021.md) | Deployment — artefacts, WSGI vs ASGI, workers, config · **C-14** 40-question drill | 0 |
+| [022](Day-022.md) | 🚪 **Stage 0 capstone** — one request, end to end, in ten minutes | 0 |
 
-**🔵 Stage 0 in progress (15/22).** Next: Days 016–022 — REST, WebSockets, SSE vs long-polling,
-where state lives, CORS, deployment, and the capstone.
+**✅ Stage 0 complete (22/22).** Next: Days 023–077 — 🐍 **Stage 1, Python Mastery**: the object
+model, built-in type internals, functions and generators, OOP and typing, ⭐⭐ **the GIL and
+asyncio**, and the runtime.
 
 ---
 

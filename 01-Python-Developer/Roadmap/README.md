@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. 🔵 **In progress** — see the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–022 written** — ✅ **Stage 0 complete**; 🔵 Stage 1 next. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -51,7 +51,7 @@ You can never skip a lesson — but you can pass through it fast.
 
 | Days | Stage | Milestone |
 |---|---|---|
-| 1–22 | [Stage 0 — Ground Zero](#stage-0--ground-zero) | Can explain servers, HTTP, WebSockets |
+| 1–22 | [Stage 0 — Ground Zero](#stage-0--ground-zero) ✅ | Can explain servers, HTTP, WebSockets |
 | 23–77 | [Stage 1 — Python Mastery](#stage-1--python-mastery) | Interview-grade Python |
 | 78–101 | [Stage 2 — Professional Engineering](#stage-2--professional-engineering) | Git, Linux, clean code, pytest |
 | 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) | Can build an API with no framework |
@@ -95,13 +95,13 @@ You can never skip a lesson — but you can pass through it fast.
 | [013](../Days/Day-013.md) | What CSS actually is — box model, cascade, specificity, layout | C-09 · HTTP on the wire — framing, HPACK, QPACK |
 | [014](../Days/Day-014.md) | What JavaScript is in a browser — engine, call stack, **event loop** (you meet this again in asyncio) | |
 | [015](../Days/Day-015.md) | Browser rendering pipeline — parse → DOM → CSSOM → layout → paint → composite | C-10 · Crypto primitives — hashing vs encryption vs signing |
-| 016 | REST — what Fielding actually said · vs RPC vs GraphQL | C-11 · Sockets — the API under every server |
-| 017 | **WebSockets** — why polling fails, upgrade handshake, frames, full-duplex | |
-| 018 | WebSockets vs SSE vs long-polling — the decision table | C-12 · Proxies, reverse proxies, load balancers (L4/L7), CDN |
-| 019 | Where state lives — cookies, sessions, localStorage, tokens | C-13 · Network debugging — ping, traceroute, dig, `curl -v`, tcpdump |
-| 020 | Same-origin policy and CORS — why the browser blocks you, preflight | |
-| 021 | What deployment actually does — build, artefacts, static hosting, CDN, edge | C-14 · Networks interview drill — 40 rapid-fire |
-| 022 | 🚪 **Capstone** — trace one full request end to end through every layer | |
+| [016](../Days/Day-016.md) | REST — what Fielding actually said · vs RPC vs GraphQL | C-11 · Sockets — the API under every server |
+| [017](../Days/Day-017.md) | **WebSockets** — why polling fails, upgrade handshake, frames, full-duplex | |
+| [018](../Days/Day-018.md) | WebSockets vs SSE vs long-polling — the decision table | C-12 · Proxies, reverse proxies, load balancers (L4/L7), CDN |
+| [019](../Days/Day-019.md) | Where state lives — cookies, sessions, localStorage, tokens | C-13 · Network debugging — ping, traceroute, dig, `curl -v`, tcpdump |
+| [020](../Days/Day-020.md) | Same-origin policy and CORS — why the browser blocks you, preflight | |
+| [021](../Days/Day-021.md) | What deployment actually does — build, artefacts, static hosting, CDN, edge | C-14 · Networks interview drill — 40 rapid-fire |
+| [022](../Days/Day-022.md) | 🚪 **Capstone** — trace one full request end to end through every layer | |
 
 **🚪 Exit gate** — a raw TCP server in Python using `socket` only, speaking HTTP by hand · a
 WebSocket chat across two browser tabs with the server hand-written · a 10-minute oral on *"what
