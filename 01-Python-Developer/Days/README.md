@@ -60,10 +60,15 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [050](Day-050.md) | Comprehensions — and when a plain loop is clearer | 1 |
 | [051](Day-051.md) | `functools` — ⭐⭐ **why `@lru_cache` on a method is a leak** | 1 |
 | [052](Day-052.md) | ⭐ **Context managers** — `contextlib`, `ExitStack`, and the only reliable cleanup | 1 |
+| [053](Day-053.md) | Classes — `__init__` vs `__new__`, shared class attributes, metaclasses | 1 |
+| [054](Day-054.md) | ⭐ **Inheritance and the MRO** — C3, and what `super()` actually does | 1 |
+| [055](Day-055.md) | ⭐ Composition over inheritance — mixins, and `n×m` → `n+m` | 1 |
+| [056](Day-056.md) | ⭐⭐ **ABCs and `Protocol`** — nominal vs structural typing | 1 |
+| [057](Day-057.md) | `dataclasses` — `frozen`, `slots`, `field`, and ⭐ where Pydantic takes over | 1 |
+| [058](Day-058.md) | `enum`, `TypedDict` — closed sets, and ⭐ enums in a database | 1 |
 
-**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (30/55)** — object model, built-in types
-and the functions/iteration block are done. Next: Days 053–063 — classes, ⭐ **the MRO**, protocols,
-dataclasses, enums, ⭐⭐ **exceptions**, type hints and mypy.
+**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (36/55).** Next: Days 059–063 —
+⭐⭐ **exceptions**, error-handling design, ⭐⭐ **type hints**, mypy strict, and class design.
 
 ---
 

@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–052 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (30/55)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–058 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (36/55)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -164,12 +164,12 @@ happens when you type google.com"* · explain HTML vs server to a non-technical 
 
 | Day | Lesson |
 |---|---|
-| 053 | Classes, instances, `__init__` vs `__new__`, class vs instance attributes |
-| 054 | ⭐ **Inheritance and the MRO** — C3 linearisation, `super()` in multiple inheritance |
-| 055 | ⭐ Composition over inheritance · mixins · when multiple inheritance is defensible |
-| 056 | ⭐⭐ **ABCs and protocols** — nominal vs **structural** typing, `Protocol`, duck typing formalised |
-| 057 | ⭐ `dataclasses` — `frozen`, `slots`, `field`, and when to reach for Pydantic instead |
-| 058 | `enum`, `NamedTuple`, `TypedDict` — modelling closed sets and shapes |
+| [053](../Days/Day-053.md) | Classes, instances, `__init__` vs `__new__`, class vs instance attributes |
+| [054](../Days/Day-054.md) | ⭐ **Inheritance and the MRO** — C3 linearisation, `super()` in multiple inheritance |
+| [055](../Days/Day-055.md) | ⭐ Composition over inheritance · mixins · when multiple inheritance is defensible |
+| [056](../Days/Day-056.md) | ⭐⭐ **ABCs and protocols** — nominal vs **structural** typing, `Protocol`, duck typing formalised |
+| [057](../Days/Day-057.md) | ⭐ `dataclasses` — `frozen`, `slots`, `field`, and when to reach for Pydantic instead |
+| [058](../Days/Day-058.md) | `enum`, `NamedTuple`, `TypedDict` — modelling closed sets and shapes |
 | 059 | ⭐⭐ **Exceptions** — the hierarchy, custom exceptions, `raise ... from`, exception groups |
 | 060 | ⭐ Error handling design — EAFP vs LBYL, what to catch, what to never catch |
 | 061 | ⭐⭐ **Type hints that earn their keep** — generics, `TypeVar`, variance, `Optional` vs `\|` |
