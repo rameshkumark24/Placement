@@ -76,10 +76,14 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [066](Day-066.md) | ⭐⭐ **Threading** — `Lock`, `Event`, and ⭐ why `Queue` beats locking | 1 |
 | [067](Day-067.md) | ⭐ **Race conditions** — `+=` in bytecode, and why "atomic" is a trap | 1 |
 | [068](Day-068.md) | ⭐⭐ **`multiprocessing`** — pickling costs, fork vs spawn, shared memory | 1 |
+| [069](Day-069.md) | `concurrent.futures` — one API, two backends, and the vanishing exception | 1 |
+| [070](Day-070.md) | ⭐⭐ **asyncio I** — the loop, and why sequential `await`s are not concurrent | 1 |
+| [071](Day-071.md) | ⭐⭐ **asyncio II** — `TaskGroup`, cancellation, and bounding fan-out | 1 |
+| [072](Day-072.md) | ⭐⭐ **The blocking call in an `async def`** — and why `def` is safer in FastAPI | 1 |
 
-**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (46/55).** Next: Days 069–072 —
-`concurrent.futures`, ⭐⭐ **asyncio I and II**, and ⭐⭐ **the blocking call in an `async def`** —
-then the runtime block (073–077) closes Stage 1.
+**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (50/55)** — ✅ the concurrency block
+(064–072) is done. Next: Days 073–077 — CPython internals and `dis`, imports and circular imports,
+⭐⭐ **`uv` and `pyproject.toml`**, the stdlib, and the 🚪 **Stage 1 capstone**.
 
 ---
 
