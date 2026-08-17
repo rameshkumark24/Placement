@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–063 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (41/55)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–068 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (46/55)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -180,11 +180,11 @@ happens when you type google.com"* · explain HTML vs server to a non-technical 
 
 | Day | Lesson |
 |---|---|
-| 064 | ⭐ Processes, threads and the OS scheduler — the model everything below assumes |
-| 065 | ⭐⭐ **THE GIL** — what it actually locks, why it exists, what it does and does not prevent |
-| 066 | ⭐⭐ **Threading** — when it genuinely helps (I/O), `Lock`, `RLock`, `Event`, `Condition` |
-| 067 | ⭐ Race conditions in Python — `+=` is not atomic; what *is* atomic and why that is fragile |
-| 068 | ⭐⭐ **`multiprocessing`** — true parallelism, pickling costs, shared memory, fork vs spawn |
+| [064](../Days/Day-064.md) | ⭐ Processes, threads and the OS scheduler — the model everything below assumes |
+| [065](../Days/Day-065.md) | ⭐⭐ **THE GIL** — what it actually locks, why it exists, what it does and does not prevent |
+| [066](../Days/Day-066.md) | ⭐⭐ **Threading** — when it genuinely helps (I/O), `Lock`, `RLock`, `Event`, `Condition` |
+| [067](../Days/Day-067.md) | ⭐ Race conditions in Python — `+=` is not atomic; what *is* atomic and why that is fragile |
+| [068](../Days/Day-068.md) | ⭐⭐ **`multiprocessing`** — true parallelism, pickling costs, shared memory, fork vs spawn |
 | 069 | `concurrent.futures` — the executor abstraction that unifies both |
 | 070 | ⭐⭐ **asyncio I** — the event loop, coroutines, `await`, and why it is not threads |
 | 071 | ⭐⭐ **asyncio II** — tasks, gather, timeouts, cancellation, `TaskGroup` |

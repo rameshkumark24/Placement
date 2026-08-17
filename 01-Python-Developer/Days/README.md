@@ -71,10 +71,15 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [061](Day-061.md) | ⭐⭐ **Type hints** — generics, `TypeVar`, and why variance bites | 1 |
 | [062](Day-062.md) | mypy strict — what it catches, what it cannot, ⭐ **`Any` as a defect** | 1 |
 | [063](Day-063.md) | Designing a class people can debug — `__repr__`, errors, the checklist | 1 |
+| [064](Day-064.md) | 🧵 Processes, threads, the scheduler — ⭐ **measuring CPU- vs I/O-bound** | 1 |
+| [065](Day-065.md) | ⭐⭐ **THE GIL** — what it locks, why it exists, what it does *not* prevent | 1 |
+| [066](Day-066.md) | ⭐⭐ **Threading** — `Lock`, `Event`, and ⭐ why `Queue` beats locking | 1 |
+| [067](Day-067.md) | ⭐ **Race conditions** — `+=` in bytecode, and why "atomic" is a trap | 1 |
+| [068](Day-068.md) | ⭐⭐ **`multiprocessing`** — pickling costs, fork vs spawn, shared memory | 1 |
 
-**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (41/55)** — only concurrency and the
-runtime remain. Next: Days 064–072 — processes and threads, ⭐⭐ **the GIL**, races,
-`multiprocessing`, ⭐⭐ **asyncio**, and ⭐⭐ **the blocking call in an `async def`**.
+**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (46/55).** Next: Days 069–072 —
+`concurrent.futures`, ⭐⭐ **asyncio I and II**, and ⭐⭐ **the blocking call in an `async def`** —
+then the runtime block (073–077) closes Stage 1.
 
 ---
 
