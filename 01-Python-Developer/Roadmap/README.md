@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–058 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (36/55)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–063 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (41/55)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -170,11 +170,11 @@ happens when you type google.com"* · explain HTML vs server to a non-technical 
 | [056](../Days/Day-056.md) | ⭐⭐ **ABCs and protocols** — nominal vs **structural** typing, `Protocol`, duck typing formalised |
 | [057](../Days/Day-057.md) | ⭐ `dataclasses` — `frozen`, `slots`, `field`, and when to reach for Pydantic instead |
 | [058](../Days/Day-058.md) | `enum`, `NamedTuple`, `TypedDict` — modelling closed sets and shapes |
-| 059 | ⭐⭐ **Exceptions** — the hierarchy, custom exceptions, `raise ... from`, exception groups |
-| 060 | ⭐ Error handling design — EAFP vs LBYL, what to catch, what to never catch |
-| 061 | ⭐⭐ **Type hints that earn their keep** — generics, `TypeVar`, variance, `Optional` vs `\|` |
-| 062 | ⭐ **mypy in strict mode** — what it catches, what it cannot, `Any` as a defect |
-| 063 | Operator overloading, `__repr__` vs `__str__`, and designing a class people can debug |
+| [059](../Days/Day-059.md) | ⭐⭐ **Exceptions** — the hierarchy, custom exceptions, `raise ... from`, exception groups |
+| [060](../Days/Day-060.md) | ⭐ Error handling design — EAFP vs LBYL, what to catch, what to never catch |
+| [061](../Days/Day-061.md) | ⭐⭐ **Type hints that earn their keep** — generics, `TypeVar`, variance, `Optional` vs `\|` |
+| [062](../Days/Day-062.md) | ⭐ **mypy in strict mode** — what it catches, what it cannot, `Any` as a defect |
+| [063](../Days/Day-063.md) | Operator overloading, `__repr__` vs `__str__`, and designing a class people can debug |
 
 ### Concurrency — the stage that decides Python interviews (064–072)
 

@@ -66,9 +66,15 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [056](Day-056.md) | ⭐⭐ **ABCs and `Protocol`** — nominal vs structural typing | 1 |
 | [057](Day-057.md) | `dataclasses` — `frozen`, `slots`, `field`, and ⭐ where Pydantic takes over | 1 |
 | [058](Day-058.md) | `enum`, `TypedDict` — closed sets, and ⭐ enums in a database | 1 |
+| [059](Day-059.md) | ⭐⭐ **Exceptions** — the hierarchy, `raise ... from`, exception groups | 1 |
+| [060](Day-060.md) | ⭐ **Error-handling design** — what to catch, where, and what never to | 1 |
+| [061](Day-061.md) | ⭐⭐ **Type hints** — generics, `TypeVar`, and why variance bites | 1 |
+| [062](Day-062.md) | mypy strict — what it catches, what it cannot, ⭐ **`Any` as a defect** | 1 |
+| [063](Day-063.md) | Designing a class people can debug — `__repr__`, errors, the checklist | 1 |
 
-**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (36/55).** Next: Days 059–063 —
-⭐⭐ **exceptions**, error-handling design, ⭐⭐ **type hints**, mypy strict, and class design.
+**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (41/55)** — only concurrency and the
+runtime remain. Next: Days 064–072 — processes and threads, ⭐⭐ **the GIL**, races,
+`multiprocessing`, ⭐⭐ **asyncio**, and ⭐⭐ **the blocking call in an `async def`**.
 
 ---
 
