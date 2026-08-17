@@ -49,10 +49,16 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [039](Day-039.md) | `heapq`, `bisect`, `array` — ⭐ top-k, lower bound, and contiguous numbers | 1 |
 | [040](Day-040.md) | Slicing, unpacking, star-args, and the walrus operator | 1 |
 | [041](Day-041.md) | Numbers — float traps, ⭐⭐ **why money is never a float** | 1 |
+| [042](Day-042.md) | Functions as objects — introspection, `lambda`, higher-order functions | 1 |
+| [043](Day-043.md) | ⭐ **Closures and cells** — late binding, and what a closure keeps alive | 1 |
+| [044](Day-044.md) | ⭐⭐ **Decorators** — `functools.wraps`, three levels, stacking order | 1 |
+| [045](Day-045.md) | `classmethod` factories, `staticmethod`, `partial`, `operator` | 1 |
+| [046](Day-046.md) | ⭐ **The iteration protocol** — iterable vs iterator, and exhaustion | 1 |
+| [047](Day-047.md) | ⭐⭐ **Generators** — constant memory, pipelines, `yield from` | 1 |
+| [048](Day-048.md) | Generators as coroutines — ⭐⭐ **`await` is `yield from`** | 1 |
 
-**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (19/55)** — the object-model block
-(023–032) and the built-in types block (033–041) are done. Next: Days 042–052 — functions,
-closures, ⭐⭐ **decorators**, iterators, ⭐⭐ **generators**, `itertools`, and context managers.
+**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (26/55).** Next: Days 049–052 —
+`itertools`, comprehensions, `functools`, and context managers — then the OOP and typing block.
 
 ---
 
