@@ -91,10 +91,15 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [081](Day-081.md) | ⭐⭐ **Processes and signals** — why every deploy drops requests · **D-02** the relational model | 2 |
 | [082](Day-082.md) | ⭐⭐ **Observing a live process** — `/proc`, `lsof`, `strace`, `py-spy`, and the ladder | 2 |
 | [083](Day-083.md) | Bash — ⭐⭐ `set -euo pipefail`, `trap`, and when to stop writing bash | 2 |
+| [084](Day-084.md) | ⭐⭐ **The Git object model** — build a commit by hand · **D-03** ER modelling | 2 |
+| [085](Day-085.md) | ⭐ **The three trees** — `add -p`, commit messages, and ⭐⭐ the committed secret | 2 |
+| [086](Day-086.md) | ⭐⭐ **Branching, the three-way merge, and merge vs rebase** — argued, not asserted | 2 |
+| [087](Day-087.md) | ⭐⭐ **`reflog`, `reset`/`revert`, `bisect`** — nothing is lost · **D-04** functional dependencies | 2 |
+| [088](Day-088.md) | Remotes, trunk-based vs git-flow, ⭐⭐ **PR discipline** | 2 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
-**✅✅ Days 001–083 written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is open: the Linux
-block is done. Next: **Git properly (084–088)** — the object model, rebase, reflog and bisect.
+**✅✅ Days 001–088 written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is open: Linux and
+Git are done. Next: **clean code and structure (089–091)**, then the **testing block (092–098A)**.
 
 ---
 

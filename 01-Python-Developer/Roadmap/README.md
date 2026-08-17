@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–083 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–088 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -227,11 +227,13 @@ program fail, explain why, and fix it three ways · pass `mypy --strict` on 500 
 
 ### Git, properly (084–088)
 
-**Days 084–088** — the **object model** (blob, tree, commit, ref) built by hand · the staging area,
-`add -p`, commit messages that survive review, leaked secrets · branching, fast-forward and the
-three-way merge, **merge vs rebase** · conflicts, **reflog**, `reset`/`revert`/`restore`, **bisect** ·
-remotes, trunk-based vs git-flow, PR discipline · **D-03** ER modelling · **D-04** functional
-dependencies
+| Day | Lesson | Parallel track |
+|---|---|---|
+| [084](../Days/Day-084.md) | ⭐⭐ **The Git object model** — blob, tree, commit, ref · **build a commit by hand** with plumbing | D-03 · ER modelling — entities, cardinality, ER → relational |
+| [085](../Days/Day-085.md) | ⭐ **The three trees** — the index, `add -p`, commit messages, `.gitignore`, and ⭐⭐ **the committed secret** | |
+| [086](../Days/Day-086.md) | ⭐⭐ **Branching, the three-way merge, merge vs rebase** — and interactive rebase before review | |
+| [087](../Days/Day-087.md) | ⭐⭐ **Conflicts, `reflog`, `reset`/`revert`/`restore`, `bisect`** — nothing committed is ever lost | D-04 · Functional dependencies · closure · candidate keys · minimal cover |
+| [088](../Days/Day-088.md) | Remotes and remote-tracking refs · trunk-based vs git-flow · ⭐⭐ **PR discipline** | |
 
 ### Code people can live with (089–091)
 
