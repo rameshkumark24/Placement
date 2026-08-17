@@ -56,9 +56,14 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [046](Day-046.md) | ⭐ **The iteration protocol** — iterable vs iterator, and exhaustion | 1 |
 | [047](Day-047.md) | ⭐⭐ **Generators** — constant memory, pipelines, `yield from` | 1 |
 | [048](Day-048.md) | Generators as coroutines — ⭐⭐ **`await` is `yield from`** | 1 |
+| [049](Day-049.md) | `itertools` — batching, windowing, and the `groupby` trap | 1 |
+| [050](Day-050.md) | Comprehensions — and when a plain loop is clearer | 1 |
+| [051](Day-051.md) | `functools` — ⭐⭐ **why `@lru_cache` on a method is a leak** | 1 |
+| [052](Day-052.md) | ⭐ **Context managers** — `contextlib`, `ExitStack`, and the only reliable cleanup | 1 |
 
-**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (26/55).** Next: Days 049–052 —
-`itertools`, comprehensions, `functools`, and context managers — then the OOP and typing block.
+**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (30/55)** — object model, built-in types
+and the functions/iteration block are done. Next: Days 053–063 — classes, ⭐ **the MRO**, protocols,
+dataclasses, enums, ⭐⭐ **exceptions**, type hints and mypy.
 
 ---
 

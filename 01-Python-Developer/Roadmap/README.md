@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–048 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (26/55)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–052 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (30/55)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -155,10 +155,10 @@ happens when you type google.com"* · explain HTML vs server to a non-technical 
 | [046](../Days/Day-046.md) | ⭐ **Iterators and the iteration protocol** — `__iter__`/`__next__`, `StopIteration` |
 | [047](../Days/Day-047.md) | ⭐⭐ **Generators** — lazy evaluation, memory, `yield from` |
 | [048](../Days/Day-048.md) | Generators as coroutines — `send`, `throw`, `close` (the ancestor of `async`) |
-| 049 | ⭐ `itertools` — the composable iteration toolkit |
-| 050 | Comprehensions and generator expressions — and when a loop is clearer |
-| 051 | `functools` — `lru_cache`, `cached_property`, `reduce`, `singledispatch` |
-| 052 | ⭐ **Context managers** — `with`, `__enter__`/`__exit__`, `contextlib`, `ExitStack` |
+| [049](../Days/Day-049.md) | ⭐ `itertools` — the composable iteration toolkit |
+| [050](../Days/Day-050.md) | Comprehensions and generator expressions — and when a loop is clearer |
+| [051](../Days/Day-051.md) | `functools` — `lru_cache`, `cached_property`, `reduce`, `singledispatch` |
+| [052](../Days/Day-052.md) | ⭐ **Context managers** — `with`, `__enter__`/`__exit__`, `contextlib`, `ExitStack` |
 
 ### OOP, typing and errors (053–063)
 
