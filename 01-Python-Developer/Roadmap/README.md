@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–072 written** — ✅ **Stage 0 complete**; 🔵 **Stage 1 in progress (50/55)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–077 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -52,7 +52,7 @@ You can never skip a lesson — but you can pass through it fast.
 | Days | Stage | Milestone |
 |---|---|---|
 | 1–22 | [Stage 0 — Ground Zero](#stage-0--ground-zero) ✅ | Can explain servers, HTTP, WebSockets |
-| 23–77 | [Stage 1 — Python Mastery](#stage-1--python-mastery) | Interview-grade Python |
+| 23–77 | [Stage 1 — Python Mastery](#stage-1--python-mastery) ✅ | Interview-grade Python |
 | 78–101 | [Stage 2 — Professional Engineering](#stage-2--professional-engineering) | Git, Linux, clean code, pytest |
 | 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) | Can build an API with no framework |
 | 130–185 | [Stage 4 — FastAPI & Django](#stage-4--fastapi--django) | Backend interview-ready |
@@ -194,11 +194,11 @@ happens when you type google.com"* · explain HTML vs server to a non-technical 
 
 | Day | Lesson |
 |---|---|
-| 073 | ⭐ CPython internals — bytecode, `dis`, the frame stack, why Python is slow and where |
-| 074 | ⭐ Modules, packages, imports — `sys.path`, circular imports, `__init__.py`, namespace packages |
-| 075 | ⭐⭐ **Packaging with `uv` and `pyproject.toml`** — virtualenvs, lockfiles, dependency resolution |
-| 076 | The stdlib worth knowing — `pathlib`, `datetime`, `json`, `logging`, `subprocess`, `re` |
-| 077 | 🚪 **Stage 1 exit gate** — the whole language, out loud |
+| [073](../Days/Day-073.md) | ⭐ CPython internals — bytecode, `dis`, the frame stack, why Python is slow and where |
+| [074](../Days/Day-074.md) | ⭐ Modules, packages, imports — `sys.path`, circular imports, `__init__.py`, namespace packages |
+| [075](../Days/Day-075.md) | ⭐⭐ **Packaging with `uv` and `pyproject.toml`** — virtualenvs, lockfiles, dependency resolution |
+| [076](../Days/Day-076.md) | The stdlib worth knowing — `pathlib`, `datetime`, `json`, `logging`, `subprocess`, `re` |
+| [077](../Days/Day-077.md) | 🚪 **Stage 1 exit gate** — the whole language, out loud |
 
 **🚪 Exit gate** — explain the GIL, the data model and the event loop with no hedging · implement a
 decorator, a context manager, a descriptor and an async pipeline from scratch · make a threaded

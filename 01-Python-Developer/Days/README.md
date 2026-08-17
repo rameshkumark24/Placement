@@ -80,10 +80,15 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [070](Day-070.md) | ⭐⭐ **asyncio I** — the loop, and why sequential `await`s are not concurrent | 1 |
 | [071](Day-071.md) | ⭐⭐ **asyncio II** — `TaskGroup`, cancellation, and bounding fan-out | 1 |
 | [072](Day-072.md) | ⭐⭐ **The blocking call in an `async def`** — and why `def` is safer in FastAPI | 1 |
+| [073](Day-073.md) | ⚙️ CPython internals — `dis`, frames, and ⭐ where the time actually goes | 1 |
+| [074](Day-074.md) | Modules and imports — `sys.path`, and ⭐ why circular imports half-work | 1 |
+| [075](Day-075.md) | ⭐⭐ **`uv` and `pyproject.toml`** — lockfiles and reproducible builds | 1 |
+| [076](Day-076.md) | The stdlib — `pathlib`, `datetime`, `logging`, `subprocess`, `re` | 1 |
+| [077](Day-077.md) | 🚪 **Stage 1 capstone** — six answers, four artefacts, a 22-question audit | 1 |
 
-**✅ Stage 0 complete (22/22).** **🔵 Stage 1 in progress (50/55)** — ✅ the concurrency block
-(064–072) is done. Next: Days 073–077 — CPython internals and `dis`, imports and circular imports,
-⭐⭐ **`uv` and `pyproject.toml`**, the stdlib, and the 🚪 **Stage 1 capstone**.
+**✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
+**✅✅ Days 001–077 written.** Next: 🛠️ **Stage 2 — Professional Engineering (078–101)**: Git's
+object model, Linux and the shell, clean code, and **pytest**.
 
 ---
 
