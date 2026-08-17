@@ -85,10 +85,16 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [075](Day-075.md) | ⭐⭐ **`uv` and `pyproject.toml`** — lockfiles and reproducible builds | 1 |
 | [076](Day-076.md) | The stdlib — `pathlib`, `datetime`, `logging`, `subprocess`, `re` | 1 |
 | [077](Day-077.md) | 🚪 **Stage 1 capstone** — six answers, four artefacts, a 22-question audit | 1 |
+| [078](Day-078.md) | 🛠️ Filesystem, permissions, users, links · **D-01** why databases exist | 2 |
+| [079](Day-079.md) | ⭐ **The shell** — pipes, redirection, exit codes, and ⭐⭐ why quoting is everything | 2 |
+| [080](Day-080.md) | ⭐⭐ **`grep` `sort` `uniq` `awk` `sed` `find` `xargs`** — a log file into an answer | 2 |
+| [081](Day-081.md) | ⭐⭐ **Processes and signals** — why every deploy drops requests · **D-02** the relational model | 2 |
+| [082](Day-082.md) | ⭐⭐ **Observing a live process** — `/proc`, `lsof`, `strace`, `py-spy`, and the ladder | 2 |
+| [083](Day-083.md) | Bash — ⭐⭐ `set -euo pipefail`, `trap`, and when to stop writing bash | 2 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
-**✅✅ Days 001–077 written.** Next: 🛠️ **Stage 2 — Professional Engineering (078–101)**: Git's
-object model, Linux and the shell, clean code, and **pytest**.
+**✅✅ Days 001–083 written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is open: the Linux
+block is done. Next: **Git properly (084–088)** — the object model, rebase, reflog and bisect.
 
 ---
 

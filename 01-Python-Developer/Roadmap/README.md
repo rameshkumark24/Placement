@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–077 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–083 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -211,12 +211,49 @@ program fail, explain why, and fix it three ways · pass `mypy --strict` on 500 
 > Same curriculum as the [Java track](../../02-Java-Developer/Roadmap/README.md#stage-2--professional-engineering),
 > with Python tooling.
 
-**Days 078–101** — Git properly (rebase, bisect, reflog, the commit history as evidence) · the Linux
-you actually need (processes, signals, permissions, pipes, `strace`, `lsof`) · shell scripting ·
-clean code and naming · **pytest deep** (fixtures, parametrize, monkeypatch, markers, `conftest`) ·
-test doubles and when mocking is a design smell · **coverage vs mutation testing** · property-based
-testing with Hypothesis · **Ruff, mypy, pre-commit** · logging done properly · debugging with `pdb`
-and `py-spy` · profiling (`cProfile`, `line_profiler`, `memray`) · code review as a skill
+> **Why:** Stage 1 made you good at the language. **This stage makes you someone other people can work
+> with** — and every one of these is assumed by every job and taught by none.
+
+### Linux and the shell (078–083)
+
+| Day | Lesson | Parallel track |
+|---|---|---|
+| [078](../Days/Day-078.md) | Filesystem hierarchy, permissions, users, links — and **why your container writes root-owned files** | D-01 · Why databases exist · the layers of a DBMS |
+| [079](../Days/Day-079.md) | ⭐ **The shell** — expansion, pipes, redirection, exit codes, and ⭐⭐ why quoting is the whole language | |
+| [080](../Days/Day-080.md) | ⭐⭐ **Text processing** — `grep`, `sort`, `uniq`, `awk`, `sed`, `find`, `xargs`: a log file into an answer | |
+| [081](../Days/Day-081.md) | ⭐⭐ **Processes and signals** — `SIGTERM` vs `SIGKILL`, graceful shutdown, systemd | D-02 · The relational model — tuples, domains, keys, NULL |
+| [082](../Days/Day-082.md) | ⭐⭐ **Observing a live process** — `/proc`, `lsof`, `ss`, `strace`, `py-spy`, and the diagnostic ladder | |
+| [083](../Days/Day-083.md) | Bash — ⭐⭐ `set -euo pipefail`, `trap`, `shellcheck`, and when to stop writing bash | |
+
+### Git, properly (084–088)
+
+**Days 084–088** — the **object model** (blob, tree, commit, ref) built by hand · the staging area,
+`add -p`, commit messages that survive review, leaked secrets · branching, fast-forward and the
+three-way merge, **merge vs rebase** · conflicts, **reflog**, `reset`/`revert`/`restore`, **bisect** ·
+remotes, trunk-based vs git-flow, PR discipline · **D-03** ER modelling · **D-04** functional
+dependencies
+
+### Code people can live with (089–091)
+
+**Days 089–091** — clean code: naming, function size, side effects, when a comment is a failure ·
+Python project structure and the seams that matter — `src` layout, layering, import direction ·
+refactoring: the smells catalogue, safe steps, the strangler · **D-05** normalization to BCNF
+
+### Testing (092–098A)
+
+**Days 092–098A** — testing philosophy, the pyramid, FIRST · **pytest deep** — discovery, assert
+rewriting, fixtures, `conftest`, scope · parametrize, markers, `monkeypatch`, `tmp_path`, `capsys` ·
+**test doubles** and when mocking is a design smell · **TDD** on a real rate limiter · testing the hard
+parts — async, databases, time, randomness, HTTP · **coverage vs mutation testing** · ➕
+property-based testing with **Hypothesis** · **D-06** relational algebra · **D-07** SQL I
+
+### Tooling, observability and review (099–101)
+
+**Days 099–101** — **Ruff, mypy, pre-commit** as the automated reviewer · ➕ logging done properly:
+structured logs, request IDs, what must never be logged · **debugging as a methodology** — `pdb`,
+post-mortem, hypothesis-driven bisection · ➕ **profiling** with `cProfile`, `line_profiler` and
+`memray` · ➕ code review, both sides · 🚪 documentation, **ADRs**, and the Stage 2 exit gate ·
+**D-08** SQL II — every join type
 
 ---
 
