@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–129 written** — ✅ **Stages 0, 1, 2 and 3 complete**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–137 written** — ✅ **Stages 0, 1, 2 and 3 complete**; ⚡ **Stage 4 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -352,14 +352,22 @@ security review
 
 ### 4A — FastAPI, deep (130–169)
 
-Application structure and dependency injection · **Pydantic v2** — validation, serialisation,
-`model_config`, validators, and why `response_model` is a security control · async routes and the
-event loop in production · **SQLAlchemy 2.0 async** — sessions, unit of work, relationships, and the
-**N+1 problem** · Alembic migrations · repository pattern and where it earns its keep · background
-tasks vs **Celery** · Redis caching · WebSockets in FastAPI · testing with `TestClient` and
-`httpx.AsyncClient` · dependency overrides · settings with `pydantic-settings` · structured logging
-and request IDs · middleware and exception handlers · file uploads and presigned URLs · **the
-production checklist**
+| Day | Lesson |
+|---|---|
+| [130](../Days/Day-130.md) | ⚡ **FastAPI** — Starlette + Pydantic + signature inspection, parameter resolution, exception handlers, and what it does *not* give you |
+| [131](../Days/Day-131.md) | **Pydantic v2** — the Rust core, `Field` over validators, strict vs lax coercion, serialisation, ⭐⭐ **three models per resource** |
+| [132](../Days/Day-132.md) | **Dependency injection** — the graph and its per-request cache, `yield` teardown timing, ⭐⭐ **overrides instead of patching** |
+| [133](../Days/Day-133.md) | **Application structure** — routers, `pydantic-settings`, the app factory, lifespan, ⭐⭐ **the domain never imports FastAPI** |
+| [134](../Days/Day-134.md) | ⭐⭐ **`def` vs `async def`** — the 40-thread pool, **the 50× regression**, `run_in_threadpool`, and when sync is right |
+| [135](../Days/Day-135.md) | **SQLAlchemy 2.0** — the unit of work, autoflush, session per request, ⭐⭐ `expire_on_commit` and detached objects |
+| [136](../Days/Day-136.md) | ⭐⭐ **The N+1 problem** — `joinedload` vs `selectinload`, fan-out, `lazy="raise"`, query-count assertions |
+| [137](../Days/Day-137.md) | **Async SQLAlchemy** — the greenlet bridge, ⭐⭐ **lazy loading is gone**, session concurrency, migration order |
+
+**Days 138–169** — Alembic migrations · the repository pattern and where it earns its keep ·
+authentication in FastAPI · background tasks vs **Celery** · Redis caching · WebSockets in FastAPI ·
+testing with `TestClient` and `httpx.AsyncClient` · structured logging and request IDs · file uploads
+and presigned URLs · **the production checklist**
+
 
 ### 4B — Django + DRF (170–185)
 

@@ -141,12 +141,21 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [127](Day-127.md) | 🔒 **Security I** — injection, XSS, SSRF, and ⭐⭐ the principle under all three | 3 |
 | [128](Day-128.md) | 🔒 **Security II** — ⭐⭐ `pickle` is not a data format · traversal · secrets · deps | 3 |
 | [129](Day-129.md) | 🚪 **Stage 3 capstone** — six answers, four artefacts, a 32-question audit | 3 |
+| [130](Day-130.md) | ⚡ **FastAPI** — Starlette + Pydantic, and ⭐⭐ recognising your own framework | 4 |
+| [131](Day-131.md) | **Pydantic v2** — validators, coercion, serialisation, ⭐⭐ and the Rust core | 4 |
+| [132](Day-132.md) | **Dependency injection** — sub-dependencies, `yield` teardown, ⭐⭐ overrides | 4 |
+| [133](Day-133.md) | **Application structure** — routers, settings, lifespan, ⭐⭐ the one rule | 4 |
+| [134](Day-134.md) | ⭐⭐ **`def` vs `async def`** — the threadpool, and the 50× regression | 4 |
+| [135](Day-135.md) | **SQLAlchemy 2.0** — the session, ⭐⭐ the unit of work, `expire_on_commit` | 4 |
+| [136](Day-136.md) | ⭐⭐ **The N+1 problem** — loading strategies, and `lazy="raise"` | 4 |
+| [137](Day-137.md) | **Async SQLAlchemy** — the greenlet bridge, ⭐⭐ and no more lazy loading | 4 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
-**✅✅ Days 001–129 written.** Next: ⚡ **Stage 4 — FastAPI & Django (130–185)**: dependency injection
-you have already built, Pydantic v2, **SQLAlchemy 2.0 async and the N+1**, Alembic, Celery, then Django.
+**✅✅ Days 001–137 written.** ⚡ **Stage 4 — FastAPI & Django (130–185)** is open: FastAPI, Pydantic v2,
+DI, structure, async, and SQLAlchemy through the N+1. Next: **Alembic, repositories, auth in FastAPI,
+Redis, Celery and WebSockets**, then **Django + DRF (170–185)**.
 
 ---
 
