@@ -109,11 +109,15 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [098A](Day-098A.md) | ➕ 🧪 **Hypothesis** — property-based testing, and ⭐⭐ the shrinking that makes it usable | 2 |
 | [099](Day-099.md) | ⭐⭐ **Ruff, mypy, pre-commit** — the automated reviewer, so humans review design | 2 |
 | [099A](Day-099A.md) | ➕ **Logging done properly** — structured logs, ⭐⭐ request IDs, what never to log | 2 |
+| [100](Day-100.md) | ⭐⭐ **Debugging as a methodology** — `pdb`, post-mortem, bisection · **D-08** SQL II and the fan-out | 2 |
+| [100A](Day-100A.md) | ➕ **Profiling** — `cProfile`, `line_profiler`, `memray`, and ⭐⭐ the optimisation ladder | 2 |
+| [100B](Day-100B.md) | ➕ **Code review, both sides** — the checklist, and ⭐⭐ how to say it | 2 |
+| [101](Day-101.md) | 🚪 **Stage 2 capstone** — ADRs, six answers, four artefacts, a 28-question audit | 2 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
-**✅✅ Days 001–099A written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is nearly done —
-Linux, Git, clean code, the whole testing block and tooling. Next: **100–101** — debugging as a
-methodology, profiling, code review, and the 🚪 **Stage 2 exit gate**.
+**✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
+**✅✅ Days 001–101 written.** Next: 🌐 **Stage 3 — Backend, framework-free (102–129)**: sockets by
+hand, HTTP from bytes, **your own micro-framework**, WSGI/ASGI, auth from scratch, and security.
 
 ---
 

@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–099A written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 nearly complete**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–101 written** — ✅ **Stages 0, 1 and 2 complete**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -53,7 +53,7 @@ You can never skip a lesson — but you can pass through it fast.
 |---|---|---|
 | 1–22 | [Stage 0 — Ground Zero](#stage-0--ground-zero) ✅ | Can explain servers, HTTP, WebSockets |
 | 23–77 | [Stage 1 — Python Mastery](#stage-1--python-mastery) ✅ | Interview-grade Python |
-| 78–101 | [Stage 2 — Professional Engineering](#stage-2--professional-engineering) | Git, Linux, clean code, pytest |
+| 78–101 (+4) | [Stage 2 — Professional Engineering](#stage-2--professional-engineering) ✅ | Git, Linux, clean code, pytest |
 | 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) | Can build an API with no framework |
 | 130–185 | [Stage 4 — FastAPI & Django](#stage-4--fastapi--django) | Backend interview-ready |
 | 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) | Can fix a slow query live |
@@ -264,9 +264,15 @@ program fail, explain why, and fix it three ways · pass `mypy --strict` on 500 
 | [099](../Days/Day-099.md) | ⭐⭐ **Ruff, mypy, pre-commit** — the automated reviewer, gradual mypy adoption, and where the real gate is | |
 | [099A](../Days/Day-099A.md) | ➕ **Logging done properly** — structured logs, ⭐⭐ **request IDs via `ContextVar`**, levels, and what must never be logged | |
 
-**Days 100–101** — **debugging as a methodology**: `pdb`, post-mortem, hypothesis-driven bisection ·
-➕ **profiling** with `cProfile`, `line_profiler` and `memray` · ➕ code review, both sides ·
-🚪 documentation, **ADRs**, and the Stage 2 exit gate · **D-08** SQL II — every join type
+| [100](../Days/Day-100.md) | ⭐⭐ **Debugging as a methodology** — reproduce, "what changed?", falsifiable hypotheses, `pdb` and post-mortem | D-08 · SQL II — every join type, semi/anti joins, **the fan-out bug** |
+| [100A](../Days/Day-100A.md) | ➕ **Profiling** — `cProfile` (`tottime` vs `cumtime`), `line_profiler`, `py-spy`, `memray`, ⭐⭐ **the optimisation ladder** | |
+| [100B](../Days/Day-100B.md) | ➕ **Code review, both sides** — the review order, the checklist, and ⭐⭐ how to say it | |
+| [101](../Days/Day-101.md) | 🚪 **Documentation, ADRs, and the Stage 2 exit gate** — six answers, four artefacts, a 28-question audit | |
+
+**🚪 Exit gate** — a repo with the full toolchain from empty · the Git exercise done cold (plumbing
+commit, reflog recovery, `bisect run`, the force-push disaster reproduced) · the Linux diagnostic set
+(hung process, fd leak, OOM, `SIGTERM` ignored) with **your own numbers** · one real bug taken through
+every practice in the stage, end to end
 
 ---
 

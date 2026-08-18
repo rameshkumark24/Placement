@@ -349,6 +349,5 @@ fields I chose rather than dumping objects."*
 
 ---
 
-**Previous:** [Day 099](Day-099.md) · **Tomorrow:** Day 100 *(not yet written — see the
-[Days index](README.md))* — ⭐⭐ **debugging as a methodology**: `pdb`, post-mortem, and
-hypothesis-driven bisection · **D-08** SQL II
+**Previous:** [Day 099](Day-099.md) · **Tomorrow:** [Day 100](Day-100.md) — ⭐⭐ **debugging as a
+methodology**: `pdb`, post-mortem, and hypothesis-driven bisection · **D-08** SQL II
