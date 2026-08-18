@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–137 written** — ✅ **Stages 0, 1, 2 and 3 complete**; ⚡ **Stage 4 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–145 written** — ✅ **Stages 0, 1, 2 and 3 complete**; ⚡ **Stage 4 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -362,11 +362,19 @@ security review
 | [135](../Days/Day-135.md) | **SQLAlchemy 2.0** — the unit of work, autoflush, session per request, ⭐⭐ `expire_on_commit` and detached objects |
 | [136](../Days/Day-136.md) | ⭐⭐ **The N+1 problem** — `joinedload` vs `selectinload`, fan-out, `lazy="raise"`, query-count assertions |
 | [137](../Days/Day-137.md) | **Async SQLAlchemy** — the greenlet bridge, ⭐⭐ **lazy loading is gone**, session concurrency, migration order |
+| [138](../Days/Day-138.md) | **Alembic** — what autogenerate misses, ⭐⭐ the lock queue, safe vs unsafe DDL, **expand/contract**, batched backfills |
+| [139](../Days/Day-139.md) | **The repository pattern** — the real justification, who owns the transaction, ⭐⭐ **the fake-repository trap** |
+| [140](../Days/Day-140.md) | 🔐 **Auth in FastAPI** — ⭐⭐ **dependency not middleware**, the chain, cookie vs bearer, `def` on login, scopes vs ownership |
+| [141](../Days/Day-141.md) | **Testing** — `TestClient` vs `httpx.AsyncClient`, ⭐⭐ **the savepoint fixture**, overrides, **query-count ceilings** |
+| [142](../Days/Day-142.md) | **Background work** — `BackgroundTasks` vs Celery, at-least-once, poison pills, ⭐⭐ **the transactional outbox** |
+| [143](../Days/Day-143.md) | **Redis** — structures, cache-aside, ⭐⭐ **the stampede and single-flight**, invalidation, eviction, locks |
+| [144](../Days/Day-144.md) | **WebSockets** — the 101, ticket auth, ⭐⭐ **Redis fan-out**, backpressure, heartbeats, **and when SSE wins** |
+| [145](../Days/Day-145.md) | **File uploads** — streaming, the four limit gates, filename and type as lies, ⭐⭐ **presigned URLs** |
 
-**Days 138–169** — Alembic migrations · the repository pattern and where it earns its keep ·
-authentication in FastAPI · background tasks vs **Celery** · Redis caching · WebSockets in FastAPI ·
-testing with `TestClient` and `httpx.AsyncClient` · structured logging and request IDs · file uploads
-and presigned URLs · **the production checklist**
+**Days 146–169** — observability: structured logging, request IDs, metrics and traces ·
+rate limiting and quotas in production · configuration and secrets · health checks and graceful
+shutdown · containerising a FastAPI app · **the deployment checklist** · and a capstone service
+built end to end
 
 
 ### 4B — Django + DRF (170–185)

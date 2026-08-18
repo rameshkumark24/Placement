@@ -149,13 +149,22 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [135](Day-135.md) | **SQLAlchemy 2.0** — the session, ⭐⭐ the unit of work, `expire_on_commit` | 4 |
 | [136](Day-136.md) | ⭐⭐ **The N+1 problem** — loading strategies, and `lazy="raise"` | 4 |
 | [137](Day-137.md) | **Async SQLAlchemy** — the greenlet bridge, ⭐⭐ and no more lazy loading | 4 |
+| [138](Day-138.md) | **Alembic** — autogenerate, ⭐⭐ locks, and expand/contract | 4 |
+| [139](Day-139.md) | **The repository pattern** — ⭐⭐ where it earns its keep, and where it is ceremony | 4 |
+| [140](Day-140.md) | 🔐 **Auth in FastAPI** — the dependency chain, ⭐⭐ and why auth is not middleware | 4 |
+| [141](Day-141.md) | **Testing a FastAPI app** — `TestClient`, `httpx`, ⭐⭐ the transactional fixture | 4 |
+| [142](Day-142.md) | **Background work** — `BackgroundTasks`, Celery, ⭐⭐ and the dual-write problem | 4 |
+| [143](Day-143.md) | **Redis** — cache-aside, ⭐⭐ the stampede, and why Redis is not your database | 4 |
+| [144](Day-144.md) | **WebSockets** — the upgrade, ⭐⭐ the fan-out problem, and when to use SSE | 4 |
+| [145](Day-145.md) | **File uploads** — streaming, limits, ⭐⭐ and presigned URLs | 4 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
-**✅✅ Days 001–137 written.** ⚡ **Stage 4 — FastAPI & Django (130–185)** is open: FastAPI, Pydantic v2,
-DI, structure, async, and SQLAlchemy through the N+1. Next: **Alembic, repositories, auth in FastAPI,
-Redis, Celery and WebSockets**, then **Django + DRF (170–185)**.
+**✅✅ Days 001–145 written.** ⚡ **Stage 4 — FastAPI & Django (130–185)** is in progress: FastAPI,
+Pydantic v2, DI, async, SQLAlchemy, Alembic, repositories, auth, testing, Celery, Redis, WebSockets
+and uploads. Next: **observability, rate limiting in production, the deployment checklist**, then
+**Django + DRF (170–185)**.
 
 ---
 
