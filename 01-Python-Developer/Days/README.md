@@ -189,15 +189,22 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [175](Day-175.md) | 🎸 **DRF I** — serializers, ⭐⭐ mass assignment, and nested writes | 4 |
 | [176](Day-176.md) | 🎸 **DRF II** — ⭐⭐ the object permission that never runs, throttling, pagination | 4 |
 | [177](Day-177.md) | 🎸 **The admin** — ⭐⭐ a real product feature, and a real liability | 4 |
+| [178](Day-178.md) | 🎸 **Django async** — ⭐⭐ what works, what silently doesn't, and the ORM façade | 4 |
+| [179](Day-179.md) | 🎸 **Deploying Django** — settings, ⭐⭐ static vs media, gunicorn, Celery | 4 |
+| [180](Day-180.md) | 🎸 **Testing Django** — ⭐⭐ the three things `TestCase` silently breaks | 4 |
+| [181](Day-181.md) | 🎸 **Performance & caching** — four levels, ⭐⭐ and the one that leaks | 4 |
+| [182](Day-182.md) | ⚖️ **The same endpoint, both frameworks** — ⭐⭐ and what was identical | 4 |
+| [183](Day-183.md) | ⚖️ **Choosing and migrating** — ⭐⭐ the strangler that actually works | 4 |
+| [184](Day-184.md) | ⚖️ **What actually transfers** — ⭐⭐ the twelve invariants | 4 |
+| [185](Day-185.md) | 🚪 **Stage 4 exit gate** — two walkthroughs, ⭐⭐ a 50-question audit | 4 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
-**✅ Stage 4A complete (40/40)** — FastAPI from first principles to a deployed, load-tested service.
-**✅✅ Days 001–177 written.** ⚡ **Stage 4B — Django + DRF (170–185)** is in progress: the framework,
-the ORM, migrations, DRF and the admin — each compared against what you already built. Next:
-**Django async, Celery, testing, performance and the honest framework choice**, then the 🚪 Stage 4
-exit gate.
+**✅✅ Stage 4 COMPLETE (56/56)** — FastAPI to a deployed, load-tested service; Django and DRF taught
+comparatively; the same endpoint in both, and the twelve invariants underneath.
+**✅✅ Days 001–185 written.** ⚡ Next: **Stage 5 — Databases (186–213)** — B-trees, query planning,
+isolation levels, replication and sharding. Everything you took on trust in Stage 4.
 
 ---
 

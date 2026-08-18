@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–177 written** — ✅ **Stages 0–3 and 4A complete**; ⚡ **Stage 4B in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–185 written** — ✅ **Stages 0, 1, 2, 3 and 4 complete**; ⚡ **Stage 5 next**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -55,7 +55,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 23–77 | [Stage 1 — Python Mastery](#stage-1--python-mastery) ✅ | Interview-grade Python |
 | 78–101 (+4) | [Stage 2 — Professional Engineering](#stage-2--professional-engineering) ✅ | Git, Linux, clean code, pytest |
 | 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) ✅ | Can build an API with no framework |
-| 130–185 | [Stage 4 — FastAPI & Django](#stage-4--fastapi--django) | Backend interview-ready |
+| 130–185 | [Stage 4 — FastAPI & Django](#stage-4--fastapi--django) ✅ | Backend interview-ready |
 | 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) | Can fix a slow query live |
 | 214–247 | Stage 6 — Frontend → [`03-Web-Developer`](../../03-Web-Developer/) | Can build the UI for your own API |
 | 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) | Two defensible projects |
@@ -407,7 +407,7 @@ load-test result stated as before/change/after/cause · and a ten-minute walkthr
 without notes, ending on a **stated ceiling** rather than a claim
 
 
-### 4B — Django + DRF (170–185)
+### 4B — Django + DRF (170–185) ✅
 
 > **Taught comparatively.** You have already built all of this by hand, so every day names the
 > problem you solved in Stage 4A, shows Django's different default, and asks what that default costs.
@@ -423,9 +423,14 @@ without notes, ending on a **stated ceiling** rather than a claim
 | [176](../Days/Day-176.md) | 🎸 **DRF II** — auth classes, ⭐⭐ **`has_object_permission` is not called on `list`**, throttling's four limits, cursor pagination, filtering as a DoS vector |
 | [177](../Days/Day-177.md) | 🎸 **The admin** — weeks of work in twenty lines, ⭐⭐ **it edits the database, not your domain**, the N+1 machine pointed at production, actions that call services |
 
-**Days 178–185** — Django async and its real limits · settings, deployment and Celery with Django ·
-testing Django well · performance work with `django-debug-toolbar` and `silk` · **the same endpoint
-built in both frameworks, compared honestly** · 🚪 the Stage 4 exit gate
+| [178](../Days/Day-178.md) | 🎸 **Django async** — what is genuinely async, ⭐⭐ **the ORM is a thread-pool façade**, `SynchronousOnlyOperation`, Channels |
+| [179](../Days/Day-179.md) | 🎸 **Deploying Django** — settings as validated values, ⭐⭐ **static vs media and the stored-XSS trap**, gunicorn and connection maths, Celery |
+| [180](../Days/Day-180.md) | 🎸 **Testing Django** — ⭐⭐ **the three things `TestCase` silently breaks**, factories over fixtures, the assertions that catch Django bugs |
+| [181](../Days/Day-181.md) | 🎸 **Performance & caching** — the toolbar and silk, four cache levels, ⭐⭐ **`cache_page` serves Bob Alice's dashboard**, indexes, the order of operations |
+| [182](../Days/Day-182.md) | ⚖️ **The same endpoint, both frameworks** — built line by line, ⭐⭐ **and ~80% of the difficulty was identical** |
+| [183](../Days/Day-183.md) | ⚖️ **Choosing and migrating** — four product questions, why rewrites fail, ⭐⭐ **the strangler's five rules**, and the middle grounds |
+| [184](../Days/Day-184.md) | ⚖️ **What actually transfers** — ⭐⭐ **the twelve invariants** true in any framework, and the ten questions to ask about an unfamiliar one |
+| [185](../Days/Day-185.md) | 🚪 **Stage 4 exit gate** — proofs vs claims, ⭐⭐ **a 50-question audit**, two recorded walkthroughs, an honest self-assessment |
 
 **🚪 Exit gate** — the same API implemented in both frameworks, with a written comparison of what
 each made easy and what each made hard
