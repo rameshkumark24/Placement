@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–096 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–099A written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 nearly complete**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -253,16 +253,20 @@ program fail, explain why, and fix it three ways · pass `mypy --strict` on 500 
 | [095](../Days/Day-095.md) | 🧪 **Test doubles** — the five kinds, `autospec`, fakes and contract tests, ⭐⭐ **when mocking is a design smell** | D-06 · Relational algebra — the mental model behind SQL |
 | [096](../Days/Day-096.md) | 🧪 **TDD** — a rate limiter built test-first, and ⭐ an honest account of where TDD does not help | |
 
-**Days 097–098A** — testing the hard parts: async, databases, time, randomness, HTTP · **coverage vs
-mutation testing** · ➕ property-based testing with **Hypothesis** · **D-07** SQL I
+| [097](../Days/Day-097.md) | 🧪 **The hard parts** — async and `ASGITransport`, the transaction-rollback DB fixture, time, randomness, HTTP stubs and contract tests | D-07 · SQL I — `SELECT`, `NULL`, `GROUP BY`, and the logical order of operations |
+| [098](../Days/Day-098.md) | 🧪 ⭐⭐ **Coverage vs mutation testing** — what coverage cannot see, and Goodhart's law in a CI config | |
+| [098A](../Days/Day-098A.md) | ➕ 🧪 **Hypothesis** — properties, ⭐⭐ **shrinking**, and the six shapes that make properties findable | |
 
 ### Tooling, observability and review (099–101)
 
-**Days 099–101** — **Ruff, mypy, pre-commit** as the automated reviewer · ➕ logging done properly:
-structured logs, request IDs, what must never be logged · **debugging as a methodology** — `pdb`,
-post-mortem, hypothesis-driven bisection · ➕ **profiling** with `cProfile`, `line_profiler` and
-`memray` · ➕ code review, both sides · 🚪 documentation, **ADRs**, and the Stage 2 exit gate ·
-**D-08** SQL II — every join type
+| Day | Lesson | Parallel track |
+|---|---|---|
+| [099](../Days/Day-099.md) | ⭐⭐ **Ruff, mypy, pre-commit** — the automated reviewer, gradual mypy adoption, and where the real gate is | |
+| [099A](../Days/Day-099A.md) | ➕ **Logging done properly** — structured logs, ⭐⭐ **request IDs via `ContextVar`**, levels, and what must never be logged | |
+
+**Days 100–101** — **debugging as a methodology**: `pdb`, post-mortem, hypothesis-driven bisection ·
+➕ **profiling** with `cProfile`, `line_profiler` and `memray` · ➕ code review, both sides ·
+🚪 documentation, **ADRs**, and the Stage 2 exit gate · **D-08** SQL II — every join type
 
 ---
 

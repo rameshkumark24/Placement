@@ -104,11 +104,16 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [094](Day-094.md) | 🧪 **pytest II** — ⭐⭐ `parametrize`, markers, `monkeypatch`, and the config that earns trust | 2 |
 | [095](Day-095.md) | 🧪 **Test doubles** — ⭐⭐ when mocking is a design smell · **D-06** relational algebra | 2 |
 | [096](Day-096.md) | 🧪 **TDD** — a rate limiter, red/green/refactor, and ⭐ where TDD does *not* help | 2 |
+| [097](Day-097.md) | 🧪 **The hard parts** — async, databases, time, HTTP · **D-07** SQL I and the order of operations | 2 |
+| [098](Day-098.md) | 🧪 ⭐⭐ **Coverage vs mutation testing** — why 100% coverage proves almost nothing | 2 |
+| [098A](Day-098A.md) | ➕ 🧪 **Hypothesis** — property-based testing, and ⭐⭐ the shrinking that makes it usable | 2 |
+| [099](Day-099.md) | ⭐⭐ **Ruff, mypy, pre-commit** — the automated reviewer, so humans review design | 2 |
+| [099A](Day-099A.md) | ➕ **Logging done properly** — structured logs, ⭐⭐ request IDs, what never to log | 2 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
-**✅✅ Days 001–096 written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is open: Linux, Git,
-clean code and the pytest core are done. Next: **097–098A** — testing the hard parts (async, databases,
-time), coverage vs mutation, and **Hypothesis**.
+**✅✅ Days 001–099A written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is nearly done —
+Linux, Git, clean code, the whole testing block and tooling. Next: **100–101** — debugging as a
+methodology, profiling, code review, and the 🚪 **Stage 2 exit gate**.
 
 ---
 
