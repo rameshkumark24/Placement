@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–111 written** — ✅ **Stages 0, 1 and 2 complete**; 🌐 **Stage 3 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–116 written** — ✅ **Stages 0, 1 and 2 complete**; 🌐 **Stage 3 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -301,12 +301,19 @@ every practice in the stage, end to end
 | [110](../Days/Day-110.md) | **ASGI** — `scope`/`receive`/`send`, ⭐⭐ one protocol for HTTP, WebSockets and **lifespan** |
 | [111](../Days/Day-111.md) | **Serving in production** — worker counts derived, `--preload` hazards, ⭐⭐ **why nginx protects your workers**, liveness vs readiness |
 
-**Days 112–113** — the micro-framework capstone: assembling routing, middleware, errors and both
-adapters into one library · testing it, including a test client you write yourself
+| [112](../Days/Day-112.md) | 🚪 **The micro-framework capstone** — startup validation, MRO exception handlers, and ⭐⭐ **`Depends` demystified** by signature inspection |
+| [113](../Days/Day-113.md) | **Testing the framework** — WSGI and ASGI test clients you write yourself, ⭐⭐ **one suite run against both adapters**, and the in-process blind spot |
 
-**Days 114–118 — authentication from scratch** — password storage, timing attacks and account
-enumeration · sessions and CSRF · **JWT signed and verified by hand**, and the `alg=none` attack ·
-refresh-token rotation with reuse detection · authorisation, RBAC, and the IDOR bug
+### Authentication from scratch (114–118)
+
+| Day | Lesson |
+|---|---|
+| [114](../Days/Day-114.md) | 🔐 **Passwords and login** — argon2id and memory-hardness, the timing oracle, ⭐⭐ **account enumeration in five places**, backoff over lockout |
+| [115](../Days/Day-115.md) | 🔐 **Sessions from scratch** — `secrets` vs `random`, cookie attributes, ⭐⭐ **session fixation**, and CSRF from first principles |
+| [116](../Days/Day-116.md) | 🔐 **JWT from scratch** — sign/verify by hand, ⭐⭐ **`alg=none` and HS/RS confusion**, and the revocation problem |
+
+**Days 117–118** — refresh-token rotation with **reuse detection** · authorisation, RBAC, and the
+IDOR bug
 
 **Days 119–124 — API design** — input validation at the boundary · error contracts (RFC 7807) ·
 pagination, offset vs **keyset** · **idempotency keys** · rate limiting algorithms · caching,

@@ -123,12 +123,17 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [109](Day-109.md) | **WSGI** — the whole spec in one page, and ⭐⭐ why it cannot do WebSockets | 3 |
 | [110](Day-110.md) | **ASGI** — `scope`/`receive`/`send`, ⭐⭐ one protocol for HTTP, WebSockets and lifespan | 3 |
 | [111](Day-111.md) | **Serving in production** — Gunicorn, Uvicorn workers, ⭐⭐ why nginx protects you | 3 |
+| [112](Day-112.md) | 🚪 **The micro-framework capstone** — and ⭐⭐ `Depends`, demystified in 15 lines | 3 |
+| [113](Day-113.md) | **Testing the framework** — a test client you write, ⭐⭐ one suite, both adapters | 3 |
+| [114](Day-114.md) | 🔐 **Passwords and login** — argon2id, timing attacks, ⭐⭐ account enumeration | 3 |
+| [115](Day-115.md) | 🔐 **Sessions from scratch** — cookie flags, ⭐⭐ session fixation, and CSRF | 3 |
+| [116](Day-116.md) | 🔐 **JWT from scratch** — ⭐⭐ the `alg=none` attack, and why you cannot log out | 3 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
-**✅✅ Days 001–111 written.** 🌐 **Stage 3 — Backend, framework-free (102–129)** is open: the server,
-the framework and both contracts are built. Next: **112–113** the framework capstone and testing it,
-then **auth from scratch (114–118)**.
+**✅✅ Days 001–116 written.** 🌐 **Stage 3 — Backend, framework-free (102–129)**: the server, the
+framework and the auth core are built. Next: **117–118** refresh rotation and RBAC, then **API design
+(119–124)** and **security (125–129)**.
 
 ---
 
