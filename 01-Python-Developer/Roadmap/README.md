@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–101 written** — ✅ **Stages 0, 1 and 2 complete**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–106 written** — ✅ **Stages 0, 1 and 2 complete**; 🌐 **Stage 3 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -281,8 +281,18 @@ every practice in the stage, end to end
 > **Why:** If you learn FastAPI before you learn HTTP, you will never know which parts are HTTP and
 > which parts are FastAPI — and every interview probes exactly that seam.
 
-**Days 102–129** — sockets in Python, by hand · parsing an HTTP request from bytes · **writing your
-own micro-framework**: routing, path params, middleware, request/response objects · **WSGI** — the
+### The server, from a socket up (102–106)
+
+| Day | Lesson |
+|---|---|
+| [102](../Days/Day-102.md) | 🌐 **HTTP for backends** — safe/idempotent/cacheable, status codes as a contract, ⭐⭐ `ETag`/`If-Match` and the **lost update**, `Cache-Control` and the `Vary` leak |
+| [103](../Days/Day-103.md) | ⭐⭐ **Sockets by hand** — `bind`/`listen`/`accept`, `SO_REUSEADDR`, ⭐⭐ **TCP is a stream**, the three ways to frame, slowloris |
+| [104](../Days/Day-104.md) | **Parsing HTTP from bytes** — the leftover buffer, header rules, chunked encoding, parser limits, ⭐⭐ **request smuggling** |
+| [105](../Days/Day-105.md) | **Building the response** — the three ways to end a body, keep-alive, draining, streaming, ⭐⭐ **the hang** |
+| [106](../Days/Day-106.md) | ⭐⭐ **Concurrency for your server** — thread per connection, a bounded pool, and **`selectors`: asyncio's engine, by hand** |
+
+**Days 107–129** — **writing your own micro-framework**: routing, path params, middleware,
+request/response objects · **WSGI** — the
 synchronous contract that Django and Flask still speak · **ASGI** — the async contract FastAPI
 speaks, and why it exists · serving with Gunicorn and Uvicorn workers · **authentication from
 scratch** — sessions, then JWT with refresh rotation · authorisation and RBAC · input validation and

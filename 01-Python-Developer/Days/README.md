@@ -113,11 +113,16 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [100A](Day-100A.md) | ➕ **Profiling** — `cProfile`, `line_profiler`, `memray`, and ⭐⭐ the optimisation ladder | 2 |
 | [100B](Day-100B.md) | ➕ **Code review, both sides** — the checklist, and ⭐⭐ how to say it | 2 |
 | [101](Day-101.md) | 🚪 **Stage 2 capstone** — ADRs, six answers, four artefacts, a 28-question audit | 2 |
+| [102](Day-102.md) | 🌐 **HTTP for backends** — idempotency, ⭐⭐ `ETag`/`If-Match`, and cache control | 3 |
+| [103](Day-103.md) | ⭐⭐ **Sockets by hand** — `bind`/`listen`/`accept`, and why TCP has no messages | 3 |
+| [104](Day-104.md) | **Parsing HTTP from bytes** — framing, headers, chunked, ⭐⭐ and request smuggling | 3 |
+| [105](Day-105.md) | **Building the response** — `Content-Length`, keep-alive, streaming, ⭐⭐ the hang | 3 |
+| [106](Day-106.md) | ⭐⭐ **Concurrency for your server** — threads, a pool, and `selectors`: asyncio by hand | 3 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
-**✅✅ Days 001–101 written.** Next: 🌐 **Stage 3 — Backend, framework-free (102–129)**: sockets by
-hand, HTTP from bytes, **your own micro-framework**, WSGI/ASGI, auth from scratch, and security.
+**✅✅ Days 001–106 written.** 🌐 **Stage 3 — Backend, framework-free (102–129)** is open: the raw
+server is built. Next: **routing, middleware, and your own micro-framework (107–113)**.
 
 ---
 
