@@ -99,11 +99,16 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [089](Day-089.md) | Clean code — naming, functions, side effects, and ⭐ when a comment is a failure | 2 |
 | [090](Day-090.md) | ⭐⭐ **Structure and seams** — `src` layout, layering, and the circular import as a design bug | 2 |
 | [091](Day-091.md) | ⭐ **Refactoring** — smells, safe steps, the strangler · **D-05** normalization to BCNF | 2 |
+| [092](Day-092.md) | 🧪 **Testing philosophy** — the pyramid, FIRST, and ⭐⭐ what a test is actually for | 2 |
+| [093](Day-093.md) | 🧪 **pytest I** — ⭐⭐ fixtures as dependency injection, `conftest.py`, scope | 2 |
+| [094](Day-094.md) | 🧪 **pytest II** — ⭐⭐ `parametrize`, markers, `monkeypatch`, and the config that earns trust | 2 |
+| [095](Day-095.md) | 🧪 **Test doubles** — ⭐⭐ when mocking is a design smell · **D-06** relational algebra | 2 |
+| [096](Day-096.md) | 🧪 **TDD** — a rate limiter, red/green/refactor, and ⭐ where TDD does *not* help | 2 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
-**✅✅ Days 001–091 written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is open: Linux, Git
-and clean code are done. Next: 🧪 **the testing block (092–098A)** — pytest deep, test doubles, TDD,
-coverage vs mutation, and Hypothesis.
+**✅✅ Days 001–096 written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is open: Linux, Git,
+clean code and the pytest core are done. Next: **097–098A** — testing the hard parts (async, databases,
+time), coverage vs mutation, and **Hypothesis**.
 
 ---
 

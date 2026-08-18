@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–091 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–096 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -245,11 +245,16 @@ program fail, explain why, and fix it three ways · pass `mypy --strict` on 500 
 
 ### Testing (092–098A)
 
-**Days 092–098A** — testing philosophy, the pyramid, FIRST · **pytest deep** — discovery, assert
-rewriting, fixtures, `conftest`, scope · parametrize, markers, `monkeypatch`, `tmp_path`, `capsys` ·
-**test doubles** and when mocking is a design smell · **TDD** on a real rate limiter · testing the hard
-parts — async, databases, time, randomness, HTTP · **coverage vs mutation testing** · ➕
-property-based testing with **Hypothesis** · **D-06** relational algebra · **D-07** SQL I
+| Day | Lesson | Parallel track |
+|---|---|---|
+| [092](../Days/Day-092.md) | 🧪 **Testing philosophy** — the pyramid and the trophy, FIRST, flaky tests, ⭐⭐ behaviour not implementation | |
+| [093](../Days/Day-093.md) | 🧪 **pytest I** — discovery, assertion rewriting, ⭐⭐ **fixtures as dependency injection**, `conftest.py`, scope | |
+| [094](../Days/Day-094.md) | 🧪 **pytest II** — ⭐⭐ `parametrize`, `raises`, markers, `monkeypatch`, `caplog`, and the config that earns trust | |
+| [095](../Days/Day-095.md) | 🧪 **Test doubles** — the five kinds, `autospec`, fakes and contract tests, ⭐⭐ **when mocking is a design smell** | D-06 · Relational algebra — the mental model behind SQL |
+| [096](../Days/Day-096.md) | 🧪 **TDD** — a rate limiter built test-first, and ⭐ an honest account of where TDD does not help | |
+
+**Days 097–098A** — testing the hard parts: async, databases, time, randomness, HTTP · **coverage vs
+mutation testing** · ➕ property-based testing with **Hypothesis** · **D-07** SQL I
 
 ### Tooling, observability and review (099–101)
 
