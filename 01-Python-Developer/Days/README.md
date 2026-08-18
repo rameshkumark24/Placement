@@ -133,12 +133,20 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [119](Day-119.md) | **Input validation** — ⭐⭐ parse don't validate, mass assignment, output schemas | 3 |
 | [120](Day-120.md) | **Error contracts** — problem details, ⭐⭐ branch on a code, and what never to leak | 3 |
 | [121](Day-121.md) | **Pagination** — offset vs ⭐⭐ **keyset**, and the drift that silently skips rows | 3 |
+| [122](Day-122.md) | ⭐⭐ **Idempotency keys** — making a retried `POST` safe, end to end | 3 |
+| [123](Day-123.md) | **Rate limiting** — five algorithms, ⭐⭐ and the fixed window's 2× burst | 3 |
+| [124](Day-124.md) | **Caching, negotiation, compression** — ⭐⭐ four caches, and the one that leaks | 3 |
+| [125](Day-125.md) | **API versioning** — ⭐⭐ what actually counts as a breaking change | 3 |
+| [126](Day-126.md) | **OpenAPI by hand** — spec-first vs code-first, ⭐⭐ docs that cannot drift | 3 |
+| [127](Day-127.md) | 🔒 **Security I** — injection, XSS, SSRF, and ⭐⭐ the principle under all three | 3 |
+| [128](Day-128.md) | 🔒 **Security II** — ⭐⭐ `pickle` is not a data format · traversal · secrets · deps | 3 |
+| [129](Day-129.md) | 🚪 **Stage 3 capstone** — six answers, four artefacts, a 32-question audit | 3 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
-**✅✅ Days 001–121 written.** 🌐 **Stage 3 — Backend, framework-free (102–129)**: the server, the
-framework, auth and the API-design core are built. Next: **122–124** idempotency keys, rate limiting
-and caching, then **125–129** versioning, OpenAPI and the 🚪 **security block**.
+**✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
+**✅✅ Days 001–129 written.** Next: ⚡ **Stage 4 — FastAPI & Django (130–185)**: dependency injection
+you have already built, Pydantic v2, **SQLAlchemy 2.0 async and the N+1**, Alembic, Celery, then Django.
 
 ---
 

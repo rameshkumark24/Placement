@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–121 written** — ✅ **Stages 0, 1 and 2 complete**; 🌐 **Stage 3 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–129 written** — ✅ **Stages 0, 1, 2 and 3 complete**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -54,7 +54,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 1–22 | [Stage 0 — Ground Zero](#stage-0--ground-zero) ✅ | Can explain servers, HTTP, WebSockets |
 | 23–77 | [Stage 1 — Python Mastery](#stage-1--python-mastery) ✅ | Interview-grade Python |
 | 78–101 (+4) | [Stage 2 — Professional Engineering](#stage-2--professional-engineering) ✅ | Git, Linux, clean code, pytest |
-| 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) | Can build an API with no framework |
+| 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) ✅ | Can build an API with no framework |
 | 130–185 | [Stage 4 — FastAPI & Django](#stage-4--fastapi--django) | Backend interview-ready |
 | 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) | Can fix a slow query live |
 | 214–247 | Stage 6 — Frontend → [`03-Web-Developer`](../../03-Web-Developer/) | Can build the UI for your own API |
@@ -323,12 +323,25 @@ every practice in the stage, end to end
 | [120](../Days/Day-120.md) | **Error contracts** — problem details, ⭐⭐ **branch on `code`, read `detail`**, the 4xx/5xx leak rule, retryability |
 | [121](../Days/Day-121.md) | **Pagination** — offset's two defects, ⭐⭐ **keyset with a tie-breaker**, opaque cursors, and the `ORDER BY` injection trap |
 
-**Days 122–124** — **idempotency keys** · rate limiting algorithms · caching, content negotiation
-and compression
+| [122](../Days/Day-122.md) | ⭐⭐ **Idempotency keys** — scoping, body fingerprints, the **atomic claim**, and agreeing with the side effect |
+| [123](../Days/Day-123.md) | **Rate limiting** — five algorithms, ⭐⭐ **the fixed-window 2× burst**, the `X-Forwarded-For` trap, fail-open |
+| [124](../Days/Day-124.md) | **Caching, negotiation, compression** — ⭐⭐ **four caches and the one that leaks**, invalidation, stampedes, BREACH |
 
-**Days 125–129** — API versioning and evolution · **OpenAPI by hand** · **the security block**:
-OWASP top ten in Python, SQL injection, SSRF, deserialisation (`pickle` is not a data format),
-secrets handling · 🚪 the Stage 3 exit gate
+### Contracts and security (125–129)
+
+| Day | Lesson |
+|---|---|
+| [125](../Days/Day-125.md) | **API versioning and evolution** — ⭐⭐ **what actually breaks**, expand/migrate/contract, `Sunset` headers, transformers |
+| [126](../Days/Day-126.md) | **OpenAPI by hand** — spec-first vs code-first, ⭐⭐ **making the spec load-bearing**, and what a schema cannot say |
+| [127](../Days/Day-127.md) | 🔒 **Security I** — ⭐⭐ **the injection principle**, SQL, XSS and CSP, and **SSRF** |
+| [128](../Days/Day-128.md) | 🔒 **Security II** — ⭐⭐ **`pickle` is RCE by design**, path traversal, secrets and rotation, supply chain |
+| [129](../Days/Day-129.md) | 🚪 **Stage 3 exit gate** — six answers, four artefacts, a 32-question audit |
+
+**🚪 Exit gate** — an HTTP server written from a socket, with three concurrency models benchmarked ·
+a micro-framework running under **both** gunicorn and uvicorn, with one test suite against both
+adapters · authentication built **and attacked** (`alg=none`, session fixation, IDOR, refresh reuse) ·
+a production API with idempotency, keyset pagination, rate limiting, an error contract and a written
+security review
 
 ---
 
