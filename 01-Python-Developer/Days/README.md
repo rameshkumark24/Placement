@@ -118,11 +118,17 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [104](Day-104.md) | **Parsing HTTP from bytes** — framing, headers, chunked, ⭐⭐ and request smuggling | 3 |
 | [105](Day-105.md) | **Building the response** — `Content-Length`, keep-alive, streaming, ⭐⭐ the hang | 3 |
 | [106](Day-106.md) | ⭐⭐ **Concurrency for your server** — threads, a pool, and `selectors`: asyncio by hand | 3 |
+| [107](Day-107.md) | **Routing and path params** — ⭐⭐ match path, *then* method, and the ordering trap | 3 |
+| [108](Day-108.md) | Request/Response objects and ⭐⭐ **middleware** — the onion, and why order is correctness | 3 |
+| [109](Day-109.md) | **WSGI** — the whole spec in one page, and ⭐⭐ why it cannot do WebSockets | 3 |
+| [110](Day-110.md) | **ASGI** — `scope`/`receive`/`send`, ⭐⭐ one protocol for HTTP, WebSockets and lifespan | 3 |
+| [111](Day-111.md) | **Serving in production** — Gunicorn, Uvicorn workers, ⭐⭐ why nginx protects you | 3 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
-**✅✅ Days 001–106 written.** 🌐 **Stage 3 — Backend, framework-free (102–129)** is open: the raw
-server is built. Next: **routing, middleware, and your own micro-framework (107–113)**.
+**✅✅ Days 001–111 written.** 🌐 **Stage 3 — Backend, framework-free (102–129)** is open: the server,
+the framework and both contracts are built. Next: **112–113** the framework capstone and testing it,
+then **auth from scratch (114–118)**.
 
 ---
 

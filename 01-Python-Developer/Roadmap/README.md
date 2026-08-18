@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–106 written** — ✅ **Stages 0, 1 and 2 complete**; 🌐 **Stage 3 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–111 written** — ✅ **Stages 0, 1 and 2 complete**; 🌐 **Stage 3 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -291,15 +291,30 @@ every practice in the stage, end to end
 | [105](../Days/Day-105.md) | **Building the response** — the three ways to end a body, keep-alive, draining, streaming, ⭐⭐ **the hang** |
 | [106](../Days/Day-106.md) | ⭐⭐ **Concurrency for your server** — thread per connection, a bounded pool, and **`selectors`: asyncio's engine, by hand** |
 
-**Days 107–129** — **writing your own micro-framework**: routing, path params, middleware,
-request/response objects · **WSGI** — the
-synchronous contract that Django and Flask still speak · **ASGI** — the async contract FastAPI
-speaks, and why it exists · serving with Gunicorn and Uvicorn workers · **authentication from
-scratch** — sessions, then JWT with refresh rotation · authorisation and RBAC · input validation and
-why it belongs at the boundary · content negotiation, compression, caching headers · idempotency
-keys · rate limiting · pagination · error contracts · API versioning · OpenAPI by hand · **the
-security block**: OWASP top ten in Python, SQL injection, SSRF, deserialisation (`pickle` is not a
-data format), secrets handling
+### The framework, and the two contracts (107–113)
+
+| Day | Lesson |
+|---|---|
+| [107](../Days/Day-107.md) | **Routing and path params** — routes as data, ⭐⭐ **match path then method** (404 vs 405), the ordering trap, trailing-slash redirects |
+| [108](../Days/Day-108.md) | **Request/Response objects** and ⭐⭐ **middleware** — the onion, why the order is a correctness property, the body-consumption trap |
+| [109](../Days/Day-109.md) | **WSGI** — the whole spec in one page, streaming for free, and ⭐⭐ **why WebSockets are impossible** |
+| [110](../Days/Day-110.md) | **ASGI** — `scope`/`receive`/`send`, ⭐⭐ one protocol for HTTP, WebSockets and **lifespan** |
+| [111](../Days/Day-111.md) | **Serving in production** — worker counts derived, `--preload` hazards, ⭐⭐ **why nginx protects your workers**, liveness vs readiness |
+
+**Days 112–113** — the micro-framework capstone: assembling routing, middleware, errors and both
+adapters into one library · testing it, including a test client you write yourself
+
+**Days 114–118 — authentication from scratch** — password storage, timing attacks and account
+enumeration · sessions and CSRF · **JWT signed and verified by hand**, and the `alg=none` attack ·
+refresh-token rotation with reuse detection · authorisation, RBAC, and the IDOR bug
+
+**Days 119–124 — API design** — input validation at the boundary · error contracts (RFC 7807) ·
+pagination, offset vs **keyset** · **idempotency keys** · rate limiting algorithms · caching,
+content negotiation and compression
+
+**Days 125–129** — API versioning and evolution · **OpenAPI by hand** · **the security block**:
+OWASP top ten in Python, SQL injection, SSRF, deserialisation (`pickle` is not a data format),
+secrets handling · 🚪 the Stage 3 exit gate
 
 ---
 
