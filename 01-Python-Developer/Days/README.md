@@ -157,14 +157,22 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [143](Day-143.md) | **Redis** — cache-aside, ⭐⭐ the stampede, and why Redis is not your database | 4 |
 | [144](Day-144.md) | **WebSockets** — the upgrade, ⭐⭐ the fan-out problem, and when to use SSE | 4 |
 | [145](Day-145.md) | **File uploads** — streaming, limits, ⭐⭐ and presigned URLs | 4 |
+| [146](Day-146.md) | **Structured logging** — request IDs, ⭐⭐ log once at the boundary, redaction | 4 |
+| [147](Day-147.md) | **Metrics and SLOs** — RED, USE, ⭐⭐ the label that kills your monitoring | 4 |
+| [148](Day-148.md) | **Distributed tracing** — spans, propagation, ⭐⭐ head vs tail sampling | 4 |
+| [149](Day-149.md) | **Health checks & shutdown** — ⭐⭐ the probe that causes the outage | 4 |
+| [150](Day-150.md) | **Config and secrets** — fail fast at boot, ⭐⭐ and where secrets actually leak | 4 |
+| [151](Day-151.md) | **Containerising Python** — layer caching, multi-stage, ⭐⭐ PID 1 | 4 |
+| [152](Day-152.md) | **Resilience** — timeouts, ⭐⭐ the retry storm, circuit breakers, bulkheads | 4 |
+| [153](Day-153.md) | **Rate limiting in production** — distributed counters, ⭐⭐ fairness, fail open/closed | 4 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
-**✅✅ Days 001–145 written.** ⚡ **Stage 4 — FastAPI & Django (130–185)** is in progress: FastAPI,
-Pydantic v2, DI, async, SQLAlchemy, Alembic, repositories, auth, testing, Celery, Redis, WebSockets
-and uploads. Next: **observability, rate limiting in production, the deployment checklist**, then
-**Django + DRF (170–185)**.
+**✅✅ Days 001–153 written.** ⚡ **Stage 4 — FastAPI & Django (130–185)** is in progress: the framework
+(130–137), the production concerns around it (138–145), and **running it** — observability, health
+checks, config, containers, resilience and rate limiting (146–153). Next: **CI/CD, deployment
+strategies and the Stage 4A capstone**, then **Django + DRF (170–185)**.
 
 ---
 

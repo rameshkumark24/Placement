@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–145 written** — ✅ **Stages 0, 1, 2 and 3 complete**; ⚡ **Stage 4 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–153 written** — ✅ **Stages 0, 1, 2 and 3 complete**; ⚡ **Stage 4 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -370,11 +370,18 @@ security review
 | [143](../Days/Day-143.md) | **Redis** — structures, cache-aside, ⭐⭐ **the stampede and single-flight**, invalidation, eviction, locks |
 | [144](../Days/Day-144.md) | **WebSockets** — the 101, ticket auth, ⭐⭐ **Redis fan-out**, backpressure, heartbeats, **and when SSE wins** |
 | [145](../Days/Day-145.md) | **File uploads** — streaming, the four limit gates, filename and type as lies, ⭐⭐ **presigned URLs** |
+| [146](../Days/Day-146.md) | **Structured logging** — events not sentences, ⭐⭐ **request IDs via `ContextVar`**, log once at the boundary, redaction as a control |
+| [147](../Days/Day-147.md) | **Metrics and SLOs** — RED and USE, histograms vs summaries, ⭐⭐ **cardinality**, error budgets, burn-rate alerts |
+| [148](../Days/Day-148.md) | **Distributed tracing** — spans and `traceparent`, propagation through queues, ⭐⭐ **tail sampling**, joining the pillars |
+| [149](../Days/Day-149.md) | **Health checks & shutdown** — ⭐⭐ **liveness must check nothing a restart can't fix**, the `preStop` race, PID 1 |
+| [150](../Days/Day-150.md) | **Config and secrets** — config as a parsed type, ⭐⭐ **fail fast at boot**, where secrets leak, rotation with overlap |
+| [151](../Days/Day-151.md) | **Containerising Python** — ⭐⭐ **layer caching as an ordering problem**, multi-stage, reproducibility, PID 1, non-root |
+| [152](../Days/Day-152.md) | **Resilience** — the timeout hierarchy, ⭐⭐ **the retry storm and metastable failure**, circuit breakers, bulkheads, load shedding |
+| [153](../Days/Day-153.md) | **Rate limiting in production** — rate vs quota vs fairness, atomic distributed counters, the 429 contract, ⭐⭐ **fail open or closed** |
 
-**Days 146–169** — observability: structured logging, request IDs, metrics and traces ·
-rate limiting and quotas in production · configuration and secrets · health checks and graceful
-shutdown · containerising a FastAPI app · **the deployment checklist** · and a capstone service
-built end to end
+**Days 154–169** — CI/CD for a Python service · blue-green, canary and feature flags ·
+performance work on a real service · a capstone FastAPI service built end to end, deployed, observed
+and load-tested · 🚪 **the Stage 4A exit gate**
 
 
 ### 4B — Django + DRF (170–185)
