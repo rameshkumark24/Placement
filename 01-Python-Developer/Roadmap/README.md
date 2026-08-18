@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–088 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–091 written** — ✅ **Stage 0 complete**; ✅ **Stage 1 complete (55/55)**; 🛠️ **Stage 2 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -237,9 +237,11 @@ program fail, explain why, and fix it three ways · pass `mypy --strict` on 500 
 
 ### Code people can live with (089–091)
 
-**Days 089–091** — clean code: naming, function size, side effects, when a comment is a failure ·
-Python project structure and the seams that matter — `src` layout, layering, import direction ·
-refactoring: the smells catalogue, safe steps, the strangler · **D-05** normalization to BCNF
+| Day | Lesson | Parallel track |
+|---|---|---|
+| [089](../Days/Day-089.md) | Clean code — naming, function size, ⭐ **command-query separation**, and when a comment is a failure | |
+| [090](../Days/Day-090.md) | ⭐⭐ **Project structure and seams** — `src` layout, layering, import direction, and the circular import as a design bug | |
+| [091](../Days/Day-091.md) | ⭐ **Refactoring** — the smells catalogue, characterisation tests, safe steps, **the strangler fig** | D-05 · Normalization — 1NF→BCNF · deliberate denormalization |
 
 ### Testing (092–098A)
 

@@ -96,10 +96,14 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [086](Day-086.md) | ⭐⭐ **Branching, the three-way merge, and merge vs rebase** — argued, not asserted | 2 |
 | [087](Day-087.md) | ⭐⭐ **`reflog`, `reset`/`revert`, `bisect`** — nothing is lost · **D-04** functional dependencies | 2 |
 | [088](Day-088.md) | Remotes, trunk-based vs git-flow, ⭐⭐ **PR discipline** | 2 |
+| [089](Day-089.md) | Clean code — naming, functions, side effects, and ⭐ when a comment is a failure | 2 |
+| [090](Day-090.md) | ⭐⭐ **Structure and seams** — `src` layout, layering, and the circular import as a design bug | 2 |
+| [091](Day-091.md) | ⭐ **Refactoring** — smells, safe steps, the strangler · **D-05** normalization to BCNF | 2 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
-**✅✅ Days 001–088 written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is open: Linux and
-Git are done. Next: **clean code and structure (089–091)**, then the **testing block (092–098A)**.
+**✅✅ Days 001–091 written.** 🛠️ **Stage 2 — Professional Engineering (078–101)** is open: Linux, Git
+and clean code are done. Next: 🧪 **the testing block (092–098A)** — pytest deep, test doubles, TDD,
+coverage vs mutation, and Hypothesis.
 
 ---
 
