@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–169 written** — ✅ **Stages 0–3 and 4A complete**; ⚡ **Stage 4B in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–177 written** — ✅ **Stages 0–3 and 4A complete**; ⚡ **Stage 4B in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -409,10 +409,23 @@ without notes, ending on a **stated ceiling** rather than a claim
 
 ### 4B — Django + DRF (170–185)
 
-The Django philosophy and where it beats FastAPI · the ORM (and its N+1s) · `select_related` vs
-`prefetch_related` · migrations · the admin as a genuine product feature · **Django REST Framework**
-— serialisers, viewsets, permissions, throttling · Django async (and its limits) · when to choose
-Django over FastAPI, argued honestly
+> **Taught comparatively.** You have already built all of this by hand, so every day names the
+> problem you solved in Stage 4A, shows Django's different default, and asks what that default costs.
+
+| Day | Lesson |
+|---|---|
+| [170](../Days/Day-170.md) | 🎸 **Django** — two philosophies stated fairly, the vocabulary translated, ⭐⭐ **`Model.objects` and the loss of query locality**, signals judged |
+| [171](../Days/Day-171.md) | 🎸 **The ORM I** — what evaluates a QuerySet, the result cache, ⭐⭐ **`select_related` vs `prefetch_related` derived from row multiplication**, `assertNumQueries` |
+| [172](../Days/Day-172.md) | 🎸 **The ORM II** — ⭐⭐ **autocommit means your view is not atomic**, `atomic`, `on_commit`, `F()`, `select_for_update`, and the bulk ops that skip signals and validation |
+| [173](../Days/Day-173.md) | 🎸 **Migrations** — the DAG, `sqlmigrate`, ⭐⭐ **`apps.get_model` and historical models**, concurrent indexes, `makemigrations --check` |
+| [174](../Days/Day-174.md) | 🎸 **Views, URLs, middleware** — CBVs and the MRO trap, middleware order as correctness, sessions, ⭐⭐ **CSRF and why it doesn't apply to header tokens** |
+| [175](../Days/Day-175.md) | 🎸 **DRF I** — serializers as forms for APIs, ⭐⭐ **`__all__` and mass assignment**, four levels of validation, why nested writes are refused |
+| [176](../Days/Day-176.md) | 🎸 **DRF II** — auth classes, ⭐⭐ **`has_object_permission` is not called on `list`**, throttling's four limits, cursor pagination, filtering as a DoS vector |
+| [177](../Days/Day-177.md) | 🎸 **The admin** — weeks of work in twenty lines, ⭐⭐ **it edits the database, not your domain**, the N+1 machine pointed at production, actions that call services |
+
+**Days 178–185** — Django async and its real limits · settings, deployment and Celery with Django ·
+testing Django well · performance work with `django-debug-toolbar` and `silk` · **the same endpoint
+built in both frameworks, compared honestly** · 🚪 the Stage 4 exit gate
 
 **🚪 Exit gate** — the same API implemented in both frameworks, with a written comparison of what
 each made easy and what each made hard

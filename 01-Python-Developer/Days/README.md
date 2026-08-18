@@ -181,13 +181,23 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [167](Day-167.md) | 🏗 **Capstone VI** — observability, hardening, ⭐⭐ and a deliberate N+1 | 4 |
 | [168](Day-168.md) | 🏗 **Capstone VII** — load test, ⭐⭐ find the knee, fix one thing, prove it | 4 |
 | [169](Day-169.md) | 🚪 **Stage 4A exit gate** — the defence, ⭐⭐ a 40-question audit, an honest self-assessment | 4 |
+| [170](Day-170.md) | 🎸 **Django** — the philosophy, the request cycle, ⭐⭐ and where it beats FastAPI | 4 |
+| [171](Day-171.md) | 🎸 **The ORM I** — lazy QuerySets, ⭐⭐ `select_related` vs `prefetch_related` | 4 |
+| [172](Day-172.md) | 🎸 **The ORM II** — ⭐⭐ autocommit, `atomic`, `F()`, and the bulk ops that skip everything | 4 |
+| [173](Day-173.md) | 🎸 **Migrations** — the graph, ⭐⭐ `apps.get_model`, zero-downtime patterns | 4 |
+| [174](Day-174.md) | 🎸 **Views, URLs, middleware** — CBVs and the MRO, sessions, ⭐⭐ CSRF | 4 |
+| [175](Day-175.md) | 🎸 **DRF I** — serializers, ⭐⭐ mass assignment, and nested writes | 4 |
+| [176](Day-176.md) | 🎸 **DRF II** — ⭐⭐ the object permission that never runs, throttling, pagination | 4 |
+| [177](Day-177.md) | 🎸 **The admin** — ⭐⭐ a real product feature, and a real liability | 4 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
 **✅ Stage 4A complete (40/40)** — FastAPI from first principles to a deployed, load-tested service.
-**✅✅ Days 001–169 written.** ⚡ Next: **Stage 4B — Django + DRF (170–185)**: the same problems with
-different defaults, then the 🚪 Stage 4 exit gate.
+**✅✅ Days 001–177 written.** ⚡ **Stage 4B — Django + DRF (170–185)** is in progress: the framework,
+the ORM, migrations, DRF and the admin — each compared against what you already built. Next:
+**Django async, Celery, testing, performance and the honest framework choice**, then the 🚪 Stage 4
+exit gate.
 
 ---
 
