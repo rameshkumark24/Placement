@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–153 written** — ✅ **Stages 0, 1, 2 and 3 complete**; ⚡ **Stage 4 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–161 written** — ✅ **Stages 0, 1, 2 and 3 complete**; ⚡ **Stage 4 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -378,10 +378,17 @@ security review
 | [151](../Days/Day-151.md) | **Containerising Python** — ⭐⭐ **layer caching as an ordering problem**, multi-stage, reproducibility, PID 1, non-root |
 | [152](../Days/Day-152.md) | **Resilience** — the timeout hierarchy, ⭐⭐ **the retry storm and metastable failure**, circuit breakers, bulkheads, load shedding |
 | [153](../Days/Day-153.md) | **Rate limiting in production** — rate vs quota vs fairness, atomic distributed counters, the 429 contract, ⭐⭐ **fail open or closed** |
+| [154](../Days/Day-154.md) | **CI/CD** — ⭐⭐ **build once, promote the artefact**, stage ordering, cache keys, flaky tests, semantic conflicts |
+| [155](../Days/Day-155.md) | **Deployment strategies** — rolling vs blue-green vs canary, ⭐⭐ **deploy ≠ release**, feature flags, one-way doors |
+| [156](../Days/Day-156.md) | **Load testing** — open vs closed models, ⭐⭐ **coordinated omission**, the knee, Little's Law, soak and stress |
+| [157](../Days/Day-157.md) | **Profiling live** — `py-spy` on a running process, reading flame graphs, ⭐⭐ **the memory-leak playbook**, a worked incident |
+| [158](../Days/Day-158.md) | **Webhooks** — the delivery pipeline, HMAC signing and replay, receiving rules, ⭐⭐ **SSRF and DNS rebinding** |
+| [159](../Days/Day-159.md) | **Scheduled jobs** — where the schedule lives, lock vs idempotency key, DST bugs, ⭐⭐ **watermarks and dead-man alerts** |
+| [160](../Days/Day-160.md) | **Multi-tenancy** — three models, ⭐⭐ **row-level security and its two silent failures**, tenant resolution, noisy neighbours |
+| [161](../Days/Day-161.md) | **Event-driven architecture** — events vs commands, payload styles, schema evolution, ⭐⭐ **ordering you cannot have**, sagas |
 
-**Days 154–169** — CI/CD for a Python service · blue-green, canary and feature flags ·
-performance work on a real service · a capstone FastAPI service built end to end, deployed, observed
-and load-tested · 🚪 **the Stage 4A exit gate**
+**Days 162–169** — a capstone FastAPI service built end to end: designed, secured, migrated,
+containerised, deployed, observed, load-tested and reviewed · 🚪 **the Stage 4A exit gate**
 
 
 ### 4B — Django + DRF (170–185)

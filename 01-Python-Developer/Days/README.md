@@ -165,14 +165,21 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [151](Day-151.md) | **Containerising Python** — layer caching, multi-stage, ⭐⭐ PID 1 | 4 |
 | [152](Day-152.md) | **Resilience** — timeouts, ⭐⭐ the retry storm, circuit breakers, bulkheads | 4 |
 | [153](Day-153.md) | **Rate limiting in production** — distributed counters, ⭐⭐ fairness, fail open/closed | 4 |
+| [154](Day-154.md) | **CI/CD** — ⭐⭐ build once and promote, flaky tests, what must never be manual | 4 |
+| [155](Day-155.md) | **Deployment strategies** — rolling, blue-green, canary, ⭐⭐ deploy ≠ release | 4 |
+| [156](Day-156.md) | **Load testing** — open vs closed, ⭐⭐ coordinated omission, the knee, Little's Law | 4 |
+| [157](Day-157.md) | **Profiling live** — `py-spy`, flame graphs, ⭐⭐ the memory-leak playbook | 4 |
+| [158](Day-158.md) | **Webhooks** — signing and replay, ⭐⭐ and SSRF by design | 4 |
+| [159](Day-159.md) | **Scheduled jobs** — ⭐⭐ the cron that ran twice, and the watermark | 4 |
+| [160](Day-160.md) | **Multi-tenancy** — shared schema, ⭐⭐ row-level security, noisy neighbours | 4 |
+| [161](Day-161.md) | **Event-driven architecture** — events vs commands, schemas, ⭐⭐ ordering, sagas | 4 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
-**✅✅ Days 001–153 written.** ⚡ **Stage 4 — FastAPI & Django (130–185)** is in progress: the framework
-(130–137), the production concerns around it (138–145), and **running it** — observability, health
-checks, config, containers, resilience and rate limiting (146–153). Next: **CI/CD, deployment
-strategies and the Stage 4A capstone**, then **Django + DRF (170–185)**.
+**✅✅ Days 001–161 written.** ⚡ **Stage 4 — FastAPI & Django (130–185)** is in progress: the framework
+(130–137), the production concerns around it (138–145), running it (146–153), and shipping and scaling
+it (154–161). Next: **the Stage 4A capstone (162–169)**, then **Django + DRF (170–185)**.
 
 ---
 
