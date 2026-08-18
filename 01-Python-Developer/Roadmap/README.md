@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–161 written** — ✅ **Stages 0, 1, 2 and 3 complete**; ⚡ **Stage 4 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–169 written** — ✅ **Stages 0–3 and 4A complete**; ⚡ **Stage 4B in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -350,7 +350,7 @@ security review
 > **Why two frameworks:** Python backend roles split roughly evenly. Knowing only one halves your
 > market, and the second one takes a fraction of the time once the first is deep.
 
-### 4A — FastAPI, deep (130–169)
+### 4A — FastAPI, deep (130–169) ✅
 
 | Day | Lesson |
 |---|---|
@@ -387,8 +387,24 @@ security review
 | [160](../Days/Day-160.md) | **Multi-tenancy** — three models, ⭐⭐ **row-level security and its two silent failures**, tenant resolution, noisy neighbours |
 | [161](../Days/Day-161.md) | **Event-driven architecture** — events vs commands, payload styles, schema evolution, ⭐⭐ **ordering you cannot have**, sagas |
 
-**Days 162–169** — a capstone FastAPI service built end to end: designed, secured, migrated,
-containerised, deployed, observed, load-tested and reviewed · 🚪 **the Stage 4A exit gate**
+**🏗 The capstone (162–169) — `ticketed`, an event ticketing API**, chosen because it forces a real
+race, money, a third party, multi-tenancy and a traffic spike to appear naturally.
+
+| Day | Lesson |
+|---|---|
+| [162](../Days/Day-162.md) | 🏗 **The design** — scope and its out-list, the data model, spec-first OpenAPI, ⭐⭐ **the threat model as an actor table**, five ADRs |
+| [163](../Days/Day-163.md) | 🏗 **The walking skeleton** — ⭐⭐ **deployed on day one**, CI green, one empty endpoint with logs, metrics, traces and probes |
+| [164](../Days/Day-164.md) | 🏗 **The domain** — holds as a short lock replacing a long one, ⭐⭐ **three defences against oversell**, and the 200-thread test |
+| [165](../Days/Day-165.md) | 🏗 **Auth** — the chain, object-level scoping, RLS, login's four traps, ⭐⭐ **a test file with no overrides** |
+| [166](../Days/Day-166.md) | 🏗 **Async work** — the relay with `SKIP LOCKED`, the worker, ⭐⭐ **`payment_unknown` and reconciliation**, webhooks both ways |
+| [167](../Days/Day-167.md) | 🏗 **Observability & hardening** — four panels, five alerts, ⭐⭐ **a deliberate N+1 caught by your own tooling**, the hardening pass |
+| [168](../Days/Day-168.md) | 🏗 **Load test & tune** — predict with Little's Law, find the knee, ⭐⭐ **one measured fix with a named cause**, behaviour past the knee |
+| [169](../Days/Day-169.md) | 🚪 **Stage 4A exit gate** — the artefacts, ⭐⭐ **a 40-question audit**, the ten-minute walkthrough, and what you'd do differently |
+
+**🚪 Exit gate** — a deployed service that never oversells under 200 concurrent buyers · a retried
+purchase that charges once, proven · every "must not" in the threat model with a test number · a
+load-test result stated as before/change/after/cause · and a ten-minute walkthrough delivered
+without notes, ending on a **stated ceiling** rather than a claim
 
 
 ### 4B — Django + DRF (170–185)

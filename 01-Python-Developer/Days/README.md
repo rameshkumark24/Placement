@@ -173,13 +173,21 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [159](Day-159.md) | **Scheduled jobs** — ⭐⭐ the cron that ran twice, and the watermark | 4 |
 | [160](Day-160.md) | **Multi-tenancy** — shared schema, ⭐⭐ row-level security, noisy neighbours | 4 |
 | [161](Day-161.md) | **Event-driven architecture** — events vs commands, schemas, ⭐⭐ ordering, sagas | 4 |
+| [162](Day-162.md) | 🏗 **Capstone I** — the contract, the threat model, ⭐⭐ and the decisions you write first | 4 |
+| [163](Day-163.md) | 🏗 **Capstone II** — ⭐⭐ the walking skeleton, deployed on day one | 4 |
+| [164](Day-164.md) | 🏗 **Capstone III** — the domain, ⭐⭐ and the race that must not happen | 4 |
+| [165](Day-165.md) | 🏗 **Capstone IV** — auth, RBAC, ⭐⭐ and the threat model as a test file | 4 |
+| [166](Day-166.md) | 🏗 **Capstone V** — the outbox, the worker, ⭐⭐ and `payment_unknown` | 4 |
+| [167](Day-167.md) | 🏗 **Capstone VI** — observability, hardening, ⭐⭐ and a deliberate N+1 | 4 |
+| [168](Day-168.md) | 🏗 **Capstone VII** — load test, ⭐⭐ find the knee, fix one thing, prove it | 4 |
+| [169](Day-169.md) | 🚪 **Stage 4A exit gate** — the defence, ⭐⭐ a 40-question audit, an honest self-assessment | 4 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
-**✅✅ Days 001–161 written.** ⚡ **Stage 4 — FastAPI & Django (130–185)** is in progress: the framework
-(130–137), the production concerns around it (138–145), running it (146–153), and shipping and scaling
-it (154–161). Next: **the Stage 4A capstone (162–169)**, then **Django + DRF (170–185)**.
+**✅ Stage 4A complete (40/40)** — FastAPI from first principles to a deployed, load-tested service.
+**✅✅ Days 001–169 written.** ⚡ Next: **Stage 4B — Django + DRF (170–185)**: the same problems with
+different defaults, then the 🚪 Stage 4 exit gate.
 
 ---
 
