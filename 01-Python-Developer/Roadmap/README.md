@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–116 written** — ✅ **Stages 0, 1 and 2 complete**; 🌐 **Stage 3 in progress**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–121 written** — ✅ **Stages 0, 1 and 2 complete**; 🌐 **Stage 3 in progress**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -312,12 +312,19 @@ every practice in the stage, end to end
 | [115](../Days/Day-115.md) | 🔐 **Sessions from scratch** — `secrets` vs `random`, cookie attributes, ⭐⭐ **session fixation**, and CSRF from first principles |
 | [116](../Days/Day-116.md) | 🔐 **JWT from scratch** — sign/verify by hand, ⭐⭐ **`alg=none` and HS/RS confusion**, and the revocation problem |
 
-**Days 117–118** — refresh-token rotation with **reuse detection** · authorisation, RBAC, and the
-IDOR bug
+| [117](../Days/Day-117.md) | 🔐 **Refresh-token rotation** — hashed storage, token families, ⭐⭐ **reuse detection**, and the concurrent-refresh race |
+| [118](../Days/Day-118.md) | 🔐 **Authorisation and RBAC** — ⭐⭐ **IDOR as a query-shape problem**, permissions over roles, deny-by-default, tenant isolation |
 
-**Days 119–124 — API design** — input validation at the boundary · error contracts (RFC 7807) ·
-pagination, offset vs **keyset** · **idempotency keys** · rate limiting algorithms · caching,
-content negotiation and compression
+### API design (119–124)
+
+| Day | Lesson |
+|---|---|
+| [119](../Days/Day-119.md) | **Input validation at the boundary** — ⭐⭐ **parse, don't validate**, mass assignment, unknown fields, and `response_model` as a security control |
+| [120](../Days/Day-120.md) | **Error contracts** — problem details, ⭐⭐ **branch on `code`, read `detail`**, the 4xx/5xx leak rule, retryability |
+| [121](../Days/Day-121.md) | **Pagination** — offset's two defects, ⭐⭐ **keyset with a tie-breaker**, opaque cursors, and the `ORDER BY` injection trap |
+
+**Days 122–124** — **idempotency keys** · rate limiting algorithms · caching, content negotiation
+and compression
 
 **Days 125–129** — API versioning and evolution · **OpenAPI by hand** · **the security block**:
 OWASP top ten in Python, SQL injection, SSRF, deserialisation (`pickle` is not a data format),

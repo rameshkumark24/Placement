@@ -128,12 +128,17 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [114](Day-114.md) | 🔐 **Passwords and login** — argon2id, timing attacks, ⭐⭐ account enumeration | 3 |
 | [115](Day-115.md) | 🔐 **Sessions from scratch** — cookie flags, ⭐⭐ session fixation, and CSRF | 3 |
 | [116](Day-116.md) | 🔐 **JWT from scratch** — ⭐⭐ the `alg=none` attack, and why you cannot log out | 3 |
+| [117](Day-117.md) | 🔐 **Refresh rotation** — ⭐⭐ detecting a stolen token by its reuse | 3 |
+| [118](Day-118.md) | 🔐 **Authorisation and RBAC** — ⭐⭐ **IDOR**, and why it is a query-shape problem | 3 |
+| [119](Day-119.md) | **Input validation** — ⭐⭐ parse don't validate, mass assignment, output schemas | 3 |
+| [120](Day-120.md) | **Error contracts** — problem details, ⭐⭐ branch on a code, and what never to leak | 3 |
+| [121](Day-121.md) | **Pagination** — offset vs ⭐⭐ **keyset**, and the drift that silently skips rows | 3 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
-**✅✅ Days 001–116 written.** 🌐 **Stage 3 — Backend, framework-free (102–129)**: the server, the
-framework and the auth core are built. Next: **117–118** refresh rotation and RBAC, then **API design
-(119–124)** and **security (125–129)**.
+**✅✅ Days 001–121 written.** 🌐 **Stage 3 — Backend, framework-free (102–129)**: the server, the
+framework, auth and the API-design core are built. Next: **122–124** idempotency keys, rate limiting
+and caching, then **125–129** versioning, OpenAPI and the 🚪 **security block**.
 
 ---
 
