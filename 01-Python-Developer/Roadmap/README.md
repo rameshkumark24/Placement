@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–193 written** — ✅ **Stages 0–4 complete**; ⚡ **Stage 5 in progress (8/28)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–201 written** — ✅ **Stages 0–4 complete**; ⚡ **Stage 5 in progress (16/28)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -458,14 +458,25 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 | 192 | **Join algorithms** — nested loop, hash, merge and why the planner chooses; ⭐⭐ the `LEFT JOIN` that silently isn't, and row multiplication |
 | 193 | 🔧 **Query optimisation workshop** — ⭐⭐ ten slow queries against the clock, and the finding that only three were index problems |
 
-### 5B — Transactions, operations and the rest (194–213)
+### 5B — Transactions and operations (194–201) ⚡ written
 
-MVCC, vacuum and bloat · **isolation levels**, with every anomaly reproduced by hand · locking and
-deadlock debugging · connection pooling and **PgBouncer** (and why pool size × worker count is a
-number you must compute) · JSONB · full-text search · partitioning · replication, failover and PITR ·
-`pg_stat_statements` · **Redis** — architecture, data structures, persistence, caching patterns,
-distributed locks, rate limiting, streams · **MongoDB** — the document model, embedding vs
-referencing, aggregation, and when it is a mistake
+| Day | Lesson |
+|---|---|
+| 194 | ⭐ **MVCC, vacuum and bloat** — why `UPDATE` writes a new row, ⭐⭐ the three things that block vacuum, and transaction ID wraparound |
+| 195 | ⭐ **Isolation levels** — every anomaly reproduced in two windows, ⭐⭐ write skew, and why raising the level without retries makes things worse |
+| 196 | ⭐ **Locks and deadlocks** — ⭐⭐ the FIFO queue behind "the migration took the site down", the FK lock nobody expects, and `pg_blocking_pids()` |
+| 197 | **Pooling and PgBouncer** — both halves of the arithmetic, ⭐⭐ and the seven things transaction mode breaks (one of them a security bug) |
+| 198 | **JSONB** — GIN vs expression indexes and the statistics problem, ⭐⭐ write amplification, and the ORM mutation that silently writes nothing |
+| 199 | **Full-text search** — the four problems called "search", ranking that doesn't scale, ⭐⭐ and the dual-write problem you buy by leaving |
+| 200 | **Partitioning** — ⭐⭐ a maintenance feature, the partition key that must be in every unique constraint, and the midnight outage |
+| 201 | ⭐ **Replication, failover and PITR** — ⭐⭐ the three lag anomalies, `hot_standby_feedback`'s hidden cost, and why a replica is not a backup |
+
+### 5C — Redis, Mongo and the gate (202–213)
+
+`pg_stat_statements` and the **Postgres block gate** · **Redis** — the single-threaded event loop,
+data structures, persistence, caching patterns, distributed locks, rate limiting, streams ·
+**MongoDB** — the document model, embedding vs referencing, aggregation, and when it is a mistake ·
+🚪 **Stage 5 exit gate**
 
 ---
 

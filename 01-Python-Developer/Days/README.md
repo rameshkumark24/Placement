@@ -205,15 +205,24 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [191](Day-191.md) | ⭐ **`EXPLAIN ANALYZE`** — ⭐⭐ estimate vs actual, and the number everyone misreads | 5 |
 | [192](Day-192.md) | 🐘 **Join algorithms** — three strategies, ⭐⭐ and the `LEFT JOIN` that isn't one | 5 |
 | [193](Day-193.md) | 🔧 **Query optimisation workshop** — ⭐⭐ ten slow queries, against the clock | 5 |
+| [194](Day-194.md) | ⭐ **MVCC, vacuum & bloat** — ⭐⭐ why `UPDATE` writes a new row, and wraparound | 5 |
+| [195](Day-195.md) | ⭐ **Isolation levels** — every anomaly by hand, ⭐⭐ and write skew | 5 |
+| [196](Day-196.md) | ⭐ **Locks & deadlocks** — ⭐⭐ the FIFO queue that causes outages | 5 |
+| [197](Day-197.md) | 🐘 **Pooling & PgBouncer** — the arithmetic, ⭐⭐ and what a pooler breaks | 5 |
+| [198](Day-198.md) | 🐘 **JSONB** — indexing, ⭐⭐ write amplification, and the ORM's silent data loss | 5 |
+| [199](Day-199.md) | 🐘 **Full-text search** — four problems called search, ⭐⭐ and the honest line | 5 |
+| [200](Day-200.md) | 🐘 **Partitioning** — ⭐⭐ a maintenance feature, and the key that must be everywhere | 5 |
+| [201](Day-201.md) | ⭐ **Replication, failover, PITR** — ⭐⭐ the three lag anomalies, and RPO vs RTO | 5 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
 **✅✅ Stage 4 COMPLETE (56/56)** — FastAPI to a deployed, load-tested service; Django and DRF taught
 comparatively; the same endpoint in both, and the twelve invariants underneath.
-⚡ **Stage 5 in progress (8/28)** — Postgres internals, indexes, plans and joins; the query clinic.
-**✅✅ Days 001–193 written.** ⚡ Next: **194–201** — MVCC and vacuum, isolation levels, locks and
-deadlocks, pooling, JSONB, full-text search, partitioning, replication.
+⚡ **Stage 5 in progress (16/28)** — Postgres from pages to PITR: internals, indexes, plans, joins,
+the query clinic, MVCC, isolation, locks, pooling, JSONB, search, partitioning and replication.
+**✅✅ Days 001–201 written.** ⚡ Next: **202–209** — `pg_stat_statements` and the Postgres block gate,
+then Redis: the event loop, data structures, persistence, caching, distributed locks, rate limiting.
 
 ---
 
