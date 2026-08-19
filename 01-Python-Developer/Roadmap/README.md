@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–209 written** — ✅ **Stages 0–4 complete**; ⚡ **Stage 5 in progress (24/28)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213 written** — ✅ **Stages 0–5 complete**; ⚡ **Stage 6 next**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -56,7 +56,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 78–101 (+4) | [Stage 2 — Professional Engineering](#stage-2--professional-engineering) ✅ | Git, Linux, clean code, pytest |
 | 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) ✅ | Can build an API with no framework |
 | 130–185 | [Stage 4 — FastAPI & Django](#stage-4--fastapi--django) ✅ | Backend interview-ready |
-| 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) ⚡ | Can fix a slow query live |
+| 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) ✅ | Can fix a slow query live |
 | 214–247 | Stage 6 — Frontend → [`03-Web-Developer`](../../03-Web-Developer/) | Can build the UI for your own API |
 | 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) | Two defensible projects |
 | 298–321 | [Stage 8 — LLD](#stage-8--architecture--low-level-design) | LLD rounds cleared |
@@ -437,7 +437,7 @@ each made easy and what each made hard
 
 ---
 
-## Stage 5 — Database Engineering
+## Stage 5 — Database Engineering ✅
 
 > Same curriculum as the [Java track](../../02-Java-Developer/Roadmap/README.md#stage-5--database-engineering),
 > with SQLAlchemy and `asyncpg` instead of JPA.
@@ -484,11 +484,18 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 | 208 | ⭐ **Rate limiting** — four algorithms in Lua with their arithmetic, ⭐⭐ the boundary burst, and whose clock to trust |
 | 209 | **Pub/Sub and Streams** — ⭐⭐ the pending entries list, `XAUTOCLAIM`, and choosing between Streams, Kafka and `SKIP LOCKED` · 🚪 **Redis block gate** |
 
-### 5D — MongoDB and the gate (210–213)
+### 5D — MongoDB and the gate (210–213) ⚡ written
 
-The document model and when it fits · **embedding vs referencing** — the only schema decision that
-matters · indexes and the aggregation pipeline · transactions, replica sets and sharding ·
-🚪🚪 **Stage 5 exit gate**
+| Day | Lesson |
+|---|---|
+| 210 | **The document model** — ⭐⭐ you model the queries, not the data; and the honest bar for adding a second database next to Postgres JSONB |
+| 211 | ⭐ **Embedding vs referencing** — three questions, the unbounded-array failure in full, ⭐⭐ and cache-vs-snapshot per duplicated field |
+| 212 | **Indexes and aggregation** — ⭐⭐ ESR again because B-trees have no vendor; `$lookup` as an N+1 with nice syntax; `$unwind` as row multiplication |
+| 213 | ⭐ **Transactions, replica sets, sharding** — tunable consistency, causal sessions, ⭐⭐ the shard key's three properties · 🚪🚪 **Stage 5 exit gate** |
+
+> ⭐⭐ **What the stage actually teaches:** B-trees, equality-sort-range, row multiplication,
+> at-least-once delivery, snapshot-versus-current, and "measure before you fix" hold in all three
+> systems. What changes between them is which wrong thing is the default.
 
 ---
 

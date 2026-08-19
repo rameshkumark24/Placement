@@ -221,16 +221,20 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [207](Day-207.md) | ⭐ **Distributed locks** — four bugs, ⭐⭐ fencing tokens, and the Redlock argument | 5 |
 | [208](Day-208.md) | ⭐ **Rate limiting** — four algorithms in Lua, ⭐⭐ and the boundary burst | 5 |
 | [209](Day-209.md) | 🧠 **Pub/Sub & Streams** — ⭐⭐ the PEL · 🚪 **Redis block gate** | 5 |
+| [210](Day-210.md) | 🍃 **MongoDB & the document model** — ⭐⭐ the inversion, and the bar it must clear | 5 |
+| [211](Day-211.md) | ⭐ **Embedding vs referencing** — ⭐⭐ three questions, and six patterns | 5 |
+| [212](Day-212.md) | 🍃 **Indexes & aggregation** — ⭐⭐ ESR again, `$lookup`, `$unwind` | 5 |
+| [213](Day-213.md) | ⭐ **Transactions, replica sets, sharding** · 🚪🚪 **STAGE 5 EXIT GATE** | 5 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
 **✅✅ Stage 4 COMPLETE (56/56)** — FastAPI to a deployed, load-tested service; Django and DRF taught
 comparatively; the same endpoint in both, and the twelve invariants underneath.
-⚡ **Stage 5 in progress (24/28)** — 🚪 **Postgres block complete (186–202)** and 🚪 **Redis block
-complete (203–209)**: pages to PITR, then the event loop to Streams.
-**✅✅ Days 001–209 written.** ⚡ Next: **210–213** — MongoDB and the document model, embedding vs
-referencing, aggregation and sharding · 🚪🚪 **Stage 5 exit gate**.
+**✅✅ Stage 5 COMPLETE (28/28)** — Postgres from pages to PITR, Redis from the event loop to
+Streams, MongoDB from the document model to the shard key. Almost none of it was about a vendor.
+**✅✅ Days 001–213 written.** ⚡ Next: **Stage 6 — the frontend (214–247)**, in
+[`03-Web-Developer`](../../03-Web-Developer/) — enough of it to build the UI for your own API.
 
 ---
 
