@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–295 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (38/50) — the flagship is complete**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–303 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅ **Stage 7 COMPLETE**; ⚡ **Stage 8 in progress (6/24)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -561,7 +561,7 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 | 286 | 💥 **Load testing** — the closed loop that hides the cliff, the four bottlenecks in order, ⭐⭐ and the cascade where perfectly healthy pods take each other down |
 | 287 | 🚪 **The production readiness gate** — ⭐⭐ finished means *defensible*: four live demonstrations, 24 attacking questions, and the numbers almost no candidate has |
 
-### 7E — The second project (288–297) ⚡ 8 of 10 written
+### 7E — The second project (288–297) ✅ written
 
 > ⭐⭐ **Deliberately a different shape.** The flagship's hard parts had right answers a test could
 > assert. Here a wrong answer is fluent, confident and silent — so the test suite becomes an
@@ -577,7 +577,8 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 | 293 | 🔎 **RAG II — retrieval** — hybrid with RRF because scores aren't comparable, cross-encoder reranking, ⭐⭐ and recall@k as the hard ceiling on the whole system |
 | 294 | 🛡️ **RAG III — failure modes** — indirect injection through your own corpus, capability as the only real boundary, ⭐⭐ verified spans, and the cost arithmetic |
 | 295 | 📝 **The ADRs you never wrote** — archaeology over constants and reverts, ⭐⭐ the honest format that resists retconning, and the ADR where you were wrong |
-| 296–297 | Auditing `ticketed` (Day 162) with everything learned since · 🚪 the Stage 7 exit gate |
+| 296 | 🔍 **Auditing `ticketed`** — the nine-question lens, characterisation tests before any change, ⭐⭐ the `CHECK` constraint that makes the bug impossible rather than unlikely, and the triage that stops it becoming a rewrite |
+| 297 | 🚪 **STAGE 7 EXIT GATE** — fifty adversarial questions, six live demonstrations, ⭐⭐ and the two-minute comparison showing one discipline producing two different systems |
 
 - **248–287 · The flagship**: a multi-tenant SaaS API in FastAPI — requirements, domain model, API
   contract before code, JWT with refresh rotation, RBAC and tenancy, SQLAlchemy without N+1,
@@ -604,6 +605,17 @@ contention boundary · the modular monolith · **the 45-minute LLD clock** · UM
 concurrency in LLD · **eleven design problems**: parking lot, elevator, LRU cache, rate limiter,
 Splitwise, ticket booking, vending machine, notifications, games, delivery, orders — plus the
 pattern card that unifies them
+
+### 8A — Foundations (298–303) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 298 | 🏛️ **Why architecture exists** — the cost of change as the only justification, coupling and cohesion measured from the git log, connascence as precise vocabulary, ⭐⭐ and the fact that your import graph is not your dependency graph |
+| 299 | 🏛️ **Layered architecture** — what layers buy stated as change costs, the four rots (leaky model, anaemic domain, the shortcut, the god service), ⭐⭐ and the import-linter contract that makes the boundary a build failure |
+| 300 | 🏛️ **Clean & hexagonal** — the dependency rule and what people misread about it, ports owned by the inside, ⭐⭐ `Protocol` giving zero import coupling in both directions, and an honest list of what it does *not* buy |
+| 301 | 🏛️ **The repository pattern** — the three real justifications and the two false ones, why a `Session` isn't one, ⭐⭐ and the read path that bypasses it on purpose |
+| 302 | 🏛️ **The service layer** — the paper-form test, the anaemic domain as a correctness problem, cross-aggregate rules, ⭐⭐ and "can a Celery task call this unchanged?" |
+| 303 | 🏛️ **Dependency injection by hand** — the composition root, Python's four affordances, ⭐⭐ the module-level engine that makes `pytest --collect-only` open a database, and `mock.patch` count as a design metric |
 
 ---
 

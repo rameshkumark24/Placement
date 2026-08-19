@@ -265,6 +265,14 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [293](Day-293.md) | 🔎 **RAG II — retrieval** — hybrid and reranking, ⭐⭐ and recall@k as the hard ceiling | 7 |
 | [294](Day-294.md) | 🛡️ **RAG III — failure modes** — ⭐⭐ indirect injection, spans, and the cost arithmetic | 7 |
 | [295](Day-295.md) | 📝 **The ADRs you never wrote** — ⭐⭐ every magic number is an unrecorded decision | 7 |
+| [296](Day-296.md) | 🔍 **Auditing `ticketed`** — ⭐⭐ improving your own past work without rewriting it | 7 |
+| [297](Day-297.md) | 🚪 **STAGE 7 EXIT GATE** — ⭐⭐ two defensible projects, and fifty questions | 7 |
+| [298](Day-298.md) | 🏛️ **Why architecture exists** — connascence, ⭐⭐ and the cost of change as the only justification | 8 |
+| [299](Day-299.md) | 🏛️ **Layered architecture** — ⭐⭐ the four ways it rots, and the contract that stops all four | 8 |
+| [300](Day-300.md) | 🏛️ **Clean & hexagonal** — ports, adapters, ⭐⭐ and why `Protocol` makes it cheaper in Python | 8 |
+| [301](Day-301.md) | 🏛️ **The repository pattern** — its three real reasons, ⭐⭐ and the read path that bypasses it | 8 |
+| [302](Day-302.md) | 🏛️ **The service layer** — ⭐⭐ the paper-form test for where any code belongs | 8 |
+| [303](Day-303.md) | 🏛️ **Dependency injection by hand** — the composition root, ⭐⭐ and the import that opens a socket | 8 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -275,14 +283,14 @@ comparatively; the same endpoint in both, and the twelve invariants underneath.
 Streams, MongoDB from the document model to the shard key. Almost none of it was about a vendor.
 **🌐 Stage 6 (214–247)** is the frontend, and is *not* written as day files — it is a phase guide in
 [`03-Web-Developer`](../../03-Web-Developer/), worked in order. Day numbering resumes at 248.
-⚡ **Stage 7 in progress (38/50)** — ✅ **the flagship is complete (248–287)**: design and gates,
-a deployed skeleton, the backend end to end, everything that runs where nobody is watching it fail,
-and the production block — gates, the image, the pipeline, infrastructure, observability, load
-testing, and a readiness gate whose standard is *defensible*, not perfect.
-**✅✅ Days 001–213, 248–270 and 281–295 written.** 🌐 **Days 271–280** are the flagship's frontend
+**✅✅ STAGE 7 COMPLETE (50/50)** — two defensible projects and an audit: the flagship built,
+operated, load-tested and gated; a rules-and-retrieval system where correctness is *measured* rather
+than asserted; and `ticketed` re-opened and improved without being rewritten.
+⚡ **Stage 8 in progress (6/24)** — architecture and low-level design, asked about systems you have
+actually built.
+**✅✅ Days 001–213, 248–270 and 281–303 written.** 🌐 **Days 271–280** are the flagship's frontend
 and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-⚡ Next: **296–297** — auditing `ticketed` with everything you have learned since, and the Stage 7
-exit gate: two defensible projects.
+⚡ Next: **304–311** — DDD, the modular monolith, the 45-minute LLD clock, and the design problems.
 
 ---
 
