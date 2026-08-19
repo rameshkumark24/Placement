@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–287 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (30/50) — the flagship is complete**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–295 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (38/50) — the flagship is complete**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -560,6 +560,24 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 | 285 | 📈 **Observability** — the trace id through six processes including the outbox row, ⭐⭐ why p99 cannot be averaged across pods, and the 3 a.m. test |
 | 286 | 💥 **Load testing** — the closed loop that hides the cliff, the four bottlenecks in order, ⭐⭐ and the cascade where perfectly healthy pods take each other down |
 | 287 | 🚪 **The production readiness gate** — ⭐⭐ finished means *defensible*: four live demonstrations, 24 attacking questions, and the numbers almost no candidate has |
+
+### 7E — The second project (288–297) ⚡ 8 of 10 written
+
+> ⭐⭐ **Deliberately a different shape.** The flagship's hard parts had right answers a test could
+> assert. Here a wrong answer is fluent, confident and silent — so the test suite becomes an
+> evaluation set, and "it works" becomes a number you moved.
+
+| Day | Lesson |
+|---|---|
+| 288 | 🏗 **The second project** — why a different shape, the rule-versus-retrieval split as the whole architecture, ⭐⭐ and the rule that an LLM may not be in the path of a decision that must be correct |
+| 289 | 🏗 **Two data models** — facts versus corpus, effective dating with an `EXCLUDE` constraint, ⭐⭐ and an immutable decision record you can explain six months later |
+| 290 | ⚙️ **The rules engine I** — the representation ladder and where to stop, conflict resolution with static analysis in CI, ⭐⭐ and the trace (including `why_not`) as the product |
+| 291 | ⚙️ **The rules engine II** — backtesting a change before it ships, shadow mode, ⭐⭐ and the override rate, where both extremes are bad |
+| 292 | 🔎 **RAG I — ingestion** — parsing as the ceiling, structural chunking, ⭐⭐ and the ancestry prefix that beats changing embedding models |
+| 293 | 🔎 **RAG II — retrieval** — hybrid with RRF because scores aren't comparable, cross-encoder reranking, ⭐⭐ and recall@k as the hard ceiling on the whole system |
+| 294 | 🛡️ **RAG III — failure modes** — indirect injection through your own corpus, capability as the only real boundary, ⭐⭐ verified spans, and the cost arithmetic |
+| 295 | 📝 **The ADRs you never wrote** — archaeology over constants and reverts, ⭐⭐ the honest format that resists retconning, and the ADR where you were wrong |
+| 296–297 | Auditing `ticketed` (Day 162) with everything learned since · 🚪 the Stage 7 exit gate |
 
 - **248–287 · The flagship**: a multi-tenant SaaS API in FastAPI — requirements, domain model, API
   contract before code, JWT with refresh rotation, RBAC and tenancy, SQLAlchemy without N+1,

@@ -257,6 +257,14 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [285](Day-285.md) | 📈 **Observability** — the trace id across six processes, ⭐⭐ and the 3 a.m. test | 7 |
 | [286](Day-286.md) | 💥 **Load testing** — ⭐⭐ the closed loop that hides the cliff, and the cascade of healthy pods | 7 |
 | [287](Day-287.md) | 🚪 **The production readiness gate** — ⭐⭐ the flagship is finished, which means defensible | 7 |
+| [288](Day-288.md) | 🏗 **The second project** — ⭐⭐ a different shape, where a wrong answer looks right | 7 |
+| [289](Day-289.md) | 🏗 **Two data models** — effective dating, ⭐⭐ and a decision you can reproduce in March | 7 |
+| [290](Day-290.md) | ⚙️ **The rules engine I** — rules as data, ⭐⭐ and the trace that *is* the product | 7 |
+| [291](Day-291.md) | ⚙️ **The rules engine II** — backtesting, shadow mode, ⭐⭐ and the override rate | 7 |
+| [292](Day-292.md) | 🔎 **RAG I — ingestion** — parsing as the ceiling, ⭐⭐ and the ancestry every chunk needs | 7 |
+| [293](Day-293.md) | 🔎 **RAG II — retrieval** — hybrid and reranking, ⭐⭐ and recall@k as the hard ceiling | 7 |
+| [294](Day-294.md) | 🛡️ **RAG III — failure modes** — ⭐⭐ indirect injection, spans, and the cost arithmetic | 7 |
+| [295](Day-295.md) | 📝 **The ADRs you never wrote** — ⭐⭐ every magic number is an unrecorded decision | 7 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -267,13 +275,14 @@ comparatively; the same endpoint in both, and the twelve invariants underneath.
 Streams, MongoDB from the document model to the shard key. Almost none of it was about a vendor.
 **🌐 Stage 6 (214–247)** is the frontend, and is *not* written as day files — it is a phase guide in
 [`03-Web-Developer`](../../03-Web-Developer/), worked in order. Day numbering resumes at 248.
-⚡ **Stage 7 in progress (30/50)** — ✅ **the flagship is complete (248–287)**: design and gates,
+⚡ **Stage 7 in progress (38/50)** — ✅ **the flagship is complete (248–287)**: design and gates,
 a deployed skeleton, the backend end to end, everything that runs where nobody is watching it fail,
 and the production block — gates, the image, the pipeline, infrastructure, observability, load
 testing, and a readiness gate whose standard is *defensible*, not perfect.
-**✅✅ Days 001–213, 248–270 and 281–287 written.** 🌐 **Days 271–280** are the flagship's frontend
+**✅✅ Days 001–213, 248–270 and 281–295 written.** 🌐 **Days 271–280** are the flagship's frontend
 and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-⚡ Next: **288–297** — the second project: a retrieval-and-rules system, and the Stage 7 exit gate.
+⚡ Next: **296–297** — auditing `ticketed` with everything you have learned since, and the Stage 7
+exit gate: two defensible projects.
 
 ---
 
