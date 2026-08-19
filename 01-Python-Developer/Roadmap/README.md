@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213 and 248–263 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (16/50)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213 and 248–270 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (23/50)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -532,12 +532,22 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 | 261 | 🧪 **Testing the backend** — the rollback fixture, ⭐⭐ the four test types that carry the project, and what coverage cannot tell you |
 | 262 | 🚪 **The backend review gate** — techniques that stop you confirming your own code, twelve adversarial probes, ⭐⭐ and `known-gaps.md` |
 
-### 7C — Data and async work (263–270) ⚡ 1 of 8 written
+### 7C — Data and async work (263–270) ✅ written
 
 | Day | Lesson |
 |---|---|
 | 263 | 🏗 **The outbox in anger** — `SKIP LOCKED` relay, at-least-once as the ceiling, ⭐⭐ `payment_unknown` and the reconciliation nobody writes |
-| 264–270 | Background jobs · async work and what may be lost · caching measured · uploads via presigned URLs · real-time, and SSE vs WebSockets · search and reporting · 🚪 the data and async review gate |
+| 264 | 🏗 **Background jobs** — one runner out of three replicas, ⭐⭐ the watermark that survives a missed run, and alerting on the absence of success |
+| 265 | 🏗 **Async work** — acknowledgements and the two ways to lose it, poison messages, ⭐⭐ and the one line that enqueues a job for a row that does not exist |
+| 266 | ⚡ **Caching, measured** — what it costs before it gives you anything, ⭐⭐ the key as a security boundary, and the stampede that arrives at 99.9% hit rate |
+| 267 | 🏗 **File uploads** — presigned URLs, the confirm you cannot trust, ⭐⭐ the five checks that are not validation, and deletion as four deletes |
+| 268 | 🏗 **Real-time** — the polling arithmetic first, SSE vs WebSockets, the `Origin` check nobody makes, ⭐⭐ and the socket as an optimisation rather than the truth |
+| 269 | 🔎 **Search and reporting** — four features called search, the tenant filter that must be in the query, ⭐⭐ and the report that changes when nobody changed any orders |
+| 270 | 🚪 **The data and async review gate** — ten failure injections against the deployed system, ⭐⭐ the silence table, and drift counted rather than shrugged at |
+
+> 🌐 **Days 271–280 — the flagship's frontend.** Not day files: worked in
+> [`03-Web-Developer`](../../03-Web-Developer/), building the UI for the API just defended.
+> Day files resume at **281 — production readiness.**
 
 - **248–287 · The flagship**: a multi-tenant SaaS API in FastAPI — requirements, domain model, API
   contract before code, JWT with refresh rotation, RBAC and tenancy, SQLAlchemy without N+1,

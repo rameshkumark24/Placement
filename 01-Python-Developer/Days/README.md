@@ -242,6 +242,13 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [261](Day-261.md) | 🧪 **Testing the backend** — ⭐⭐ the four types that catch what matters | 7 |
 | [262](Day-262.md) | 🚪 **The backend review gate** — ⭐⭐ audit it as if someone else wrote it | 7 |
 | [263](Day-263.md) | 🏗 **The outbox in anger** — ⭐⭐ the dual write solved, and the third outcome | 7 |
+| [264](Day-264.md) | 🏗 **Background jobs** — ⭐⭐ the lock, the watermark, and the dead-man check | 7 |
+| [265](Day-265.md) | 🏗 **Async work** — ⭐⭐ the boundary of what may be lost | 7 |
+| [266](Day-266.md) | ⚡ **Caching, measured** — ⭐⭐ the key as a security boundary, and the stampede | 7 |
+| [267](Day-267.md) | 🏗 **File uploads** — presigned URLs, ⭐⭐ and the eight ways this goes wrong | 7 |
+| [268](Day-268.md) | 🏗 **Real-time updates** — ⭐⭐ SSE vs WebSockets, and the socket that is not the truth | 7 |
+| [269](Day-269.md) | 🔎 **Search and reporting** — ⭐⭐ the read path that has different rules | 7 |
+| [270](Day-270.md) | 🚪 **The data and async review gate** — ⭐⭐ ten failure injections, and the silence table | 7 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -252,10 +259,13 @@ comparatively; the same endpoint in both, and the twelve invariants underneath.
 Streams, MongoDB from the document model to the shard key. Almost none of it was about a vendor.
 **🌐 Stage 6 (214–247)** is the frontend, and is *not* written as day files — it is a phase guide in
 [`03-Web-Developer`](../../03-Web-Developer/), worked in order. Day numbering resumes at 248.
-⚡ **Stage 7 in progress (16/50)** — the flagship: design and gates, a deployed skeleton, the
-backend end to end, its review gate, and the outbox doing real work.
-**✅✅ Days 001–213 and 248–263 written.** ⚡ Next: **264–270** — background jobs, async work,
-caching measured, uploads, real-time, search and reporting, and the data/async review gate.
+⚡ **Stage 7 in progress (23/50)** — the flagship: design and gates, a deployed skeleton, the
+backend end to end and gated, and now everything that runs where nobody is watching it fail —
+the outbox, jobs, queues, caching, uploads, real-time, reporting, and the gate that breaks them all.
+**✅✅ Days 001–213 and 248–270 written.** 🌐 **Days 271–280** are the flagship's frontend and are
+*not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
+⚡ Next: **281–287** — production readiness: coverage gates, the image, the pipeline, infrastructure,
+observability and load testing.
 
 ---
 
