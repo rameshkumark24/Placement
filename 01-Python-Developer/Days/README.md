@@ -225,6 +225,15 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [211](Day-211.md) | ⭐ **Embedding vs referencing** — ⭐⭐ three questions, and six patterns | 5 |
 | [212](Day-212.md) | 🍃 **Indexes & aggregation** — ⭐⭐ ESR again, `$lookup`, `$unwind` | 5 |
 | [213](Day-213.md) | ⭐ **Transactions, replica sets, sharding** · 🚪🚪 **STAGE 5 EXIT GATE** | 5 |
+| 214–247 | 🌐 **Stage 6 — the frontend.** Not day files: worked as a phase guide in [`03-Web-Developer`](../../03-Web-Developer/), gate by gate | 6 |
+| [248](Day-248.md) | 🏗 **Choosing the flagship** — ⭐⭐ what makes a project defensible | 7 |
+| [249](Day-249.md) | 🏗 **Requirements** — ⭐⭐ criteria you can write a failing test for | 7 |
+| [250](Day-250.md) | 🏗 **Domain modelling & ERD** — ⭐⭐ the aggregate boundary, and the invariants table | 7 |
+| [251](Day-251.md) | 🏗 **The API contract** — ⭐⭐ spec first, and the auth matrix as a grid | 7 |
+| [252](Day-252.md) | 🚪 **The design review gate** — ⭐⭐ threat model, capacity, five ADRs | 7 |
+| [253](Day-253.md) | 🏗 **The skeleton** — deployed on day one, ⭐⭐ four rules enforced by CI | 7 |
+| [254](Day-254.md) | 🏗 **The domain layer** — ⭐⭐ the state machine as data, tests with no database | 7 |
+| [255](Day-255.md) | 🏗 **Persistence** — repositories, projections, ⭐⭐ proving the query count | 7 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -233,8 +242,11 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 comparatively; the same endpoint in both, and the twelve invariants underneath.
 **✅✅ Stage 5 COMPLETE (28/28)** — Postgres from pages to PITR, Redis from the event loop to
 Streams, MongoDB from the document model to the shard key. Almost none of it was about a vendor.
-**✅✅ Days 001–213 written.** ⚡ Next: **Stage 6 — the frontend (214–247)**, in
-[`03-Web-Developer`](../../03-Web-Developer/) — enough of it to build the UI for your own API.
+**🌐 Stage 6 (214–247)** is the frontend, and is *not* written as day files — it is a phase guide in
+[`03-Web-Developer`](../../03-Web-Developer/), worked in order. Day numbering resumes at 248.
+⚡ **Stage 7 in progress (8/50)** — the flagship: design, gates, skeleton, domain, persistence.
+**✅✅ Days 001–213 and 248–255 written.** ⚡ Next: **256–263** — the service and web layers, auth,
+authorisation, testing, and the backend review gate.
 
 ---
 

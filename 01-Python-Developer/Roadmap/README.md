@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213 written** — ✅ **Stages 0–5 complete**; ⚡ **Stage 6 next**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213 and 248–255 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (8/50)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -57,8 +57,8 @@ You can never skip a lesson — but you can pass through it fast.
 | 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) ✅ | Can build an API with no framework |
 | 130–185 | [Stage 4 — FastAPI & Django](#stage-4--fastapi--django) ✅ | Backend interview-ready |
 | 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) ✅ | Can fix a slow query live |
-| 214–247 | Stage 6 — Frontend → [`03-Web-Developer`](../../03-Web-Developer/) | Can build the UI for your own API |
-| 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) | Two defensible projects |
+| 214–247 | Stage 6 — Frontend → [`03-Web-Developer`](../../03-Web-Developer/) 🌐 | Can build the UI for your own API |
+| 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) ⚡ | Two defensible projects |
 | 298–321 | [Stage 8 — LLD](#stage-8--architecture--low-level-design) | LLD rounds cleared |
 | 322–359 | [Stage 9 — System Design](#stage-9--system-design) | ✅ **COMPLETE SDE** |
 | 360–379 | [Stage 10 — DevOps](#stage-10--devops) | Ships own work |
@@ -502,6 +502,29 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 ## Stage 7 — Full Stack Integration
 
 **Days 248–297** — two projects, every line written by you.
+
+> ⭐⭐ **The Stage 7 rule: no AI-generated code.** AI for explanation always; AI writing your code
+> never. You cannot defend a decision you did not make or a line you did not write, and the projects
+> exist so that you can defend them.
+
+### 7A — Design and the gate (248–252) ⚡ written
+
+| Day | Lesson |
+|---|---|
+| 248 | 🏗 **Choosing the flagship** — the twelve non-negotiable requirements, three candidates analysed, ⭐⭐ and the out-of-scope list written on day one |
+| 249 | 🏗 **Requirements** — ⭐⭐ criteria you can write a failing test for, the concurrent path as a requirement, and a risk register with observable triggers |
+| 250 | 🏗 **Domain modelling and the ERD** — ⭐⭐ the aggregate boundary derived from the invariants, the rule that fits in no aggregate, and the invariants table |
+| 251 | 🏗 **The API contract** — spec before code, transitions as commands not status patches, ⭐⭐ and the auth matrix as a grid whose empty cells are the bugs |
+| 252 | 🚪 **The design review gate** — five review roles, a threat-model grid, the capacity estimate, ⭐⭐ and five ADRs before a line of code |
+
+### 7B — The backend (253–262) ⚡ 3 of 10 written
+
+| Day | Lesson |
+|---|---|
+| 253 | 🏗 **The skeleton** — deployed on day one, ⭐⭐ and four rules made build failures rather than conventions |
+| 254 | 🏗 **The domain layer** — ⭐⭐ the state machine as data, time as an input, and a unit suite that runs in under a second |
+| 255 | 🏗 **Persistence** — the repository's real justification, projections for reads, ⭐⭐ and a query-count ceiling in CI |
+| 256–262 | The service layer · the web layer · authentication · authorisation and tenancy · pagination and operational endpoints · testing · 🚪 the backend review gate |
 
 - **248–287 · The flagship**: a multi-tenant SaaS API in FastAPI — requirements, domain model, API
   contract before code, JWT with refresh rotation, RBAC and tenancy, SQLAlchemy without N+1,
