@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–303 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅ **Stage 7 COMPLETE**; ⚡ **Stage 8 in progress (6/24)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–311 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅ **Stage 7 COMPLETE**; ⚡ **Stage 8 in progress (14/24)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -616,6 +616,19 @@ pattern card that unifies them
 | 301 | 🏛️ **The repository pattern** — the three real justifications and the two false ones, why a `Session` isn't one, ⭐⭐ and the read path that bypasses it on purpose |
 | 302 | 🏛️ **The service layer** — the paper-form test, the anaemic domain as a correctness problem, cross-aggregate rules, ⭐⭐ and "can a Celery task call this unchanged?" |
 | 303 | 🏛️ **Dependency injection by hand** — the composition root, Python's four affordances, ⭐⭐ the module-level engine that makes `pytest --collect-only` open a database, and `mock.patch` count as a design metric |
+
+### 8B — DDD, structure, and the LLD method (304–311) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 304 | 🧭 **DDD I** — the strategic half nobody copies, the ten-second language test, qualifiers as missing types, ⭐⭐ and value objects that turn a swapped-argument bug into a type error |
+| 305 | 🧭 **DDD II** — the aggregate as a contention boundary sized by "what must be true at commit", references by ID, events versus commands, ⭐⭐ and one canonical model serving three teams badly |
+| 306 | 🧭 **The modular monolith** — what a network call really costs, the three honest reasons to split, `api.py` as a rehearsal, ⭐⭐ the table-ownership rule no linter can see, and the extraction paradox |
+| 307 | 🔧 **Refactoring the flagship** — four measurements taken first, bottom-up before top-down, one refactoring per commit, ⭐⭐ and reporting the number that didn't move |
+| 308 | ⏱️ **The LLD method** — the forty-five-minute clock, five questions that each change the design, pruning nouns as a scored skill, ⭐⭐ and the minute-30 rule |
+| 309 | 📐 **UML that earns its keep** — multiplicity as the information, the failure sequence rather than the happy path, ⭐⭐ the state diagram nobody draws, and generating it from the transition table |
+| 310 | ⚡ **Concurrency in LLD** — shared state, invariant, cheapest mechanism, what the GIL doesn't do, check-then-act as one bug in four costumes, ⭐⭐ and the moment an in-process lock becomes silently wrong |
+| 311 | 🅿️ **Parking Lot** — the method end to end: pruning, who owns occupancy, ⭐⭐ check-and-act as one operation with a retry window, and the conditional `UPDATE` that survives two servers |
 
 ---
 
