@@ -197,14 +197,23 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [183](Day-183.md) | ⚖️ **Choosing and migrating** — ⭐⭐ the strangler that actually works | 4 |
 | [184](Day-184.md) | ⚖️ **What actually transfers** — ⭐⭐ the twelve invariants | 4 |
 | [185](Day-185.md) | 🚪 **Stage 4 exit gate** — two walkthroughs, ⭐⭐ a 50-question audit | 4 |
+| [186](Day-186.md) | 🐘 **Postgres as a running program** — processes, pages, ⭐⭐ WAL, checkpoints | 5 |
+| [187](Day-187.md) | 🐘 **Types & constraints** — ⭐⭐ the database as the last line of defence | 5 |
+| [188](Day-188.md) | 🐘 **Schema design in practice** — ⭐⭐ the four places you stop on purpose | 5 |
+| [189](Day-189.md) | ⭐ **Indexes I** — the B-tree, and ⭐⭐ the eight reasons yours is ignored | 5 |
+| [190](Day-190.md) | 🐘 **Indexes II** — ⭐⭐ E-S-R, partial, covering, and the five that aren't B-trees | 5 |
+| [191](Day-191.md) | ⭐ **`EXPLAIN ANALYZE`** — ⭐⭐ estimate vs actual, and the number everyone misreads | 5 |
+| [192](Day-192.md) | 🐘 **Join algorithms** — three strategies, ⭐⭐ and the `LEFT JOIN` that isn't one | 5 |
+| [193](Day-193.md) | 🔧 **Query optimisation workshop** — ⭐⭐ ten slow queries, against the clock | 5 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
 **✅✅ Stage 4 COMPLETE (56/56)** — FastAPI to a deployed, load-tested service; Django and DRF taught
 comparatively; the same endpoint in both, and the twelve invariants underneath.
-**✅✅ Days 001–185 written.** ⚡ Next: **Stage 5 — Databases (186–213)** — B-trees, query planning,
-isolation levels, replication and sharding. Everything you took on trust in Stage 4.
+⚡ **Stage 5 in progress (8/28)** — Postgres internals, indexes, plans and joins; the query clinic.
+**✅✅ Days 001–193 written.** ⚡ Next: **194–201** — MVCC and vacuum, isolation levels, locks and
+deadlocks, pooling, JSONB, full-text search, partitioning, replication.
 
 ---
 

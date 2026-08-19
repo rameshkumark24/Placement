@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–185 written** — ✅ **Stages 0, 1, 2, 3 and 4 complete**; ⚡ **Stage 5 next**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–193 written** — ✅ **Stages 0–4 complete**; ⚡ **Stage 5 in progress (8/28)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -56,7 +56,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 78–101 (+4) | [Stage 2 — Professional Engineering](#stage-2--professional-engineering) ✅ | Git, Linux, clean code, pytest |
 | 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) ✅ | Can build an API with no framework |
 | 130–185 | [Stage 4 — FastAPI & Django](#stage-4--fastapi--django) ✅ | Backend interview-ready |
-| 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) | Can fix a slow query live |
+| 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) ⚡ | Can fix a slow query live |
 | 214–247 | Stage 6 — Frontend → [`03-Web-Developer`](../../03-Web-Developer/) | Can build the UI for your own API |
 | 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) | Two defensible projects |
 | 298–321 | [Stage 8 — LLD](#stage-8--architecture--low-level-design) | LLD rounds cleared |
@@ -442,12 +442,30 @@ each made easy and what each made hard
 > Same curriculum as the [Java track](../../02-Java-Developer/Roadmap/README.md#stage-5--database-engineering),
 > with SQLAlchemy and `asyncpg` instead of JPA.
 
-**Days 186–213** — relational modelling and normalisation · SQL to a professional level · **indexes
-and B-trees** · `EXPLAIN ANALYZE` and reading a query plan · joins and the planner · transactions
-and **isolation levels** · locking and deadlocks · connection pooling (and **why pool size × worker
-count is a number you must compute**) · N+1 detection · migrations under load · Postgres specifics
-(JSONB, partial indexes, `FOR UPDATE SKIP LOCKED`) · Redis as a data structure server · NoSQL and
-when it is the right answer · **the slow-query clinic**
+**Days 186–213.** ⭐⭐ *Stage 4 taught you to work* around *the database — pool sizes, N+1s,
+migration locks, `EXPLAIN` at arm's length. This stage opens it.*
+
+### 5A — Postgres, from the inside (186–193) ⚡ written
+
+| Day | Lesson |
+|---|---|
+| 186 | **Postgres as a running program** — one process per connection, the 8 KB page, shared buffers, WAL, checkpoints. ⭐⭐ Why every fact in this stage is about pages |
+| 187 | **Types and constraints** — `timestamptz`, NULL's three-valued logic, partial unique indexes, ⭐⭐ the `EXCLUDE` constraint that ends double bookings |
+| 188 | **Schema design in practice** — normalisation from its anomalies, ⭐⭐ why an order line copies the price, and the full bill for soft deletes |
+| 189 | ⭐ **Indexes I** — the B-tree and its fanout arithmetic, ⭐⭐ the eight reasons yours is ignored, and what an index costs on writes |
+| 190 | **Indexes II** — ⭐⭐ composite order derived (E-S-R), partial indexes, `INCLUDE`, and GIN/GiST/BRIN/trigram |
+| 191 | ⭐ **`EXPLAIN ANALYZE`** — ⭐⭐ the deepest bad estimate, `loops` as the misread number, spills, and `auto_explain` |
+| 192 | **Join algorithms** — nested loop, hash, merge and why the planner chooses; ⭐⭐ the `LEFT JOIN` that silently isn't, and row multiplication |
+| 193 | 🔧 **Query optimisation workshop** — ⭐⭐ ten slow queries against the clock, and the finding that only three were index problems |
+
+### 5B — Transactions, operations and the rest (194–213)
+
+MVCC, vacuum and bloat · **isolation levels**, with every anomaly reproduced by hand · locking and
+deadlock debugging · connection pooling and **PgBouncer** (and why pool size × worker count is a
+number you must compute) · JSONB · full-text search · partitioning · replication, failover and PITR ·
+`pg_stat_statements` · **Redis** — architecture, data structures, persistence, caching patterns,
+distributed locks, rate limiting, streams · **MongoDB** — the document model, embedding vs
+referencing, aggregation, and when it is a mistake
 
 ---
 
