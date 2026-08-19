@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–311 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅ **Stage 7 COMPLETE**; ⚡ **Stage 8 in progress (14/24)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–321 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅ **Stages 7 and 8 COMPLETE**; ⚡ **Stage 9 next**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -629,6 +629,25 @@ pattern card that unifies them
 | 309 | 📐 **UML that earns its keep** — multiplicity as the information, the failure sequence rather than the happy path, ⭐⭐ the state diagram nobody draws, and generating it from the transition table |
 | 310 | ⚡ **Concurrency in LLD** — shared state, invariant, cheapest mechanism, what the GIL doesn't do, check-then-act as one bug in four costumes, ⭐⭐ and the moment an in-process lock becomes silently wrong |
 | 311 | 🅿️ **Parking Lot** — the method end to end: pruning, who owns occupancy, ⭐⭐ check-and-act as one operation with a retry window, and the conditional `UPDATE` that survives two servers |
+
+### 8C — The design problems (312–321) ✅ written
+
+> ⭐⭐ **Nine problems, five shapes.** Hold-act-commit with an expiry · check-and-act as one
+> operation · a ledger rather than a balance · the third outcome · a strategy only on the axis that
+> varies. Day 321 consolidates them into a pattern card.
+
+| Day | Lesson |
+|---|---|
+| 312 | 🛗 **Elevator** — hall versus car requests, cars bidding rather than a controller reaching in, ⭐⭐ starvation, and concurrency solved by a single consumer instead of a lock |
+| 313 | 🗄️ **LRU cache** — policy as an interface, why doubly linked, `while` not `if`, ⭐⭐ and the stampede that kills the database at a 99.9% hit ratio |
+| 314 | 🚦 **Rate limiter** — four algorithms compared honestly, ⭐⭐ the boundary burst that fires exactly when every scheduled client does, atomicity across replicas, and fail-open versus fail-closed |
+| 315 | 💸 **Splitwise** — a ledger rather than stored balances, largest-remainder allocation, ⭐⭐ the invariant enforced at construction, and settlement as an admitted heuristic |
+| 316 | 🎟️ **BookMyShow** — the three-state seat, one conditional `UPDATE` with lazy expiry, the payment outside the transaction, ⭐⭐ and `payment_unknown` with an extended hold |
+| 317 | 🎰 **Vending machine & ATM** — state pattern plus transition table, greedy change and where it breaks, ⭐⭐ write-ahead logging in a vending machine, and hold-dispense-capture |
+| 318 | 🔔 **Logging & notifications** — three axes that vary independently, consent checked at send time, ⭐⭐ derived idempotency keys, and an abstraction declined out loud |
+| 319 | ♟️ **Chess & Snakes and Ladders** — over-engineering as the test in one and ⭐⭐ make-test-unmake in the other, where pins need no code and the undo record is the game history |
+| 320 | 🚕 **Delivery & cab booking** — an offer with an expiry because a driver can decline, batched escalation as a product trade-off, ⭐⭐ cell-boundary search, and 12,500 writes/second going to Redis |
+| 321 | 🚪 **STAGE 8 EXIT GATE** — the pattern card, two unseen problems recorded and scored on nine rows, ⭐⭐ and the audio-only test |
 
 ---
 

@@ -281,6 +281,16 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [309](Day-309.md) | 📐 **UML that earns its keep** — ⭐⭐ and the state diagram nobody draws | 8 |
 | [310](Day-310.md) | ⚡ **Concurrency in LLD** — ⭐⭐ the question that ends most interviews | 8 |
 | [311](Day-311.md) | 🅿️ **Parking Lot** — ⭐⭐ the method applied end to end, race and all | 8 |
+| [312](Day-312.md) | 🛗 **Elevator** — ⭐⭐ who is in charge, and the floor that starves | 8 |
+| [313](Day-313.md) | 🗄️ **LRU cache** — ⭐⭐ the design problem hiding behind the algorithm | 8 |
+| [314](Day-314.md) | 🚦 **Rate limiter** — four algorithms, ⭐⭐ and the boundary burst | 8 |
+| [315](Day-315.md) | 💸 **Splitwise** — ⭐⭐ a ledger not a balance, and the penny problem | 8 |
+| [316](Day-316.md) | 🎟️ **BookMyShow** — ⭐⭐ holding a seat across a payment | 8 |
+| [317](Day-317.md) | 🎰 **Vending machine & ATM** — ⭐⭐ write-ahead logging in a vending machine | 8 |
+| [318](Day-318.md) | 🔔 **Logging & notifications** — ⭐⭐ extension without imagination | 8 |
+| [319](Day-319.md) | ♟️ **Chess & Snakes and Ladders** — ⭐⭐ the move that must be simulated | 8 |
+| [320](Day-320.md) | 🚕 **Delivery & cab booking** — ⭐⭐ an offer with an expiry, not an assignment | 8 |
+| [321](Day-321.md) | 🚪 **STAGE 8 EXIT GATE** — ⭐⭐ two live LLD interviews, recorded and scored | 8 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -294,13 +304,14 @@ Streams, MongoDB from the document model to the shard key. Almost none of it was
 **✅✅ STAGE 7 COMPLETE (50/50)** — two defensible projects and an audit: the flagship built,
 operated, load-tested and gated; a rules-and-retrieval system where correctness is *measured* rather
 than asserted; and `ticketed` re-opened and improved without being rewritten.
-⚡ **Stage 8 in progress (14/24)** — architecture and low-level design, asked about systems you have
+**✅✅ STAGE 8 COMPLETE (24/24)** — architecture and low-level design, asked about systems you have
 actually built: change cost and connascence, layers and their rots, ports and adapters, DDD, the
-modular monolith, a measured refactor, and the 45-minute LLD method with its first design problem.
-**✅✅ Days 001–213, 248–270 and 281–311 written.** 🌐 **Days 271–280** are the flagship's frontend
+modular monolith, a measured refactor, the 45-minute LLD method, and nine design problems that turn
+out to be five shapes — closing with two live recorded interviews.
+**✅✅ Days 001–213, 248–270 and 281–321 written.** 🌐 **Days 271–280** are the flagship's frontend
 and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-⚡ Next: **312–319** — the design problems: elevator, LRU cache, rate limiter, Splitwise, ticket
-booking, vending machine, notifications.
+⚡ Next: **Stage 9 — system design (322–359)**, beginning exactly where Stage 8 ended: the moment one
+process becomes several.
 
 ---
 
