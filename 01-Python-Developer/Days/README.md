@@ -213,16 +213,24 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [199](Day-199.md) | 🐘 **Full-text search** — four problems called search, ⭐⭐ and the honest line | 5 |
 | [200](Day-200.md) | 🐘 **Partitioning** — ⭐⭐ a maintenance feature, and the key that must be everywhere | 5 |
 | [201](Day-201.md) | ⭐ **Replication, failover, PITR** — ⭐⭐ the three lag anomalies, and RPO vs RTO | 5 |
+| [202](Day-202.md) | ⭐ **`pg_stat_statements` & tuning** — wait events, twelve settings · 🚪 **Postgres gate** | 5 |
+| [203](Day-203.md) | 🧠 **Redis architecture** — ⭐⭐ why single-threaded is the feature, and the fork | 5 |
+| [204](Day-204.md) | ⭐ **Redis data structures** — ⭐⭐ five meanings of a zset score, bitmaps, HLL | 5 |
+| [205](Day-205.md) | 🧠 **Persistence** — RDB, AOF, ⭐⭐ and why it doesn't protect a failover | 5 |
+| [206](Day-206.md) | ⭐ **Caching patterns & eviction** — ⭐⭐ delete-don't-update, and the vanity metric | 5 |
+| [207](Day-207.md) | ⭐ **Distributed locks** — four bugs, ⭐⭐ fencing tokens, and the Redlock argument | 5 |
+| [208](Day-208.md) | ⭐ **Rate limiting** — four algorithms in Lua, ⭐⭐ and the boundary burst | 5 |
+| [209](Day-209.md) | 🧠 **Pub/Sub & Streams** — ⭐⭐ the PEL · 🚪 **Redis block gate** | 5 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
 **✅ Stage 3 complete (28/28)** — a backend from a socket to a security review.
 **✅✅ Stage 4 COMPLETE (56/56)** — FastAPI to a deployed, load-tested service; Django and DRF taught
 comparatively; the same endpoint in both, and the twelve invariants underneath.
-⚡ **Stage 5 in progress (16/28)** — Postgres from pages to PITR: internals, indexes, plans, joins,
-the query clinic, MVCC, isolation, locks, pooling, JSONB, search, partitioning and replication.
-**✅✅ Days 001–201 written.** ⚡ Next: **202–209** — `pg_stat_statements` and the Postgres block gate,
-then Redis: the event loop, data structures, persistence, caching, distributed locks, rate limiting.
+⚡ **Stage 5 in progress (24/28)** — 🚪 **Postgres block complete (186–202)** and 🚪 **Redis block
+complete (203–209)**: pages to PITR, then the event loop to Streams.
+**✅✅ Days 001–209 written.** ⚡ Next: **210–213** — MongoDB and the document model, embedding vs
+referencing, aggregation and sharding · 🚪🚪 **Stage 5 exit gate**.
 
 ---
 

@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–201 written** — ✅ **Stages 0–4 complete**; ⚡ **Stage 5 in progress (16/28)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–209 written** — ✅ **Stages 0–4 complete**; ⚡ **Stage 5 in progress (24/28)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -471,12 +471,24 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 | 200 | **Partitioning** — ⭐⭐ a maintenance feature, the partition key that must be in every unique constraint, and the midnight outage |
 | 201 | ⭐ **Replication, failover and PITR** — ⭐⭐ the three lag anomalies, `hot_standby_feedback`'s hidden cost, and why a replica is not a backup |
 
-### 5C — Redis, Mongo and the gate (202–213)
+### 5C — Tuning, and Redis (202–209) ⚡ written
 
-`pg_stat_statements` and the **Postgres block gate** · **Redis** — the single-threaded event loop,
-data structures, persistence, caching patterns, distributed locks, rate limiting, streams ·
-**MongoDB** — the document model, embedding vs referencing, aggregation, and when it is a mistake ·
-🚪 **Stage 5 exit gate**
+| Day | Lesson |
+|---|---|
+| 202 | ⭐ **`pg_stat_statements` and tuning** — rank by total not mean, ⭐⭐ wait events, twelve settings derived · 🚪 **Postgres block gate** |
+| 203 | **Redis architecture** — ⭐⭐ why single-threaded is the feature, the banned commands, and the fork that causes most outages |
+| 204 | ⭐ **Data structures** — ⭐⭐ five meanings of a sorted-set score, bitmap and HyperLogLog arithmetic, encodings and the bucketing trick |
+| 205 | **Persistence** — RDB, AOF and both; ⭐⭐ the durability ceiling in one sentence, and why persistence does not protect a failover |
+| 206 | ⭐ **Caching patterns and eviction** — ⭐⭐ delete-don't-update with its proof, three stampede defences, and why hit ratio is a vanity metric |
+| 207 | ⭐ **Distributed locks** — four bugs built one at a time, ⭐⭐ fencing tokens, and the Redlock argument from both sides |
+| 208 | ⭐ **Rate limiting** — four algorithms in Lua with their arithmetic, ⭐⭐ the boundary burst, and whose clock to trust |
+| 209 | **Pub/Sub and Streams** — ⭐⭐ the pending entries list, `XAUTOCLAIM`, and choosing between Streams, Kafka and `SKIP LOCKED` · 🚪 **Redis block gate** |
+
+### 5D — MongoDB and the gate (210–213)
+
+The document model and when it fits · **embedding vs referencing** — the only schema decision that
+matters · indexes and the aggregation pipeline · transactions, replica sets and sharding ·
+🚪🚪 **Stage 5 exit gate**
 
 ---
 
