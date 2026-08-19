@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213 and 248–255 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (8/50)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213 and 248–263 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (16/50)**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -517,14 +517,27 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 | 251 | 🏗 **The API contract** — spec before code, transitions as commands not status patches, ⭐⭐ and the auth matrix as a grid whose empty cells are the bugs |
 | 252 | 🚪 **The design review gate** — five review roles, a threat-model grid, the capacity estimate, ⭐⭐ and five ADRs before a line of code |
 
-### 7B — The backend (253–262) ⚡ 3 of 10 written
+### 7B — The backend (253–262) ⚡ written
 
 | Day | Lesson |
 |---|---|
 | 253 | 🏗 **The skeleton** — deployed on day one, ⭐⭐ and four rules made build failures rather than conventions |
 | 254 | 🏗 **The domain layer** — ⭐⭐ the state machine as data, time as an input, and a unit suite that runs in under a second |
 | 255 | 🏗 **Persistence** — the repository's real justification, projections for reads, ⭐⭐ and a query-count ceiling in CI |
-| 256–262 | The service layer · the web layer · authentication · authorisation and tenancy · pagination and operational endpoints · testing · 🚪 the backend review gate |
+| 256 | 🏗 **The service layer** — the transaction boundary as the one thing only it can own, ⭐⭐ and never a network call inside it |
+| 257 | 🏗 **The web layer** — ⭐⭐ separate request and response schemas as a security control, and one exception handler |
+| 258 | 🔐 **Authentication** — argon2 off the event loop, the four login traps, ⭐⭐ rotation *and* reuse detection |
+| 259 | 🔐 **Authorisation** — three questions in three places, ⭐⭐ one predicate shared by list and detail, RLS's two silent failures |
+| 260 | 🏗 **The rest of the API** — signed cursors with a tiebreaker, allowlists as a DoS boundary, ⭐⭐ and the operational surface |
+| 261 | 🧪 **Testing the backend** — the rollback fixture, ⭐⭐ the four test types that carry the project, and what coverage cannot tell you |
+| 262 | 🚪 **The backend review gate** — techniques that stop you confirming your own code, twelve adversarial probes, ⭐⭐ and `known-gaps.md` |
+
+### 7C — Data and async work (263–270) ⚡ 1 of 8 written
+
+| Day | Lesson |
+|---|---|
+| 263 | 🏗 **The outbox in anger** — `SKIP LOCKED` relay, at-least-once as the ceiling, ⭐⭐ `payment_unknown` and the reconciliation nobody writes |
+| 264–270 | Background jobs · async work and what may be lost · caching measured · uploads via presigned URLs · real-time, and SSE vs WebSockets · search and reporting · 🚪 the data and async review gate |
 
 - **248–287 · The flagship**: a multi-tenant SaaS API in FastAPI — requirements, domain model, API
   contract before code, JWT with refresh rotation, RBAC and tenancy, SQLAlchemy without N+1,

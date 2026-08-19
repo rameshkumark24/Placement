@@ -234,6 +234,14 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [253](Day-253.md) | 🏗 **The skeleton** — deployed on day one, ⭐⭐ four rules enforced by CI | 7 |
 | [254](Day-254.md) | 🏗 **The domain layer** — ⭐⭐ the state machine as data, tests with no database | 7 |
 | [255](Day-255.md) | 🏗 **Persistence** — repositories, projections, ⭐⭐ proving the query count | 7 |
+| [256](Day-256.md) | 🏗 **The service layer** — ⭐⭐ the transaction boundary, and what it must refuse | 7 |
+| [257](Day-257.md) | 🏗 **The web layer** — ⭐⭐ schemas as a security control, one exception handler | 7 |
+| [258](Day-258.md) | 🔐 **Authentication** — ⭐⭐ refresh rotation, and reuse detection that revokes a family | 7 |
+| [259](Day-259.md) | 🔐 **Authorisation** — ⭐⭐ the `WHERE` clause, RLS traps, the matrix as a test file | 7 |
+| [260](Day-260.md) | 🏗 **The rest of the API** — cursors, allowlists, ⭐⭐ and the operational surface | 7 |
+| [261](Day-261.md) | 🧪 **Testing the backend** — ⭐⭐ the four types that catch what matters | 7 |
+| [262](Day-262.md) | 🚪 **The backend review gate** — ⭐⭐ audit it as if someone else wrote it | 7 |
+| [263](Day-263.md) | 🏗 **The outbox in anger** — ⭐⭐ the dual write solved, and the third outcome | 7 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -244,9 +252,10 @@ comparatively; the same endpoint in both, and the twelve invariants underneath.
 Streams, MongoDB from the document model to the shard key. Almost none of it was about a vendor.
 **🌐 Stage 6 (214–247)** is the frontend, and is *not* written as day files — it is a phase guide in
 [`03-Web-Developer`](../../03-Web-Developer/), worked in order. Day numbering resumes at 248.
-⚡ **Stage 7 in progress (8/50)** — the flagship: design, gates, skeleton, domain, persistence.
-**✅✅ Days 001–213 and 248–255 written.** ⚡ Next: **256–263** — the service and web layers, auth,
-authorisation, testing, and the backend review gate.
+⚡ **Stage 7 in progress (16/50)** — the flagship: design and gates, a deployed skeleton, the
+backend end to end, its review gate, and the outbox doing real work.
+**✅✅ Days 001–213 and 248–263 written.** ⚡ Next: **264–270** — background jobs, async work,
+caching measured, uploads, real-time, search and reporting, and the data/async review gate.
 
 ---
 
