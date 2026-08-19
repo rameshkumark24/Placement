@@ -249,6 +249,14 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [268](Day-268.md) | 🏗 **Real-time updates** — ⭐⭐ SSE vs WebSockets, and the socket that is not the truth | 7 |
 | [269](Day-269.md) | 🔎 **Search and reporting** — ⭐⭐ the read path that has different rules | 7 |
 | [270](Day-270.md) | 🚪 **The data and async review gate** — ⭐⭐ ten failure injections, and the silence table | 7 |
+| 271–280 | 🌐 **The flagship's frontend.** Not day files: worked in [`03-Web-Developer`](../../03-Web-Developer/) | 7 |
+| [281](Day-281.md) | 🧪 **Coverage and quality gates** — ⭐⭐ making the suite mean something | 7 |
+| [282](Day-282.md) | 📦 **The container image** — ⭐⭐ signals, layers, and the probe that causes the outage | 7 |
+| [283](Day-283.md) | 🔁 **The pipeline** — build once and promote, ⭐⭐ and the five minutes when both versions are live | 7 |
+| [284](Day-284.md) | 🏗 **Infrastructure** — ⭐⭐ what breaks when you lose something, and what it costs | 7 |
+| [285](Day-285.md) | 📈 **Observability** — the trace id across six processes, ⭐⭐ and the 3 a.m. test | 7 |
+| [286](Day-286.md) | 💥 **Load testing** — ⭐⭐ the closed loop that hides the cliff, and the cascade of healthy pods | 7 |
+| [287](Day-287.md) | 🚪 **The production readiness gate** — ⭐⭐ the flagship is finished, which means defensible | 7 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -259,13 +267,13 @@ comparatively; the same endpoint in both, and the twelve invariants underneath.
 Streams, MongoDB from the document model to the shard key. Almost none of it was about a vendor.
 **🌐 Stage 6 (214–247)** is the frontend, and is *not* written as day files — it is a phase guide in
 [`03-Web-Developer`](../../03-Web-Developer/), worked in order. Day numbering resumes at 248.
-⚡ **Stage 7 in progress (23/50)** — the flagship: design and gates, a deployed skeleton, the
-backend end to end and gated, and now everything that runs where nobody is watching it fail —
-the outbox, jobs, queues, caching, uploads, real-time, reporting, and the gate that breaks them all.
-**✅✅ Days 001–213 and 248–270 written.** 🌐 **Days 271–280** are the flagship's frontend and are
-*not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-⚡ Next: **281–287** — production readiness: coverage gates, the image, the pipeline, infrastructure,
-observability and load testing.
+⚡ **Stage 7 in progress (30/50)** — ✅ **the flagship is complete (248–287)**: design and gates,
+a deployed skeleton, the backend end to end, everything that runs where nobody is watching it fail,
+and the production block — gates, the image, the pipeline, infrastructure, observability, load
+testing, and a readiness gate whose standard is *defensible*, not perfect.
+**✅✅ Days 001–213, 248–270 and 281–287 written.** 🌐 **Days 271–280** are the flagship's frontend
+and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
+⚡ Next: **288–297** — the second project: a retrieval-and-rules system, and the Stage 7 exit gate.
 
 ---
 

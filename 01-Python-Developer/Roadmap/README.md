@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213 and 248–270 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (23/50)**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–287 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ⚡ **Stage 7 in progress (30/50) — the flagship is complete**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -548,6 +548,18 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 > 🌐 **Days 271–280 — the flagship's frontend.** Not day files: worked in
 > [`03-Web-Developer`](../../03-Web-Developer/), building the UI for the API just defended.
 > Day files resume at **281 — production readiness.**
+
+### 7D — Production, and the flagship finished (281–287) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 281 | 🧪 **Coverage and quality gates** — patch coverage not global, mutation testing as the honest check, ⭐⭐ and the migration lock check almost nobody has |
+| 282 | 📦 **The container image** — the shell-form `CMD` that swallows `SIGTERM`, layer ordering, non-root, ⭐⭐ and the liveness probe that turns a database blip into an outage |
+| 283 | 🔁 **The pipeline** — build once and promote the digest, expand/contract, `lock_timeout`, ⭐⭐ and the honest asymmetry between rolling back code and rolling back data |
+| 284 | 🏗 **Infrastructure** — the smallest thing that demonstrates the property, egress as the control nobody sets, ⭐⭐ a restore you timed, and a cost you can itemise |
+| 285 | 📈 **Observability** — the trace id through six processes including the outbox row, ⭐⭐ why p99 cannot be averaged across pods, and the 3 a.m. test |
+| 286 | 💥 **Load testing** — the closed loop that hides the cliff, the four bottlenecks in order, ⭐⭐ and the cascade where perfectly healthy pods take each other down |
+| 287 | 🚪 **The production readiness gate** — ⭐⭐ finished means *defensible*: four live demonstrations, 24 attacking questions, and the numbers almost no candidate has |
 
 - **248–287 · The flagship**: a multi-tenant SaaS API in FastAPI — requirements, domain model, API
   contract before code, JWT with refresh rotation, RBAC and tenancy, SQLAlchemy without N+1,
