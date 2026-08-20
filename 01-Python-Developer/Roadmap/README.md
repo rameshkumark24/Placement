@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–359 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7, 8 and 9 COMPLETE — ✅✅ COMPLETE SDE**; ⚡ **Stage 10 next**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–379 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7–10 COMPLETE — ✅✅ COMPLETE SDE + ships own work**; ⚡ **Stage 11 next**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -61,7 +61,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) ⚡ | Two defensible projects |
 | 298–321 | [Stage 8 — LLD](#stage-8--architecture--low-level-design) | LLD rounds cleared |
 | 322–359 | [Stage 9 — System Design](#stage-9--system-design) ✅ | ✅✅ **COMPLETE SDE** |
-| 360–379 | [Stage 10 — DevOps](#stage-10--devops) | Ships own work |
+| 360–379 | [Stage 10 — DevOps](#stage-10--devops) ✅ | ✅ **Ships own work** |
 | 380–397 | [Stage 11 — AWS](#stage-11--cloud-aws) | Cloud deployed |
 | 398–413 | [Stage 12 — Distributed Systems](#stage-12--distributed-systems) | Senior-track conversations |
 | 414–461 | Stage 13/14 — Data & AI → [`05-ML-Engineer`](../../05-ML-Engineer/) | Python's second market |
@@ -726,11 +726,49 @@ consensus · **the 45-minute framework** · fourteen full designs · 🚪🚪 **
 
 **Days 360–379** — containers and what they are not · **container internals** (and the Python-specific
 version of the OOMKill and PID-1 signal problem) · images and layers · multi-stage builds, small
-Python images, and why `pip install` layering matters · volumes, networks, config · Compose ·
+Python images, and why dependency layering matters · volumes, networks, config · Compose ·
 containerising the flagship, measured · Nginx and the slow client · CI/CD concepts · GitHub Actions
 and **OIDC** · a real pipeline · deployment strategies · config and secrets · **Prometheus and
 PromQL** · Grafana and SLO burn-rate alerting · centralised logging · **OpenTelemetry** · Kubernetes
 I and II · Terraform · 🚪 ships own work
+
+> ⭐⭐ **Stage 10 deepens ground Stage 7 touched (281–287) rather than repeating it**: mechanism
+> instead of recipe, operations instead of shipping, and judgement about when each tool is wrong.
+
+### 10A — Containers, properly (360–367) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 360 | 📦 **Why containers** — a container as ordinary Linux processes with a restricted view, the Python-specific problem they solve (C extensions built against a particular libc and ABI), ⭐⭐ and six things they do not solve |
+| 361 | 🔬 **Container internals** — namespaces and cgroups, ⭐⭐ PID 1 ignoring signals, `os.cpu_count()` reporting the host and giving 129 workers in a one-CPU container, exit 137 with no traceback, and CFS throttling as invisible latency |
+| 362 | 🧱 **Images and layers** — the cache as a prefix match and the two-line reorder that saves three minutes, ⭐⭐ `RUN rm` writing a whiteout so the secret must be *rotated*, the tag lie, and the Alpine/musl trap |
+| 363 | 🏗️ **Multi-stage and scanning** — the venv as the transfer artefact, the `-dev`/runtime package pairing, ⭐⭐ size reframed as attack surface and CVE noise, distroless with both halves, and an actionable scanning policy |
+| 364 | 🔌 **Volumes, networks, config** — the three mount types, ⭐⭐ binding `127.0.0.1` as the commonest connection-refused bug, config validated at startup, and why `depends_on` hides a missing retry |
+| 365 | 🧬 **Docker Compose** — what it is genuinely excellent at, ⭐⭐ the seven gaps a laptop cannot catch with cheap fixes for five, and the honest production threshold |
+| 366 | 🔧 **Containerising the flagship** — seven measured baselines, workers computed from the cgroup and capped by memory, ⭐⭐ migrations out of the entrypoint, and a graceful-shutdown CI test |
+| 367 | 🔀 **Nginx** — the slow-client arithmetic, ⭐⭐ `client_body_timeout` as the actual defence, the forwarded-header spoof, and 499 as a latency signal your error rate never shows |
+
+### 10B — Pipelines and delivery (368–372) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 368 | 🚦 **CI/CD concepts** — the feedback-time budget and three tiers, ⭐⭐ flakiness as multiplicative arithmetic, trunk-based development with flag debt named, and three gates most teams lack |
+| 369 | ⚙️ **GitHub Actions** — cache keys and the scoping rule that explains cold PRs, `mode=max` layer caching, OIDC, ⭐⭐ and the wildcard trust policy that is worse than a static key |
+| 370 | 🛠️ **A real pipeline** — the migration lock check, ⭐⭐ smoke tests asserting the git sha, deploys that wait for convergence, and a rehearsed break-glass procedure |
+| 371 | 🚀 **Deployment strategies** — ⭐⭐ the precondition all of them share, five compatibility requirements, blue-green's rollback caveat, canary's two statistical limits, and flags separating deploy from release |
+| 372 | 🔐 **Config and secrets** — ⭐⭐ rotation speed as the real question, where env vars stop being enough, the Postgres one-password-per-role constraint, and config as the riskiest production change |
+
+### 10C — Observability and platform (373–379) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 373 | 📊 **Prometheus and PromQL** — ⭐⭐ `rate()` before `sum()` and the reset that makes it silently wrong during deploys, histograms over summaries, and the multiprocess bug that makes traffic appear to flap |
+| 374 | 📈 **Grafana and SLO alerting** — dashboards with a ten-second test, burn-rate windows with the short window that makes them resolve, ⭐⭐ and alert fatigue as the failure that ends teams |
+| 375 | 📜 **Centralised logging** — cost per event rather than per series, ⭐⭐ one wide event per unit of work, contextvars in async code, and error SDKs attaching your environment by default |
+| 376 | 🕸️ **OpenTelemetry** — ⭐⭐ the queue and the outbox row as the hops that always break propagation, thread-pool context loss, tail sampling, and the four trace shapes you read instantly |
+| 377 | ☸️ **Kubernetes I** — ⭐⭐ the reconciliation loop as the one idea, four objects, three probes with liveness touching no dependency, and the eventually-consistent endpoints behind deploy 502s |
+| 378 | ☸️ **Kubernetes II** — termination's parallel race and the `preStop` sleep, disruption budgets and their traps, ⭐⭐ why CPU is the wrong autoscaling metric, and six failures that are not your code |
+| 379 | 🚪 **Terraform · STAGE 10 EXIT GATE** — state as the whole story, blast-radius layering, applying the saved plan, ⭐⭐ and five proofs that are demonstrations rather than claims · ✅ **ships own work**
 
 ---
 

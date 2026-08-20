@@ -329,6 +329,26 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [357](Day-357.md) | 💳 **Design 13 — payments** — ⭐⭐ the double-entry ledger and reconciliation | 9 |
 | [358](Day-358.md) | ⌨️ **Design 14 — autocomplete** — ⭐⭐ precompute top-K, and the hot layer | 9 |
 | [359](Day-359.md) | 🚪🚪 **STAGE 9 EXIT GATE** — three design interviews scored · ✅✅ **COMPLETE SDE** | 9 |
+| [360](Day-360.md) | 📦 **Why containers** — ⭐⭐ and what they are not | 10 |
+| [361](Day-361.md) | 🔬 **Container internals** — ⭐⭐ the Python process that gets OOMKilled | 10 |
+| [362](Day-362.md) | 🧱 **Images and layers** — the cache, ⭐⭐ the tag lie, the secret you cannot delete | 10 |
+| [363](Day-363.md) | 🏗️ **Multi-stage and scanning** — ⭐⭐ the venv you can copy, and distroless | 10 |
+| [364](Day-364.md) | 🔌 **Volumes, networks, config** — ⭐⭐ what persists and what is injected | 10 |
+| [365](Day-365.md) | 🧬 **Docker Compose** — ⭐⭐ and the seven things dev can never catch | 10 |
+| [366](Day-366.md) | 🔧 **Containerising the flagship** — ⭐⭐ properly, and measured | 10 |
+| [367](Day-367.md) | 🔀 **Nginx** — ⭐⭐ the slow client that kills a service at 2% CPU | 10 |
+| [368](Day-368.md) | 🚦 **CI/CD concepts** — ⭐⭐ the feedback budget, and flakiness arithmetic | 10 |
+| [369](Day-369.md) | ⚙️ **GitHub Actions** — caching, OIDC, ⭐⭐ and five supply-chain traps | 10 |
+| [370](Day-370.md) | 🛠️ **A real pipeline** — lint → test → build → scan → deploy | 10 |
+| [371](Day-371.md) | 🚀 **Deployment strategies** — ⭐⭐ and the precondition nobody states | 10 |
+| [372](Day-372.md) | 🔐 **Config and secrets** — ⭐⭐ rotation is the thing that matters | 10 |
+| [373](Day-373.md) | 📊 **Prometheus and PromQL** — ⭐⭐ why `rate()` before `sum()` | 10 |
+| [374](Day-374.md) | 📈 **Grafana and SLO alerting** — ⭐⭐ alert fatigue as the real failure | 10 |
+| [375](Day-375.md) | 📜 **Centralised logging** — ⭐⭐ the most expensive signal | 10 |
+| [376](Day-376.md) | 🕸️ **OpenTelemetry** — ⭐⭐ the two hops that always break propagation | 10 |
+| [377](Day-377.md) | ☸️ **Kubernetes I** — ⭐⭐ the reconciliation loop, and four objects | 10 |
+| [378](Day-378.md) | ☸️ **Kubernetes II** — ⭐⭐ shutdown, disruption budgets, and when it is overkill | 10 |
+| [379](Day-379.md) | 🚪 **Terraform · STAGE 10 EXIT GATE** — ⭐⭐ state, and five proofs · ✅ ships own work | 10 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -349,10 +369,13 @@ out to be five shapes.
 **✅✅ STAGE 9 COMPLETE (38/38) — ✅✅ COMPLETE SDE.** The longest stage: twenty-two concepts from
 Little's Law to consensus, the 45-minute framework, and fourteen full designs — closing with three
 unseen design interviews, recorded and scored on nine rows.
-**✅✅ Days 001–213, 248–270 and 281–359 written.** 🌐 **Days 271–280** are the flagship's frontend
+**✅✅ STAGE 10 COMPLETE (20/20)** — the difference between designing a system and running one:
+container internals, images and scanning, a fifteen-minute pipeline, deployment strategies and their
+shared precondition, Prometheus, SLO alerting, logging, tracing, Kubernetes and Terraform — closing
+with an exit gate whose five proofs are demonstrations rather than claims.
+**✅✅ Days 001–213, 248–270 and 281–379 written.** 🌐 **Days 271–280** are the flagship's frontend
 and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-⚡ Next: **Stage 10 — DevOps (360–379)**, which is the difference between designing a system and
-running one.
+⚡ Next: **Stage 11 — Cloud/AWS (380–397)**, where cost becomes an engineering constraint.
 
 ---
 
