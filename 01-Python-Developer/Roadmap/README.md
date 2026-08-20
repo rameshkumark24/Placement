@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–321 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅ **Stages 7 and 8 COMPLETE**; ⚡ **Stage 9 next**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–359 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7, 8 and 9 COMPLETE — ✅✅ COMPLETE SDE**; ⚡ **Stage 10 next**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -60,7 +60,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 214–247 | Stage 6 — Frontend → [`03-Web-Developer`](../../03-Web-Developer/) 🌐 | Can build the UI for your own API |
 | 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) ⚡ | Two defensible projects |
 | 298–321 | [Stage 8 — LLD](#stage-8--architecture--low-level-design) | LLD rounds cleared |
-| 322–359 | [Stage 9 — System Design](#stage-9--system-design) | ✅ **COMPLETE SDE** |
+| 322–359 | [Stage 9 — System Design](#stage-9--system-design) ✅ | ✅✅ **COMPLETE SDE** |
 | 360–379 | [Stage 10 — DevOps](#stage-10--devops) | Ships own work |
 | 380–397 | [Stage 11 — AWS](#stage-11--cloud-aws) | Cloud deployed |
 | 398–413 | [Stage 12 — Distributed Systems](#stage-12--distributed-systems) | Senior-track conversations |
@@ -661,7 +661,64 @@ three lag anomalies · sharding · **CAP done correctly** and PACELC · consiste
 NoSQL · queues and choreography vs orchestration · Kafka · delivery semantics · backpressure and
 deadline propagation · search · observability at scale · resilience and cascading failure ·
 microservices and Conway's law · gateways and service mesh · 2PC, sagas and compensation ·
-consensus · **the 45-minute framework** · fifteen full designs · 🚪🚪 **COMPLETE SDE**
+consensus · **the 45-minute framework** · fourteen full designs · 🚪🚪 **COMPLETE SDE**
+
+### 9A — The fundamentals of scale (322–332) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 322 | 📏 **Scalability, latency and SLOs** — what "scalable" actually asserts, tail amplification, ⭐⭐ Little's Law used three ways, the utilisation curve that explains most outages, and error budgets as arbitration |
+| 323 | 🧮 **Estimation** — an estimate is only worth doing when it rules something out, the numbers you memorise, peak factors, ⭐⭐ and one worked example where the answer is "one box" |
+| 324 | ↔️ **Vertical vs horizontal** — the scale cube, and ⭐⭐ the four kinds of hidden state, including the module-level dict that becomes twelve divergent caches |
+| 325 | ⚖️ **Load balancing** — L4 vs L7 and why gRPC forces L7, six algorithms, ⭐⭐ the health-check death spiral and its four defences |
+| 326 | 🗃️ **Caching at scale** — stampede, penetration, avalanche, hot key; probabilistic early expiry; ⭐⭐ consistent hashing derived, and what virtual nodes actually fix |
+| 327 | 🌍 **CDN & object storage** — the cache key as a security boundary, content-addressed URLs so purge is never needed, ⭐⭐ the presigned upload, and egress as 4× storage cost |
+| 328 | 🔁 **Replication** — three topologies, semi-sync, ⭐⭐ the three anomalies by symptom, and failover's four failure modes including the pool that keeps a dead primary |
+| 329 | 🪓 **Sharding** — seven things to try first, the four key questions, six things it takes away, ⭐⭐ pre-splitting into logical shards, and dual-write before backfill |
+| 330 | ⚖️ **CAP done correctly** — the three-line proof, the choice as per-operation, ⭐⭐ and PACELC's else-branch, which is the one paid on every request |
+| 331 | 🧊 **Consistency models** — the ladder, causal as the strongest available under partition, ⭐⭐ the four session guarantees delivered by a token, and measuring convergence |
+| 332 | 🗄️ **SQL vs NoSQL** — five families, ⭐⭐ the real question of *when* you must commit to your queries, single-table design as the aggregate enforced by the engine, and Postgres's five limits |
+
+### 9B — Distribution, messaging and operations (333–343) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 333 | 📬 **Queues & event-driven** — the delete-every-subscriber test, ⭐⭐ orchestrate the transaction and choreograph the side effects, and five ways queues build a distributed monolith |
+| 334 | 🪵 **Kafka** — the log and its four consequences, ⭐⭐ ordering inside a partition and nowhere else, the acks/min-insync lie, the rebalance spiral, and compaction as a table |
+| 335 | 🎯 **Delivery semantics** — the four-line impossibility, effectively-once as the right word, ⭐⭐ what Kafka's transactions actually cover, and the dedup window that must outlast a human replay |
+| 336 | 🌊 **Rate limiting & backpressure** — local decisions with global truth, ⭐⭐ six unbounded queues hiding in Python, deadlines rather than timeouts, and congestive collapse |
+| 337 | 🔎 **Search** — inverted indexes, BM25 as three intuitions, the ranking trap, ⭐⭐ and the derived-index rule with divergence measured rather than assumed |
+| 338 | 🔭 **Observability at scale** — ⭐⭐ cardinality as the thing that bankrupts you, tail sampling, four tests an alert must pass, burn-rate windows, and the outbox row that breaks traces |
+| 339 | 🧯 **Resilience** — the cascade in eight steps, ⭐⭐ retry budgets rather than counts, bulkheads, static stability, and recovery ramped rather than instant |
+| 340 | 🧩 **Microservices vs monolith** — Conway's law, seven costs beyond latency, the three honest reasons, ⭐⭐ and deployment coupling from the git log as the real architecture diagram |
+| 341 | 🚪 **Gateway, discovery & mesh** — what belongs at the edge and what never does, header identity as a trust boundary, ⭐⭐ the Python DNS-failover trap, and the honest mesh threshold |
+| 342 | 🔗 **Distributed transactions** — 2PC as a blocking protocol, sagas with a pivot, ⭐⭐ compensation as a new visible fact rather than a rollback, and four ways to avoid the problem |
+| 343 | 🗳️ **Consensus** — quorum intersection in one sentence, Raft's election restriction, ⭐⭐ the four-step TTL-lock failure and the fencing token that fixes it |
+
+### 9C — The framework and the designs (344–359) ✅ written
+
+> ⭐⭐ **Fourteen designs, eight shapes.** Reserve-then-confirm · precompute vs compute-on-read ·
+> cheap filter then expensive rank · ephemeral vs durable · admit don't scale · the log as source of
+> truth · derived stores must be rebuildable · recovery must be ramped. Day 359 consolidates them.
+
+| Day | Lesson |
+|---|---|
+| 344 | ⏱️ **The framework** — five things scored and three that aren't, ⭐⭐ seven moves on a clock, a data model by minute 18, and offering two deep dives rather than being handed one |
+| 345 | 🔗 **URL shortener** — the key-length calculation, four generation strategies, 302 for revocation, ⭐⭐ and the click write that is 100× the creation rate |
+| 346 | 📋 **Pastebin** — payload 50× the metadata, the inline/S3 hybrid, size pinned in the signature, ⭐⭐ signed CDN URLs, and the dedup side channel |
+| 347 | 🚥 **Distributed rate limiter** — why central counting fails on latency *and* the hot key, ⭐⭐ local enforcement with asynchronous allocation, and a graded degradation ladder |
+| 348 | 🗝️ **Key-value store** — vnodes and replica placement, tunable quorums, version vectors and siblings, ⭐⭐ LSM trees and the three amplifications you can only optimise two of |
+| 349 | 🕷️ **Web crawler** — politeness as the real constraint, ⭐⭐ the two-stage frontier that makes it structural, Bloom filters with the cheap error, and traps you can't out-crawl |
+| 350 | 📣 **Notifications at scale** — transactional vs broadcast, consent at send time, chunked fan-out, ⭐⭐ and the self-inflicted DDoS the notification itself causes |
+| 351 | 📰 **News feed** — followers-per-poster as the load parameter, ⭐⭐ the hybrid and the reason it's cheap, active-follower filtering, and dynamic thresholds under lag |
+| 352 | 💬 **Chat** — the session registry with a TTL, pub/sub per gateway not per user, persist-before-deliver, ⭐⭐ per-conversation sequence numbers, and the read-receipt N² |
+| 353 | 🎬 **Video streaming** — it's file serving, aligned keyframes, chunked parallel transcoding, buffer-based ABR, ⭐⭐ and eleven petabytes of egress a day |
+| 354 | 📂 **File sync** — content-defined chunking, the per-namespace cursor, ⭐⭐ conflicts detected by parent version and resolved by keeping both, and conservative chunk GC |
+| 355 | 🚗 **Ride hailing** — 250k writes/s against 55 requests/s, Redis with a TTL as the health check, geohash with neighbours, ⭐⭐ and matching partitioned by geography |
+| 356 | 🎫 **Ticket booking** — a 100× spike with no ramp, ⭐⭐ the virtual waiting room and randomised position, bucketed inventory, and the seat map as advisory |
+| 357 | 💳 **Payments** — the append-only double-entry ledger, authorise/capture, idempotency at three layers, the unknown state, ⭐⭐ and reconciliation as a first-class component |
+| 358 | ⌨️ **Autocomplete** — a latency-budget problem at 15× search traffic, precomputed top-K, base plus hot layer, ⭐⭐ and the popularity feedback loop that ossifies it |
+| 359 | 🚪🚪 **STAGE 9 EXIT GATE** — the eight-shape pattern card, three unseen designs recorded and scored on nine rows, the audio-only test · ✅✅ **COMPLETE SDE** |
 
 ---
 

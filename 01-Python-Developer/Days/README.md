@@ -291,6 +291,44 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [319](Day-319.md) | ♟️ **Chess & Snakes and Ladders** — ⭐⭐ the move that must be simulated | 8 |
 | [320](Day-320.md) | 🚕 **Delivery & cab booking** — ⭐⭐ an offer with an expiry, not an assignment | 8 |
 | [321](Day-321.md) | 🚪 **STAGE 8 EXIT GATE** — ⭐⭐ two live LLD interviews, recorded and scored | 8 |
+| [322](Day-322.md) | 📏 **Scalability, latency & SLOs** — ⭐⭐ Little's Law and the utilisation curve | 9 |
+| [323](Day-323.md) | 🧮 **Back-of-the-envelope estimation** — ⭐⭐ the numbers that pick the architecture | 9 |
+| [324](Day-324.md) | ↔️ **Vertical vs horizontal** — ⭐⭐ what "stateless" really means, and the four hidden states | 9 |
+| [325](Day-325.md) | ⚖️ **Load balancing** — L4 vs L7, ⭐⭐ and the health-check death spiral | 9 |
+| [326](Day-326.md) | 🗃️ **Caching at scale** — four failure modes, ⭐⭐ consistent hashing derived | 9 |
+| [327](Day-327.md) | 🌍 **CDN & object storage** — ⭐⭐ the upload that must not touch your API | 9 |
+| [328](Day-328.md) | 🔁 **Replication** — ⭐⭐ three anomalies and the failover that loses writes | 9 |
+| [329](Day-329.md) | 🪓 **Sharding** — the key, the hotspot, ⭐⭐ and the reshard you cannot afford | 9 |
+| [330](Day-330.md) | ⚖️ **CAP done correctly** — the three-line proof, ⭐⭐ and PACELC | 9 |
+| [331](Day-331.md) | 🧊 **Consistency models** — ⭐⭐ the four session guarantees | 9 |
+| [332](Day-332.md) | 🗄️ **SQL vs NoSQL at scale** — ⭐⭐ when you must commit to your queries | 9 |
+| [333](Day-333.md) | 📬 **Queues & event-driven** — ⭐⭐ orchestrate the transaction, choreograph the effects | 9 |
+| [334](Day-334.md) | 🪵 **Kafka fundamentals** — ⭐⭐ where ordering actually lives | 9 |
+| [335](Day-335.md) | 🎯 **Delivery semantics** — ⭐⭐ why exactly-once is a lie | 9 |
+| [336](Day-336.md) | 🌊 **Rate limiting & backpressure** — ⭐⭐ the half nobody prepares | 9 |
+| [337](Day-337.md) | 🔎 **Search & inverted indexes** — ⭐⭐ keeping a derived index honest | 9 |
+| [338](Day-338.md) | 🔭 **Observability at scale** — ⭐⭐ cardinality, and alerts people trust | 9 |
+| [339](Day-339.md) | 🧯 **Resilience patterns** — ⭐⭐ the anatomy of a cascading failure | 9 |
+| [340](Day-340.md) | 🧩 **Microservices vs monolith** — Conway's law, ⭐⭐ and deployment coupling | 9 |
+| [341](Day-341.md) | 🚪 **Gateway, discovery & mesh** — ⭐⭐ and when you need none of them | 9 |
+| [342](Day-342.md) | 🔗 **Distributed transactions** — 2PC, sagas, ⭐⭐ compensations that aren't rollbacks | 9 |
+| [343](Day-343.md) | 🗳️ **Consensus** — Raft, quorums, ⭐⭐ and the fencing token | 9 |
+| [344](Day-344.md) | ⏱️ **The design interview framework** — ⭐⭐ forty-five minutes, seven moves | 9 |
+| [345](Day-345.md) | 🔗 **Design 1 — URL shortener** — ⭐⭐ and the analytics write nobody sizes | 9 |
+| [346](Day-346.md) | 📋 **Design 2 — Pastebin** — ⭐⭐ where large content actually lives | 9 |
+| [347](Day-347.md) | 🚥 **Design 3 — distributed rate limiter** — ⭐⭐ local decisions, global truth | 9 |
+| [348](Day-348.md) | 🗝️ **Design 4 — key-value store** — ⭐⭐ LSM trees and version vectors | 9 |
+| [349](Day-349.md) | 🕷️ **Design 5 — web crawler** — ⭐⭐ the frontier, and politeness by structure | 9 |
+| [350](Day-350.md) | 📣 **Design 6 — notifications at scale** — ⭐⭐ the self-inflicted DDoS | 9 |
+| [351](Day-351.md) | 📰 **Design 7 — the news feed** — ⭐⭐ fan-out on write vs read | 9 |
+| [352](Day-352.md) | 💬 **Design 8 — chat** — ⭐⭐ routing a message to a connection | 9 |
+| [353](Day-353.md) | 🎬 **Design 9 — video streaming** — ⭐⭐ adaptive bitrate, and egress as the business | 9 |
+| [354](Day-354.md) | 📂 **Design 10 — file sync** — ⭐⭐ chunking, and the conflict you must not resolve | 9 |
+| [355](Day-355.md) | 🚗 **Design 11 — ride hailing** — ⭐⭐ 250,000 location writes a second | 9 |
+| [356](Day-356.md) | 🎫 **Design 12 — ticket booking** — ⭐⭐ the virtual waiting room | 9 |
+| [357](Day-357.md) | 💳 **Design 13 — payments** — ⭐⭐ the double-entry ledger and reconciliation | 9 |
+| [358](Day-358.md) | ⌨️ **Design 14 — autocomplete** — ⭐⭐ precompute top-K, and the hot layer | 9 |
+| [359](Day-359.md) | 🚪🚪 **STAGE 9 EXIT GATE** — three design interviews scored · ✅✅ **COMPLETE SDE** | 9 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -307,11 +345,14 @@ than asserted; and `ticketed` re-opened and improved without being rewritten.
 **✅✅ STAGE 8 COMPLETE (24/24)** — architecture and low-level design, asked about systems you have
 actually built: change cost and connascence, layers and their rots, ports and adapters, DDD, the
 modular monolith, a measured refactor, the 45-minute LLD method, and nine design problems that turn
-out to be five shapes — closing with two live recorded interviews.
-**✅✅ Days 001–213, 248–270 and 281–321 written.** 🌐 **Days 271–280** are the flagship's frontend
+out to be five shapes.
+**✅✅ STAGE 9 COMPLETE (38/38) — ✅✅ COMPLETE SDE.** The longest stage: twenty-two concepts from
+Little's Law to consensus, the 45-minute framework, and fourteen full designs — closing with three
+unseen design interviews, recorded and scored on nine rows.
+**✅✅ Days 001–213, 248–270 and 281–359 written.** 🌐 **Days 271–280** are the flagship's frontend
 and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-⚡ Next: **Stage 9 — system design (322–359)**, beginning exactly where Stage 8 ended: the moment one
-process becomes several.
+⚡ Next: **Stage 10 — DevOps (360–379)**, which is the difference between designing a system and
+running one.
 
 ---
 
