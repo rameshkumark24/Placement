@@ -349,6 +349,24 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [377](Day-377.md) | ☸️ **Kubernetes I** — ⭐⭐ the reconciliation loop, and four objects | 10 |
 | [378](Day-378.md) | ☸️ **Kubernetes II** — ⭐⭐ shutdown, disruption budgets, and when it is overkill | 10 |
 | [379](Day-379.md) | 🚪 **Terraform · STAGE 10 EXIT GATE** — ⭐⭐ state, and five proofs · ✅ ships own work | 10 |
+| [380](Day-380.md) | ☁️ **The cloud model** — ⭐⭐ regions, AZs, and the two planes | 11 |
+| [381](Day-381.md) | 🔑 **IAM I** — ⭐⭐ the evaluation algorithm, in order | 11 |
+| [382](Day-382.md) | 🎭 **IAM II** — roles, STS, ⭐⭐ and the death of the access key | 11 |
+| [383](Day-383.md) | 🕸️ **VPC I** — ⭐⭐ what actually makes a subnet public | 11 |
+| [384](Day-384.md) | 🧱 **VPC II** — groups vs NACLs, endpoints, ⭐⭐ and the debugging ladder | 11 |
+| [385](Day-385.md) | 🖥️ **EC2 and EBS** — ⭐⭐ the burst-credit trap | 11 |
+| [386](Day-386.md) | 🪣 **S3** — presigned uploads, ⭐⭐ and four cost traps with arithmetic | 11 |
+| [387](Day-387.md) | 🐘 **RDS and Aurora** — ⭐⭐ the failover your pool refuses to notice | 11 |
+| [388](Day-388.md) | ⚡ **ElastiCache** — ⭐⭐ the eviction policy that isn't | 11 |
+| [389](Day-389.md) | ⚖️ **ELB and Auto Scaling** — ⭐⭐ the 502 nobody can reproduce | 11 |
+| [390](Day-390.md) | 🚢 **ECS and Fargate** — ⭐⭐ and ECS vs EKS decided honestly | 11 |
+| [391](Day-391.md) | λ **Lambda** — cold starts, ⭐⭐ and the cost curve that inverts | 11 |
+| [392](Day-392.md) | 🌍 **The edge** — ⭐⭐ the cache key as a security boundary | 11 |
+| [393](Day-393.md) | 📬 **SQS, SNS and EventBridge** — ⭐⭐ three questions, not three features | 11 |
+| [394](Day-394.md) | 🔭 **CloudWatch, X-Ray, CloudTrail** — ⭐⭐ observability with a price tag | 11 |
+| [395](Day-395.md) | 🔏 **KMS and Secrets Manager** — ⭐⭐ envelope encryption, and the lockout | 11 |
+| [396](Day-396.md) | 💰 ⭐⭐ **Cost as an engineering constraint** — unit economics | 11 |
+| [397](Day-397.md) | 🚪 **The flagship on AWS · STAGE 11 EXIT GATE** — ⭐⭐ five proofs, six shapes · ✅ cloud deployed | 11 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -369,13 +387,15 @@ out to be five shapes.
 **✅✅ STAGE 9 COMPLETE (38/38) — ✅✅ COMPLETE SDE.** The longest stage: twenty-two concepts from
 Little's Law to consensus, the 45-minute framework, and fourteen full designs — closing with three
 unseen design interviews, recorded and scored on nine rows.
-**✅✅ STAGE 10 COMPLETE (20/20)** — the difference between designing a system and running one:
-container internals, images and scanning, a fifteen-minute pipeline, deployment strategies and their
-shared precondition, Prometheus, SLO alerting, logging, tracing, Kubernetes and Terraform — closing
-with an exit gate whose five proofs are demonstrations rather than claims.
-**✅✅ Days 001–213, 248–270 and 281–379 written.** 🌐 **Days 271–280** are the flagship's frontend
+**✅✅ STAGE 11 COMPLETE (18/18)** — the cloud as an API rather than a rented computer: the two
+planes, IAM evaluation order, VPC derived from one route, the burst-credit trap, S3's cost
+arithmetic, the failover your connection pool refuses to notice, the 502 nobody can reproduce,
+Fargate judged honestly, Lambda's cost curve, the cache key as a security boundary, envelope
+encryption — and ⭐⭐ **cost as an engineering constraint**, closing with five proofs and the six
+shapes the stage keeps producing.
+**✅✅ Days 001–213, 248–270 and 281–397 written.** 🌐 **Days 271–280** are the flagship's frontend
 and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-⚡ Next: **Stage 11 — Cloud/AWS (380–397)**, where cost becomes an engineering constraint.
+⚡ Next: **Stage 12 — Distributed Systems (398–413)**, where the fallacies get their ninth.
 
 ---
 

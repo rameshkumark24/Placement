@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–379 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7–10 COMPLETE — ✅✅ COMPLETE SDE + ships own work**; ⚡ **Stage 11 next**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–397 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7–11 COMPLETE — ✅✅ COMPLETE SDE + ships own work + cloud deployed**; ⚡ **Stage 12 next**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -62,7 +62,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 298–321 | [Stage 8 — LLD](#stage-8--architecture--low-level-design) | LLD rounds cleared |
 | 322–359 | [Stage 9 — System Design](#stage-9--system-design) ✅ | ✅✅ **COMPLETE SDE** |
 | 360–379 | [Stage 10 — DevOps](#stage-10--devops) ✅ | ✅ **Ships own work** |
-| 380–397 | [Stage 11 — AWS](#stage-11--cloud-aws) | Cloud deployed |
+| 380–397 | [Stage 11 — AWS](#stage-11--cloud-aws) ✅ | ✅ **Cloud deployed** |
 | 398–413 | [Stage 12 — Distributed Systems](#stage-12--distributed-systems) | Senior-track conversations |
 | 414–461 | Stage 13/14 — Data & AI → [`05-ML-Engineer`](../../05-ML-Engineer/) | Python's second market |
 | 462–488 | [Stage 15 — Interview Conversion](#stage-15--interview-conversion) | Offers |
@@ -775,11 +775,48 @@ I and II · Terraform · 🚪 ships own work
 ## Stage 11 — Cloud (AWS)
 
 **Days 380–397** — the cloud model and **control plane vs data plane** · IAM I and II · VPC I and II
-· EC2 and EBS · S3 and its cost traps · RDS and **the DNS-caching failover trap** (Python's is
-different from Java's, and it is covered) · ElastiCache · ELB and auto scaling · ECS and Fargate ·
-**Lambda** — where Python is genuinely the best runtime, and the cold-start story that makes it so ·
-the edge · SQS/SNS/EventBridge · CloudWatch · KMS and Secrets Manager · ⭐⭐ **cost as an engineering
-constraint** · 🚪 the flagship on AWS
+· EC2 and EBS · S3 and its cost traps · RDS and **the failover trap** (Python's is different from
+Java's, and it is covered) · ElastiCache · ELB and auto scaling · ECS and Fargate · **Lambda** ·
+the edge · SQS/SNS/EventBridge · CloudWatch · KMS and Secrets Manager · ⭐⭐ **cost as an
+engineering constraint** · 🚪 the flagship on AWS
+
+> ⭐⭐ **The stage produces six recurring shapes, and they are the transferable content** (Day 397):
+> the two planes · **pools outlive DNS** · small things burst and bursting ends · the cache key is a
+> security boundary · the managed service's limit is still your limit · **every arrow that crosses a
+> boundary has a price**.
+
+### 11A — Foundations (380–386) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 380 | ☁️ **The cloud model** — regions and AZs with the three latency numbers, ⭐⭐ control plane vs data plane and why your recovery plan may need the thing that is down, static stability, and shared responsibility as *durability theirs, correctness yours* |
+| 381 | 🔑 **IAM I** — ⭐⭐ the six-step evaluation order, the bucket-vs-objects trap, tenant-scoped policies with variables, `iam:PassRole` as the escalation nobody reads, and least privilege as a ratchet tightened with evidence |
+| 382 | 🎭 **IAM II** — roles as trust plus permission, STS, ⭐⭐ **IMDSv1 SSRF and both v2 mechanisms**, the credential ladder ranked by rotation speed, OIDC with the wildcard that undoes it, and the worker that dies after exactly one hour |
+| 383 | 🕸️ **VPC I** — CIDR arithmetic and the five reserved addresses, ⭐⭐ **what actually makes a subnet public** plus both symmetrical corollaries, NAT gateway arithmetic, and the three-tier layout with an honest caveat |
+| 384 | 🧱 **VPC II** — stateful vs stateless and the ephemeral-port bug, security groups referencing groups, gateway vs interface endpoints with the break-even, ⭐⭐ **the debugging ladder and the symptom that names the layer** |
+| 385 | 🖥️ **EC2 and EBS** — an instance as four budgets, Graviton for Python, ⭐⭐ **the burst-credit trap that degrades you hours after a successful deploy**, the third I/O ceiling, and the savings plan that beats any code change |
+| 386 | 🪣 **S3** — not a filesystem, strong consistency with its date, presigned POST with all four pins, ⭐⭐ **four cost traps with arithmetic**, and why 32 threads gave you no speedup |
+
+### 11B — Managed services (387–393) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 387 | 🐘 **RDS and Aurora** — Multi-AZ vs read replica, ⭐⭐ **the failover where reads work, writes fail and nothing reconnects**, the three settings that fix it, connection arithmetic, RDS Proxy pinning, and the RTO you have not measured |
+| 388 | ⚡ **ElastiCache** — ⭐⭐ **the default eviction policy that only evicts keys with a TTL**, cluster mode and CROSSSLOT, `ReadOnlyError` retries, `KEYS *` as an outage, and the one question to ask of every key |
+| 389 | ⚖️ **ELB and Auto Scaling** — health-check arithmetic, ⭐⭐ **the 502 keep-alive race and the rule that fixes it**, the three-timeout ordering, and why autoscaling handles the trend but never the spike |
+| 390 | 🚢 **ECS and Fargate** — four nouns, the honest Fargate cost comparison, execution vs task role, ⭐⭐ **the circuit breaker that is off by default**, `awsvpc` IP arithmetic, and ECS vs EKS decided by ownership |
+| 391 | λ **Lambda** — one request per environment and everything that follows, Python cold starts measured, ⭐⭐ **the spike that killed the database**, the cost curve and its crossover, and the wheel that will not load |
+| 392 | 🌍 **The edge** — alias records, CloudFront as a bill reducer, ⭐⭐ **the cache key as a security boundary**, versioned URLs instead of invalidation, `stale-if-error`, and the origin that is still directly reachable |
+| 393 | 📬 **SQS, SNS and EventBridge** — three questions rather than three feature lists, ⭐⭐ **visibility timeout as a lease**, the batch-delete bug, SNS→SQS as the default fan-out, and archive-and-replay as a managed rebuildable store |
+
+### 11C — Operating and paying for it (394–397) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 394 | 🔭 **CloudWatch, X-Ray, CloudTrail** — ⭐⭐ **the custom-metric arithmetic that reaches $4,500/month**, EMF reconciling cardinality with wide events, the alarm default that hides a dead service, and an audit log the attacker cannot delete |
+| 395 | 🔏 **KMS and Secrets Manager** — envelope encryption derived, crypto-shredding, ⭐⭐ **the key policy lockout support cannot fix**, KMS throttling on a data job, and rotation as a four-step state machine |
+| 396 | 💰 ⭐⭐ **Cost as an engineering constraint** — the feedback loop nobody builds, the elimination ladder ranked by return per hour, **unit economics as the only number that survives growth**, `infracost` in the PR, and cost theatre named |
+| 397 | 🚪 **The flagship on AWS · STAGE 11 EXIT GATE** — Well-Architected as questions rather than a certificate, ⭐⭐ **five proofs and six recurring shapes**, and the four-clause sentence the stage buys · ✅ **cloud deployed**
 
 ---
 
