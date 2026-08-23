@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–397 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7–11 COMPLETE — ✅✅ COMPLETE SDE + ships own work + cloud deployed**; ⚡ **Stage 12 next**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–413 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7–12 COMPLETE — ✅✅ COMPLETE SDE + ships own work + cloud deployed + senior-track**; 🧠 **Stages 13/14 are the [ML track](../../05-ML-Engineer/)**; ⚡ **Stage 15 next**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -63,7 +63,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 322–359 | [Stage 9 — System Design](#stage-9--system-design) ✅ | ✅✅ **COMPLETE SDE** |
 | 360–379 | [Stage 10 — DevOps](#stage-10--devops) ✅ | ✅ **Ships own work** |
 | 380–397 | [Stage 11 — AWS](#stage-11--cloud-aws) ✅ | ✅ **Cloud deployed** |
-| 398–413 | [Stage 12 — Distributed Systems](#stage-12--distributed-systems) | Senior-track conversations |
+| 398–413 | [Stage 12 — Distributed Systems](#stage-12--distributed-systems) ✅ | ✅ **Senior-track conversations** |
 | 414–461 | Stage 13/14 — Data & AI → [`05-ML-Engineer`](../../05-ML-Engineer/) | Python's second market |
 | 462–488 | [Stage 15 — Interview Conversion](#stage-15--interview-conversion) | Offers |
 
@@ -827,6 +827,52 @@ engineering constraint** · 🚪 the flagship on AWS
 ⭐⭐ **the outbox, CDC and Debezium** · sagas · time and ordering · ⭐⭐ **Raft in detail** ·
 distributed locking and the fencing token · failure detection, gossip and split brain · chaos
 engineering and load shedding · 🚪 senior-track conversations
+
+> ⭐⭐ **Stage 9 gave you the shapes; Stage 12 gives you the mechanisms and the proofs.** Stage 9 lets
+> you say "I'd use a quorum". Stage 12 lets you say **why a quorum is safe, and therefore when it is
+> not** — which is the answer that survives a follow-up question.
+
+> ⭐⭐ **The stage produces six recurring shapes, and they are the transferable content** (Day 413):
+> the unknown outcome is the whole problem · **ordering is always per-something, never global** ·
+> correctness lives in the resource, not the coordinator · every guarantee is a quorum intersection
+> or a timing assumption · **derived state must be rebuildable, and you must have rebuilt it** ·
+> compensation is a new fact, not an undo.
+
+### 12A — Foundations and transport (398–400) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 398 | 🕳️ **The eight fallacies** — each with the Python line that embodies it, ⭐⭐ **the ninth (the other end is not the version you tested against)**, the three outcomes of a remote call with only three possible responses, FLP read usefully, and the "waits forever by default" audit |
+| 399 | 🧩 **Decomposition** — the three wrong axes, invariants as the right one, four tests with `git log` as the evidence, ⭐⭐ **the arithmetic that makes sync vs async an availability decision**, and enforcing module boundaries in Python with `import-linter` |
+| 400 | 📡 **gRPC and protobuf** — ⭐⭐ **the field number is the schema**, so every evolution rule derives itself; the reused-number catastrophe; deadline propagation as the feature REST cannot match; which status codes are retryable; and why an NLB breaks gRPC scaling |
+
+### 12B — Messaging in depth (401–404) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 401 | 🪵 **Kafka I** — a log with a cursor rather than a queue, partitions as parallelism *and* ordering, ⭐⭐ **`acks=all` with `min.insync.replicas=1` is exactly `acks=1`**, what the idempotent producer does not cover, and the missing `flush()` that drops messages silently during a deploy |
+| 402 | 🎣 **Kafka II** — parallelism capped by partitions, the two offset placements and why auto-commit is at-most-once in disguise, ⭐⭐ **the rebalance spiral and its one-line fix**, static membership, time-to-catch-up as the alert, and offsets in your own transaction |
+| 403 | 🛡️ **Kafka III** — the ISR as the subject of every guarantee, ⭐⭐ **`unclean.leader.election` as CAP in one boolean**, retention per segment, compaction as the stream–table duality, exactly-once bounded honestly, and the Python stream-processing gap named |
+| 404 | 🐰 **RabbitMQ** — broker-side routing, ⭐⭐ **four things per-message acknowledgement buys that Kafka structurally cannot do**, four durability settings of which three loses data, the DLX+TTL retry chain, and Celery's five dangerous defaults |
+
+### 12C — Data patterns (405–408) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 405 | 📜 **Event sourcing** — retroactive projections as the real benefit, ⭐⭐ **five costs in the order they hurt** including a schema with no deprecation path, crypto-shredding for erasure, four versioning techniques, and a unique index as the entire concurrency mechanism |
+| 406 | 🔭 **CQRS and read models** — three levels of commitment and why most teams need the first, ⭐⭐ **projection lag with three fixes, best first**, the rebuild that measures divergence rather than asserting it, and "a projection may be late; it may not be wrong" |
+| 407 | 📤 ⭐⭐ **The outbox, CDC and Debezium** — no ordering of the dual write works; the outbox and where its atomicity comes from; **the gap bug that silently skips rows and only appears under concurrency**; the replication slot that fills your disk; and outbox-vs-CDC decided by who consumes it |
+| 408 | 🔀 **Sagas** — losing the I and the anomalies that follow, orchestrate the transaction and choreograph the side effects, ⭐⭐ **the pivot transaction and the two rules it produces**, compensation as a new visible fact, and the stuck-saga alarm nobody builds |
+
+### 12D — Coordination and failure (409–413) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 409 | ⏱️ **Time and ordering** — ⭐⭐ **why last-write-wins silently discards the newer write**, `time.time()` not being monotonic, Lamport's asymmetry, vector clocks as the only ones that *detect* a conflict, hybrid logical clocks, and what Spanner actually did |
+| 410 | 🗳️ ⭐⭐ **Consensus — Raft in detail**: terms as a logical clock, randomised timeouts as the assumption that escapes FLP, Log Matching, **the election restriction proved in three lines from quorum intersection**, the figure-8 problem, and why four nodes is worse than three |
+| 411 | 🔒 **Distributed locking and leader election** — the four-step failure and seven reasons the pause happens, ⭐⭐ **the fencing token moving correctness into the resource**, Redlock settled without taking a side, and **four ways to not need a lock — starting with a unique constraint** |
+| 412 | 💔 **Failure detection, gossip, split brain** — crashed and slow are indistinguishable so you choose your error type, phi-accrual, SWIM's indirect probes, ⭐⭐ **split brain's real damage being that merging is a business problem**, CRDTs with their limits, and the four questions to ask of any failover |
+| 413 | 🚪 **Chaos, load shedding · STAGE 12 EXIT GATE** — chaos as falsifying a belief, the fault menu led by 200 ms of latency, **LIFO under overload**, the six senior-track conversations, ⭐⭐ **five proofs and the six shapes** · ✅ **senior-track conversations**
 
 ---
 

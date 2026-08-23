@@ -367,6 +367,22 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [395](Day-395.md) | 🔏 **KMS and Secrets Manager** — ⭐⭐ envelope encryption, and the lockout | 11 |
 | [396](Day-396.md) | 💰 ⭐⭐ **Cost as an engineering constraint** — unit economics | 11 |
 | [397](Day-397.md) | 🚪 **The flagship on AWS · STAGE 11 EXIT GATE** — ⭐⭐ five proofs, six shapes · ✅ cloud deployed | 11 |
+| [398](Day-398.md) | 🕳️ **The eight fallacies** — ⭐⭐ and the ninth, plus the three outcomes | 12 |
+| [399](Day-399.md) | 🧩 **Decomposition** — ⭐⭐ sync vs async as an availability decision | 12 |
+| [400](Day-400.md) | 📡 **gRPC and protobuf** — ⭐⭐ why the field *number* is the schema | 12 |
+| [401](Day-401.md) | 🪵 **Kafka I** — the log, partitions, ⭐⭐ and the `acks=all` lie | 12 |
+| [402](Day-402.md) | 🎣 **Kafka II** — offsets, ⭐⭐ the rebalance spiral, static membership | 12 |
+| [403](Day-403.md) | 🛡️ **Kafka III** — ISR, compaction, ⭐⭐ exactly-once described honestly | 12 |
+| [404](Day-404.md) | 🐰 **RabbitMQ** — ⭐⭐ four things Kafka cannot do, and Celery's defaults | 12 |
+| [405](Day-405.md) | 📜 **Event sourcing** — ⭐⭐ five costs, in the order they hurt | 12 |
+| [406](Day-406.md) | 🔭 **CQRS and read models** — ⭐⭐ projection lag as a first-class concept | 12 |
+| [407](Day-407.md) | 📤 ⭐⭐ **The outbox, CDC and Debezium** — and the gap bug nobody warns you about | 12 |
+| [408](Day-408.md) | 🔀 **Sagas** — ⭐⭐ the pivot transaction, and compensation as a new fact | 12 |
+| [409](Day-409.md) | ⏱️ **Time and ordering** — ⭐⭐ why last-write-wins silently loses data | 12 |
+| [410](Day-410.md) | 🗳️ ⭐⭐ **Consensus — Raft in detail**: the election restriction, proved | 12 |
+| [411](Day-411.md) | 🔒 **Distributed locking** — ⭐⭐ the fencing token, and four ways to not need it | 12 |
+| [412](Day-412.md) | 💔 **Failure detection, gossip, split brain** — ⭐⭐ and replication at depth | 12 |
+| [413](Day-413.md) | 🚪 **Chaos, load shedding · STAGE 12 EXIT GATE** — ⭐⭐ five proofs, six shapes · ✅ senior-track | 12 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -387,15 +403,16 @@ out to be five shapes.
 **✅✅ STAGE 9 COMPLETE (38/38) — ✅✅ COMPLETE SDE.** The longest stage: twenty-two concepts from
 Little's Law to consensus, the 45-minute framework, and fourteen full designs — closing with three
 unseen design interviews, recorded and scored on nine rows.
-**✅✅ STAGE 11 COMPLETE (18/18)** — the cloud as an API rather than a rented computer: the two
-planes, IAM evaluation order, VPC derived from one route, the burst-credit trap, S3's cost
-arithmetic, the failover your connection pool refuses to notice, the 502 nobody can reproduce,
-Fargate judged honestly, Lambda's cost curve, the cache key as a security boundary, envelope
-encryption — and ⭐⭐ **cost as an engineering constraint**, closing with five proofs and the six
-shapes the stage keeps producing.
-**✅✅ Days 001–213, 248–270 and 281–397 written.** 🌐 **Days 271–280** are the flagship's frontend
+**✅✅ STAGE 12 COMPLETE (16/16)** — the mechanisms and the proofs behind Stage 9's shapes: the
+three outcomes of a remote call, gRPC deadlines and protobuf evolution, Kafka in depth, RabbitMQ's
+four capabilities, event sourcing costed honestly, CQRS and projection lag, ⭐⭐ **the outbox and its
+gap bug**, sagas and the pivot, clocks that lie, ⭐⭐ **Raft's safety proved in three lines**, the
+fencing token, split brain — closing with five proofs and the six shapes the stage keeps producing.
+**✅✅ Days 001–213, 248–270 and 281–413 written.** 🌐 **Days 271–280** are the flagship's frontend
 and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-⚡ Next: **Stage 12 — Distributed Systems (398–413)**, where the fallacies get their ninth.
+🧠 **Days 414–461** are Stage 13/14 — **Data & AI** — and are worked in
+[`05-ML-Engineer`](../../05-ML-Engineer/), Python's second market.
+⚡ Next: **Stage 15 — Interview Conversion (462–488)**, where all of it gets converted into offers.
 
 ---
 
