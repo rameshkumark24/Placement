@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–413 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7–12 COMPLETE — ✅✅ COMPLETE SDE + ships own work + cloud deployed + senior-track**; 🧠 **Stages 13/14 are the [ML track](../../05-ML-Engineer/)**; ⚡ **Stage 15 next**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–461 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7–14 COMPLETE — ✅✅ COMPLETE SDE + ships own work + cloud deployed + senior-track + ✅✅ AI ENGINEER**; ⚡ **Stage 15 next**. See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -64,7 +64,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 360–379 | [Stage 10 — DevOps](#stage-10--devops) ✅ | ✅ **Ships own work** |
 | 380–397 | [Stage 11 — AWS](#stage-11--cloud-aws) ✅ | ✅ **Cloud deployed** |
 | 398–413 | [Stage 12 — Distributed Systems](#stage-12--distributed-systems) ✅ | ✅ **Senior-track conversations** |
-| 414–461 | Stage 13/14 — Data & AI → [`05-ML-Engineer`](../../05-ML-Engineer/) | Python's second market |
+| 414–461 | ✅✅ **Stage 13/14 — AI Engineering** — the model, prompting, retrieval, agents, safety, production | ⭐⭐ **The second market, and the one hiring** |
 | 462–488 | [Stage 15 — Interview Conversion](#stage-15--interview-conversion) | Offers |
 
 > **Why the numbers match Java.** Stages 0, 2, 5, 8, 9, 10, 11, 12 and 15 are language-independent —
@@ -873,6 +873,107 @@ engineering and load shedding · 🚪 senior-track conversations
 | 411 | 🔒 **Distributed locking and leader election** — the four-step failure and seven reasons the pause happens, ⭐⭐ **the fencing token moving correctness into the resource**, Redlock settled without taking a side, and **four ways to not need a lock — starting with a unique constraint** |
 | 412 | 💔 **Failure detection, gossip, split brain** — crashed and slow are indistinguishable so you choose your error type, phi-accrual, SWIM's indirect probes, ⭐⭐ **split brain's real damage being that merging is a business problem**, CRDTs with their limits, and the four questions to ask of any failover |
 | 413 | 🚪 **Chaos, load shedding · STAGE 12 EXIT GATE** — chaos as falsifying a belief, the fault menu led by 200 ms of latency, **LIFO under overload**, the six senior-track conversations, ⭐⭐ **five proofs and the six shapes** · ✅ **senior-track conversations**
+
+---
+
+## Stage 13/14 — AI Engineering ✅✅
+
+**Days 414–461** — the model honestly · tokens and the context window · the transformer · sampling ·
+embeddings · ⭐⭐ **token economics** · prompting as engineering · structured output ·
+⭐⭐ **evals as the precondition** · LLM-as-judge · prompts as versioned code · **retrieval in depth**
+(nine days) · ⭐⭐ **the permission filter** · agents and tool calling · idempotency without replay ·
+⭐⭐ **prompt injection** · guardrails · hallucination mechanics · privacy · fine-tuning · self-hosting ·
+serving · caching · observability · fallback · cost · rollout · 🚪 the AI Engineer interview
+
+> ⭐⭐ **An LLM application is a distributed system with a non-deterministic, expensive, untrusted
+> component in the middle.** So Stages 9–12 apply unchanged — the ingestion pipeline is a job with
+> retries, the index is derived state, the agent run is a durable workflow, event emission is the
+> outbox — and **everything this stage adds is a consequence of those three adjectives.**
+
+> ⭐⭐ **The stage produces ten shapes** (Day 461): everything follows from next-token prediction ·
+> the token is the unit of everything · **a change you cannot measure is a change you cannot make** ·
+> chunking is the ceiling and the free fixes beat the paid ones · **make abstention possible or you
+> manufacture fabrication** · constrain at the sampler, validate in ordinary Python · **the permission
+> filter fails silently** · instructions and data share one channel with no prepared statement ·
+> **a check is not a boundary** · retry no longer replays.
+
+### 13A — The model, honestly (414–421) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 414 | 🧠 **What an LLM actually is** — next-token prediction and its six consequences: no memory, no lookup, ⭐⭐ **latency linear in *output* and flat in input**, and fluency uncorrelated with correctness |
+| 415 | 🔢 **Tokens and the context window** — the unit of cost, latency, context and rate limits; non-English text 2–5× worse; what 128k does *not* mean; ⭐⭐ **the $90k/month arithmetic that is the honest argument for retrieval**; prompt caching and the timestamp-at-the-top mistake |
+| 416 | 🏛️ **The transformer and attention** — attention as n², ⭐⭐ **prefill compute-bound and decode memory-bandwidth-bound**, the KV cache, and the context-versus-concurrency tradeoff that becomes a capacity formula in 14C |
+| 417 | 🎓 **The training pipeline** — ⭐⭐ **pretraining knows, post-training does**; SFT teaches form not knowledge; preference-tuning artefacts including sycophancy; chat templates as convention rather than a security boundary |
+| 418 | 🎲 **Inference and sampling** — temperature versus top-p, ⭐⭐ **`temperature=0` is greedy, not deterministic**, log-probabilities as the only real confidence signal, constrained decoding as a guarantee versus JSON mode as a request |
+| 419 | 🧭 **Embeddings** — ⭐⭐ **similarity is not relevance**: questions match questions, negation is invisible, identifiers are destroyed, topical drift is real — and vector search is recall, not precision |
+| 420 | 🔌 **The API surface in Python** — the wrapper with eight cross-cutting concerns, ⭐⭐ **async as a 50× capacity difference**, `finish_reason` checking, and cost accounting on every call |
+| 421 | 💸 ⭐⭐ **Cost, latency and the token budget** — consumed rather than provisioned, so **a user raises your marginal cost by typing more**; the $22,800/month worked example; the eight-rung ladder; the cascade arithmetic |
+
+### 13B — Prompting as engineering (422–428) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 422 | ✍️ **Prompt engineering I** — the four pillars, conditioning a distribution as the mental model, ⭐⭐ **abstention as the single most valuable line you write**, and why negative instructions fail mechanically |
+| 423 | 🪜 **Prompt engineering II** — few-shot teaches *format*, not answers, and plateaus at five; CoT as buying compute with reasoning-is-not-explanation; ⭐⭐ **decomposition argued on engineering grounds**; the four signs prompting has hit its ceiling |
+| 424 | 🧾 **Structured output as schema design** — the schema is read *before* generation, six design rules, ⭐⭐ **a required field manufactures fabrication — and you caused it with a type annotation**; four validation layers; the quote-in-source check; the repair loop as a silent degradation absorber |
+| 425 | 📏 ⭐⭐ **Evals** — score not boolean, thirty cases this afternoon, 40/30/20/10 composition, four grader types, and **an aggregate gate with a tolerance band above measured noise** |
+| 426 | ⚖️ **LLM-as-judge** — its four failure modes, and ⭐⭐ **measuring human–human agreement first: if two humans agree 70% of the time, no judge beats 70%** |
+| 427 | 🏷️ **Prompts as versioned code** — content-hash versions over the whole `TaskConfig`, shadow deploys, and the nightly eval against production config |
+| 428 | 🚪 **13B checkpoint** — one prompted feature shipped and measured: five proofs, seven shapes |
+
+### 13C — Retrieval, measured (429–437) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 429 | 📚 **Why RAG exists** — the three gaps it closes and the one it does not, ⭐⭐ **43× cheaper, 10× faster to first token *and* more accurate**, the two things it does not do, and exact NumPy search as the 100%-recall baseline |
+| 430 | ✂️ ⭐⭐ **Chunking is the ceiling** — one object doing two jobs that want opposite sizes; the five strategies ranked; **the contextual prefix as the best ratio in the sub-stage**; tables as the silent killer; the sweep that picks a size instead of an argument |
+| 431 | 🧭 **Embeddings in practice** — choosing without trusting MTEB, silent truncation at 512, ⭐⭐ **the query/passage prefixes whose omission costs 10 points with no error**, the content-hash cache, and **the reindex as an alias swap** |
+| 432 | 🗄️ **Vector databases, decided honestly** — start with pgvector; what ANN actually trades away and how to measure your recall; ⭐⭐ **pre-filter versus post-filter**; the four pgvector traps; the four honest triggers for leaving |
+| 433 | 🎯 **Hybrid search and reranking** — where dense reliably loses, RRF and ⭐⭐ **why you must not add scores**, bi-encoder versus cross-encoder, the measured ladder (0.62 → 0.91), and the rerank floor that lets retrieval return nothing |
+| 434 | 🔐 ⭐⭐ **Multi-tenancy and the permission filter** — the security day: **generation launders leaked data, so every normal signal stays silent**; four defence layers; RLS; stale ACLs; deletion; and the canary test |
+| 435 | 📐 **RAG evaluation** — ⭐⭐ **two failures with opposite fixes**, recall@k as a ceiling, a gold set built backwards in an afternoon, **the twenty unanswerable questions**, and the debugging table |
+| 436 | 🔮 **Advanced retrieval** — query rewriting as table stakes, HyDE and when it hurts, parent-document, contextual retrieval, graph RAG honestly, and ⭐⭐ **the questions that are not retrieval questions at all** |
+| 437 | 🚪 **13C build day** — one retrieval service, four invariants, six shapes, five proofs |
+
+### 14A — Agents, bounded (438–445) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 438 | 🔧 **Tool calling** — ⭐⭐ **the model never calls anything; your for-loop does**, and the tool contract that makes tenant and idempotency non-optional |
+| 439 | 🔁 **The agent loop and its budgets** — ⭐⭐ **an agent run is a durable workflow, not a `while` loop**; MAX_STEPS as a correctness boundary; the quadratic transcript |
+| 440 | 🩹 **When the agent is wrong** — ⭐⭐ **score the trajectory, gate the action**: repeat detection, doom loops, and gates by reversibility rather than by risk |
+| 441 | 🕸️ **Multi-agent systems** — ⭐⭐ **a distributed system wearing a costume**: the four things a second agent buys, the handoff as an untyped RPC, six topologies ranked, and 3–10× the cost |
+| 442 | 🧰 **Frameworks, or nothing** — ⭐⭐ **can you print the exact bytes you send?**; adopt what is boring and standard, own what is your product; the four seams that are your exit plan |
+| 443 | 🧠 **Memory** — ⭐⭐ **four different problems sharing one word**; why vector memory usually loses to a summary; the prompt-cache tax; and memory as a *persistent* injection vector |
+| 444 | ♻️ ⭐⭐ **Idempotency in a non-deterministic system** — **retry no longer replays**, so keys come from the caller at the point of intent; resume replays the log rather than re-deciding; compensation is computed from the log, never by asking the model |
+| 445 | 🚪 **14A build day** — one agent, six invariants, proved by chaos rather than claimed |
+
+### 14B — Safety and trust (446–452) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 446 | 🧨 ⭐⭐ **Prompt injection** — **there is no prepared statement for a prompt**; injection is not jailbreaking; **the lethal trifecta**; the exfiltration channels a system with no send tool still has; and why detection is a speed bump |
+| 447 | ☣️ **Output as untrusted input** — ⭐⭐ **the model is an anonymous internet user**: SQL, shell, paths, **SSRF at the metadata endpoint**, markdown rendering as execution, and schema-valid ≠ safe |
+| 448 | 🚧 **Guardrails** — ⭐⭐ **a check is not a boundary**; the six free deterministic controls first; the latency and cost economics; and **false positives as a fairness problem** |
+| 449 | 👻 **Hallucination mechanics** — ⭐⭐ **the model is working correctly**; five types with five different fixes; the plausibility gradient; confidence signals ranked; and mitigations by *measured* effect |
+| 450 | 🔏 **Data privacy** — the seven stores your users' data lands in, ⭐⭐ **traces as the most sensitive store with the weakest controls**, what "we don't train on your data" does not mean, and the erasure test |
+| 451 | 🎚️ **Fine-tuning, honestly** — the one case where it clearly wins, why facts is not that case, what LoRA actually is, and ⭐⭐ **the maintenance trap of forking somebody else's model** |
+| 452 | 🖥️ **Open models and self-hosting** — ⭐⭐ **the GPU is billed by the hour, not the token**, so the crossover is a utilisation question; vLLM and continuous batching; quantisation; and the hybrid that usually wins |
+
+### 14C — Production (453–461) ✅ written
+
+| Day | Lesson |
+|---|---|
+| 453 | 🛰️ **Serving** — ⭐⭐ **three-second requests invalidate every default you have**: the sync/async arithmetic, Little's Law and admission control, LIFO under overload, the three ways streaming breaks infrastructure, and why CPU is the wrong autoscaling signal |
+| 454 | 🗃️ **Caching** — four layers with four keys; ⭐⭐ **the cache key as a security boundary that *bypasses* the permission filter**; why semantic caching serves wrong answers confidently; and the two metrics nobody has |
+| 455 | 🔭 ⭐⭐ **Observability without a correct answer** — **everything returns 200 while broken**, so you monitor distributions and user behaviour; the wide event; the eight metrics that detect real problems; **and the rephrase as the densest quality signal there is** |
+| 456 | 🪜 **Reliability and fallback** — the seven-rung degradation ladder, retry budgets, the three streaming timeouts, why a global circuit breaker causes outages here, and ⭐⭐ **an untested fallback is not a fallback** |
+| 457 | 💰 ⭐⭐ **Cost engineering** — unit economics before optimisation; **the p99 request is a bug, not a heavy user**; the ladder priced; and the point where cutting cost becomes a product decision |
+| 458 | 🚦 **Rate limits and multi-provider** — ⭐⭐ **TPM, not RPM**, so a RAG app hits the ceiling at half a request per second; proactive token accounting; **the 02:00 incident where your eval suite starves your users**; and why prompts are not portable |
+| 459 | 🎚️ **Rollout with eval gates** — ⭐⭐ **rank every change by its rollback cost**; shadow as the best value on the ladder; the sample sizes that make most A/B tests noise; and the two kinds of CI gate |
+| 460 | 🎤 **The AI Engineer interview** — ⭐⭐ **demo or system?**; the five sentences that mark seniority; the six portfolio artefacts; and the four questions to ask them |
+| 461 | 🚪 **STAGE 13/14 EXIT GATE** — ⭐⭐ **ten shapes, eight proofs, six gate conditions**, and an honest statement of what you can and cannot claim · ✅✅ **AI ENGINEER**
 
 ---
 

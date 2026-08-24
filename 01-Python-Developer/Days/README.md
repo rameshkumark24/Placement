@@ -383,6 +383,54 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [411](Day-411.md) | 🔒 **Distributed locking** — ⭐⭐ the fencing token, and four ways to not need it | 12 |
 | [412](Day-412.md) | 💔 **Failure detection, gossip, split brain** — ⭐⭐ and replication at depth | 12 |
 | [413](Day-413.md) | 🚪 **Chaos, load shedding · STAGE 12 EXIT GATE** — ⭐⭐ five proofs, six shapes · ✅ senior-track | 12 |
+| [414](Day-414.md) | 🧠 **What an LLM actually is** — ⭐⭐ next-token prediction, and every consequence | 13/14 |
+| [415](Day-415.md) | 🔢 **Tokens and the context window** — ⭐⭐ the unit you are billed in | 13/14 |
+| [416](Day-416.md) | 🏛️ **The transformer and attention** — ⭐⭐ enough architecture to reason about cost | 13/14 |
+| [417](Day-417.md) | 🎓 **The training pipeline** — pretraining, SFT, RLHF, ⭐⭐ and what each buys you | 13/14 |
+| [418](Day-418.md) | 🎲 **Inference and sampling** — ⭐⭐ the determinism you cannot have | 13/14 |
+| [419](Day-419.md) | 🧭 **Embeddings** — ⭐⭐ what a vector means, and why similarity is not relevance | 13/14 |
+| [420](Day-420.md) | 🔌 **The API surface in Python** — ⭐⭐ the wrapper you write once | 13/14 |
+| [421](Day-421.md) | 💸 ⭐⭐ **Cost, latency and the token budget** — the unit economics of a feature | 13/14 |
+| [422](Day-422.md) | ✍️ **Prompt engineering I** — the four pillars, ⭐⭐ and abstention as the most valuable line | 13/14 |
+| [423](Day-423.md) | 🪜 **Prompt engineering II** — few-shot, chain-of-thought, decomposition | 13/14 |
+| [424](Day-424.md) | 🧾 **Structured output as schema design** — ⭐⭐ a required field manufactures fabrication | 13/14 |
+| [425](Day-425.md) | 📏 ⭐⭐ **Evals** — the thing that replaces unit tests | 13/14 |
+| [426](Day-426.md) | ⚖️ **LLM-as-judge** — ⭐⭐ its four failure modes, and the humans that keep it honest | 13/14 |
+| [427](Day-427.md) | 🏷️ **Prompts as versioned code** — ⭐⭐ a prompt change is a deploy | 13/14 |
+| [428](Day-428.md) | 🚪 **13B checkpoint** — ⭐⭐ one prompted feature, shipped and measured | 13/14 |
+| [429](Day-429.md) | 📚 **Why RAG exists** — ⭐⭐ an economic argument, not an architectural preference | 13/14 |
+| [430](Day-430.md) | ✂️ **Chunking is the ceiling** — ⭐⭐ no reranker fixes a bad chunk | 13/14 |
+| [431](Day-431.md) | 🧭 **Embeddings in practice** — ⭐⭐ changing the model is a migration, not a config change | 13/14 |
+| [432](Day-432.md) | 🗄️ **Vector databases, decided honestly** — ⭐⭐ start with the Postgres you already run | 13/14 |
+| [433](Day-433.md) | 🎯 **Hybrid search and reranking** — ⭐⭐ retrieve wide, rerank narrow | 13/14 |
+| [434](Day-434.md) | 🔐 **Multi-tenancy and the permission filter** — ⭐⭐ retrieval is where these systems leak | 13/14 |
+| [435](Day-435.md) | 📐 **RAG evaluation** — ⭐⭐ two failures, opposite fixes, so measure them apart | 13/14 |
+| [436](Day-436.md) | 🔮 **Advanced retrieval** — ⭐⭐ and the questions that are not retrieval questions | 13/14 |
+| [437](Day-437.md) | 🚪 **13C build day** — ⭐⭐ one retrieval service, four invariants, six shapes | 13/14 |
+| [438](Day-438.md) | 🔧 **Tool calling** — ⭐⭐ the model never calls anything; your for-loop does | 13/14 |
+| [439](Day-439.md) | 🔁 **The agent loop and its budgets** — ⭐⭐ MAX_STEPS is a correctness boundary | 13/14 |
+| [440](Day-440.md) | 🩹 **When the agent is wrong** — ⭐⭐ score the trajectory, gate the action | 13/14 |
+| [441](Day-441.md) | 🕸️ **Multi-agent systems** — ⭐⭐ a distributed system wearing a costume | 13/14 |
+| [442](Day-442.md) | 🧰 **Frameworks, or nothing** — ⭐⭐ can you print the bytes you send? | 13/14 |
+| [443](Day-443.md) | 🧠 **Memory** — ⭐⭐ four different problems sharing one word | 13/14 |
+| [444](Day-444.md) | ♻️ **Idempotency in a non-deterministic system** — ⭐⭐ retry no longer replays | 13/14 |
+| [445](Day-445.md) | 🚪 **14A build day** — ⭐⭐ one agent, six invariants, proved by chaos | 13/14 |
+| [446](Day-446.md) | 🧨 **Prompt injection** — ⭐⭐ a new trust boundary with no complete fix | 13/14 |
+| [447](Day-447.md) | ☣️ **Output as untrusted input** — ⭐⭐ the model is an anonymous internet user | 13/14 |
+| [448](Day-448.md) | 🚧 **Guardrails** — ⭐⭐ a check is not a boundary | 13/14 |
+| [449](Day-449.md) | 👻 **Hallucination mechanics** — ⭐⭐ the model is working correctly | 13/14 |
+| [450](Day-450.md) | 🔏 **Data privacy** — ⭐⭐ your traces are the most sensitive store you own | 13/14 |
+| [451](Day-451.md) | 🎚️ **Fine-tuning, honestly** — ⭐⭐ you are forking somebody else's model | 13/14 |
+| [452](Day-452.md) | 🖥️ **Open models and self-hosting** — ⭐⭐ the GPU is billed by the hour, not the token | 13/14 |
+| [453](Day-453.md) | 🛰️ **Serving** — ⭐⭐ requests that last seconds break every default you have | 13/14 |
+| [454](Day-454.md) | 🗃️ **Caching** — ⭐⭐ four layers, four keys, and one that quietly serves wrong answers | 13/14 |
+| [455](Day-455.md) | 🔭 **Observability without a correct answer** — ⭐⭐ everything returns 200 while broken | 13/14 |
+| [456](Day-456.md) | 🪜 **Reliability and fallback** — ⭐⭐ an untested fallback is not a fallback | 13/14 |
+| [457](Day-457.md) | 💰 **Cost engineering** — ⭐⭐ the p99 request is a bug, not a heavy user | 13/14 |
+| [458](Day-458.md) | 🚦 **Rate limits and multi-provider** — ⭐⭐ your eval job can starve your users | 13/14 |
+| [459](Day-459.md) | 🎚️ **Rollout with eval gates** — ⭐⭐ rank every change by its rollback cost | 13/14 |
+| [460](Day-460.md) | 🎤 **The AI Engineer interview** — ⭐⭐ demo or system? | 13/14 |
+| [461](Day-461.md) | 🚪 **STAGE 13/14 EXIT GATE** — ⭐⭐ ten shapes, eight proofs · ✅ AI Engineer | 13/14 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -408,10 +456,22 @@ three outcomes of a remote call, gRPC deadlines and protobuf evolution, Kafka in
 four capabilities, event sourcing costed honestly, CQRS and projection lag, ⭐⭐ **the outbox and its
 gap bug**, sagas and the pivot, clocks that lie, ⭐⭐ **Raft's safety proved in three lines**, the
 fencing token, split brain — closing with five proofs and the six shapes the stage keeps producing.
-**✅✅ Days 001–213, 248–270 and 281–413 written.** 🌐 **Days 271–280** are the flagship's frontend
+**✅✅ STAGE 13/14 COMPLETE (48/48) — ✅✅ AI ENGINEER.** The second-longest stage, and the
+one that changes what you are hireable as. **13A** the model honestly — everything follows from
+next-token prediction, latency is linear in *output*, and ⭐⭐ **cost is consumed rather than
+provisioned, so a user raises your marginal cost by typing more**. **13B** prompting as engineering —
+the four pillars, ⭐⭐ **a required schema field manufactures fabrication**, and evals as the
+*precondition* for every optimisation rather than a quality practice. **13C** retrieval measured —
+chunking as the ceiling, hybrid search and reranking, RAG evals, and ⭐⭐ **the permission filter,
+where a leak returns a fluent well-cited answer and no error**. **14A** agents bounded — the loop as a
+durable workflow, gates by reversibility, and ⭐⭐ **idempotency when retry no longer replays**.
+**14B** safety — ⭐⭐ **prompt injection has no complete fix**, output as untrusted input,
+a check is not a boundary, and hallucination as the model working correctly. **14C** production —
+serving, caching, ⭐⭐ **observability when everything returns 200 while broken**, the degradation
+ladder, cost engineering, and rollout ranked by rollback cost.
+
+**✅✅ Days 001–213, 248–270 and 281–461 written.** 🌐 **Days 271–280** are the flagship's frontend
 and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-🧠 **Days 414–461** are Stage 13/14 — **Data & AI** — and are worked in
-[`05-ML-Engineer`](../../05-ML-Engineer/), Python's second market.
 ⚡ Next: **Stage 15 — Interview Conversion (462–488)**, where all of it gets converted into offers.
 
 ---
