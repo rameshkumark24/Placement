@@ -62,7 +62,7 @@ You can never skip a lesson — but you can pass through it fast.
 
 > Stage 6 (Frontend) → [`03-Web-Developer`](../../03-Web-Developer/) ·
 > Stage 13 (Python) → [`01-Python-Developer`](../../01-Python-Developer/) ·
-> Stage 14 (AI) → [`05-ML-Engineer`](../../05-ML-Engineer/)
+> Stage 14 (AI) → ⭐⭐ **[Python Days 414–461](../../01-Python-Developer/Days/)**
 
 ---
 

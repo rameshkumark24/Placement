@@ -1,8 +1,12 @@
 # 05 — ML Engineer
 
-| File | Contents |
-|---|---|
-| [ML-Vibe-Coding-Cheatsheet.md](ML-Vibe-Coding-Cheatsheet.md) | **Build guide.** LLM cost/loop safety, prompt injection, data discipline, serving, monitoring, reproducibility |
+> ⭐⭐ **GenAI and LLM engineering are no longer here.** They are Stage 13/14 of the Python track —
+> **[Days 414–461](../01-Python-Developer/Days/)**, 48 written days covering the model, prompting,
+> evals, retrieval, agents, safety and production. The old `GenAI/` notes and the ML vibe-coding
+> cheatsheet were folded into those days and removed, so there is one source of truth.
+>
+> This folder is now what those days deliberately do **not** cover: **training models** rather than
+> using them — classical ML, deep learning, data science and MLOps.
 
 ## Interview material
 
@@ -13,8 +17,6 @@
 
 **[Deep-Learning/](Deep-Learning/)** — [TensorFlow & PyTorch PrepKit](Deep-Learning/TensorFlow-PyTorch-PrepKit.md) ·
 [OpenCV](Deep-Learning/OpenCV.md)
-
-**[GenAI/](GenAI/)** — [GenAI](GenAI/GenAI.md) · [LLMs](GenAI/LLMs.md)
 
 **[MLOps/](MLOps/)** — [MLFlow](MLOps/MLFlow.md)
 
@@ -29,11 +31,15 @@
 > Serving stack overlaps with [`01-Python-Developer`](../01-Python-Developer/).
 > Docker/MLOps notes: [`06-Common/Cloud-DevOps/Docker`](../06-Common/Cloud-DevOps/Docker/).
 
-## The three that cause the most damage
+## Where the old cheatsheet's three warnings went
 
-1. **An unbounded agent loop** → a tool calls the agent, which calls the tool. Set `MAX_STEPS`.
-2. **RAG retrieval without a permission filter** → user A's query surfaces user B's documents.
-   A cross-tenant data leak with extra steps.
-3. **Loading the model inside the request handler** → 3 seconds of latency on every single call.
+The three failures that used to head this file are now full lessons, with the mechanism and the fix:
 
-All three: [ML-Vibe-Coding-Cheatsheet.md](ML-Vibe-Coding-Cheatsheet.md)
+1. **An unbounded agent loop** → ⭐⭐ [Day 439](../01-Python-Developer/Days/Day-439.md) — `MAX_STEPS`
+   as a *correctness* boundary, not a safety net, plus the four budgets an agent run needs.
+2. **RAG retrieval without a permission filter** → ⭐⭐
+   [Day 434](../01-Python-Developer/Days/Day-434.md) — why the leak is *silent*: generation launders
+   another tenant's data into fluent prose, so no error rate, latency or row count moves.
+3. **Loading the model inside the request handler** →
+   [Day 453](../01-Python-Developer/Days/Day-453.md) — and the wider point, that one synchronous call
+   in an async handler blocks the event loop for every other request.

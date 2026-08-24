@@ -5,7 +5,8 @@ Backend services and APIs in Python, built with an AI agent.
 > The universal rules (agent discipline, API loops, security, review gates) live in
 > [`03-Web-Developer`](../03-Web-Developer/) phases 04–08 — they apply to any backend.
 > This file covers Python specifics only.
-> For ML/GenAI work see [`05-ML-Engineer`](../05-ML-Engineer/).
+> ⭐⭐ **GenAI / LLM engineering is Stage 13/14 of this track** — [Days 414–461](Days/).
+> For classical ML, deep learning and data-science material see [`05-ML-Engineer`](../05-ML-Engineer/).
 
 ---
 

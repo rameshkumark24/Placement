@@ -455,7 +455,7 @@ complete**. The 10 frontend days (271–280) live in
 **✅✅ 430 days written — THE JAVA SDE ROADMAP IS COMPLETE.**
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
 Days 414–461 are Stage 13 (Python) and Stage 14 (AI) and live in
-[`01-Python-Developer`](../../01-Python-Developer/) and [`05-ML-Engineer`](../../05-ML-Engineer/);
+[`01-Python-Developer`](../../01-Python-Developer/), including ⭐⭐ **AI engineering (Days 414–461)**;
 Stage 6 (frontend, Days 214–247 and 271–280) lives in [`03-Web-Developer`](../../03-Web-Developer/).
 
 ---

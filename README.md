@@ -14,7 +14,7 @@ open one and everything you need for that kind of project is inside it.
 | 02 | [Java Developer](02-Java-Developer/) | Spring Boot cheatsheet + core Java interview prep |
 | 03 | [**Web Developer**](03-Web-Developer/) | **Complete 12-phase domain** — idea to live and maintained |
 | 04 | [**App Developer**](04-App-Developer/) | **Complete 12-phase domain** — idea to store and maintained |
-| 05 | [ML Engineer](05-ML-Engineer/) | ML/LLM build cheatsheet + interview prep |
+| 05 | [ML Engineer](05-ML-Engineer/) | Classical ML, deep learning, data science, MLOps — ⭐⭐ **GenAI/LLM work is [Python Days 414–461](01-Python-Developer/Days/)** |
 | 06 | [Common](06-Common/) | SQL · Golang · Cloud & DevOps · HR interview |
 
 ---
