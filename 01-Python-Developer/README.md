@@ -9,7 +9,6 @@
 > Universal build/security/API rules live in [`03-Web-Developer`](../03-Web-Developer/) phases
 > 04–08 — they apply to any backend and are not repeated here.
 > ⭐⭐ **GenAI / LLM engineering lives here** — Stage 13/14, [Days 414–461](Days/).
-> For classical ML, deep learning and data-science material see [`05-ML-Engineer`](../05-ML-Engineer/).
 > SQL notes: [`06-Common/SQL`](../06-Common/SQL/).
 
 ## The plan in one table

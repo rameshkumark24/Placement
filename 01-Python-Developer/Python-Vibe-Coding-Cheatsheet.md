@@ -6,7 +6,6 @@ Backend services and APIs in Python, built with an AI agent.
 > [`03-Web-Developer`](../03-Web-Developer/) phases 04–08 — they apply to any backend.
 > This file covers Python specifics only.
 > ⭐⭐ **GenAI / LLM engineering is Stage 13/14 of this track** — [Days 414–461](Days/).
-> For classical ML, deep learning and data-science material see [`05-ML-Engineer`](../05-ML-Engineer/).
 
 ---
 
