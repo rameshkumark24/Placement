@@ -1,20 +1,65 @@
-# Placement — Domain Playbooks & Interview Prep
+# Placement — the complete curriculum
 
-Organised by the roles I'm applying for. **[Web Developer](03-Web-Developer/)** and
-**[App Developer](04-App-Developer/)** are complete, self-contained, phase-by-phase build domains —
-open one and everything you need for that kind of project is inside it.
+**Two 488-day engineering tracks, two complete build domains, and the common material — finished.**
+
+> ✅✅ **Every day from 001 to 488 is written, in both tracks.**
+> **931 markdown files · 0 broken links.** Python: 448 day files. Java: 416 day files. The frontend
+> stage lives in [`03-Web-Developer`](03-Web-Developer/); AI engineering (Days 414–461) is written
+> once, in Python, and routed from Java by ⭐⭐ **[the crossing](02-Java-Developer/Roadmap/Stage-13-14-Bridge.md)**.
 
 ---
 
-## Domains
+## The five folders
 
-| # | Domain | What's inside |
-|---|--------|---------------|
-| 01 | [Python Developer](01-Python-Developer/) | FastAPI backend cheatsheet |
-| 02 | [Java Developer](02-Java-Developer/) | Spring Boot cheatsheet + core Java interview prep |
-| 03 | [**Web Developer**](03-Web-Developer/) | **Complete 12-phase domain** — idea to live and maintained |
-| 04 | [**App Developer**](04-App-Developer/) | **Complete 12-phase domain** — idea to store and maintained |
-| 06 | [Common](06-Common/) | SQL · Golang · Cloud & DevOps · HR interview |
+| # | Folder | What it is |
+|---|--------|---|
+| 01 | [**Python Developer**](01-Python-Developer/) | ⭐⭐ **488-day track, complete.** Stages 0–15, including **AI Engineering (414–461)**. [Day index](01-Python-Developer/Days/README.md) · [roadmap](01-Python-Developer/Roadmap/README.md) |
+| 02 | [**Java Developer**](02-Java-Developer/) | ⭐⭐ **488-day track, complete.** Stages 0–12 and 15 in Java; 13–14 via [the crossing](02-Java-Developer/Roadmap/Stage-13-14-Bridge.md). [Day index](02-Java-Developer/Days/README.md) · [roadmap](02-Java-Developer/Roadmap/README.md) |
+| 03 | [**Web Developer**](03-Web-Developer/) | **Complete 12-phase build domain** — idea to live and maintained. Also owns Stage 6 (Days 214–247, 271–280). |
+| 04 | [**App Developer**](04-App-Developer/) | **Complete 12-phase build domain** — idea to store and maintained. |
+| 06 | [Common](06-Common/) | [SQL](06-Common/SQL/) · [Golang](06-Common/Golang/) · [Cloud & DevOps](06-Common/Cloud-DevOps/) · [HR interview](06-Common/HR-Interview/) |
+
+---
+
+## ⭐⭐ The 488 days — one map
+
+Both tracks run the same skeleton with different flesh. **The stage owns the concept; the track owns
+the language.**
+
+| Days | Stage | Python | Java | Milestone |
+|---|---|---|---|---|
+| 001–022 | **0 · Ground Zero** | ✅ | ✅ | Explain servers, HTTP, WebSockets |
+| 023–077 | **1 · Language Mastery** | ✅ Python | ✅ Java | Interview-grade in the language |
+| 078–101 | **2 · Professional Engineering** | ✅ | ✅ | Git, Linux, clean code, testing |
+| 102–129 | **3 · Backend, framework-free** | ✅ | ✅ | An API with no framework |
+| 130–185 | **4 · The framework** | ✅ FastAPI + Django | ✅ Spring Boot | Backend interview-ready |
+| 186–213 | **5 · Databases** | ✅ | ✅ | Fix a slow query live |
+| 214–247 | **6 · Frontend** | 🌐 [Web](03-Web-Developer/) | 🌐 [Web](03-Web-Developer/) | Build the UI for your own API |
+| 248–297 | **7 · Projects** | ✅ | ✅ | Two defensible projects (271–280 🌐) |
+| 298–321 | **8 · LLD** | ✅ | ✅ | LLD rounds cleared |
+| 322–359 | **9 · System Design** | ✅ | ✅ | ✅✅ **COMPLETE SDE** |
+| 360–379 | **10 · DevOps** | ✅ | ✅ | Ships own work |
+| 380–397 | **11 · Cloud (AWS)** | ✅ | ✅ | Cloud deployed |
+| 398–413 | **12 · Distributed Systems** | ✅ | ✅ | Senior-track conversations |
+| 414–461 | ⭐⭐ **13/14 · AI Engineering** | ✅ [414–461](01-Python-Developer/Days/Day-414.md) | 🐍 [the crossing](02-Java-Developer/Roadmap/Stage-13-14-Bridge.md) | ✅ **AI Engineer** |
+| 462–488 | **15 · Interview Conversion** | ✅ | ✅ | ⭐⭐ **Offers** |
+
+**Stage 13/14 in one line:** the model, prompting and evals, retrieval, agents, safety, production —
+48 days, written in Python because the SDKs, the eval tooling and the interview all are. A Java
+developer crosses via the bridge: **55 language days + the 48, then back to Stage 15.**
+
+---
+
+## Every day, in both tracks
+
+| | Time | What |
+|---|---|---|
+| **DSA** | 45–75 min | Plus a pattern journal entry: *what signal told me which pattern?* |
+| **🎙️ Articulation drill** | 15 min | Explain yesterday's concept for 2 min, recorded, as if to an interviewer |
+| **Spaced repetition** | 10 min | Notes from days 1, 3, 7, 14, 30 ago |
+
+> **⭐ The articulation drill is the highest-leverage 15 minutes in the day.** Knowledge that can't be
+> spoken doesn't exist in an interview room.
 
 ---
 
@@ -52,7 +97,7 @@ Both follow the same twelve phases. Each phase gates the next.
 | Version control | GitHub | CI, secret scanning, Dependabot |
 | Edge / DNS | Cloudflare | WAF, CDN, bot protection, R2 |
 | Redis | Upstash | Rate limiting, caching, queues |
-| Vector DB | Pinecone | RAG / semantic search |
+| Vector DB | pgvector / Pinecone | RAG — ⭐ [start with the Postgres you already run](01-Python-Developer/Days/Day-432.md) |
 
 ---
 
@@ -63,6 +108,9 @@ Both follow the same twelve phases. Each phase gates the next.
 3. **Authorization is server-side or it doesn't exist.**
 4. **Every API call needs a ceiling** — loop guard, retry cap, spend alert.
 5. **Verify every package the agent adds.** AI invents names; attackers squat them.
+
+> **⭐ The learning rule, which is different:** *no AI-generated code during lessons or practice.*
+> AI for explanation — always. AI writing your code — never.
 
 ---
 
@@ -82,9 +130,9 @@ Run on every agent-written diff:
 
 | Failure | Cause | Where |
 |---|---|---|
-| Huge surprise bill | An API call in a render body / `useEffect` with no dep array | Phase 05 |
+| Huge surprise bill | An API call in a render body / `useEffect` with no dep array | Phase 05 · [Day 457](01-Python-Developer/Days/Day-457.md) |
 | Total secret compromise | `/.env` or `/.git/config` publicly readable | Phase 06 |
-| Cross-user data leak | No ownership filter in the query; RLS off | Phase 06 |
+| Cross-user data leak | No ownership filter in the query; RLS off | Phase 06 · ⭐⭐ [Day 434](01-Python-Developer/Days/Day-434.md) |
 
 Check the second one right now on anything you've deployed:
 
@@ -94,3 +142,16 @@ curl -s -o /dev/null -w "%{http_code}\n" https://yourdomain.com/.git/config
 ```
 
 Both must be `404`.
+
+---
+
+## ⭐⭐ The five habits the 488 days were built to install
+
+1. **Measure before you argue.** A benchmark beats an opinion, every time.
+2. **Break it deliberately.** The failure is the lesson; an untested fallback is not a fallback.
+3. **Name the price.** Every guarantee costs something. Say what, out loud.
+4. **The dangerous failure returns 200.** Leaks, wrong answers and silent truncation don't raise.
+5. **Say what it cannot do.** Scope stated honestly is the senior signal.
+
+> **488 days removed *knowledge* as the constraint. Scope requires real problems** — see
+> [Day 488](01-Python-Developer/Days/Day-488.md).

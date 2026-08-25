@@ -512,6 +512,8 @@ archetypes, ⭐⭐ **levelling as scope rather than difficulty**, and negotiatio
 **✅✅✅ ALL 488 DAYS WRITTEN.** ✅✅ Days 001–213, 248–270 and 281–488.
 🌐 **Days 271–280** are the flagship's frontend and are *not* day files — they are worked in
 [`03-Web-Developer`](../../03-Web-Developer/).
+⭐ **Days 414–461 are also Stages 13 & 14 of the [Java track](../../02-Java-Developer/), routed by
+[the crossing](../../02-Java-Developer/Roadmap/Stage-13-14-Bridge.md).**
 ⭐⭐ **Knowledge is no longer the constraint** — see [Day 488](Day-488.md).
 
 ---

@@ -7,7 +7,8 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-413 and 462-488 written** — ✅✅ **THE JAVA SDE ROADMAP IS COMPLETE**: Stages 0–12 and 15, **430 days**. |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-413 and 462-488 written** — ✅✅ **THE JAVA SDE ROADMAP IS COMPLETE**: Stages 0–12 and 15, **416 day files** (396 numbered + 20 inserted). |
+| **Stages 13 & 14** | ⭐⭐ **[The crossing](Stage-13-14-Bridge.md)** — Days 414–461 are AI engineering, written in Python. The bridge specifies the exact route, the 55 Python-language days you actually need, and the twelve places a Java instinct is wrong. |
 
 ---
 
@@ -58,11 +59,15 @@ You can never skip a lesson — but you can pass through it fast.
 | 360–379 | [Stage 10 — DevOps](#stage-10--devops) | Ships own work |
 | 380–397 | [Stage 11 — AWS](#stage-11--cloud-aws) | Cloud deployed |
 | 398–413 | [Stage 12 — Distributed Systems](#stage-12--distributed-systems) | Senior-track conversations |
+| 414–461 | ⭐⭐ **[Stages 13 & 14 — the crossing](Stage-13-14-Bridge.md)** | ✅ **AI Engineer** — in Python |
 | 462–488 | [Stage 15 — Interview Conversion](#stage-15--interview-conversion) | Offers |
 
-> Stage 6 (Frontend) → [`03-Web-Developer`](../../03-Web-Developer/) ·
-> Stage 13 (Python) → [`01-Python-Developer`](../../01-Python-Developer/) ·
-> Stage 14 (AI) → ⭐⭐ **[Python Days 414–461](../../01-Python-Developer/Days/)**
+> Stage 6 (Frontend, Days 214–247 and 271–280) → [`03-Web-Developer`](../../03-Web-Developer/)
+>
+> ⭐⭐ **Stages 13 & 14 (Days 414–461) → [Stage-13-14-Bridge.md](Stage-13-14-Bridge.md)** — read the
+> bridge first. It is the stage: it routes you through **Python Days [023–077](../../01-Python-Developer/Days/Day-023.md)**
+> (the language) and then **Python Days [414–461](../../01-Python-Developer/Days/Day-414.md)** (AI
+> engineering), 103 days, and brings you back here for Stage 15.
 
 ---
 

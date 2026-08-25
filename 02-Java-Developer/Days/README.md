@@ -413,6 +413,15 @@ articulation drill.
 | [411](Day-411.md) | **Distributed locking** — ⭐⭐ **the fencing token**, efficiency vs correctness | 12 |
 | [412](Day-412.md) | **Failure detection & split brain** — ⭐⭐ **R+W>N is not linearizable**, CRDTs | 12 |
 | [413](Day-413.md) | 🚪 **Chaos & load shedding** · **STAGE 12 EXIT GATE** — ✅ **senior conversations** | 12 |
+
+> ⭐⭐ **Days 414–461 are Stages 13 & 14 — AI engineering — and are written in Python.**
+> Read **[the crossing](../Roadmap/Stage-13-14-Bridge.md)** before you go: it is the stage, and it
+> tells you which Python days you actually need (55, not 413), the twelve places your Java instinct
+> is wrong, and how to answer *“you’re a Java developer — why should I believe you can do AI
+> engineering?”* **The Java track resumes at Day 462.**
+
+| Day | Focus | Stage |
+|---|---|---|
 | [462](Day-462.md) | **The resume I** — ⭐⭐ **every line is a question you invited** | 15 |
 | [463](Day-463.md) | **The resume II** — numbers, honesty, ⭐ **the line-by-line defence** | 15 |
 | [464](Day-464.md) | **Behavioural I** — STAR proportions, ⭐ **the ten-story bank** | 15 |
@@ -452,11 +461,13 @@ complete**. The 10 frontend days (271–280) live in
 **✅ Stage 12 (16/16)** — ✅✅ **senior-track distributed systems finished.**
 **✅ Stage 15 (27/27)** — resume, behavioural, project defence, 5 DSA mocks, 4 LLD rounds,
 5 system design rounds, levelling and negotiation.
-**✅✅ 430 days written — THE JAVA SDE ROADMAP IS COMPLETE.**
+**✅✅ 416 day files written — THE JAVA SDE ROADMAP IS COMPLETE.**
+(396 numbered days · 20 inserted days on letter suffixes, so nothing renumbers.)
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
-Days 414–461 are Stage 13 (Python) and Stage 14 (AI) and live in
-[`01-Python-Developer`](../../01-Python-Developer/), including ⭐⭐ **AI engineering (Days 414–461)**;
+✅ **Stages 13 & 14 (48/48)** — Days 414–461, AI engineering, written in Python and routed by
+⭐⭐ **[the crossing](../Roadmap/Stage-13-14-Bridge.md)**.
 Stage 6 (frontend, Days 214–247 and 271–280) lives in [`03-Web-Developer`](../../03-Web-Developer/).
+✅✅ **Every day 001–488 is written — 430 in this track, 48 in Python, 10 in Web.**
 
 ---
 
