@@ -8,7 +8,7 @@ curriculum, and only the language and framework stages differ.
 | | |
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–213, 248–270 and 281–461 written** — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7–14 COMPLETE — ✅✅ COMPLETE SDE + ships own work + cloud deployed + senior-track + ✅✅ AI ENGINEER**; ⚡ **Stage 15 next**. See the [Days index](../Days/) |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **ALL 488 DAYS WRITTEN** — 001–213, 248–270, 281–488 — ✅ **Stages 0–5 complete**; 🌐 **Stage 6 is a phase guide, not day files**; ✅✅ **Stages 7–15 COMPLETE — ✅✅ COMPLETE SDE + ✅✅ AI ENGINEER + ✅✅ INTERVIEW CONVERSION**. ⭐⭐ **The roadmap is complete.** See the [Days index](../Days/) |
 | **Default stack** | Python 3.12 · uv · FastAPI · Pydantic v2 · SQLAlchemy 2.0 (async) · Alembic · Postgres · Redis · Celery · pytest · Ruff · mypy |
 | **Second framework** | Django + DRF (Stage 4B) — because Python backend roles split roughly evenly between the two, and knowing only one halves your market |
 
@@ -65,7 +65,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 380–397 | [Stage 11 — AWS](#stage-11--cloud-aws) ✅ | ✅ **Cloud deployed** |
 | 398–413 | [Stage 12 — Distributed Systems](#stage-12--distributed-systems) ✅ | ✅ **Senior-track conversations** |
 | 414–461 | ✅✅ **Stage 13/14 — AI Engineering** — the model, prompting, retrieval, agents, safety, production | ⭐⭐ **The second market, and the one hiring** |
-| 462–488 | [Stage 15 — Interview Conversion](#stage-15--interview-conversion) | Offers |
+| 462–488 | ✅✅ **Stage 15 — Interview Conversion** — resume, behavioural, project defence, DSA, LLD, system design, levelling, the offer | ⭐⭐ **Offers** |
 
 > **Why the numbers match Java.** Stages 0, 2, 5, 8, 9, 10, 11, 12 and 15 are language-independent —
 > a load balancer, a B-tree index and a saga do not care what you write. Those stages are the **same
@@ -984,13 +984,13 @@ serving · caching · observability · fallback · cost · rollout · 🚪 the A
 
 | Days | Focus |
 |---|---|
-| 462–463 | Resume — claim only what you can defend line by line |
-| 464–466 | Behavioural — STAR, the failure story, the conflict story, communication under evaluation |
-| 467–471 | Project defence drills — the decision log, the failure interrogation, the code walk |
-| 472–476 | Five timed 45-minute DSA mocks **in Python**, narrated aloud, scored |
-| 477–480 | Four full LLD rounds in Python |
-| 481–485 | Five full system design rounds, scored on structure |
-| 486–488 | Company prep, levelling, salary negotiation — and the close |
+| 462–463 | ✅ **written** — Resume: [462](../Days/Day-462.md) ⭐⭐ **every line is a question you invited**, the bullet formula, the verb as a levelling signal, ATS mechanics · [463](../Days/Day-463.md) the four legitimate sources of a number, the honesty line, the "we" problem, ⭐⭐ **and preparing "why isn't it higher?" for every number** |
+| 464–466 | ✅ **written** — Behavioural: [464](../Days/Day-464.md) ⭐⭐ **the ten-story bank and the routing skill**, STAR with corrected proportions · [465](../Days/Day-465.md) ⭐⭐ **the failure story and the vindication-story trap**, disagree-and-commit as four behaviours · [466](../Days/Day-466.md) ⭐⭐ **announced silence, the four-part "I don't know"**, recovery, and the two closing questions |
+| 467–471 | ✅ **written** — Project defence: [467](../Days/Day-467.md) three lengths and the hook · [468](../Days/Day-468.md) ⭐⭐ **the decision log — force / rejected / price**, and `REVISIT WHEN` · [469](../Days/Day-469.md) ⭐⭐ **"how would you know?" and the four silent failures** · [470](../Days/Day-470.md) the ninety-second repo sample · [471](../Days/Day-471.md) 🎯 the 45-minute deep dive + 15-row rubric |
+| 472–476 | ✅ **written** — DSA mocks in Python: [472](../Days/Day-472.md) 🎯 arrays/hashing/windows + ⭐⭐ **the four Python traps that change complexity silently** · [473](../Days/Day-473.md) 🎯 graphs, ⭐⭐ **three-colour cycles and the recursion limit** · [474](../Days/Day-474.md) 🎯 DP — ⭐⭐ **recursion before table, and `@cache`'s two sharp edges** · [475](../Days/Day-475.md) 🎯 heaps and intervals · [476](../Days/Day-476.md) 🎯 ⭐⭐ **the diagnosis table: only one of five failures needs more problems** |
+| 477–480 | ✅ **written** — LLD rounds: [477](../Days/Day-477.md) 🎯 parking lot + ⭐⭐ **the clock and the six-question script** · [478](../Days/Day-478.md) 🎯 notifications — ⭐⭐ **templates as data**, three dedup layers · [479](../Days/Day-479.md) 🎯 ⭐⭐ **a thread-safe cache — what the GIL does not protect, single-flight, the stampede** · [480](../Days/Day-480.md) 🎯 a wallet — ⭐⭐ **double-entry, and the ordered-lock deadlock** |
+| 481–485 | ✅ **written** — System design: [481](../Days/Day-481.md) 🎯 URL shortener + ⭐⭐ **the 12-row rubric and enumerable codes** · [482](../Days/Day-482.md) 🎯 news feed — ⭐⭐ **the celebrity multiplication** · [483](../Days/Day-483.md) 🎯 chat — ⭐⭐ **the connection registry and persist-before-ack** · [484](../Days/Day-484.md) 🎯 payments — ⭐⭐ **correctness inverts every availability instinct** · [485](../Days/Day-485.md) 🎯 a scheduler — ⭐⭐ **claim-with-lease, fencing** + the five-round debrief |
+| 486–488 | ✅ **written** — [486](../Days/Day-486.md) company prep — ⭐⭐ **your interviewer is a witness, not a judge**, loop archetypes, the after-action record · [487](../Days/Day-487.md) ⭐⭐ **levelling — scope, not difficulty**, task-scope vs problem-scope stories, down-levelling · [488](../Days/Day-488.md) 🚪🚪 **negotiation, the offer decision, the first 90 days — and THE CLOSE OF 488 DAYS** |
 
 ---
 

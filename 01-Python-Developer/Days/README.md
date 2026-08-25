@@ -431,6 +431,33 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [459](Day-459.md) | 🎚️ **Rollout with eval gates** — ⭐⭐ rank every change by its rollback cost | 13/14 |
 | [460](Day-460.md) | 🎤 **The AI Engineer interview** — ⭐⭐ demo or system? | 13/14 |
 | [461](Day-461.md) | 🚪 **STAGE 13/14 EXIT GATE** — ⭐⭐ ten shapes, eight proofs · ✅ AI Engineer | 13/14 |
+| [462](Day-462.md) | 📄 **The resume** — ⭐⭐ every line is a question you invited | 15 |
+| [463](Day-463.md) | 🔍 **Defending the page** — ⭐⭐ never write a number you cannot reconstruct | 15 |
+| [464](Day-464.md) | 🗣️ **Behavioural I** — ⭐⭐ ten stories cover every question they can ask | 15 |
+| [465](Day-465.md) | ⚔️ **The failure and conflict stories** — ⭐⭐ the two that decide the round | 15 |
+| [466](Day-466.md) | 🎙️ **Communication under evaluation** — ⭐⭐ "I don't know" is a scoring answer | 15 |
+| [467](Day-467.md) | 🎬 **Project defence I** — ⭐⭐ thirty seconds, three minutes, thirty minutes | 15 |
+| [468](Day-468.md) | 📓 **The decision log** — ⭐⭐ force, alternative, price | 15 |
+| [469](Day-469.md) | 🔬 **The failure interrogation** — ⭐⭐ what breaks first, and how you would know | 15 |
+| [470](Day-470.md) | 📂 **The code walk** — ⭐⭐ ninety seconds decide whether they read further | 15 |
+| [471](Day-471.md) | 🎯 **The 45-minute deep dive** — ⭐⭐ run it, score it, find the two rows you lose | 15 |
+| [472](Day-472.md) | 🎯 **DSA mock 1 — arrays, hashing, two pointers** — ⭐⭐ the protocol, and the Python traps | 15 |
+| [473](Day-473.md) | 🌳 **DSA mock 2 — trees and graphs** — ⭐⭐ one traversal, two containers | 15 |
+| [474](Day-474.md) | 🧮 **DSA mock 3 — dynamic programming** — ⭐⭐ four steps, and never start with the table | 15 |
+| [475](Day-475.md) | ⛰️ **DSA mock 4 — heaps and intervals** — ⭐⭐ the sort key is the algorithm | 15 |
+| [476](Day-476.md) | 🩺 **DSA mock 5 — mixed** — ⭐⭐ four different failures need four different fixes | 15 |
+| [477](Day-477.md) | 🅿️ **LLD 1 — the parking lot** — ⭐⭐ the clock, the six questions, check-then-act | 15 |
+| [478](Day-478.md) | 📨 **LLD 2 — a notification service** — ⭐⭐ if adding one needs a deploy, the design failed | 15 |
+| [479](Day-479.md) | 🔒 **LLD 3 — a thread-safe cache** — ⭐⭐ the GIL does not make your code correct | 15 |
+| [480](Day-480.md) | 💷 **LLD 4 — a wallet** — ⭐⭐ the balance is derived, not stored | 15 |
+| [481](Day-481.md) | 🔗 **SD 1 — a URL shortener** — ⭐⭐ the estimation decides the architecture | 15 |
+| [482](Day-482.md) | 📰 **SD 2 — a news feed** — ⭐⭐ one user with 50M followers breaks the design | 15 |
+| [483](Day-483.md) | 💬 **SD 3 — chat** — ⭐⭐ A is on server 3, B is on server 17 | 15 |
+| [484](Day-484.md) | 💳 **SD 4 — payments** — ⭐⭐ where refusing service is the correct answer | 15 |
+| [485](Day-485.md) | ⏰ **SD 5 — a distributed scheduler** — ⭐⭐ exactly-once is not on the menu | 15 |
+| [486](Day-486.md) | 🏢 **Company prep and the loop** — ⭐⭐ nobody scores you; a committee does | 15 |
+| [487](Day-487.md) | 📊 **Levelling** — ⭐⭐ scope, not difficulty | 15 |
+| [488](Day-488.md) | 🚪🚪 **Negotiation, the decision, the first 90 days** — ✅✅ **488 DAYS COMPLETE** | 15 |
 
 **✅ Stage 0 complete (22/22).** **✅ Stage 1 complete (55/55)** — the whole language.
 **✅ Stage 2 complete (24 days + 4 additions)** — Linux, Git, clean code, testing, tooling, debugging.
@@ -470,9 +497,22 @@ a check is not a boundary, and hallucination as the model working correctly. **1
 serving, caching, ⭐⭐ **observability when everything returns 200 while broken**, the degradation
 ladder, cost engineering, and rollout ranked by rollback cost.
 
-**✅✅ Days 001–213, 248–270 and 281–461 written.** 🌐 **Days 271–280** are the flagship's frontend
-and are *not* day files — they are worked in [`03-Web-Developer`](../../03-Web-Developer/).
-⚡ Next: **Stage 15 — Interview Conversion (462–488)**, where all of it gets converted into offers.
+**✅✅ STAGE 15 COMPLETE (27/27) — INTERVIEW CONVERSION.** The stage that turns 461 days of
+building into offers. **Resume** (462–463) — every line is a question you invited, and the third
+question to prepare for every number is ⭐⭐ **"why isn't it higher?"**. **Behavioural** (464–466) —
+ten stories cover everything they can ask, the failure story where a fake one answers the real question
+in the negative, and ⭐⭐ **the four-part "I don't know" that scores**. **Project defence** (467–471) —
+three lengths, the decision log as ⭐⭐ **force / alternative / price**, the failure interrogation, the
+code walk, and a 45-minute deep dive against a 15-row rubric. **Five DSA mocks** (472–476) in Python,
+closing with ⭐⭐ **a diagnosis table where only one of five failure modes is fixed by more problems**.
+**Four LLD rounds** (477–480) — every one hides a check-then-act. **Five system design rounds**
+(481–485) — the estimation decides the architecture every time. **The close** (486–488) — the loop
+archetypes, ⭐⭐ **levelling as scope rather than difficulty**, and negotiation.
+
+**✅✅✅ ALL 488 DAYS WRITTEN.** ✅✅ Days 001–213, 248–270 and 281–488.
+🌐 **Days 271–280** are the flagship's frontend and are *not* day files — they are worked in
+[`03-Web-Developer`](../../03-Web-Developer/).
+⭐⭐ **Knowledge is no longer the constraint** — see [Day 488](Day-488.md).
 
 ---
 
