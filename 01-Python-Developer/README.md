@@ -3,7 +3,7 @@
 | File | Contents |
 |---|---|
 | ⭐ [**Roadmap/**](Roadmap/README.md) | **The day-by-day plan.** 488 days, Stage 0 → Stage 15, mirroring the [Java track](../02-Java-Developer/Roadmap/README.md) stage for stage |
-| ⭐ [**Days/**](Days/README.md) | **The written lessons.** One file per day — 🔵 in progress |
+| ⭐ [**Days/**](Days/README.md) | **The written lessons.** One file per day — ✅✅ **complete: all 488 days, 448 files** |
 | [Python-Vibe-Coding-Cheatsheet.md](Python-Vibe-Coding-Cheatsheet.md) | Reference guide. Stack, project layout, Python-specific AI-code traps, API safety, security, testing, delivery |
 
 > Universal build/security/API rules live in [`03-Web-Developer`](../03-Web-Developer/) phases
@@ -21,13 +21,19 @@
 | 102–129 | Backend, framework-free | Can build an API with no framework |
 | 130–185 | **FastAPI & Django** | Backend interview-ready |
 | 186–213 | Databases | Can fix a slow query live |
-| 248–297 | Projects | Two defensible projects |
+| 214–247 | Frontend → [`03-Web-Developer`](../03-Web-Developer/) | 🌐 Build the UI for your own API |
+| 248–297 | Projects | Two defensible projects (271–280 🌐) |
 | 298–321 | LLD | LLD rounds cleared |
 | 322–359 | System Design | ✅ **COMPLETE SDE** |
 | 360–413 | DevOps · AWS · Distributed Systems | Ships own work, in the cloud, at senior depth |
+| 414–461 | ⭐⭐ **AI Engineering** — the model, prompting & evals, retrieval, agents, safety, production | ✅ **AI Engineer** |
 | 462–488 | Interview Conversion | Offers |
 
-Full detail, day by day: [**Roadmap/README.md**](Roadmap/README.md)
+Full detail, day by day: [**Roadmap/README.md**](Roadmap/README.md) · every day: [**Days/README.md**](Days/README.md)
+
+> ⭐⭐ **Days 414–461 are also Stages 13 & 14 of the [Java track](../02-Java-Developer/)** — AI
+> engineering is written once, here, and Java developers are routed in by
+> [the crossing](../02-Java-Developer/Roadmap/Stage-13-14-Bridge.md).
 
 ## Default stack
 
