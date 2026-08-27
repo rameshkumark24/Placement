@@ -44,7 +44,8 @@
 | ⭐⭐ [12-Legal-and-Compliance.md](12-Legal-and-Compliance.md) | **The store is a regulator** — privacy forms vs your SDKs, ⭐ **the four UGC requirements**, in-app account deletion, licences |
 | [13-AI-Features.md](13-AI-Features.md) | ⭐ **If the app uses a model** — the key cannot be in the app, serve the prompt from your server, the store's AI rules |
 
-**Reference:** [Component Libraries](Reference/Component-Libraries.md) ·
+**Reference:** ⭐⭐ [**Verification Tools**](Reference/Verification-Tools.md) — what to scan, and
+the mobile checks no scanner does · [Component Libraries](Reference/Component-Libraries.md) ·
 [**Distribution Options**](Reference/Distribution-Options.md) — with and without the stores
 
 > **Do you actually need the stores?** For public iOS distribution, yes. Android has real

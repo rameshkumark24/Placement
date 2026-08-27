@@ -104,6 +104,28 @@ unzip app.ipa && strings Payload/*.app/* | grep -iE "sk_live|secret"
 
 ---
 
+# 3b · ⭐ Scan the API domain — people skip this
+
+```
+⭐⭐ "IT'S A MOBILE APP, THERE'S NO WEBSITE" IS WRONG. YOUR API IS A
+   WEBSITE, AND IT IS WHERE THE DATA IS.
+
+  ① ⭐ https://www.ssllabs.com/ssltest/  ⇒ point it at your API
+     domain. TARGET **A or A+**.
+     ⭐⭐ AND IF YOU PIN CERTIFICATES, CHECK THE EXPIRY HERE — a
+       rotation you did not plan for BRICKS EVERY INSTALLED APP,
+       and no OTA update can fix it.
+  ② ⭐ https://securityheaders.com/  ⇒ your API, and your
+     privacy-policy page (which must be live for the stores anyway).
+
+⭐ A GRADE IS A FLOOR. Neither scan tests whether user A can read
+  user B's data — that is §2, and it needs you and a proxy.
+```
+
+⭐ **Full tool table:** [Reference/Verification-Tools.md](Reference/Verification-Tools.md)
+
+---
+
 # 4 · ⭐⭐ Permissions
 
 ```

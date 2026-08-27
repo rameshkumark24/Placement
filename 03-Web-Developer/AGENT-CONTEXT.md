@@ -318,6 +318,10 @@ OPERATIONS
   □ ⭐⭐ npx license-checker — no AGPL/GPL in a commercial product
   □ ⭐ Every font and image has a licence you have read
   □ ⭐ Email: SPF, DKIM and DMARC set — or resets land in spam
+  □ ⭐⭐ EXTERNAL SCANS PASSED: ssllabs.com/ssltest ⇒ A ·
+     securityheaders.com ⇒ A · Lighthouse mobile ⇒ 90+
+     (⭐ grades are a floor, not a certificate — none of them test
+      whether user A can read user B's data)
 ```
 
 > ⭐ **Depth:** [12-Legal-and-Compliance.md](12-Legal-and-Compliance.md) ·

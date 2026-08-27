@@ -282,6 +282,8 @@ OPERATIONS
      DELETION that reaches every system
   □ ⭐ npx license-checker — no GPL/AGPL · an open-source licences
      screen in settings
+  □ ⭐⭐ THE API DOMAIN SCANNED: ssllabs.com/ssltest ⇒ A ·
+     securityheaders.com ⇒ A (⭐ your API is a website)
   □ ⭐ THE OTA UPDATE PATH TESTED ONCE, END TO END
   □ ⭐⭐ A STAGED ROLLOUT PLANNED — never 100% on day one
   □ ⭐ FORCE-UPDATE MECHANISM EXISTS, for the day you must kill a

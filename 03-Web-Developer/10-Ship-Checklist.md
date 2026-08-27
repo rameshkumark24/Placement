@@ -245,6 +245,9 @@ failure."* Work section by section — not all at once, or you get a 900-line di
 □ Security headers: CSP, HSTS, X-Content-Type-Options, Referrer-Policy
 □ Uploads validated by content, size-capped, EXIF stripped
 □ HTTPS everywhere, no mixed content warnings
+□ ⭐⭐ https://www.ssllabs.com/ssltest/  ⇒ GRADE A OR BETTER
+□ ⭐⭐ https://securityheaders.com/      ⇒ GRADE A
+   ⭐ And check the CSP is real — 'unsafe-inline' still scores
 ```
 
 ---
@@ -287,6 +290,7 @@ When there is no time for the full audit, these nine catch most of it:
 
 ```
 ① ⭐⭐ ID-swap test — can user A read user B's data?
+   (⭐ the one check no scanner performs)
 ② ⭐⭐ 320px width — does it scroll sideways?
 ③ ⭐ Filter a list to zero — which empty state appears?
 ④ ⭐ Visit /nonsense — is there a real 404?
@@ -296,6 +300,11 @@ When there is no time for the full audit, these nine catch most of it:
 ⑧ ⭐⭐ Turn off the network mid-action — is there an error and a retry?
 ⑨ ⭐ Open the console — is it clean?
 ```
+
+---
+
+⭐ **Every external tool, what it catches and what it misses:**
+[Reference/Verification-Tools.md](Reference/Verification-Tools.md)
 
 ---
 

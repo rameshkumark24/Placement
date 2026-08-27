@@ -203,6 +203,34 @@ curl -sI https://yoursite.com | grep -iE "strict-transport|content-security|x-co
 
 ---
 
+# 7b · ⭐⭐ Verify the headers from outside — do not assume
+
+```
+⭐⭐ YOU SET THE HEADERS. NOW PROVE THEY ARRIVED. Two free scans,
+   two minutes, and they grade you A–F.
+
+  ① ⭐ https://www.ssllabs.com/ssltest/   ⇒ TARGET **A or A+**
+     TLS version, cipher suites, certificate chain, known weaknesses.
+     ⭐ A misconfigured chain works in Chrome and FAILS on older
+       Android — which you will never see on your own machine.
+
+  ② ⭐ https://securityheaders.com/       ⇒ TARGET **A**
+     CSP, HSTS, X-Content-Type-Options, Referrer-Policy,
+     Permissions-Policy. ⭐ It names exactly what is missing.
+
+⭐⭐ READ THE GRADE HONESTLY — BOTH ARE CONFIGURATION CHECKS:
+  · ⭐ A+ ON TLS SAYS NOTHING ABOUT WHETHER STRANGERS CAN READ YOUR
+    CUSTOMERS' DATA. That is §1, and no scanner tests it.
+  · ⭐⭐ A CSP CONTAINING 'unsafe-inline' CAN STILL SCORE WELL WHILE
+    HAVING DISABLED THE PROTECTION YOU WANTED. The grade does not
+    know what you meant.
+⇒ ⭐ A GRADE IS A FLOOR, NOT A CERTIFICATE.
+```
+
+⭐ **Full tool table:** [Reference/Verification-Tools.md](Reference/Verification-Tools.md)
+
+---
+
 # 8 · Supply chain — the XSS you did not write
 
 ```

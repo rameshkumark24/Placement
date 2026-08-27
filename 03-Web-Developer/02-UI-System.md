@@ -194,6 +194,31 @@ Same model as shadcn: **the code comes into your repo and you own it.**
 
 ---
 
+# 6b · ⭐ A second opinion on the design
+
+```
+⭐⭐ YOU CANNOT SEE YOUR OWN DESIGN AFTER AN HOUR OF LOOKING AT IT,
+   AND YOU DID NOT DRAW IT — THE AGENT DID.
+
+  ⭐ https://designmeter.ai/  ⇒ AI design analysis. Scores visual
+    hierarchy, usability and UX, with specific suggestions.
+
+⭐ USE IT FOR WHAT IT IS GOOD AT:
+   · catching hierarchy problems you stopped noticing
+   · contrast and spacing you have gone blind to
+   · a second opinion when you cannot tell if a screen is finished
+
+⭐⭐ AND KNOW WHAT IT CANNOT DO:
+   · ⭐ IT CANNOT TELL YOU THE PRODUCT IS CONFUSING. It sees a
+     screen, not a workflow.
+   · it does not know your brand or your users
+   · ⭐⭐ A HIGH SCORE ON A GENERIC AI-LOOKING PAGE IS STILL A
+     GENERIC AI-LOOKING PAGE — §1 is a judgement no scorer makes.
+⇒ ⭐ A SIGNAL, NOT A VERDICT. Same as Lighthouse or axe.
+```
+
+---
+
 # 7 · Accessibility — the part that is nearly free
 
 ```

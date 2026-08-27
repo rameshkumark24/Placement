@@ -136,6 +136,9 @@ failure."* Section by section — not all at once.
    files. ⭐⭐ Otherwise the next person to use the phone sees it.
 □ No PII in logs or crash reports
 □ Deep links validated — ⭐ a deep link is untrusted input from anyone
+□ ⭐⭐ YOUR API DOMAIN SCANNED: ssllabs.com/ssltest ⇒ A ·
+   securityheaders.com ⇒ A
+   ⭐ And if you pin certificates, check the expiry date now
 ```
 
 ---
@@ -224,6 +227,11 @@ failure."* Section by section — not all at once.
 ---
 
 > ⭐ **Full legal checklist:** [12-Legal-and-Compliance.md §10](12-Legal-and-Compliance.md)
+
+---
+
+⭐ **Every external tool, what it catches and what it misses:**
+[Reference/Verification-Tools.md](Reference/Verification-Tools.md)
 
 ---
 
