@@ -16,8 +16,8 @@
 |---|--------|---|
 | 01 | [**Python Developer**](01-Python-Developer/) | ⭐⭐ **488-day track, complete.** Stages 0–15, including **AI Engineering (414–461)**. [Day index](01-Python-Developer/Days/README.md) · [roadmap](01-Python-Developer/Roadmap/README.md) |
 | 02 | [**Java Developer**](02-Java-Developer/) | ⭐⭐ **488-day track, complete.** Stages 0–12 and 15 in Java; 13–14 via [the crossing](02-Java-Developer/Roadmap/Stage-13-14-Bridge.md). [Day index](02-Java-Developer/Days/README.md) · [roadmap](02-Java-Developer/Roadmap/README.md) |
-| 03 | [**Web Developer**](03-Web-Developer/) | **Complete 12-phase build domain** — idea to live and maintained. Standalone: the tracks no longer depend on it. |
-| 04 | [**App Developer**](04-App-Developer/) | **Complete 12-phase build domain** — idea to store and maintained. |
+| 03 | [**Web Developer**](03-Web-Developer/) | ⭐⭐ **The vibe-coding library for web** — a dictionary, not a course. [The memory →](03-Web-Developer/AGENT-CONTEXT.md) |
+| 04 | [**App Developer**](04-App-Developer/) | ⭐⭐ **The vibe-coding library for mobile** — same idea, different failures. [The memory →](04-App-Developer/AGENT-CONTEXT.md) |
 | 06 | [Common](06-Common/) | [SQL](06-Common/SQL/) · [Golang](06-Common/Golang/) · [Cloud & DevOps](06-Common/Cloud-DevOps/) · [HR interview](06-Common/HR-Interview/) |
 
 ---
@@ -65,24 +65,31 @@ developer crosses via the bridge: **55 language days + the 48, then back to Stag
 
 ---
 
-## The two build domains
+## ⭐⭐ The two vibe-coding libraries
 
-Both follow the same twelve phases. Each phase gates the next.
+**Not courses — dictionaries.** Look things up while building. Each folder's
+**`AGENT-CONTEXT.md` is the memory**: keep it in Notion, paste it into a new chat, and the agent
+knows how you work before it writes a line.
 
-| # | Phase | [Web](03-Web-Developer/) | [App](04-App-Developer/) |
-|---|-------|---|---|
-| 00 | Stack & Services | [→](03-Web-Developer/00-Stack.md) | [→](04-App-Developer/00-Stack-and-Services.md) |
-| 01 | Scope & Planning | [→](03-Web-Developer/01-Workflow.md) | [→](04-App-Developer/01-Scope-and-Planning.md) |
-| 02 | Design System | [→](03-Web-Developer/02-UI-System.md) | [→](04-App-Developer/02-Design-System.md) |
-| 03 | Architecture & Data | [→](03-Web-Developer/04-Backend.md) | [→](04-App-Developer/03-Architecture-and-Data.md) |
-| 04 | Build | [→](03-Web-Developer/01-Workflow.md) | [→](04-App-Developer/04-Build.md) |
-| 05 | **API Safety** | [→](03-Web-Developer/03-Frontend.md) | [→](04-App-Developer/05-API-Safety.md) |
-| 06 | **Security** | [→](03-Web-Developer/05-Security.md) | [→](04-App-Developer/06-Security.md) |
-| 07 | Performance | [→](03-Web-Developer/07-Performance.md) | [→](04-App-Developer/07-Performance.md) |
-| 08 | Testing & Review | [→](03-Web-Developer/09-Testing.md) | [→](04-App-Developer/08-Testing-and-Review.md) |
-| 09 | Observability | [→](03-Web-Developer/11-Post-Launch.md) | [→](04-App-Developer/09-Observability.md) |
-| 10 | Deploy / Release | [→](03-Web-Developer/10-Ship-Checklist.md) | [→](04-App-Developer/10-Release.md) |
-| 11 | Post-Launch | [→](03-Web-Developer/11-Post-Launch.md) | [→](04-App-Developer/11-Post-Launch.md) |
+| | [🌐 **Web**](03-Web-Developer/) | [📱 **App**](04-App-Developer/) |
+|---|---|---|
+| ⭐⭐ **The memory** | [AGENT-CONTEXT.md](03-Web-Developer/AGENT-CONTEXT.md) | [AGENT-CONTEXT.md](04-App-Developer/AGENT-CONTEXT.md) |
+| **Per-project rules** | [CLAUDE.md template](03-Web-Developer/CLAUDE-md-template.md) | [CLAUDE.md template](04-App-Developer/CLAUDE-md-template.md) |
+| Stack & spend caps | [00-Stack](03-Web-Developer/00-Stack.md) | [00-Stack](04-App-Developer/00-Stack.md) |
+| ⭐ Working with the agent | [01-Workflow](03-Web-Developer/01-Workflow.md) | [01-Workflow](04-App-Developer/01-Workflow.md) |
+| UI | [02-UI-System](03-Web-Developer/02-UI-System.md) | [02-UI-System](04-App-Developer/02-UI-System.md) |
+| The rules that stop bills | [03-Frontend](03-Web-Developer/03-Frontend.md) · [04-Backend](03-Web-Developer/04-Backend.md) | [03-App-Rules](04-App-Developer/03-App-Rules.md) |
+| ⭐⭐ **Customer data** | [05-Security](03-Web-Developer/05-Security.md) | [05-Security](04-App-Developer/05-Security.md) |
+| Traffic & scale | [06-Traffic-and-Scale](03-Web-Developer/06-Traffic-and-Scale.md) | — |
+| Performance | [07-Performance](03-Web-Developer/07-Performance.md) | [06-Performance](04-App-Developer/06-Performance.md) |
+| SEO & metadata | [08-SEO-and-Meta](03-Web-Developer/08-SEO-and-Meta.md) | — |
+| Testing + ⭐ Codex check | [09-Testing](03-Web-Developer/09-Testing.md) | [09-Testing](04-App-Developer/09-Testing.md) |
+| ⭐⭐ **The pre-launch audit** | [10-Ship-Checklist](03-Web-Developer/10-Ship-Checklist.md) | [10-Ship-Checklist](04-App-Developer/10-Ship-Checklist.md) |
+| After launch | [11-Post-Launch](03-Web-Developer/11-Post-Launch.md) | [11-Release-and-After](04-App-Developer/11-Release-and-After.md) |
+
+> ⭐ **Web and app are maintained separately.** The failures are genuinely different — the web
+> folder is about bills, leaks and horizontal scrolling; the app folder is about not being able to
+> hotfix, old versions that never die, and a battery the user can watch you drain.
 
 ---
 

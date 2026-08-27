@@ -1,72 +1,73 @@
-# 📱 App Developer — Complete Domain
+# 📱 App Development — the vibe-coding library
 
-Everything needed to take a mobile app from idea to the stores and keep it alive. Self-contained:
-nothing here depends on another folder.
-
-**Work the phases in order.** Each one gates the next.
+**A dictionary, not a course.** Look things up when you need them. Works for any mobile project.
 
 ---
 
-## Phases
+## ⭐⭐ Start here — the two memory files
 
-| # | Phase | Gate to pass |
-|---|-------|--------------|
-| [00](00-Stack-and-Services.md) | **Stack & Services** | Store accounts registered, spend caps set |
-| [01](01-Scope-and-Planning.md) | **Scope & Planning** | PRD, **versioned** API contract, auth matrix |
-| [02](02-Design-System.md) | **Design System** | Tokens defined, four states per screen, platform rules chosen |
-| [03](03-Architecture-and-Data.md) | **Architecture & Data** | ERD final, RLS tested, offline strategy decided per screen |
-| [04](04-Build.md) | **Build** | `CLAUDE.md` committed, real device build by day two |
-| [05](05-API-Safety.md) | **API Safety** | No API call in `build()`/render; every listener cleaned up |
-| [06](06-Security.md) | **Security** | Tokens in SecureStore, no secrets in the bundle, IDOR test passed |
-| [07](07-Performance.md) | **Performance** | 60fps on a **low-end** Android, cold start < 2s |
-| [08](08-Testing-and-Review.md) | **Testing & Review** | `/code-review` + `/security-review` clean, real device matrix done |
-| [09](09-Observability.md) | **Observability** | Sentry with native symbolication, crash-free rate visible |
-| [10](10-Release.md) | **Release** | Store assets ready, OTA path verified, staged rollout planned |
-| [11](11-Post-Launch.md) | **Post-Launch** | Crash-free > 99.5%, reviews monitored |
+| File | What it is |
+|---|---|
+| ⭐⭐ **[AGENT-CONTEXT.md](AGENT-CONTEXT.md)** | **The memory.** Keep it in Notion. Paste it into a new chat before asking for any mobile work. Written *to the agent*, self-sufficient. |
+| ⭐⭐ **[CLAUDE-md-template.md](CLAUDE-md-template.md)** | **The per-project rules file.** Lives at the repo root, read automatically every session. |
+
+> ⭐ **Use both.** Notion carries the rules *between* projects. `CLAUDE.md` carries the specifics *of*
+> this one.
+
+---
+
+## ⭐⭐ Five facts that drive everything here
+
+```
+① ⭐⭐ YOU CANNOT HOTFIX — a store review is 1–3 days
+② ⭐⭐ OLD VERSIONS NEVER DIE — every API change is additive
+③ ⭐⭐ THE NETWORK IS HOSTILE — offline is designed, not caught
+④ ⭐⭐ THE OS KILLS YOU — without warning, at any moment
+⑤ ⭐⭐ THE BUNDLE IS PUBLIC — there are no secrets in a mobile app
+```
+
+---
+
+## The library
+
+| File | Look here for |
+|---|---|
+| [00-Stack.md](00-Stack.md) | Services, setup order, spend caps, ⭐⭐ **IAP vs Stripe**, ⭐ **the OTA question** |
+| [01-Workflow.md](01-Workflow.md) | ⭐⭐ **Plan mode + the native-code trigger**, prompting, ⭐ **the Codex cross-check**, why the simulator is not evidence |
+| [02-UI-System.md](02-UI-System.md) | Native-feeling UI, ⭐⭐ **platform conventions**, tokens, the eight components, the five states |
+| [03-App-Rules.md](03-App-Rules.md) | ⭐⭐ **The loops that cost battery**, listeners that leak, ⭐ **offline per screen**, the OS killing you, forms, notifications |
+| [05-Security.md](05-Security.md) | ⭐⭐ **Is customer data safe on a device you don't control** — secure store, unzip your own build, the ID-swap test through a proxy |
+| [06-Performance.md](06-Performance.md) | ⭐⭐ **60fps on a cheap Android** — lists, images, animation, cold start, memory, app size |
+| [09-Testing.md](09-Testing.md) | The six-point skim, ⭐⭐ **the Codex final check**, ⭐ **the device matrix** |
+| ⭐⭐ [10-Ship-Checklist.md](10-Ship-Checklist.md) | **The pre-submission audit.** Nothing submits until it passes. |
+| [11-Release-and-After.md](11-Release-and-After.md) | ⭐⭐ **Staged rollout**, halting a bad release, feature flags as a kill switch, keeping old versions working |
 
 **Reference:** [Component Libraries](Reference/Component-Libraries.md) ·
 [**Distribution Options**](Reference/Distribution-Options.md) — with and without the stores
 
-> **Do you actually need the stores?** For public iOS distribution, yes — there is no legitimate
-> way around Apple review. Android has real alternatives, and a PWA skips both entirely.
-> Decide in [Phase 01](01-Scope-and-Planning.md): [Distribution Options](Reference/Distribution-Options.md)
+> **Do you actually need the stores?** For public iOS distribution, yes. Android has real
+> alternatives, and a PWA skips both entirely.
+> → [Distribution Options](Reference/Distribution-Options.md)
 
 ---
 
-## What makes mobile different from web
+## ⭐ By task — what do I need right now?
 
-Read this before anything else — these five facts drive every decision in this folder.
-
-1. **You cannot hotfix.** A web bug is fixed in 3 minutes. An App Store review takes 1–3 days.
-   Set up OTA updates (EAS Update) **before** you need them.
-2. **The network is hostile.** Users are on 3G, in lifts, on trains. Every request will fail
-   sometimes. Offline behaviour is a feature, not an edge case.
-3. **Nothing in the app bundle is secret.** Anyone can unzip an APK. Keys shipped in the app are
-   public keys — treat them that way.
-4. **Battery and data are the user's, not yours.** A polling loop that's merely wasteful on web
-   gets your app uninstalled.
-5. **The store is a gatekeeper.** Apple and Google reject apps for policy reasons that have nothing
-   to do with whether the code works.
-
----
-
-## The stack
-
-| Layer | Service | Role |
-|---|---|---|
-| Framework | **React Native + Expo** | One codebase, most agent-friendly |
-| Builds | **EAS Build** | Cloud builds — ship iOS without a Mac |
-| OTA updates | **EAS Update** | Your kill switch and fast-fix path |
-| Database | **Supabase** | Postgres, storage, realtime, RLS |
-| Auth | **Clerk** | Sessions, MFA, biometrics |
-| Payments | **Stripe** / IAP | Physical goods vs digital goods — the rules differ |
-| Errors | **Sentry** | Native crashes + JS errors, the 3am call |
-| Version control | **GitHub** | Repo, Actions CI, secret scanning |
-| Edge / API | **Cloudflare** | WAF, CDN, R2 for assets |
-| Redis | **Upstash** | Rate limiting — critical, since you can't patch clients fast |
-| Vector DB | **Pinecone** | Semantic search / RAG, if the app has AI features |
-
-Full setup and configuration: **[00-Stack-and-Services.md](00-Stack-and-Services.md)**
+| I am… | Read |
+|---|---|
+| **Starting a project** | [00-Stack](00-Stack.md) → ⭐⭐ decide IAP vs Stripe → [CLAUDE-md-template](CLAUDE-md-template.md) |
+| **Building the UI** | [02-UI-System](02-UI-System.md) |
+| **Adding a feature** | [01-Workflow §1](01-Workflow.md) → [03-App-Rules](03-App-Rules.md) |
+| **Adding a library** | ⭐⭐ [01-Workflow §5](01-Workflow.md) — **does it add native code?** |
+| **Adding payments** | ⭐⭐ [00-Stack §4](00-Stack.md) + [05-Security §5](05-Security.md) |
+| **Adding auth** | [05-Security §1 §2](05-Security.md) — ⭐ tokens in secure store |
+| **Adding a permission** | [05-Security §4](05-Security.md) — ⭐ at point of use, with a reason |
+| **Told "it's slow / janky"** | [06-Performance](06-Performance.md) — ⭐ measure on a cheap Android |
+| **Asked "is it secure?"** | [05-Security](05-Security.md) — ⭐⭐ unzip your own build |
+| **Handling offline** | [03-App-Rules §4](03-App-Rules.md) |
+| **About to submit** | ⭐⭐ [10-Ship-Checklist](10-Ship-Checklist.md) |
+| **Just released** | [11-Release-and-After §5](11-Release-and-After.md) |
+| **Something is broken in production** | ⭐⭐ [11-Release-and-After §3](11-Release-and-After.md) — **halt the rollout first** |
 
 ---
 
@@ -74,28 +75,38 @@ Full setup and configuration: **[00-Stack-and-Services.md](00-Stack-and-Services
 
 1. **Git before prompt.** Commit before every AI session.
 2. **Never merge code you can't explain line by line.**
-3. **Authorization is server-side or it doesn't exist** — and a mobile client is fully under the
-   attacker's control.
-4. **Every API call needs a ceiling** — a loop guard, a retry cap, and a spend alert.
-5. **Verify every package the agent adds.**
+3. **Authorization is server-side or it doesn't exist.**
+4. **Every API call needs a ceiling** — loop guard, retry cap, spend alert. ⭐ On mobile it also
+   costs the user battery and data.
+5. **Verify every package** — ⭐⭐ and ask whether it adds native code.
 
 ---
 
-## The three failures that cause the most damage
+## ⭐⭐ The three failures that cause the most damage
 
-| Failure | Cause | Phase |
+| Failure | Cause | Where |
 |---|---|---|
-| Infinite request loop | An API call inside Flutter's `build()` or an RN render body | [05](05-API-Safety.md) |
-| Stolen sessions | Tokens in AsyncStorage instead of SecureStore | [06](06-Security.md#2-token-storage) |
-| Rejected release | No in-app account deletion, or digital goods sold outside IAP | [10](10-Release.md#3-legal--privacy--where-most-rejections-happen) |
+| **A broken release you cannot recall** | No staged rollout, no force-update switch | [11-Release §2 §3](11-Release-and-After.md) |
+| **Cross-user data leak** | No server-side ownership filter | [05-Security §2](05-Security.md) |
+| **"Drains my battery" reviews** | A loop, a poll, or a leaked listener | [03-App-Rules §2 §3](03-App-Rules.md) |
 
 ---
 
-## Review gates
+## The 90-second check, any time
 
 ```
-/code-review          # correctness bugs, simplification, efficiency
-/security-review      # security review of pending changes on the branch
+① ⭐⭐ ID-swap through a proxy — can A read B's data?
+② ⭐⭐ Airplane mode — offline state, or a spinner?
+③ ⭐ Every form with the keyboard up — is the button reachable?
+④ ⭐⭐ Run it on a cheap Android — does it stutter?
+⑤ ⭐ Filter a list to zero — which empty state?
+⑥ ⭐⭐ Unzip the build and grep for secrets
+⑦ ⭐ Largest system font — does text clip?
+⑧ ⭐⭐ Force-kill mid-action and reopen — what state?
+⑨ ⭐ Digital or physical goods — is the payment type right?
+⑩ ⭐⭐ Deny every permission — does it still work?
 ```
 
-Details and Codex cross-checking: **[08-Testing-and-Review.md](08-Testing-and-Review.md)**
+---
+
+**Web:** [`03-Web-Developer`](../03-Web-Developer/) — same idea, different failures.
