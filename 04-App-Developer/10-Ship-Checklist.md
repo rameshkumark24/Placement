@@ -159,6 +159,19 @@ failure."* Section by section — not all at once.
 □ Screenshots at every required size, real content, no placeholder art
 □ App icon at every size, no alpha channel on iOS
 □ Description, keywords, category, age rating, export compliance
+□ ⭐⭐ IF USERS CAN POST ANYTHING OTHERS SEE — including AI-generated
+   content — APPLE REQUIRES ALL FOUR: a filter, a REPORT action, a
+   BLOCK action, and published contact info.
+   ⭐ One of the most common rejections for social features, and people
+     are always surprised by it.
+□ ⭐⭐ IN-APP ACCOUNT DELETION — required if users can create an
+   account. Not "email us". And it must reach every system.
+□ ⭐ TERMS / EULA — with a no-tolerance abuse policy if you have UGC
+□ ⭐ npx license-checker — no GPL/AGPL · an open-source licences
+   screen in settings
+□ ⭐ ATT PROMPT if you track across apps — and nothing tracks before it
+□ ⭐ SUBSCRIPTION PAYWALL STATES price, period, renewal and how to
+   cancel — ⭐⭐ vague paywalls are a very common rejection
 □ ⭐ PERMISSION USAGE STRINGS EXPLAIN WHY, in plain language.
    "This app needs camera access" is rejected. "To scan the barcode on
    your receipt" is not.
@@ -207,6 +220,10 @@ failure."* Section by section — not all at once.
 ⑨ ⭐ Digital or physical goods — is the payment type right?
 ⑩ ⭐⭐ Deny every permission — does it still work?
 ```
+
+---
+
+> ⭐ **Full legal checklist:** [12-Legal-and-Compliance.md §10](12-Legal-and-Compliance.md)
 
 ---
 

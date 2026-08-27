@@ -276,6 +276,12 @@ STORE
 OPERATIONS
   □ ⭐ SENTRY WITH NATIVE SYMBOLICATION — and a real crash tested
   □ ⭐⭐ CRASH-FREE RATE VISIBLE. Target > 99.5%.
+  □ ⭐⭐ LEGAL — privacy policy URL live and reachable IN-APP ·
+     terms/EULA · ⭐ IF USERS CAN POST ANYTHING: report, block, filter
+     and contact info (Apple requires all four) · ⭐⭐ IN-APP ACCOUNT
+     DELETION that reaches every system
+  □ ⭐ npx license-checker — no GPL/AGPL · an open-source licences
+     screen in settings
   □ ⭐ THE OTA UPDATE PATH TESTED ONCE, END TO END
   □ ⭐⭐ A STAGED ROLLOUT PLANNED — never 100% on day one
   □ ⭐ FORCE-UPDATE MECHANISM EXISTS, for the day you must kill a
@@ -303,6 +309,11 @@ OPERATIONS
  ⑧ ⭐⭐ AGREEING WITH ME WHEN I AM WRONG. If I ask for something that
     will leak data, drain battery, or get rejected — SAY SO FIRST.
 ```
+
+---
+
+> ⭐ **Depth:** [12-Legal-and-Compliance.md](12-Legal-and-Compliance.md) ·
+> **If the app uses a model:** [13-AI-Features.md](13-AI-Features.md)
 
 ---
 

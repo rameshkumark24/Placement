@@ -179,7 +179,46 @@
 
 ---
 
-# 9 · The engineering basics an agent will skip
+# 9 · ⭐⭐ Sending email — deliverability is not optional
+
+```
+⭐⭐ AN EMAIL THAT LANDS IN SPAM IS A FEATURE THAT DOES NOT WORK, AND
+   NOTHING IN YOUR LOGS SAYS SO. Your app reports "sent". The user
+   never got the password reset. They leave.
+
+⭐ THE THREE DNS RECORDS. ALL THREE, OR YOU ARE IN SPAM:
+  ① ⭐ SPF   — which servers may send as your domain
+  ② ⭐ DKIM  — a signature proving the mail was not altered
+  ③ ⭐⭐ DMARC — what to do when SPF/DKIM fail, and WHERE TO SEND
+         REPORTS. ⭐ Start at p=none and READ the reports before
+         moving to quarantine or reject.
+  ⇒ ⭐ YOUR EMAIL PROVIDER GIVES YOU THESE RECORDS. ADDING THEM IS
+    TEN MINUTES AND IT IS THE DIFFERENCE BETWEEN ARRIVING AND NOT.
+```
+
+```
+□ ⭐⭐ SEND FROM A SUBDOMAIN (mail.yoursite.com) — so a
+   deliverability problem does not damage your main domain's reputation
+□ ⭐ SEPARATE TRANSACTIONAL FROM MARKETING — different subdomains,
+   different reputations. ⭐⭐ ONE BAD CAMPAIGN MUST NOT STOP PASSWORD
+   RESETS FROM ARRIVING.
+□ ⭐ A REAL FROM ADDRESS THAT ACCEPTS REPLIES. "noreply@" is a bad
+   default and some filters treat it as a signal.
+□ ⭐⭐ HANDLE BOUNCES AND COMPLAINTS — keep sending to a dead
+   address and your reputation falls for everyone.
+□ ⭐ WARM UP A NEW DOMAIN. Do not send 10,000 emails on day one.
+□ ⭐ TEST WITH mail-tester.com OR SIMILAR BEFORE LAUNCH — it scores
+   you and names what is missing.
+□ ⭐⭐ SEND YOURSELF A PASSWORD RESET AT GMAIL, OUTLOOK **AND** A
+   CORPORATE DOMAIN. ⭐ They filter very differently.
+□ Plain-text alternative alongside the HTML
+□ ⭐ UNSUBSCRIBE + POSTAL ADDRESS ON MARKETING MAIL — legal, not
+   optional (→ [12-Legal-and-Compliance.md §6](12-Legal-and-Compliance.md))
+```
+
+---
+
+# 10 · The engineering basics an agent will skip
 
 ```
 ⭐⭐ IT WILL BUILD THE FEATURE. IT WILL NOT ADD THESE UNLESS YOU ASK.
@@ -201,4 +240,5 @@
 ---
 
 **Back:** [folder index](README.md) · **Security:** [05-Security.md](05-Security.md) ·
-**Scale:** [06-Traffic-and-Scale.md](06-Traffic-and-Scale.md)
+**Scale:** [06-Traffic-and-Scale.md](06-Traffic-and-Scale.md) ·
+**AI features:** [13-AI-Features.md](13-AI-Features.md)

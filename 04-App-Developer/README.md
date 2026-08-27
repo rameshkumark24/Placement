@@ -41,6 +41,8 @@
 | [09-Testing.md](09-Testing.md) | The six-point skim, ⭐⭐ **the Codex final check**, ⭐ **the device matrix** |
 | ⭐⭐ [10-Ship-Checklist.md](10-Ship-Checklist.md) | **The pre-submission audit.** Nothing submits until it passes. |
 | [11-Release-and-After.md](11-Release-and-After.md) | ⭐⭐ **Staged rollout**, halting a bad release, feature flags as a kill switch, keeping old versions working |
+| ⭐⭐ [12-Legal-and-Compliance.md](12-Legal-and-Compliance.md) | **The store is a regulator** — privacy forms vs your SDKs, ⭐ **the four UGC requirements**, in-app account deletion, licences |
+| [13-AI-Features.md](13-AI-Features.md) | ⭐ **If the app uses a model** — the key cannot be in the app, serve the prompt from your server, the store's AI rules |
 
 **Reference:** [Component Libraries](Reference/Component-Libraries.md) ·
 [**Distribution Options**](Reference/Distribution-Options.md) — with and without the stores
@@ -62,6 +64,9 @@
 | **Adding payments** | ⭐⭐ [00-Stack §4](00-Stack.md) + [05-Security §5](05-Security.md) |
 | **Adding auth** | [05-Security §1 §2](05-Security.md) — ⭐ tokens in secure store |
 | **Adding a permission** | [05-Security §4](05-Security.md) — ⭐ at point of use, with a reason |
+| **Adding an AI feature** | ⭐⭐ [13-AI-Features.md](13-AI-Features.md) |
+| **Adding user-generated content** | ⭐⭐ [12-Legal §4](12-Legal-and-Compliance.md) — report, block, filter, contact |
+| **Asked “is this legal?”** | ⭐⭐ [12-Legal-and-Compliance.md](12-Legal-and-Compliance.md) |
 | **Told "it's slow / janky"** | [06-Performance](06-Performance.md) — ⭐ measure on a cheap Android |
 | **Asked "is it secure?"** | [05-Security](05-Security.md) — ⭐⭐ unzip your own build |
 | **Handling offline** | [03-App-Rules §4](03-App-Rules.md) |

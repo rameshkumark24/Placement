@@ -311,8 +311,17 @@ OPERATIONS
   □ Uptime check + alert that reaches my phone
   □ Analytics recording the one action the site exists for
   □ ⭐ ROLLBACK TESTED — not "possible", actually done once
-  □ Legal pages if you collect anything: privacy, terms, cookie notice
+  □ ⭐⭐ LEGAL — privacy policy, terms, cookie notice and refund
+     policy exist, are linked, and DO NOT 404 on the live domain
+  □ ⭐ No non-essential tracker fires before consent
+  □ ⭐ "Delete my account" works and reaches every system
+  □ ⭐⭐ npx license-checker — no AGPL/GPL in a commercial product
+  □ ⭐ Every font and image has a licence you have read
+  □ ⭐ Email: SPF, DKIM and DMARC set — or resets land in spam
 ```
+
+> ⭐ **Depth:** [12-Legal-and-Compliance.md](12-Legal-and-Compliance.md) ·
+> **If the product uses a model:** [13-AI-Features.md](13-AI-Features.md)
 
 ---
 

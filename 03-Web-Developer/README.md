@@ -33,6 +33,8 @@ one specific build.
 | [09-Testing.md](09-Testing.md) | The six-point skim, ⭐⭐ **the Codex final check**, tests worth having, real-device testing |
 | ⭐⭐ [10-Ship-Checklist.md](10-Ship-Checklist.md) | **The pre-launch audit.** Nothing goes live until it passes. |
 | [11-Post-Launch.md](11-Post-Launch.md) | Alerts, backups, incidents, the tech debt log, scaling triggers |
+| ⭐⭐ [12-Legal-and-Compliance.md](12-Legal-and-Compliance.md) | **The four documents**, consent before tracking, account deletion, ⭐ **dependency and font licences**, email compliance, tax |
+| [13-AI-Features.md](13-AI-Features.md) | ⭐ **If the product itself uses a model** — prompt injection, output as untrusted input, cost, hallucination |
 
 **Reference:** [Component Libraries](Reference/Component-Libraries.md) ·
 [API Notes](Reference/API-Notes.md)
@@ -48,7 +50,9 @@ one specific build.
 | **Adding a feature** | [01-Workflow §1 plan mode](01-Workflow.md) → [03-Frontend](03-Frontend.md) / [04-Backend](04-Backend.md) |
 | **Adding payments** | [04-Backend §4 idempotency](04-Backend.md) + [05-Security §6](05-Security.md) + [00-Stack §5](00-Stack.md) |
 | **Adding auth** | [05-Security §1 §5](05-Security.md) |
-| **Adding an AI feature** | [06-Traffic-and-Scale §5 abuse](06-Traffic-and-Scale.md) + [00-Stack §3 spend caps](00-Stack.md) |
+| **Adding an AI feature** | ⭐⭐ [13-AI-Features.md](13-AI-Features.md) |
+| **Sending email** | [04-Backend §9](04-Backend.md) — ⭐ SPF/DKIM/DMARC, or it lands in spam |
+| **Asked “is this legal?”** | ⭐⭐ [12-Legal-and-Compliance.md](12-Legal-and-Compliance.md) |
 | **Told "it's slow"** | [07-Performance](07-Performance.md) — ⭐ measure before you touch anything |
 | **Asked "is it secure?"** | [05-Security](05-Security.md) — ⭐⭐ run the ID-swap test |
 | **Asked "will it scale?"** | [06-Traffic-and-Scale](06-Traffic-and-Scale.md) — ⭐ do the arithmetic first |

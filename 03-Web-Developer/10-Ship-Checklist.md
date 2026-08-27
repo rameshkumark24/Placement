@@ -265,8 +265,19 @@ failure."* Work section by section — not all at once, or you get a 900-line di
 □ Cookies: Secure, HttpOnly, SameSite — checked in the Application tab
    ⭐ Secure cookies silently do not set over plain HTTP
 □ Backups on, and a restore tested once
-□ Legal pages if you collect anything: privacy policy, terms, cookie notice
+□ ⭐⭐ LEGAL — privacy policy, terms, cookie notice, refund policy:
+   they EXIST, they are LINKED, and they DO NOT 404 on the live domain
+□ ⭐ Grep the legal pages for "[COMPANY", "[YOUR", "lorem"
+□ ⭐⭐ No non-essential tracker fires before consent (check the Network
+   tab on a fresh browser profile)
+□ ⭐ "Delete my account" works, and you know every system it touches
+□ ⭐⭐ npx license-checker — no AGPL/GPL in a commercial product
+□ ⭐ Every font, icon set and image has a licence you have read
+□ ⭐⭐ EMAIL: SPF, DKIM and DMARC set, and you sent yourself a password
+   reset at Gmail, Outlook AND a corporate domain
 ```
+
+> ⭐ **Full legal checklist:** [12-Legal-and-Compliance.md §10](12-Legal-and-Compliance.md)
 
 ---
 
