@@ -244,8 +244,44 @@ articulation drill.
 | [212](Day-212.md) | Indexes (**ESR**) & the **aggregation pipeline** | 5 |
 | [213](Day-213.md) | 🚪🚪 Transactions, sharding · **STAGE 5 EXIT GATE** | 5 |
 
-> **Days 214–247 are Stage 6 — Frontend**, which lives in
-> [`03-Web-Developer`](../../03-Web-Developer/). The Java track resumes at Day 248.
+
+| [214](Day-214.md) | 🌐 **Stage 6 opens** — ⭐⭐ why a Spring engineer learns the frontend, and how much | 6 |
+| [215](Day-215.md) | 📜 **JavaScript, the parts worth writing** — ⭐ and the traps your Java instincts walk into | 6 |
+| [216](Day-216.md) | ⏳ **Async JavaScript** — ⭐⭐ one thread, and it also draws the screen | 6 |
+| [217](Day-217.md) | 📡 **`fetch`** — ⭐⭐ the HTTP client whose error model has no errors in it | 6 |
+| [218](Day-218.md) | 🛡️ **TypeScript** — ⭐⭐ structural typing after a career of `implements` | 6 |
+| [219](Day-219.md) | 🧩 **TypeScript in practice** — ⭐⭐ `@Valid` at the boundary, written by hand | 6 |
+| [220](Day-220.md) | 🌳 **The DOM as an API** — ⭐⭐ and why every framework exists | 6 |
+| [221](Day-221.md) | 📦 **npm against Maven** — ⭐⭐ 900 packages you did not choose | 6 |
+| [222](Day-222.md) | 🏗️ **The build step** — ⭐⭐ there is no `application.properties` here | 6 |
+| [223](Day-223.md) | ⚛️ **React's actual model** — ⭐⭐ UI as a function of state, and what a re-render is not | 6 |
+| [224](Day-224.md) | 🧱 **Components and props** — ⭐⭐ the twelve-boolean component | 6 |
+| [225](Day-225.md) | 🎯 **State** — ⭐⭐ derived state is a bug, and the four questions | 6 |
+| [226](Day-226.md) | 🪝 **Effects and the dependency array** — ⭐⭐ the infinite loop that bills you | 6 |
+| [227](Day-227.md) | 🔄 **Data fetching, properly** — ⭐⭐ the waterfall is N+1 in the network tab | 6 |
+| [228](Day-228.md) | 🗃️ **The server cache** — ⭐⭐ server data was never client state | 6 |
+| [229](Day-229.md) | 📝 **Forms** — ⭐⭐ two validators, one contract, and the 400 that lands on the right field | 6 |
+| [230](Day-230.md) | 🔑 **Lists, keys and reconciliation** — ⭐⭐ the index key corrupts data | 6 |
+| [231](Day-231.md) | 🌍 **Context** — ⭐⭐ dependency injection for the tree, not a state manager | 6 |
+| [232](Day-232.md) | ⚡ **Performance** — ⭐⭐ measure first, because most `useMemo` makes things slower | 6 |
+| [233](Day-233.md) | 🧭 **Routing** — ⭐⭐ the URL is state, and the loader that kills the waterfall | 6 |
+| [234](Day-234.md) | 🖥️ **Rendering strategies** — ⭐⭐ the question that picks one | 6 |
+| [235](Day-235.md) | 🔐 **Auth in the browser** — ⭐⭐ the decision Spring Security cannot make for you | 6 |
+| [236](Day-236.md) | 🚫 **Authorization is server-side or it doesn't exist** — ⭐⭐ a hidden button is not a permission | 6 |
+| [237](Day-237.md) | 🔀 **CORS from the other side** — ⭐⭐ it protects other sites from you | 6 |
+| [238](Day-238.md) | 🎨 **Styling** — ⭐⭐ looking competent without being a designer | 6 |
+| [239](Day-239.md) | ♿ **Accessibility** — ⭐⭐ four things, and the keyboard test | 6 |
+| [240](Day-240.md) | 🩹 **Error boundaries and empty states** — ⭐⭐ the white screen, and what boundaries miss | 6 |
+| [241](Day-241.md) | 📊 **Frontend performance** — ⭐⭐ why Actuator said 40 ms and the user waited 3 seconds | 6 |
+| [242](Day-242.md) | 🖼️ **Images and fonts** — ⭐⭐ 70% of your bytes, and the cheapest wins available | 6 |
+| [243](Day-243.md) | 🛡️ **Frontend security** — ⭐⭐ XSS, and the control that survives your mistake | 6 |
+| [244](Day-244.md) | 🧪 **Testing the frontend** — ⭐⭐ behaviour, not implementation | 6 |
+| [245](Day-245.md) | 🚀 **Deploying a frontend** — ⭐⭐ the deploy that breaks every open tab | 6 |
+| [246](Day-246.md) | 🔗 **The full-stack contract** — ⭐⭐ making a renamed DTO field a build failure | 6 |
+| [247](Day-247.md) | 🚪🚪 **STAGE 6 EXIT GATE** — ⭐⭐ six shapes, five proofs, and an honest scope claim | 6 |
+
+> ✅ **Stage 6 complete (34/34)** — [gate](Day-247.md). ⭐⭐ The UI is the artefact;
+> **the API findings are the result.**
 
 | Day | Focus | Stage |
 |---|---|---|
@@ -273,8 +309,17 @@ articulation drill.
 | [269](Day-269.md) | 🏗️ Search & reporting — the read path with different rules | 7 |
 | [270](Day-270.md) | 🚪🏗️ **Data & async gate** — ⭐ the failure drill | 7 |
 
-> **Days 271–280 are the flagship frontend**, in
-> [`03-Web-Developer`](../../03-Web-Developer/). The Java track resumes at Day 281.
+
+| [271](Day-271.md) | 🏗️ **The flagship's UI I** — ⭐⭐ the screen list, and what you refuse to build | 7 |
+| [272](Day-272.md) | 🎨 **The design system for one app** — ⭐⭐ eight components, and knowing when to stop | 7 |
+| [273](Day-273.md) | 🔌 **The API layer** — ⭐⭐ one place for auth, errors, retries and keys | 7 |
+| [274](Day-274.md) | 🔐 **Auth end to end** — ⭐⭐ the expired session that must not lose the user's work | 7 |
+| [275](Day-275.md) | 📋 **The list screen** — ⭐⭐ the most-visited screen, and the one that reveals your API | 7 |
+| [276](Day-276.md) | ⚡ **The detail and the action** — ⭐⭐ the screen the project exists for | 7 |
+| [277](Day-277.md) | 📡 **Real-time in the UI** — ⭐⭐ the update that arrives while the user is typing | 7 |
+| [278](Day-278.md) | ✨ **Polish** — ⭐⭐ twelve details, and the seed data that decides everything | 7 |
+| [279](Day-279.md) | 🚢 **Shipping it** — ⭐⭐ finding out before your users tell you | 7 |
+| [280](Day-280.md) | 🚪🚪 **The flagship frontend gate** — ⭐⭐ the demo, and what it changed on the server | 7 |
 
 | Day | Focus | Stage |
 |---|---|---|
@@ -451,9 +496,9 @@ articulation drill.
 | [488](Day-488.md) | 🚪🚪 **Negotiation, the offer, and THE CLOSE** — ✅✅ **488 days** | 15 |
 
 **✅ Stage 0 (22/22).** **✅ Stage 1 (64/64).** **✅ Stage 2 (25/25).** **✅ Stage 3 (33/33).**
-**✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).** **✅ Stage 7 (40/40 Java-side)** — ✅ **both projects
-complete**. The 10 frontend days (271–280) live in
-[`03-Web-Developer`](../../03-Web-Developer/).
+**✅ Stage 4 (57/57).** **✅ Stage 5 (28/28).**
+**✅✅ Stage 6 (34/34)** — ⭐⭐ **the frontend, written for a Spring engineer** — [gate](Day-247.md).
+**✅ Stage 7 (50/50)** — ✅ **both projects complete, including the flagship's frontend (271–280).**
 **✅ Stage 8 (25/25)** — principles, method, **eleven problems** and the gate.
 **✅ Stage 9 (39/39)** — ✅✅ **COMPLETE SDE — Stages 0–9 finished.**
 **✅ Stage 10 (20/20)** — containers, pipelines, deployment, observability, Kubernetes and IaC.
@@ -461,13 +506,13 @@ complete**. The 10 frontend days (271–280) live in
 **✅ Stage 12 (16/16)** — ✅✅ **senior-track distributed systems finished.**
 **✅ Stage 15 (27/27)** — resume, behavioural, project defence, 5 DSA mocks, 4 LLD rounds,
 5 system design rounds, levelling and negotiation.
-**✅✅ 416 day files written — THE JAVA SDE ROADMAP IS COMPLETE.**
-(396 numbered days · 20 inserted days on letter suffixes, so nothing renumbers.)
+**✅✅ 460 day files written — THE JAVA TRACK IS COMPLETE.**
+(440 numbered days · 20 inserted days on letter suffixes, so nothing renumbers.)
 Parallel tracks: **C-01–C-14** ✅, **B-01–B-16** ✅, **D-01–D-16** ✅ — all finished.
 ✅ **Stages 13 & 14 (48/48)** — Days 414–461, AI engineering, written in Python and routed by
 ⭐⭐ **[the crossing](../Roadmap/Stage-13-14-Bridge.md)**.
-Stage 6 (frontend, Days 214–247 and 271–280) lives in [`03-Web-Developer`](../../03-Web-Developer/).
-✅✅ **Every day 001–488 is written — 430 in this track, 48 in Python, 10 in Web.**
+✅✅ **Every day 001–488 is written — 440 numbered days in this track, plus 20 inserted days;
+Days 414–461 are the crossing.**
 
 ---
 

@@ -3,7 +3,7 @@
 | File | Contents |
 |---|---|
 | ⭐ [**Roadmap/**](Roadmap/README.md) | **The day-by-day plan.** 488 days, Stage 0 → Stage 15, mirroring the [Java track](../02-Java-Developer/Roadmap/README.md) stage for stage |
-| ⭐ [**Days/**](Days/README.md) | **The written lessons.** One file per day — ✅✅ **complete: all 488 days, 448 files** |
+| ⭐ [**Days/**](Days/README.md) | **The written lessons.** One file per day — ✅✅ **complete: all 488 days, 492 files** |
 | [Python-Vibe-Coding-Cheatsheet.md](Python-Vibe-Coding-Cheatsheet.md) | Reference guide. Stack, project layout, Python-specific AI-code traps, API safety, security, testing, delivery |
 
 > Universal build/security/API rules live in [`03-Web-Developer`](../03-Web-Developer/) phases
@@ -21,8 +21,8 @@
 | 102–129 | Backend, framework-free | Can build an API with no framework |
 | 130–185 | **FastAPI & Django** | Backend interview-ready |
 | 186–213 | Databases | Can fix a slow query live |
-| 214–247 | Frontend → [`03-Web-Developer`](../03-Web-Developer/) | 🌐 Build the UI for your own API |
-| 248–297 | Projects | Two defensible projects (271–280 🌐) |
+| 214–247 | ⭐⭐ **The Frontend** — for a backend engineer | ✅ Ships the client for its own API |
+| 248–297 | Projects | Two defensible projects, frontend included |
 | 298–321 | LLD | LLD rounds cleared |
 | 322–359 | System Design | ✅ **COMPLETE SDE** |
 | 360–413 | DevOps · AWS · Distributed Systems | Ships own work, in the cloud, at senior depth |

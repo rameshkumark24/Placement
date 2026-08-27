@@ -3,9 +3,10 @@
 **Two 488-day engineering tracks, two complete build domains, and the common material — finished.**
 
 > ✅✅ **Every day from 001 to 488 is written, in both tracks.**
-> **931 markdown files · 0 broken links.** Python: 448 day files. Java: 416 day files. The frontend
-> stage lives in [`03-Web-Developer`](03-Web-Developer/); AI engineering (Days 414–461) is written
-> once, in Python, and routed from Java by ⭐⭐ **[the crossing](02-Java-Developer/Roadmap/Stage-13-14-Bridge.md)**.
+> **Python: 492 day files. Java: 460 day files.** Every stage now lives inside the track that needs
+> it — including ⭐⭐ **the frontend (214–247, 271–280), written for a backend engineer in each
+> language.** AI engineering (414–461) is written once, in Python, and routed from Java by
+> ⭐⭐ **[the crossing](02-Java-Developer/Roadmap/Stage-13-14-Bridge.md)**.
 
 ---
 
@@ -15,7 +16,7 @@
 |---|--------|---|
 | 01 | [**Python Developer**](01-Python-Developer/) | ⭐⭐ **488-day track, complete.** Stages 0–15, including **AI Engineering (414–461)**. [Day index](01-Python-Developer/Days/README.md) · [roadmap](01-Python-Developer/Roadmap/README.md) |
 | 02 | [**Java Developer**](02-Java-Developer/) | ⭐⭐ **488-day track, complete.** Stages 0–12 and 15 in Java; 13–14 via [the crossing](02-Java-Developer/Roadmap/Stage-13-14-Bridge.md). [Day index](02-Java-Developer/Days/README.md) · [roadmap](02-Java-Developer/Roadmap/README.md) |
-| 03 | [**Web Developer**](03-Web-Developer/) | **Complete 12-phase build domain** — idea to live and maintained. Also owns Stage 6 (Days 214–247, 271–280). |
+| 03 | [**Web Developer**](03-Web-Developer/) | **Complete 12-phase build domain** — idea to live and maintained. Standalone: the tracks no longer depend on it. |
 | 04 | [**App Developer**](04-App-Developer/) | **Complete 12-phase build domain** — idea to store and maintained. |
 | 06 | [Common](06-Common/) | [SQL](06-Common/SQL/) · [Golang](06-Common/Golang/) · [Cloud & DevOps](06-Common/Cloud-DevOps/) · [HR interview](06-Common/HR-Interview/) |
 
@@ -24,7 +25,8 @@
 ## ⭐⭐ The 488 days — one map
 
 Both tracks run the same skeleton with different flesh. **The stage owns the concept; the track owns
-the language.**
+the language.** ⭐ **Each track is self-contained** — no stage sends you to another folder, except
+AI engineering, which is written once and routed by the crossing.
 
 | Days | Stage | Python | Java | Milestone |
 |---|---|---|---|---|
@@ -34,8 +36,8 @@ the language.**
 | 102–129 | **3 · Backend, framework-free** | ✅ | ✅ | An API with no framework |
 | 130–185 | **4 · The framework** | ✅ FastAPI + Django | ✅ Spring Boot | Backend interview-ready |
 | 186–213 | **5 · Databases** | ✅ | ✅ | Fix a slow query live |
-| 214–247 | **6 · Frontend** | 🌐 [Web](03-Web-Developer/) | 🌐 [Web](03-Web-Developer/) | Build the UI for your own API |
-| 248–297 | **7 · Projects** | ✅ | ✅ | Two defensible projects (271–280 🌐) |
+| 214–247 | ⭐⭐ **6 · The Frontend** | ✅ [214–247](01-Python-Developer/Days/Day-214.md) | ✅ [214–247](02-Java-Developer/Days/Day-214.md) | ✅ **Ships the client for its own API** |
+| 248–297 | **7 · Projects** | ✅ | ✅ | Two defensible projects, frontend included |
 | 298–321 | **8 · LLD** | ✅ | ✅ | LLD rounds cleared |
 | 322–359 | **9 · System Design** | ✅ | ✅ | ✅✅ **COMPLETE SDE** |
 | 360–379 | **10 · DevOps** | ✅ | ✅ | Ships own work |

@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **[Roadmap →](Roadmap/README.md)** | Day-by-day path, 341 days to Complete SDE, then Stages 13–15 |
-| **[Written lessons →](Days/README.md)** | Full lesson per day — ✅✅ **complete: 416 files, Days 001–413 and 462–488** |
+| **[Written lessons →](Days/README.md)** | Full lesson per day — ✅✅ **complete: 460 files, Days 001–413 and 462–488** |
 | ⭐⭐ **[Stages 13 & 14 →](Roadmap/Stage-13-14-Bridge.md)** | **The crossing** — Days 414–461 are AI engineering, written in Python. The exact route, and the twelve places a Java instinct is wrong. |
 | **[Gap audit →](Roadmap/Gap-Audit.md)** | What was missing from the original roadmap and what I added |
 | **[DSA parallel track →](Roadmap/DSA-Parallel-Track.md)** | Patterns, signals, the journal method |
@@ -27,8 +27,8 @@
 | 102–129C | Backend Concepts | Can design an API with no framework |
 | 130–185B | Spring Boot | Backend interview-ready |
 | 186–213 | Databases | Can fix a slow query live |
-| 214–247 | Frontend → [`03-Web-Developer`](../03-Web-Developer/) | 🌐 Build the UI for your own API |
-| 248–297 | Projects | Two defensible projects (271–280 🌐) |
+| 214–247 | ⭐⭐ **The Frontend** — for a Spring engineer | ✅ Ships the client for its own API |
+| 248–297 | Projects | Two defensible projects, frontend included |
 | 298–321 | Architecture + LLD | LLD rounds cleared |
 | 322–359 | System Design | ✅ **Complete SDE** |
 | 360–413 | DevOps · AWS · Distributed | Ships own work, senior-track conversations |

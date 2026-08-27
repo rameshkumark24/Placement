@@ -7,7 +7,7 @@ letter suffixes** so nothing renumbers. See [Gap-Audit.md](Gap-Audit.md) for wha
 |---|---|
 | **Total** | 341 days to Complete SDE (Stages 0–12), + Stage 15 conversion |
 | **Added** | 11 days ([audit](Gap-Audit.md)) |
-| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001-413 and 462-488 written** — ✅✅ **THE JAVA SDE ROADMAP IS COMPLETE**: Stages 0–12 and 15, **416 day files** (396 numbered + 20 inserted). |
+| **Written lessons** | [`../Days/`](../Days/) — one file per day. **Days 001–413 and 462–488 written** — ✅✅ **THE JAVA TRACK IS COMPLETE**: Stages 0–12 and 15, **460 day files** (440 numbered + 20 inserted). |
 | **Stages 13 & 14** | ⭐⭐ **[The crossing](Stage-13-14-Bridge.md)** — Days 414–461 are AI engineering, written in Python. The bridge specifies the exact route, the 55 Python-language days you actually need, and the twelve places a Java instinct is wrong. |
 
 ---
@@ -53,6 +53,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 102–129C | [Stage 3 — Backend Concepts](#stage-3--backend-engineering-framework-free) | Can design an API with no framework |
 | 130–185B (+1) | [Stage 4 — Spring Boot](#stage-4--spring--spring-boot) | Backend interview-ready |
 | 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) | Can fix a slow query live |
+| 214–247 | ⭐⭐ **Stage 6 — The Frontend** ([gate](../Days/Day-247.md)) | ✅ **Ships the client for its own API** |
 | 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) | Two defensible projects |
 | 298–321 | [Stage 8 — LLD](#stage-8--architecture--low-level-design) | LLD rounds cleared |
 | 322–359 | [Stage 9 — System Design](#stage-9--system-design) | ✅ **COMPLETE SDE** |
@@ -62,7 +63,9 @@ You can never skip a lesson — but you can pass through it fast.
 | 414–461 | ⭐⭐ **[Stages 13 & 14 — the crossing](Stage-13-14-Bridge.md)** | ✅ **AI Engineer** — in Python |
 | 462–488 | [Stage 15 — Interview Conversion](#stage-15--interview-conversion) | Offers |
 
-> Stage 6 (Frontend, Days 214–247 and 271–280) → [`03-Web-Developer`](../../03-Web-Developer/)
+> ⭐ **Stage 6 (Days 214–247) and the flagship's frontend (271–280) are written in this track**,
+> for a Spring engineer — [`03-Web-Developer`](../../03-Web-Developer/) remains the standalone
+> build domain for pure frontend projects.
 >
 > ⭐⭐ **Stages 13 & 14 (Days 414–461) → [Stage-13-14-Bridge.md](Stage-13-14-Bridge.md)** — read the
 > bridge first. It is the stage: it routes you through **Python Days [023–077](../../01-Python-Developer/Days/Day-023.md)**
