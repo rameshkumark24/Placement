@@ -13,8 +13,8 @@ server-side rate limit.
 
 | # | Question | If no |
 |---|---|---|
-| 1 | Is every API call outside the render body / `build()`? | [§1](#1-the-render-loop) |
-| 2 | Does every fetching effect have a correct dependency array? | [§1](#1-the-render-loop) |
+| 1 | Is every API call outside the render body / `build()`? | [§1]() |
+| 2 | Does every fetching effect have a correct dependency array? | [§1]() |
 | 3 | Are focus/resume refetches time-gated? | [§2](#2-the-focus-refetch-loop) |
 | 4 | Is every listener removed on unmount? | [§3](#3-the-listener-leak) |
 | 5 | Is every `setInterval` cleared, and does polling stop when backgrounded? | [§4](#4-polling--background-behaviour) |

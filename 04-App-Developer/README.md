@@ -85,7 +85,7 @@ Full setup and configuration: **[00-Stack-and-Services.md](00-Stack-and-Services
 
 | Failure | Cause | Phase |
 |---|---|---|
-| Infinite request loop | An API call inside Flutter's `build()` or an RN render body | [05](05-API-Safety.md#1-the-render-loop) |
+| Infinite request loop | An API call inside Flutter's `build()` or an RN render body | [05](05-API-Safety.md) |
 | Stolen sessions | Tokens in AsyncStorage instead of SecureStore | [06](06-Security.md#2-token-storage) |
 | Rejected release | No in-app account deletion, or digital goods sold outside IAP | [10](10-Release.md#3-legal--privacy--where-most-rejections-happen) |
 

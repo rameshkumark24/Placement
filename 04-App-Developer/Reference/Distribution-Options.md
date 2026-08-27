@@ -194,7 +194,7 @@ These are the same rejection triggers listed in
 ## What this changes in the phases
 
 - **PWA route:** [Phase 10](../10-Release.md) becomes web deploy — use
-  [`03-Web-Developer/10-Deploy-and-Launch.md`](../../03-Web-Developer/10-Deploy-and-Launch.md)
+  [`03-Web-Developer/10-Ship-Checklist.md`](../../03-Web-Developer/10-Ship-Checklist.md)
   instead. Phases 05, 06 and 09 still apply in full.
 - **Direct APK route:** you still need Phase 10's signing, versioning and rollout discipline, plus
   **your own update mechanism** — nothing prompts users to update for you.

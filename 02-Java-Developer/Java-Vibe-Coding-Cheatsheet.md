@@ -108,7 +108,7 @@ Page<Item> page = itemRepository.findAll(PageRequest.of(p, Math.min(size, 100)))
 
 ## 4. API safety
 
-> Full rules: [03-Web-Developer/05-API-Safety.md](../03-Web-Developer/05-API-Safety.md)
+> Full rules: [03-Web-Developer/03-Frontend.md](../03-Web-Developer/03-Frontend.md)
 
 ```java
 // Bounded retry with backoff + jitter (Resilience4j)
@@ -155,7 +155,7 @@ Checklist:
 
 ## 5. Security
 
-> Full list: [03-Web-Developer/06-Security.md](../03-Web-Developer/06-Security.md)
+> Full list: [03-Web-Developer/05-Security.md](../03-Web-Developer/05-Security.md)
 
 - [ ] `@PreAuthorize` on service methods, not just controllers
 - [ ] **Ownership checked in the query**, not after loading:

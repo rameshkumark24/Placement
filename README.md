@@ -71,17 +71,17 @@ Both follow the same twelve phases. Each phase gates the next.
 
 | # | Phase | [Web](03-Web-Developer/) | [App](04-App-Developer/) |
 |---|-------|---|---|
-| 00 | Stack & Services | [→](03-Web-Developer/00-Stack-and-Services.md) | [→](04-App-Developer/00-Stack-and-Services.md) |
-| 01 | Scope & Planning | [→](03-Web-Developer/01-Scope-and-Planning.md) | [→](04-App-Developer/01-Scope-and-Planning.md) |
-| 02 | Design System | [→](03-Web-Developer/02-Design-System.md) | [→](04-App-Developer/02-Design-System.md) |
-| 03 | Architecture & Data | [→](03-Web-Developer/03-Architecture-and-Data.md) | [→](04-App-Developer/03-Architecture-and-Data.md) |
-| 04 | Build | [→](03-Web-Developer/04-Build.md) | [→](04-App-Developer/04-Build.md) |
-| 05 | **API Safety** | [→](03-Web-Developer/05-API-Safety.md) | [→](04-App-Developer/05-API-Safety.md) |
-| 06 | **Security** | [→](03-Web-Developer/06-Security.md) | [→](04-App-Developer/06-Security.md) |
+| 00 | Stack & Services | [→](03-Web-Developer/00-Stack.md) | [→](04-App-Developer/00-Stack-and-Services.md) |
+| 01 | Scope & Planning | [→](03-Web-Developer/01-Workflow.md) | [→](04-App-Developer/01-Scope-and-Planning.md) |
+| 02 | Design System | [→](03-Web-Developer/02-UI-System.md) | [→](04-App-Developer/02-Design-System.md) |
+| 03 | Architecture & Data | [→](03-Web-Developer/04-Backend.md) | [→](04-App-Developer/03-Architecture-and-Data.md) |
+| 04 | Build | [→](03-Web-Developer/01-Workflow.md) | [→](04-App-Developer/04-Build.md) |
+| 05 | **API Safety** | [→](03-Web-Developer/03-Frontend.md) | [→](04-App-Developer/05-API-Safety.md) |
+| 06 | **Security** | [→](03-Web-Developer/05-Security.md) | [→](04-App-Developer/06-Security.md) |
 | 07 | Performance | [→](03-Web-Developer/07-Performance.md) | [→](04-App-Developer/07-Performance.md) |
-| 08 | Testing & Review | [→](03-Web-Developer/08-Testing-and-Review.md) | [→](04-App-Developer/08-Testing-and-Review.md) |
-| 09 | Observability | [→](03-Web-Developer/09-Observability.md) | [→](04-App-Developer/09-Observability.md) |
-| 10 | Deploy / Release | [→](03-Web-Developer/10-Deploy-and-Launch.md) | [→](04-App-Developer/10-Release.md) |
+| 08 | Testing & Review | [→](03-Web-Developer/09-Testing.md) | [→](04-App-Developer/08-Testing-and-Review.md) |
+| 09 | Observability | [→](03-Web-Developer/11-Post-Launch.md) | [→](04-App-Developer/09-Observability.md) |
+| 10 | Deploy / Release | [→](03-Web-Developer/10-Ship-Checklist.md) | [→](04-App-Developer/10-Release.md) |
 | 11 | Post-Launch | [→](03-Web-Developer/11-Post-Launch.md) | [→](04-App-Developer/11-Post-Launch.md) |
 
 ---

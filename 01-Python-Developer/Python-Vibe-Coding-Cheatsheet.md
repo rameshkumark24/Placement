@@ -134,7 +134,7 @@ async def list_items(limit: int = Query(50, le=100), cursor: str | None = None):
 
 ## 4. API safety
 
-> Full rules: [03-Web-Developer/05-API-Safety.md](../03-Web-Developer/05-API-Safety.md)
+> Full rules: [03-Web-Developer/03-Frontend.md](../03-Web-Developer/03-Frontend.md)
 
 ```python
 # Bounded retry with exponential backoff + jitter
@@ -172,7 +172,7 @@ Checklist:
 
 ## 5. Security
 
-> Full list: [03-Web-Developer/06-Security.md](../03-Web-Developer/06-Security.md)
+> Full list: [03-Web-Developer/05-Security.md](../03-Web-Developer/05-Security.md)
 
 Python-specific:
 

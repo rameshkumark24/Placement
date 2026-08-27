@@ -1,49 +1,60 @@
-# 🌐 Web Developer — Complete Domain
+# 🌐 Web Development — the vibe-coding library
 
-Everything needed to take a web app from idea to live and keep it alive. Self-contained: nothing
-here depends on another folder.
-
-**Work the phases in order.** Each one gates the next — don't start Phase 4 until Phases 0–3 have
-artefacts you can point at.
+**A dictionary, not a course.** Look things up when you need them. Works for any web project, not
+one specific build.
 
 ---
 
-## Phases
+## ⭐⭐ Start here — the two memory files
 
-| # | Phase | Gate to pass |
-|---|-------|--------------|
-| [00](00-Stack-and-Services.md) | **Stack & Services** | Every account created, spend cap set on each |
-| [01](01-Scope-and-Planning.md) | **Scope & Planning** | PRD, API contract and auth matrix written |
-| [02](02-Design-System.md) | **Design System** | Tokens defined, all four screen states designed |
-| [03](03-Architecture-and-Data.md) | **Architecture & Data** | ERD final, RLS policies written before any table is used |
-| [04](04-Build.md) | **Build** | `CLAUDE.md` committed, git discipline in place |
-| [05](05-API-Safety.md) | **API Safety** | Every call has a loop guard, retry cap and rate limit |
-| [06](06-Security.md) | **Security** | IDOR test passed, `/.env` and `/.git/config` return 404 |
-| [07](07-Performance.md) | **Performance** | Lighthouse ≥ 90, tested on 100k seeded rows |
-| [08](08-Testing-and-Review.md) | **Testing & Review** | `/code-review` and `/security-review` clean |
-| [09](09-Observability.md) | **Observability** | Sentry live, alerts routed, spend alerts on |
-| [10](10-Deploy-and-Launch.md) | **Deploy & Launch** | Smoke test passed, rollback command ready |
-| [11](11-Post-Launch.md) | **Post-Launch** | Support channel live, legal pages published |
+| File | What it is |
+|---|---|
+| ⭐⭐ **[AGENT-CONTEXT.md](AGENT-CONTEXT.md)** | **The memory.** Keep it in Notion. Paste it into a new chat before asking for any web work. Written *to the agent*, self-sufficient, and every other file here is depth behind a line in it. |
+| ⭐⭐ **[CLAUDE-md-template.md](CLAUDE-md-template.md)** | **The per-project rules file.** Lives at the root of the repo, read automatically every session. |
 
-**Reference:** [Component Libraries](Reference/Component-Libraries.md) · [API Notes](Reference/API-Notes.md)
+> ⭐ **Use both.** Notion carries the rules *between* projects. `CLAUDE.md` carries the specifics *of*
+> this one.
 
 ---
 
-## The stack
+## The library
 
-| Layer | Service | Role |
-|---|---|---|
-| Hosting | **Vercel** | Deploys, preview builds, edge functions |
-| Database | **Supabase** | Postgres, storage, realtime, RLS |
-| Auth | **Clerk** | Sessions, MFA, org/roles |
-| Payments | **Stripe** | Checkout, subscriptions, webhooks |
-| Errors | **Sentry** | The 3am call |
-| Version control | **GitHub** | Repo, Actions CI, secret scanning, Dependabot |
-| Edge / DNS | **Cloudflare** | DNS, WAF, CDN, bot protection, R2 |
-| Redis | **Upstash** | Rate limiting, caching, queues |
-| Vector DB | **Pinecone** | Semantic search / RAG, if the app has AI features |
+| File | Look here for |
+|---|---|
+| [00-Stack.md](00-Stack.md) | The services, the setup order, ⭐⭐ **spend caps**, env vars, and how to swap the stack |
+| [01-Workflow.md](01-Workflow.md) | ⭐⭐ **Plan mode**, the session loop, prompting patterns, ⭐ **the Codex cross-check**, which AI tool for which job |
+| [02-UI-System.md](02-UI-System.md) | ⭐⭐ **shadcn + [reactbits](https://reactbits.dev/)**, the AI-design tells to avoid, tokens, the four states |
+| [03-Frontend.md](03-Frontend.md) | ⭐⭐ **The render loop that bills you**, state that drifts, keys, forms, data fetching |
+| [04-Backend.md](04-Backend.md) | Schema, queries, API design, ⭐ **idempotency**, background jobs, files |
+| [05-Security.md](05-Security.md) | ⭐⭐ **Is customer data actually safe** — the ID-swap test, RLS, secrets, payments, CSP |
+| [06-Traffic-and-Scale.md](06-Traffic-and-Scale.md) | ⭐⭐ **Will it hold up** — the arithmetic, the database, caching, abuse, scaling triggers |
+| [07-Performance.md](07-Performance.md) | Where the time goes, ⭐ **images**, fonts, the waterfall, bundle |
+| [08-SEO-and-Meta.md](08-SEO-and-Meta.md) | ⭐ **Titles, meta descriptions, favicons**, Open Graph, broken links, clickable contact |
+| [09-Testing.md](09-Testing.md) | The six-point skim, ⭐⭐ **the Codex final check**, tests worth having, real-device testing |
+| ⭐⭐ [10-Ship-Checklist.md](10-Ship-Checklist.md) | **The pre-launch audit.** Nothing goes live until it passes. |
+| [11-Post-Launch.md](11-Post-Launch.md) | Alerts, backups, incidents, the tech debt log, scaling triggers |
 
-Full setup order and per-service configuration: **[00-Stack-and-Services.md](00-Stack-and-Services.md)**
+**Reference:** [Component Libraries](Reference/Component-Libraries.md) ·
+[API Notes](Reference/API-Notes.md)
+
+---
+
+## ⭐ By task — what do I need right now?
+
+| I am… | Read |
+|---|---|
+| **Starting a project** | [00-Stack](00-Stack.md) → [CLAUDE-md-template](CLAUDE-md-template.md) → [01-Workflow](01-Workflow.md) |
+| **Building the UI** | [02-UI-System](02-UI-System.md) |
+| **Adding a feature** | [01-Workflow §1 plan mode](01-Workflow.md) → [03-Frontend](03-Frontend.md) / [04-Backend](04-Backend.md) |
+| **Adding payments** | [04-Backend §4 idempotency](04-Backend.md) + [05-Security §6](05-Security.md) + [00-Stack §5](00-Stack.md) |
+| **Adding auth** | [05-Security §1 §5](05-Security.md) |
+| **Adding an AI feature** | [06-Traffic-and-Scale §5 abuse](06-Traffic-and-Scale.md) + [00-Stack §3 spend caps](00-Stack.md) |
+| **Told "it's slow"** | [07-Performance](07-Performance.md) — ⭐ measure before you touch anything |
+| **Asked "is it secure?"** | [05-Security](05-Security.md) — ⭐⭐ run the ID-swap test |
+| **Asked "will it scale?"** | [06-Traffic-and-Scale](06-Traffic-and-Scale.md) — ⭐ do the arithmetic first |
+| **About to launch** | ⭐⭐ [10-Ship-Checklist](10-Ship-Checklist.md) |
+| **Just launched** | [11-Post-Launch](11-Post-Launch.md) |
+| **Something broke** | [11-Post-Launch §4](11-Post-Launch.md) — ⭐ roll back first, debug second |
 
 ---
 
@@ -57,23 +68,30 @@ Full setup order and per-service configuration: **[00-Stack-and-Services.md](00-
 
 ---
 
-## The three failures that cause the most damage
+## ⭐⭐ The three failures that cause the most damage
 
-| Failure | Cause | Phase |
+| Failure | Cause | Where |
 |---|---|---|
-| Huge surprise bill | `useEffect` without a dependency array hammering an endpoint | [05](05-API-Safety.md#1-the-render-loop) |
-| Total secret compromise | `/.env` or `/.git/config` publicly readable | [06](06-Security.md#0-the-exposure-check-do-this-on-every-deploy) |
-| Cross-user data leak | No ownership filter in the query; RLS off | [06](06-Security.md#2-authorization--the-idor-layer) |
+| **Huge surprise bill** | A `useEffect` with no dependency array hammering an endpoint | [03-Frontend §1](03-Frontend.md) |
+| **Total secret compromise** | `/.env` or `/.git/config` publicly readable | [05-Security §0](05-Security.md) |
+| **Cross-user data leak** | No ownership filter in the query; RLS off | [05-Security §1](05-Security.md) |
 
 ---
 
-## Review gates
-
-Before merging anything an agent wrote:
+## The 60-second check, any time
 
 ```
-/code-review          # correctness bugs, simplification, efficiency
-/security-review      # security review of pending changes on the branch
+① ⭐⭐ ID-SWAP — can user A read user B's data?
+② ⭐⭐ 320px — does it scroll sideways?
+③ ⭐ Filter a list to zero — which empty state appears?
+④ ⭐ Visit /nonsense — is there a real 404?
+⑤ ⭐⭐ Paste the URL into WhatsApp — is there a preview card?
+⑥ ⭐ Look at the browser tab — does it name the page?
+⑦ ⭐ Click the email and phone — do they open apps?
+⑧ ⭐⭐ Kill the network mid-action — error and retry, or a hang?
+⑨ ⭐ Open the console — clean?
 ```
 
-Details and how to use a second agent (Codex) as a cross-check: **[08-Testing-and-Review.md](08-Testing-and-Review.md)**
+---
+
+**Mobile:** [`04-App-Developer`](../04-App-Developer/) — same idea, different failures.
