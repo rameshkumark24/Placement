@@ -8,8 +8,8 @@
 > nowhere in it, yet you use dates in every service you will ever write, and it's asked in most Java
 > interviews.
 >
-> You already have "store all timestamps in UTC, convert at display time" as a rule in your
-> [architecture checklist](../../03-Web-Developer/04-Backend.md). Nothing taught you the
+> You already have "`Instant` for timestamps, stored UTC, converted at display time" as a rule in
+> your [vibe-coding cheatsheet](../Java-Vibe-Coding-Cheatsheet.md). Nothing taught you the
 > API that implements it. See [Gap-Audit.md](../Roadmap/Gap-Audit.md#1-javatime--date--time-api--day-042a).
 
 ---
@@ -183,9 +183,9 @@ createdAt.atZone(userZone)
 **Why:** an `Instant` is unambiguous everywhere. Store a local time and you've lost information you
 cannot recover — you don't know which zone it meant, and DST makes some values ambiguous.
 
-**Your [architecture checklist](../../03-Web-Developer/04-Backend.md) already says
-"all timestamps `timestamptz`, stored UTC, converted at display".** This is the Java side of that
-rule.
+**Your [vibe-coding cheatsheet](../Java-Vibe-Coding-Cheatsheet.md) already says "`Instant` for
+timestamps" — stored UTC, converted at display, `timestamptz` in Postgres.** This is the Java side
+of that rule.
 
 ## JDBC and JPA mapping
 

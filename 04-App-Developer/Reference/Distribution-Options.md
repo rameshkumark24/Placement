@@ -1,6 +1,6 @@
 # Distribution Options — With and Without the Stores
 
-Decide this in [Phase 01](../01-Workflow.md), not at release. It changes your
+Decide this in [01-Workflow.md](../01-Workflow.md), not at release. It changes your
 architecture, your update speed, and whether you need an Apple account at all.
 
 ---
@@ -119,7 +119,7 @@ All of these are legitimate, and all are limited. **None gives you public distri
 ## Option 4 — Ship to the store, but update without review
 
 This is what most teams actually want, and you already have it configured
-([Phase 10](../11-Release-and-After.md#6-the-ota-path--verify-it-before-you-need-it)).
+([11-Release-and-After.md](../11-Release-and-After.md#6-the-ota-path--verify-it-before-you-need-it)).
 
 **EAS Update / CodePush** pushes JavaScript-only changes straight to installed apps — no review, no
 wait. It covers bug fixes, copy changes, UI changes, logic changes.
@@ -153,7 +153,7 @@ detectable, because reviewers do re-check live apps.
 ### Manual review flags
 
 These are the same rejection triggers listed in
-[Phase 10](../11-Release-and-After.md#8-common-first-submission-rejections-ranked). The top five:
+[11-Release-and-After.md](../11-Release-and-After.md#8-common-first-submission-rejections-ranked). The top five:
 
 1. Privacy policy URL missing, broken, or behind a login
 2. No in-app account deletion
@@ -193,12 +193,13 @@ These are the same rejection triggers listed in
 
 ## What this changes in the phases
 
-- **PWA route:** [Phase 10](../11-Release-and-After.md) becomes web deploy — use
+- **PWA route:** [11-Release-and-After.md](../11-Release-and-After.md) becomes web deploy — use
   [`03-Web-Developer/10-Ship-Checklist.md`](../../03-Web-Developer/10-Ship-Checklist.md)
   instead. Phases 05, 06 and 09 still apply in full.
-- **Direct APK route:** you still need Phase 10's signing, versioning and rollout discipline, plus
+- **Direct APK route:** you still need the signing, versioning and rollout discipline from
+  [11-Release-and-After.md](../11-Release-and-After.md), plus
   **your own update mechanism** — nothing prompts users to update for you.
-- **Store route:** [Phase 10](../11-Release-and-After.md) as written.
+- **Store route:** [11-Release-and-After.md](../11-Release-and-After.md) as written.
 
 Whichever you pick, **Phases 05 (API Safety), 06 (Security) and 09 (Observability) are unchanged.**
 Nothing about your distribution channel makes a data leak or a runaway loop less expensive.

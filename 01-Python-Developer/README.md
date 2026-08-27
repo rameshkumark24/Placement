@@ -6,8 +6,8 @@
 | ⭐ [**Days/**](Days/README.md) | **The written lessons.** One file per day — ✅✅ **complete: all 488 days, 492 files** |
 | [Python-Vibe-Coding-Cheatsheet.md](Python-Vibe-Coding-Cheatsheet.md) | Reference guide. Stack, project layout, Python-specific AI-code traps, API safety, security, testing, delivery |
 
-> Universal build/security/API rules live in [`03-Web-Developer`](../03-Web-Developer/) phases
-> 04–08 — they apply to any backend and are not repeated here.
+> ⭐ **This track is self-contained** — build, security, API and agent-workflow rules are in the
+> [cheatsheet](Python-Vibe-Coding-Cheatsheet.md). No other folder is a prerequisite.
 > ⭐⭐ **GenAI / LLM engineering lives here** — Stage 13/14, [Days 414–461](Days/).
 > SQL notes: [`06-Common/SQL`](../06-Common/SQL/).
 

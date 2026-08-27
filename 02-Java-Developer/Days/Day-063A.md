@@ -140,8 +140,7 @@ new chains keep being found. The `ysoserial` tool ships dozens of them.
 
 This produced some of the largest breaches on record. The 2017 Equifax breach was Apache Struts;
 several of the WebLogic, JBoss and Jenkins critical CVEs were deserialization. It is CWE-502 and it
-appears in the OWASP Top 10 under software and data integrity failures — the same list the Web
-domain's Phase 06 uses.
+appears in the OWASP Top 10 under software and data integrity failures.
 
 ## What does *not* fix it
 

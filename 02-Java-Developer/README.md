@@ -46,7 +46,8 @@
 | [Spring-Boot/Annotations-Reference.md](Spring-Boot/Annotations-Reference.md) | Saved reference |
 | [Why Spring Boot](../06-Common/HR-Interview/Why-Spring-Boot.md) | The HR-round answer |
 
-> Universal build/security/API rules live in [`03-Web-Developer`](../03-Web-Developer/) phases 04–08.
+> ⭐ **This track is self-contained** — build, security, API and agent-workflow rules are in the
+> [cheatsheet](Java-Vibe-Coding-Cheatsheet.md). No other folder is a prerequisite.
 
 ---
 

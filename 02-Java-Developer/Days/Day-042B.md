@@ -183,8 +183,8 @@ long cents = 999;          // $9.99
 
 **Store money as an integer count of the smallest unit.** No floating point, no scale, exact
 arithmetic, and it's what payment APIs do — **Stripe and Razorpay both take amounts in the smallest
-currency unit**, which is why your web domain's
-[Phase 00](../../03-Web-Developer/00-Stack.md) notes "Stripe uses the smallest unit —
+currency unit**, which is why the web track's
+[00-Stack.md](../../03-Web-Developer/00-Stack.md) notes "Stripe uses the smallest unit —
 paise for INR".
 
 | | `BigDecimal` | Integer minor units |
@@ -227,8 +227,9 @@ dollars compiles fine. A `Money` type makes that a compile error or a runtime gu
 **`NUMERIC` in Postgres is exact decimal**, matching `BigDecimal`. `REAL` and `DOUBLE PRECISION` are
 IEEE 754 with all the same problems.
 
-Your [architecture checklist](../../03-Web-Developer/04-Backend.md) already says "money
-as `numeric`, never `float`". This is why.
+The web track's [04-Backend.md](../../03-Web-Developer/04-Backend.md) says "money as `numeric`,
+never `float`" — and your own [cheatsheet](../Java-Vibe-Coding-Cheatsheet.md) says `BigDecimal`
+for money. This is why both say it.
 
 ## Where `double` is still correct
 

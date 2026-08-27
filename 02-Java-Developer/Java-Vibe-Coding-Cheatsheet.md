@@ -2,10 +2,57 @@
 
 Spring Boot services built with an AI agent.
 
-> The universal rules (agent discipline, API loops, security, review gates) live in
-> [`03-Web-Developer`](../03-Web-Developer/) phases 04–08 — they apply to any backend.
-> This file covers Java/Spring specifics.
+> ⭐ **This file is self-contained.** Everything you need to build a Spring service with an agent
+> is here — no other folder is a prerequisite.
 > Interview material lives in [`Core/`](Core/).
+>
+> ⭐ [`03-Web-Developer`](../03-Web-Developer/) is a **separate domain**, not a continuation of this
+> one: a vibe-coding library for Next.js/Supabase web products. Useful if you build a web app.
+> Not required for anything here, and its stack is not this stack.
+
+---
+
+## 0. Working with the agent
+
+> ⭐⭐ **The compiler catches what the agent got wrong about Java. Nothing catches what it got
+> wrong about your domain.** A service that compiles, passes tests and returns the wrong user's
+> data is the normal failure, not the rare one.
+
+**Plan mode first — for these, always:**
+
+| Trigger | Why |
+|---|---|
+| A new entity or a schema change | ⭐ A migration is hard to reverse once data is in it |
+| Anything touching auth, roles or ownership | ⭐⭐ The blast radius is every user |
+| A new external dependency or third-party call | Timeouts, retries and failure modes are design, not detail |
+| Anything with money | `BigDecimal`, idempotency, and the audit trail are decided up front |
+| Refactoring across more than ~3 files | The agent will confidently half-finish it |
+
+```
+⭐ READ THE PLAN FOR WHAT IT DOES NOT SAY:
+   · which endpoint enforces ownership, and in the query or after?
+   · what happens when the third-party call times out?
+   · is the migration reversible, and what runs during the deploy gap?
+```
+
+**Before you accept the code:**
+
+- [ ] ⭐⭐ **Every package it added actually exists.** Models invent plausible Maven coordinates;
+      attackers register the invented ones. Check `mvnrepository.com` before `./gradlew build`.
+- [ ] ⭐ **The authorization test is the one you write yourself.** User B gets 403/404 on user
+      A's row. The agent will not write this test unless told, and it is the #1 real leak.
+- [ ] ⭐ It did not quietly change `ddl-auto`, loosen a `@PreAuthorize`, or disable CSRF to make
+      a test pass
+- [ ] `./gradlew check` passes — and you ran it, not the agent reporting that it did
+
+**The second-model cross-check** — before merging anything that touches auth, money or data:
+
+```
+Review this diff for: (1) authorization gaps — can user B reach user A's data,
+(2) unbounded queries or missing pagination, (3) missing timeouts on external calls,
+(4) transaction boundaries that are wrong or missing, (5) anything that logs PII.
+If you find nothing, say so — do not invent findings.
+```
 
 ---
 
@@ -108,8 +155,6 @@ Page<Item> page = itemRepository.findAll(PageRequest.of(p, Math.min(size, 100)))
 
 ## 4. API safety
 
-> Full rules: [03-Web-Developer/03-Frontend.md](../03-Web-Developer/03-Frontend.md)
-
 ```java
 // Bounded retry with backoff + jitter (Resilience4j)
 @Retry(name = "externalApi")           // maxAttempts: 3, exponential, jittered in config
@@ -154,8 +199,6 @@ Checklist:
 ---
 
 ## 5. Security
-
-> Full list: [03-Web-Developer/05-Security.md](../03-Web-Developer/05-Security.md)
 
 - [ ] `@PreAuthorize` on service methods, not just controllers
 - [ ] **Ownership checked in the query**, not after loading:

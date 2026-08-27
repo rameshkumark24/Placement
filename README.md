@@ -139,9 +139,9 @@ Run on every agent-written diff:
 
 | Failure | Cause | Where |
 |---|---|---|
-| Huge surprise bill | An API call in a render body / `useEffect` with no dep array | Phase 05 · [Day 457](01-Python-Developer/Days/Day-457.md) |
-| Total secret compromise | `/.env` or `/.git/config` publicly readable | Phase 06 |
-| Cross-user data leak | No ownership filter in the query; RLS off | Phase 06 · ⭐⭐ [Day 434](01-Python-Developer/Days/Day-434.md) |
+| Huge surprise bill | An API call in a render body / `useEffect` with no dep array | [Web §07](03-Web-Developer/07-Performance.md) · [Day 457](01-Python-Developer/Days/Day-457.md) |
+| Total secret compromise | `/.env` or `/.git/config` publicly readable | [Web §05](03-Web-Developer/05-Security.md) |
+| Cross-user data leak | No ownership filter in the query; RLS off | [Web §05](03-Web-Developer/05-Security.md) · ⭐⭐ [Day 434](01-Python-Developer/Days/Day-434.md) |
 
 Check the second one right now on anything you've deployed:
 

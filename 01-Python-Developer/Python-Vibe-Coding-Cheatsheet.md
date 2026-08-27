@@ -2,10 +2,58 @@
 
 Backend services and APIs in Python, built with an AI agent.
 
-> The universal rules (agent discipline, API loops, security, review gates) live in
-> [`03-Web-Developer`](../03-Web-Developer/) phases 04–08 — they apply to any backend.
-> This file covers Python specifics only.
+> ⭐ **This file is self-contained.** Everything you need to build a Python service with an agent
+> is here — no other folder is a prerequisite.
 > ⭐⭐ **GenAI / LLM engineering is Stage 13/14 of this track** — [Days 414–461](Days/).
+>
+> ⭐ [`03-Web-Developer`](../03-Web-Developer/) is a **separate domain**, not a continuation of this
+> one: a vibe-coding library for Next.js/Supabase web products. Useful if you build a web app.
+> Not required for anything here, and its stack is not this stack.
+
+---
+
+## 0. Working with the agent
+
+> ⭐⭐ **Python will not stop you at build time — there is no build time.** A missing `await`, a
+> wrong type, an unclosed session: all of it runs. The agent's mistakes reach production as
+> behaviour, not as errors, so the review gate is the only gate you have.
+
+**Plan mode first — for these, always:**
+
+| Trigger | Why |
+|---|---|
+| A new model or an Alembic migration | ⭐ Hard to reverse once data is in it |
+| Anything touching auth, roles or ownership | ⭐⭐ The blast radius is every user |
+| A new dependency or third-party call | Timeouts, retries and failure modes are design, not detail |
+| Anything with money | `Decimal`, idempotency, and the audit trail are decided up front |
+| Sync/async boundaries | ⭐ One blocking call in an async handler stalls the whole event loop |
+
+```
+⭐ READ THE PLAN FOR WHAT IT DOES NOT SAY:
+   · which endpoint enforces ownership, and in the query or after?
+   · what happens when the third-party call times out?
+   · is anything blocking sitting inside an async def?
+```
+
+**Before you accept the code:**
+
+- [ ] ⭐⭐ **Every package it added actually exists on PyPI.** Models invent plausible names;
+      attackers register the invented ones. This is the single most exploited AI-coding gap.
+- [ ] ⭐ **The authorization test is the one you write yourself.** User B gets 403/404 on user
+      A's row. The agent will not write it unless told, and it is the #1 real leak.
+- [ ] ⭐ No bare `except:`, no silently swallowed exception, no `# type: ignore` added to make
+      the checker quiet
+- [ ] ⭐ Every `async def` it wrote is actually awaited at the call site
+- [ ] `pytest` and `ruff` pass — and you ran them, not the agent reporting that it did
+
+**The second-model cross-check** — before merging anything that touches auth, money or data:
+
+```
+Review this diff for: (1) authorization gaps — can user B reach user A's data,
+(2) unbounded queries or missing pagination, (3) missing timeouts on external calls,
+(4) blocking calls inside async handlers, (5) anything that logs PII.
+If you find nothing, say so — do not invent findings.
+```
 
 ---
 
@@ -134,8 +182,6 @@ async def list_items(limit: int = Query(50, le=100), cursor: str | None = None):
 
 ## 4. API safety
 
-> Full rules: [03-Web-Developer/03-Frontend.md](../03-Web-Developer/03-Frontend.md)
-
 ```python
 # Bounded retry with exponential backoff + jitter
 import asyncio, random, httpx
@@ -171,8 +217,6 @@ Checklist:
 ---
 
 ## 5. Security
-
-> Full list: [03-Web-Developer/05-Security.md](../03-Web-Developer/05-Security.md)
 
 Python-specific:
 
