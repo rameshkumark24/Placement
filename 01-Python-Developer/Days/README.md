@@ -225,7 +225,40 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [211](Day-211.md) | ⭐ **Embedding vs referencing** — ⭐⭐ three questions, and six patterns | 5 |
 | [212](Day-212.md) | 🍃 **Indexes & aggregation** — ⭐⭐ ESR again, `$lookup`, `$unwind` | 5 |
 | [213](Day-213.md) | ⭐ **Transactions, replica sets, sharding** · 🚪🚪 **STAGE 5 EXIT GATE** | 5 |
-| 214–247 | 🌐 **Stage 6 — the frontend.** Not day files: worked as a phase guide in [`03-Web-Developer`](../../03-Web-Developer/), gate by gate | 6 |
+| [214](Day-214.md) | 🌐 **Stage 6 opens** — ⭐⭐ why a backend engineer learns the frontend, and how much | 6 |
+| [215](Day-215.md) | 📜 **JavaScript, the parts worth writing** — ⭐ and the traps your Python instincts walk into | 6 |
+| [216](Day-216.md) | ⏳ **Async JavaScript** — ⭐⭐ the event loop you already know, and the failure it adds | 6 |
+| [217](Day-217.md) | 📡 **`fetch`** — ⭐⭐ the HTTP client whose error model has no errors in it | 6 |
+| [218](Day-218.md) | 🛡️ **TypeScript** — ⭐⭐ the structural typing you already know, and the `any` that deletes it | 6 |
+| [219](Day-219.md) | 🧩 **TypeScript in practice** — ⭐ generics, narrowing, and typing the boundary | 6 |
+| [220](Day-220.md) | 🌳 **The DOM as an API** — ⭐⭐ what the browser gives you, and why every framework exists | 6 |
+| [221](Day-221.md) | 📦 **npm and the dependency surface** — ⭐⭐ 900 packages you did not choose | 6 |
+| [222](Day-222.md) | 🏗️ **The build step** — ⭐⭐ what ships, and the secret you just published | 6 |
+| [223](Day-223.md) | ⚛️ **React's actual model** — ⭐⭐ UI as a function of state, and what a re-render is not | 6 |
+| [224](Day-224.md) | 🧱 **Components and props** — ⭐⭐ composition, and the twelve-boolean component | 6 |
+| [225](Day-225.md) | 🎯 **State** — ⭐⭐ derived state is a bug, and the four questions | 6 |
+| [226](Day-226.md) | 🪝 **Effects and the dependency array** — ⭐⭐ the infinite loop that bills you | 6 |
+| [227](Day-227.md) | 🔄 **Data fetching, properly** — ⭐⭐ everything you must build by hand, once | 6 |
+| [228](Day-228.md) | 🗃️ **The server cache** — ⭐⭐ server data was never client state | 6 |
+| [229](Day-229.md) | 📝 **Forms** — ⭐⭐ two validators, one schema, and the 422 that lands on the right field | 6 |
+| [230](Day-230.md) | 🔑 **Lists, keys and reconciliation** — ⭐⭐ the index key corrupts data, it is not just slow | 6 |
+| [231](Day-231.md) | 🌍 **Context** — ⭐⭐ a dependency injection mechanism, not a state manager | 6 |
+| [232](Day-232.md) | ⚡ **Performance** — ⭐⭐ measure first, because most `useMemo` makes things slower | 6 |
+| [233](Day-233.md) | 🧭 **Routing** — ⭐⭐ the URL is state, and the loader that kills the waterfall | 6 |
+| [234](Day-234.md) | 🖥️ **Rendering strategies** — ⭐⭐ CSR, SSR, SSG, ISR, RSC, and the question that picks one | 6 |
+| [235](Day-235.md) | 🔐 **Auth in the browser** — ⭐⭐ where the token lives is the whole decision | 6 |
+| [236](Day-236.md) | 🚫 **Authorization is server-side or it doesn't exist** — ⭐⭐ a hidden button is not a permission | 6 |
+| [237](Day-237.md) | 🔀 **CORS from the other side** — ⭐⭐ it protects other sites from you | 6 |
+| [238](Day-238.md) | 🎨 **Styling** — ⭐⭐ looking competent without being a designer | 6 |
+| [239](Day-239.md) | ♿ **Accessibility** — ⭐⭐ four things, and the keyboard test that finds most of them | 6 |
+| [240](Day-240.md) | 🩹 **Error boundaries and empty states** — ⭐⭐ the white screen, and what boundaries miss | 6 |
+| [241](Day-241.md) | 📊 **Frontend performance** — ⭐⭐ why your p99 said 40 ms and the user waited 3 seconds | 6 |
+| [242](Day-242.md) | 🖼️ **Images and fonts** — ⭐⭐ 70% of your bytes, and the cheapest wins available | 6 |
+| [243](Day-243.md) | 🛡️ **Frontend security** — ⭐⭐ XSS, and the control that survives your mistake | 6 |
+| [244](Day-244.md) | 🧪 **Testing the frontend** — ⭐⭐ behaviour, not implementation | 6 |
+| [245](Day-245.md) | 🚀 **Deploying a frontend** — ⭐⭐ the deploy that breaks every open tab | 6 |
+| [246](Day-246.md) | 🔗 **The full-stack contract** — ⭐⭐ making a renamed field a build failure | 6 |
+| [247](Day-247.md) | 🚪🚪 **STAGE 6 EXIT GATE** — ⭐⭐ six shapes, five proofs, and an honest scope claim | 6 |
 | [248](Day-248.md) | 🏗 **Choosing the flagship** — ⭐⭐ what makes a project defensible | 7 |
 | [249](Day-249.md) | 🏗 **Requirements** — ⭐⭐ criteria you can write a failing test for | 7 |
 | [250](Day-250.md) | 🏗 **Domain modelling & ERD** — ⭐⭐ the aggregate boundary, and the invariants table | 7 |
@@ -249,7 +282,16 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 | [268](Day-268.md) | 🏗 **Real-time updates** — ⭐⭐ SSE vs WebSockets, and the socket that is not the truth | 7 |
 | [269](Day-269.md) | 🔎 **Search and reporting** — ⭐⭐ the read path that has different rules | 7 |
 | [270](Day-270.md) | 🚪 **The data and async review gate** — ⭐⭐ ten failure injections, and the silence table | 7 |
-| 271–280 | 🌐 **The flagship's frontend.** Not day files: worked in [`03-Web-Developer`](../../03-Web-Developer/) | 7 |
+| [271](Day-271.md) | 🏗️ **The flagship's UI I** — ⭐⭐ the screen list, and what you refuse to build | 7 |
+| [272](Day-272.md) | 🎨 **The design system for one app** — ⭐⭐ eight components, and knowing when to stop | 7 |
+| [273](Day-273.md) | 🔌 **The API layer** — ⭐⭐ one place for auth, errors, retries and keys | 7 |
+| [274](Day-274.md) | 🔑 **Auth end to end** — ⭐⭐ the expired session that must not lose the user's work | 7 |
+| [275](Day-275.md) | 🔀 **The workflow screen** — ⭐⭐ the state machine, made visible | 7 |
+| [276](Day-276.md) | 📋 **Lists against a real API** — ⭐⭐ the search box that DDoSes your own server | 7 |
+| [277](Day-277.md) | 📡 **Real-time in the browser** — ⭐⭐ the tab that has been open since Tuesday | 7 |
+| [278](Day-278.md) | 🎭 **Optimistic updates** — ⭐⭐ where the UI lies, and how it confesses | 7 |
+| [279](Day-279.md) | 🔭 **Frontend observability** — ⭐⭐ your error count is mostly noise | 7 |
+| [280](Day-280.md) | 🚪🚪 **THE FLAGSHIP FRONTEND GATE** — ⭐⭐ the demo, the failure drill, the findings | 7 |
 | [281](Day-281.md) | 🧪 **Coverage and quality gates** — ⭐⭐ making the suite mean something | 7 |
 | [282](Day-282.md) | 📦 **The container image** — ⭐⭐ signals, layers, and the probe that causes the outage | 7 |
 | [283](Day-283.md) | 🔁 **The pipeline** — build once and promote, ⭐⭐ and the five minutes when both versions are live | 7 |
@@ -466,8 +508,9 @@ One file per day. Full plan: [`../Roadmap/`](../Roadmap/README.md).
 comparatively; the same endpoint in both, and the twelve invariants underneath.
 **✅✅ Stage 5 COMPLETE (28/28)** — Postgres from pages to PITR, Redis from the event loop to
 Streams, MongoDB from the document model to the shard key. Almost none of it was about a vendor.
-**🌐 Stage 6 (214–247)** is the frontend, and is *not* written as day files — it is a phase guide in
-[`03-Web-Developer`](../../03-Web-Developer/), worked in order. Day numbering resumes at 248.
+**✅✅ Stage 6 (214–247) COMPLETE** — ⭐⭐ the frontend, written for a backend engineer:
+the API findings only a client reveals, React's model, auth in the browser, accessibility,
+frontend performance, and the generated contract — [gate](Day-247.md).
 **✅✅ STAGE 7 COMPLETE (50/50)** — two defensible projects and an audit: the flagship built,
 operated, load-tested and gated; a rules-and-retrieval system where correctness is *measured* rather
 than asserted; and `ticketed` re-opened and improved without being rewritten.
@@ -509,9 +552,9 @@ closing with ⭐⭐ **a diagnosis table where only one of five failure modes is 
 (481–485) — the estimation decides the architecture every time. **The close** (486–488) — the loop
 archetypes, ⭐⭐ **levelling as scope rather than difficulty**, and negotiation.
 
-**✅✅✅ ALL 488 DAYS WRITTEN.** ✅✅ Days 001–213, 248–270 and 281–488.
-🌐 **Days 271–280** are the flagship's frontend and are *not* day files — they are worked in
-[`03-Web-Developer`](../../03-Web-Developer/).
+**✅✅✅ ALL 488 DAYS WRITTEN — 001 THROUGH 488, NO GAPS.**
+⭐ **The track is self-contained**: every stage, including the frontend (214–247, 271–280), is a
+day file here.
 ⭐ **Days 414–461 are also Stages 13 & 14 of the [Java track](../../02-Java-Developer/), routed by
 [the crossing](../../02-Java-Developer/Roadmap/Stage-13-14-Bridge.md).**
 ⭐⭐ **Knowledge is no longer the constraint** — see [Day 488](Day-488.md).

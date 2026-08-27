@@ -57,7 +57,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 102–129 | [Stage 3 — Backend, framework-free](#stage-3--backend-engineering-framework-free) ✅ | Can build an API with no framework |
 | 130–185 | [Stage 4 — FastAPI & Django](#stage-4--fastapi--django) ✅ | Backend interview-ready |
 | 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) ✅ | Can fix a slow query live |
-| 214–247 | Stage 6 — Frontend → [`03-Web-Developer`](../../03-Web-Developer/) 🌐 | Can build the UI for your own API |
+| 214–247 | ⭐⭐ **[Stage 6 — The Frontend](#stage-6--the-frontend)** ✅ | ✅ **Ships the client for its own API** |
 | 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) ⚡ | Two defensible projects |
 | 298–321 | [Stage 8 — LLD](#stage-8--architecture--low-level-design) | LLD rounds cleared |
 | 322–359 | [Stage 9 — System Design](#stage-9--system-design) ✅ | ✅✅ **COMPLETE SDE** |
@@ -499,6 +499,78 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 
 ---
 
+## Stage 6 — The Frontend ✅✅
+
+> **Why:** ⭐⭐ An API whose UI you have never written is an API you have only half designed.
+> **After this:** you ship the client for your own API, and you can name the backend changes
+> building it forced. ⭐ **The UI is the artefact; the API findings are the result.**
+
+### A · The language you avoided
+
+*JavaScript and TypeScript on their own terms, the DOM's cost model, npm against Maven, the build*
+
+| Day | Lesson |
+|---|---|
+| [214](../Days/Day-214.md) | 🌐 **Stage 6 opens** — ⭐⭐ why a backend engineer learns the frontend, and how much |
+| [215](../Days/Day-215.md) | 📜 **JavaScript, the parts worth writing** — ⭐ and the traps your Python instincts walk into |
+| [216](../Days/Day-216.md) | ⏳ **Async JavaScript** — ⭐⭐ the event loop you already know, and the failure it adds |
+| [217](../Days/Day-217.md) | 📡 **`fetch`** — ⭐⭐ the HTTP client whose error model has no errors in it |
+| [218](../Days/Day-218.md) | 🛡️ **TypeScript** — ⭐⭐ the structural typing you already know, and the `any` that deletes it |
+| [219](../Days/Day-219.md) | 🧩 **TypeScript in practice** — ⭐ generics, narrowing, and typing the boundary |
+| [220](../Days/Day-220.md) | 🌳 **The DOM as an API** — ⭐⭐ what the browser gives you, and why every framework exists |
+| [221](../Days/Day-221.md) | 📦 **npm and the dependency surface** — ⭐⭐ 900 packages you did not choose |
+| [222](../Days/Day-222.md) | 🏗️ **The build step** — ⭐⭐ what ships, and the secret you just published |
+
+### B · React's actual model
+
+*⭐⭐ identity not equality · derived state as the balance column next to the ledger · effects, keys, context, and measuring before memoising*
+
+| Day | Lesson |
+|---|---|
+| [223](../Days/Day-223.md) | ⚛️ **React's actual model** — ⭐⭐ UI as a function of state, and what a re-render is not |
+| [224](../Days/Day-224.md) | 🧱 **Components and props** — ⭐⭐ composition, and the twelve-boolean component |
+| [225](../Days/Day-225.md) | 🎯 **State** — ⭐⭐ derived state is a bug, and the four questions |
+| [226](../Days/Day-226.md) | 🪝 **Effects and the dependency array** — ⭐⭐ the infinite loop that bills you |
+| [227](../Days/Day-227.md) | 🔄 **Data fetching, properly** — ⭐⭐ everything you must build by hand, once |
+| [228](../Days/Day-228.md) | 🗃️ **The server cache** — ⭐⭐ server data was never client state |
+| [229](../Days/Day-229.md) | 📝 **Forms** — ⭐⭐ two validators, one schema, and the 422 that lands on the right field |
+| [230](../Days/Day-230.md) | 🔑 **Lists, keys and reconciliation** — ⭐⭐ the index key corrupts data, it is not just slow |
+| [231](../Days/Day-231.md) | 🌍 **Context** — ⭐⭐ a dependency injection mechanism, not a state manager |
+| [232](../Days/Day-232.md) | ⚡ **Performance** — ⭐⭐ measure first, because most `useMemo` makes things slower |
+
+### C · The application layer
+
+*routing and the URL as state · rendering strategies · ⭐⭐ auth in the browser and authorization that is server-side or nothing · CORS corrected · styling, a11y, error boundaries*
+
+| Day | Lesson |
+|---|---|
+| [233](../Days/Day-233.md) | 🧭 **Routing** — ⭐⭐ the URL is state, and the loader that kills the waterfall |
+| [234](../Days/Day-234.md) | 🖥️ **Rendering strategies** — ⭐⭐ CSR, SSR, SSG, ISR, RSC, and the question that picks one |
+| [235](../Days/Day-235.md) | 🔐 **Auth in the browser** — ⭐⭐ where the token lives is the whole decision |
+| [236](../Days/Day-236.md) | 🚫 **Authorization is server-side or it doesn't exist** — ⭐⭐ a hidden button is not a permission |
+| [237](../Days/Day-237.md) | 🔀 **CORS from the other side** — ⭐⭐ it protects other sites from you |
+| [238](../Days/Day-238.md) | 🎨 **Styling** — ⭐⭐ looking competent without being a designer |
+| [239](../Days/Day-239.md) | ♿ **Accessibility** — ⭐⭐ four things, and the keyboard test that finds most of them |
+| [240](../Days/Day-240.md) | 🩹 **Error boundaries and empty states** — ⭐⭐ the white screen, and what boundaries miss |
+
+### D · Production
+
+*⭐⭐ the 40 ms that was 1.4% of the wait · images and fonts · XSS and CSP · testing at the network boundary · deploying · the generated contract · 🚪 the gate*
+
+| Day | Lesson |
+|---|---|
+| [241](../Days/Day-241.md) | 📊 **Frontend performance** — ⭐⭐ why your p99 said 40 ms and the user waited 3 seconds |
+| [242](../Days/Day-242.md) | 🖼️ **Images and fonts** — ⭐⭐ 70% of your bytes, and the cheapest wins available |
+| [243](../Days/Day-243.md) | 🛡️ **Frontend security** — ⭐⭐ XSS, and the control that survives your mistake |
+| [244](../Days/Day-244.md) | 🧪 **Testing the frontend** — ⭐⭐ behaviour, not implementation |
+| [245](../Days/Day-245.md) | 🚀 **Deploying a frontend** — ⭐⭐ the deploy that breaks every open tab |
+| [246](../Days/Day-246.md) | 🔗 **The full-stack contract** — ⭐⭐ making a renamed field a build failure |
+| [247](../Days/Day-247.md) | 🚪🚪 **STAGE 6 EXIT GATE** — ⭐⭐ six shapes, five proofs, and an honest scope claim |
+
+**🚪 Exit gate** — [Day 247](../Days/Day-247.md): six shapes, five proofs, and
+⭐⭐ **at least three server-side findings this stage forced, with the commits that fixed them.**
+
+---
 ## Stage 7 — Full Stack Integration
 
 **Days 248–297** — two projects, every line written by you.
@@ -545,9 +617,9 @@ migration locks, `EXPLAIN` at arm's length. This stage opens it.*
 | 269 | 🔎 **Search and reporting** — four features called search, the tenant filter that must be in the query, ⭐⭐ and the report that changes when nobody changed any orders |
 | 270 | 🚪 **The data and async review gate** — ten failure injections against the deployed system, ⭐⭐ the silence table, and drift counted rather than shrugged at |
 
-> 🌐 **Days 271–280 — the flagship's frontend.** Not day files: worked in
-> [`03-Web-Developer`](../../03-Web-Developer/), building the UI for the API just defended.
-> Day files resume at **281 — production readiness.**
+> ✅ **Days 271–280 — the flagship's frontend**, written as day files: the screen inventory and
+> cut list, the API layer, auth end to end, the list and detail screens, real-time, polish,
+> shipping, and ⭐⭐ **the gate that asks for the backend findings the UI forced.**
 
 ### 7D — Production, and the flagship finished (281–287) ✅ written
 

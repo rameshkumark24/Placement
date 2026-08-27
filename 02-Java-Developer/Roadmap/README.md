@@ -53,7 +53,7 @@ You can never skip a lesson — but you can pass through it fast.
 | 102–129C | [Stage 3 — Backend Concepts](#stage-3--backend-engineering-framework-free) | Can design an API with no framework |
 | 130–185B (+1) | [Stage 4 — Spring Boot](#stage-4--spring--spring-boot) | Backend interview-ready |
 | 186–213 | [Stage 5 — Databases](#stage-5--database-engineering) | Can fix a slow query live |
-| 214–247 | ⭐⭐ **Stage 6 — The Frontend** ([gate](../Days/Day-247.md)) | ✅ **Ships the client for its own API** |
+| 214–247 | ⭐⭐ **[Stage 6 — The Frontend](#stage-6--the-frontend-)** | ✅ **Ships the client for its own API** |
 | 248–297 | [Stage 7 — Projects](#stage-7--full-stack-integration) | Two defensible projects |
 | 298–321 | [Stage 8 — LLD](#stage-8--architecture--low-level-design) | LLD rounds cleared |
 | 322–359 | [Stage 9 — System Design](#stage-9--system-design) | ✅ **COMPLETE SDE** |
@@ -434,6 +434,78 @@ live · defend a Postgres-vs-Mongo choice for a system described to you
 
 ---
 
+## Stage 6 — The Frontend ✅✅
+
+> **Why:** ⭐⭐ An API whose UI you have never written is an API you have only half designed.
+> **After this:** you ship the client for your own API, and you can name the backend changes
+> building it forced. ⭐ **The UI is the artefact; the API findings are the result.**
+
+### A · The language you avoided
+
+*JavaScript and TypeScript on their own terms, the DOM's cost model, npm against Maven, the build*
+
+| Day | Lesson |
+|---|---|
+| [214](../Days/Day-214.md) | 🌐 **Stage 6 opens** — ⭐⭐ why a Spring engineer learns the frontend, and how much |
+| [215](../Days/Day-215.md) | 📜 **JavaScript, the parts worth writing** — ⭐ and the traps your Java instincts walk into |
+| [216](../Days/Day-216.md) | ⏳ **Async JavaScript** — ⭐⭐ one thread, and it also draws the screen |
+| [217](../Days/Day-217.md) | 📡 **`fetch`** — ⭐⭐ the HTTP client whose error model has no errors in it |
+| [218](../Days/Day-218.md) | 🛡️ **TypeScript** — ⭐⭐ structural typing after a career of `implements` |
+| [219](../Days/Day-219.md) | 🧩 **TypeScript in practice** — ⭐⭐ `@Valid` at the boundary, written by hand |
+| [220](../Days/Day-220.md) | 🌳 **The DOM as an API** — ⭐⭐ and why every framework exists |
+| [221](../Days/Day-221.md) | 📦 **npm against Maven** — ⭐⭐ 900 packages you did not choose |
+| [222](../Days/Day-222.md) | 🏗️ **The build step** — ⭐⭐ there is no `application.properties` here |
+
+### B · React's actual model
+
+*⭐⭐ identity not equality · derived state as the balance column next to the ledger · effects, keys, context, and measuring before memoising*
+
+| Day | Lesson |
+|---|---|
+| [223](../Days/Day-223.md) | ⚛️ **React's actual model** — ⭐⭐ UI as a function of state, and what a re-render is not |
+| [224](../Days/Day-224.md) | 🧱 **Components and props** — ⭐⭐ the twelve-boolean component |
+| [225](../Days/Day-225.md) | 🎯 **State** — ⭐⭐ derived state is a bug, and the four questions |
+| [226](../Days/Day-226.md) | 🪝 **Effects and the dependency array** — ⭐⭐ the infinite loop that bills you |
+| [227](../Days/Day-227.md) | 🔄 **Data fetching, properly** — ⭐⭐ the waterfall is N+1 in the network tab |
+| [228](../Days/Day-228.md) | 🗃️ **The server cache** — ⭐⭐ server data was never client state |
+| [229](../Days/Day-229.md) | 📝 **Forms** — ⭐⭐ two validators, one contract, and the 400 that lands on the right field |
+| [230](../Days/Day-230.md) | 🔑 **Lists, keys and reconciliation** — ⭐⭐ the index key corrupts data |
+| [231](../Days/Day-231.md) | 🌍 **Context** — ⭐⭐ dependency injection for the tree, not a state manager |
+| [232](../Days/Day-232.md) | ⚡ **Performance** — ⭐⭐ measure first, because most `useMemo` makes things slower |
+
+### C · The application layer
+
+*routing and the URL as state · rendering strategies · ⭐⭐ auth in the browser and authorization that is server-side or nothing · CORS corrected · styling, a11y, error boundaries*
+
+| Day | Lesson |
+|---|---|
+| [233](../Days/Day-233.md) | 🧭 **Routing** — ⭐⭐ the URL is state, and the loader that kills the waterfall |
+| [234](../Days/Day-234.md) | 🖥️ **Rendering strategies** — ⭐⭐ the question that picks one |
+| [235](../Days/Day-235.md) | 🔐 **Auth in the browser** — ⭐⭐ the decision Spring Security cannot make for you |
+| [236](../Days/Day-236.md) | 🚫 **Authorization is server-side or it doesn't exist** — ⭐⭐ a hidden button is not a permission |
+| [237](../Days/Day-237.md) | 🔀 **CORS from the other side** — ⭐⭐ it protects other sites from you |
+| [238](../Days/Day-238.md) | 🎨 **Styling** — ⭐⭐ looking competent without being a designer |
+| [239](../Days/Day-239.md) | ♿ **Accessibility** — ⭐⭐ four things, and the keyboard test |
+| [240](../Days/Day-240.md) | 🩹 **Error boundaries and empty states** — ⭐⭐ the white screen, and what boundaries miss |
+
+### D · Production
+
+*⭐⭐ the 40 ms that was 1.4% of the wait · images and fonts · XSS and CSP · testing at the network boundary · deploying · the generated contract · 🚪 the gate*
+
+| Day | Lesson |
+|---|---|
+| [241](../Days/Day-241.md) | 📊 **Frontend performance** — ⭐⭐ why Actuator said 40 ms and the user waited 3 seconds |
+| [242](../Days/Day-242.md) | 🖼️ **Images and fonts** — ⭐⭐ 70% of your bytes, and the cheapest wins available |
+| [243](../Days/Day-243.md) | 🛡️ **Frontend security** — ⭐⭐ XSS, and the control that survives your mistake |
+| [244](../Days/Day-244.md) | 🧪 **Testing the frontend** — ⭐⭐ behaviour, not implementation |
+| [245](../Days/Day-245.md) | 🚀 **Deploying a frontend** — ⭐⭐ the deploy that breaks every open tab |
+| [246](../Days/Day-246.md) | 🔗 **The full-stack contract** — ⭐⭐ making a renamed DTO field a build failure |
+| [247](../Days/Day-247.md) | 🚪🚪 **STAGE 6 EXIT GATE** — ⭐⭐ six shapes, five proofs, and an honest scope claim |
+
+**🚪 Exit gate** — [Day 247](../Days/Day-247.md): six shapes, five proofs, and
+⭐⭐ **at least three server-side findings this stage forced, with the commits that fixed them.**
+
+---
 ## Stage 7 — Full Stack Integration
 
 > **⚠️ Every line of both projects is written by you. No AI code. This stage is the whole point.**
@@ -443,7 +515,7 @@ live · defend a Postgres-vs-Mongo choice for a system described to you
 | 248–252 | ✅ **written** — Flagship: [248](../Days/Day-248.md) choosing it · [249](../Days/Day-249.md) requirements and the state machine · [250](../Days/Day-250.md) domain modelling and the ER diagram · [251](../Days/Day-251.md) the API contract **before any code** · [252](../Days/Day-252.md) 🚪 the design review gate |
 | 253–262 | ✅ **written** — Flagship backend: [253](../Days/Day-253.md) skeleton and deploy · [254](../Days/Day-254.md) the domain layer · [255](../Days/Day-255.md) persistence · [256](../Days/Day-256.md) services · [257](../Days/Day-257.md) the web layer · [258](../Days/Day-258.md) ⭐ **JWT + refresh rotation** · [259](../Days/Day-259.md) authorization and tenancy · [260](../Days/Day-260.md) the API surface · [261](../Days/Day-261.md) testing · [262](../Days/Day-262.md) 🚪 the backend review gate |
 | 263–270 | ✅ **written** — Flagship data & async: [263](../Days/Day-263.md) ⭐ **the outbox** · [264](../Days/Day-264.md) jobs · [265](../Days/Day-265.md) `@Async` · [266](../Days/Day-266.md) caching, measured · [267](../Days/Day-267.md) uploads · [268](../Days/Day-268.md) real-time · [269](../Days/Day-269.md) search and reporting · [270](../Days/Day-270.md) 🚪 the data & async gate |
-| 271–280 | Flagship: frontend ([Stage 6 →](../../03-Web-Developer/)) |
+| 271–280 | Flagship: the frontend — [271](../Days/Day-271.md)–[280](../Days/Day-280.md), ⭐ the client for the API you just defended |
 | 281–287 | ✅ **written** — Flagship production: [281](../Days/Day-281.md) coverage and quality gates · [282](../Days/Day-282.md) the container image · [283](../Days/Day-283.md) the pipeline · [284](../Days/Day-284.md) infrastructure · [285](../Days/Day-285.md) observability · [286](../Days/Day-286.md) ⭐ **load testing and chaos** · [287](../Days/Day-287.md) 🚪 the production readiness gate |
 | 288–297 | ✅ **written** — NexOps rebuild: [288](../Days/Day-288.md) the audit · [289](../Days/Day-289.md) re-deriving the data model · [290](../Days/Day-290.md) ⭐ **the risk engine** (determinism, rules as data) · [291](../Days/Day-291.md) backtesting and explainability · [292](../Days/Day-292.md) RAG ingestion and chunking · [293](../Days/Day-293.md) ⭐ **hybrid search** and evaluation · [294](../Days/Day-294.md) ⭐ **prompt injection**, hallucination, cost · [295](../Days/Day-295.md) the ADR you never wrote · [296](../Days/Day-296.md) finishing · [297](../Days/Day-297.md) 🚪🚪 **Stage 7 exit gate** |
 
